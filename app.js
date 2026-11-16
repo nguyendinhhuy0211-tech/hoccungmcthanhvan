@@ -8,7 +8,8 @@ let days = load(LS.days, []);
 let notes = load(LS.notes, []);
 let listened = new Set(load(LS.listened, []));
 let listenStats = load(LS.listen, { correct: 0, total: 0 });
-let speakStats = load(LS.speak, { ratings: {}, count: 0 });
+let speakStats = load(LS.speak, { ratings: {}, count: 0, auto: {} });
+if (!speakStats.auto) speakStats.auto = {};
 let quizStats = load(LS.quiz, { best: 0, last: 0, correct: 0, total: 0, rounds: 0 });
 let stageStats = load(LS.stage, { count: 0, seconds: 0 });
 let mistakesDone = new Set(load(LS.mistakes, []));
@@ -237,7 +238,7 @@ function renderOverview() {
   $('#skillBars').innerHTML =
     skillBar('Từ vựng', s.vocab, known.size + '/' + total + ' câu đã thuộc') +
     skillBar('Luyện nghe', s.listen, listened.size + '/' + total + ' câu đã nghe · ' + listenStats.correct + '/' + listenStats.total + ' câu nghe đúng') +
-    skillBar('Phát âm', s.speak, rated ? rated + ' lượt tự chấm, ' + Object.values(speakStats.ratings).filter(r => r === 'good').length + ' lượt Đạt' : 'Chưa có lượt tự chấm nào — vào mục Luyện nói nhé') +
+    skillBar('Phát âm', s.speak, rated ? rated + ' lượt chấm, ' + Object.values(speakStats.ratings).filter(r => r === 'good').length + ' lượt Đạt' : 'Chưa có lượt chấm nào — vào mục Luyện nói nhé') +
     skillBar('Phản xạ', s.reflex, quizStats.total ? quizStats.correct + '/' + quizStats.total + ' câu kiểm tra đúng' : 'Chưa làm bài kiểm tra nào');
   renderStats();
   const list = allPhrases();
@@ -527,8 +528,13 @@ function renderSpeak() {
       '<div class="row"><button class="btn play" data-say="' + esc(p.en) + '" data-pid="' + p.id + '">▶ Nghe mẫu</button>' +
       '<button class="btn" data-say-slow="' + esc(p.en) + '">🐢 Nghe chậm</button></div>';
     if (recState === 'idle') {
-      h += '<div class="row"><button class="btn primary" id="recStartBtn">● Thu âm giọng của bạn</button></div>' +
-        '<p class="kbd">Trình duyệt sẽ xin quyền dùng micro. Nếu bạn không cho phép, vẫn có thể nghe mẫu rồi tự chấm bên dưới.</p>';
+      h += '<div class="row"><button class="btn primary" id="recStartBtn">● Thu âm giọng của bạn</button>' +
+        (hasSR() ? '<button class="btn primary" id="scoreBtn">✦ Chấm điểm tự động</button>' : '') + '</div>' +
+        '<p class="kbd">Trình duyệt sẽ xin quyền dùng micro. Nếu bạn không cho phép, vẫn có thể nghe mẫu rồi tự chấm bên dưới.</p>' +
+        (hasSR() ? '' : '<p class="kbd">Trình duyệt này không hỗ trợ chấm điểm tự động (cần dùng Chrome). Bạn vẫn thu âm và tự chấm như thường.</p>');
+    } else if (recState === 'listening') {
+      h += '<div class="row"><button class="btn danger" id="scoreStopBtn">■ Dừng chấm điểm</button></div>' +
+        '<p class="kbd">Đang nghe… đọc to câu trên, rõ ràng như đang đứng trên sân khấu.</p>';
     } else if (recState === 'recording') {
       h += '<div class="row"><button class="btn danger" id="recStopBtn">■ Dừng thu âm (' + recSecs + 's)</button></div>' +
         '<p class="kbd">Đang thu… đọc to, rõ ràng như đang đứng trên sân khấu.</p>';
@@ -539,17 +545,29 @@ function renderSpeak() {
         '<button class="btn known ' + (rating === 'good' ? 'on' : '') + '" id="rateGoodBtn">✓ Đạt — rõ, có ngữ điệu</button>' +
         '<button class="btn review ' + (rating === 'retry' ? 'on' : '') + '" id="rateRetryBtn">↻ Chưa đạt — tập lại sau</button></div>';
     }
-    h += '<p class="kbd" style="margin-top:12px">Đã tự chấm ' + Object.keys(speakStats.ratings).length + ' câu · ' +
+    if (autoResult && autoResult.phraseId === p.id) {
+      h += '<div style="margin-top:14px"><b>Kết quả chấm điểm:</b></div>' +
+        '<div style="font-size:18px; line-height:2; margin:8px 0">' + autoResult.words.map(w =>
+          '<span style="background:' + (w.ok ? '#dcfce7' : '#fee2e2') + '; color:' + (w.ok ? '#15803d' : '#dc2626') + '; border-radius:6px; padding:2px 6px; margin:1px; display:inline-block">' + esc(w.word) + '</span>').join(' ') + '</div>' +
+        '<p class="sub" style="margin:4px 0">Máy nghe được: “' + esc(autoResult.heard) + '”</p>' +
+        '<p style="margin:6px 0"><b>' + autoResult.score + '/' + autoResult.total + ' từ đúng (' + autoResult.pct + '%) — ' + (autoResult.ok ? '✓ Đạt!' : 'Chưa đạt, tập lại nhé!') + '</b></p>' +
+        '<p class="kbd">Chấm bằng nhận dạng giọng nói nên đôi khi máy nghe nhầm. Nếu bạn chắc mình đọc đúng mà vẫn bị tô đỏ, cứ bấm “✓ Đạt” bên dưới.</p>' +
+        '<div class="row"><button class="btn" id="scoreAgainBtn">↻ Chấm lại</button></div>';
+    }
+    h += '<p class="kbd" style="margin-top:12px">Đã chấm ' + Object.keys(speakStats.ratings).length + ' câu · ' +
       Object.values(speakStats.ratings).filter(r => r === 'good').length + ' lượt Đạt</p>';
   }
   h += '</div>';
   box.innerHTML = h;
-  const nb = $('#speakNewBtn'); if (nb) nb.onclick = () => { stopAudio(); const list = allPhrases(); speakPhrase = list[Math.floor(Math.random() * list.length)]; recState = 'idle'; recUrl = null; renderSpeak(); };
+  const nb = $('#speakNewBtn'); if (nb) nb.onclick = () => { stopAudio(); const list = allPhrases(); speakPhrase = list[Math.floor(Math.random() * list.length)]; recState = 'idle'; recUrl = null; autoResult = null; renderSpeak(); };
   const rs = $('#recStartBtn'); if (rs) rs.onclick = startRecording;
   const rp = $('#recStopBtn'); if (rp) rp.onclick = stopRecording;
   const ra = $('#recAgainBtn'); if (ra) ra.onclick = () => { recState = 'idle'; recUrl = null; renderSpeak(); };
   const rg = $('#rateGoodBtn'); if (rg) rg.onclick = () => rateSpeaking('good');
   const rr = $('#rateRetryBtn'); if (rr) rr.onclick = () => rateSpeaking('retry');
+  const sb = $('#scoreBtn'); if (sb) sb.onclick = startScoring;
+  const ss = $('#scoreStopBtn'); if (ss) ss.onclick = stopScoring;
+  const sa = $('#scoreAgainBtn'); if (sa) sa.onclick = startScoring;
 }
 function rateSpeaking(v) {
   if (!speakPhrase) return;
@@ -585,6 +603,57 @@ function stopRecording() {
   if (recTimer) { clearInterval(recTimer); recTimer = null; }
   if (mediaRec && mediaRec.state !== 'inactive') mediaRec.stop();
 }
+/* ---------- 7b. Chấm điểm tự động (SpeechRecognition, tô đỏ từ sai) ---------- */
+let recog = null, autoResult = null;
+function hasSR() { return !!(window.SpeechRecognition || window.webkitSpeechRecognition); }
+function normWords(t) { return t.toLowerCase().replace(/[^a-z0-9'\s]/g, '').split(/\s+/).filter(Boolean); }
+function scoreWords(target, heard) {
+  const t = normWords(target), h = normWords(heard);
+  const n = t.length, m = h.length;
+  const dp = Array.from({ length: n + 1 }, () => new Array(m + 1).fill(0));
+  for (let i = n - 1; i >= 0; i--) for (let j = m - 1; j >= 0; j--)
+    dp[i][j] = t[i] === h[j] ? dp[i + 1][j + 1] + 1 : Math.max(dp[i + 1][j], dp[i][j + 1]);
+  const words = []; let i = 0, j = 0;
+  while (i < n) {
+    if (j < m && t[i] === h[j]) { words.push({ word: t[i], ok: true }); i++; j++; }
+    else if (j < m && dp[i][j + 1] >= dp[i + 1][j]) { j++; }
+    else { words.push({ word: t[i], ok: false }); i++; }
+  }
+  const matched = words.filter(w => w.ok).length;
+  return { words, matched, total: n, heard: heard.trim() };
+}
+function startScoring() {
+  if (!speakPhrase) return;
+  if (!hasSR()) { alert('Trình duyệt này không hỗ trợ chấm điểm tự động. Bạn hãy dùng Chrome, hoặc thu âm rồi tự chấm.'); return; }
+  stopAudio();
+  const SR = window.SpeechRecognition || window.webkitSpeechRecognition;
+  recog = new SR();
+  recog.lang = 'en-US'; recog.continuous = false; recog.interimResults = false; recog.maxAlternatives = 1;
+  recog.onresult = e => {
+    const heard = (e.results[0][0].transcript || '');
+    const r = scoreWords(speakPhrase.en, heard);
+    const pct = r.total ? Math.round(r.matched / r.total * 100) : 0;
+    const ok = pct >= 80;
+    autoResult = { phraseId: speakPhrase.id, words: r.words, heard: r.heard, score: r.matched, total: r.total, pct, ok };
+    speakStats.ratings[speakPhrase.id] = ok ? 'good' : 'retry';
+    speakStats.count++;
+    speakStats.auto[speakPhrase.id] = { pct, heard: r.heard };
+    save(LS.speak, speakStats);
+    recState = 'idle'; recog = null;
+    renderStats(); renderSpeak();
+  };
+  recog.onerror = e => {
+    recState = 'idle'; recog = null; renderSpeak();
+    if (e.error === 'not-allowed' || e.error === 'service-not-allowed') alert('Bạn chưa cho phép dùng micro. Hãy cho phép micro rồi bấm chấm lại.');
+    else if (e.error === 'no-speech') alert('Máy không nghe thấy bạn đọc. Thử lại, đọc to và rõ hơn nhé.');
+    else if (e.error === 'network') alert('Chấm điểm cần mạng (nhận dạng giọng nói chạy trên máy chủ). Kiểm tra mạng rồi thử lại.');
+    else if (e.error !== 'aborted') alert('Chưa chấm được (' + e.error + '). Thử lại nhé.');
+  };
+  recog.onend = () => { if (recState === 'listening') { recState = 'idle'; recog = null; renderSpeak(); } };
+  try { recog.start(); recState = 'listening'; renderSpeak(); }
+  catch (err) { alert('Chưa mở được micro để chấm điểm. Thử lại nhé.'); }
+}
+function stopScoring() { if (recog) { try { recog.stop(); } catch (e) {} } recState = 'idle'; recog = null; renderSpeak(); }
 RENDERERS.speaking = function () { renderSpeak(); };
 
 /* ---------- 8. Kho kịch bản ---------- */
@@ -915,7 +984,7 @@ RENDERERS.progress = function () {
       return '<div class="skill"><div class="lab"><span>' + t.emoji + ' ' + esc(t.title) + '</span><b>' + k + '/' + t.phrases.length + '</b></div><div class="bar"><i style="width:' + pct + '%"></i></div></div>';
     }).join('') + '</div>' +
     '<div class="card"><h3>🎧 Luyện nghe</h3><p class="sub" style="margin:0">Nghe đúng ' + listenStats.correct + '/' + listenStats.total + ' câu · Đã nghe ' + listened.size + '/' + total + ' câu mẫu</p></div>' +
-    '<div class="card"><h3>🎙️ Luyện nói</h3><p class="sub" style="margin:0">Đã tự chấm ' + rated.length + ' câu · ' + rated.filter(r => r === 'good').length + ' lượt Đạt · Tổng ' + speakStats.count + ' lượt chấm</p></div>' +
+    '<div class="card"><h3>🎙️ Luyện nói</h3><p class="sub" style="margin:0">Đã chấm ' + rated.length + ' câu · ' + rated.filter(r => r === 'good').length + ' lượt Đạt · Tổng ' + speakStats.count + ' lượt chấm</p></div>' +
     '<div class="card"><h3>📋 Kiểm tra</h3><p class="sub" style="margin:0">Điểm cao nhất ' + quizStats.best + '/10 · Lần gần nhất ' + quizStats.last + '/10 · Đúng ' + quizStats.correct + '/' + quizStats.total + ' câu · ' + quizStats.rounds + ' lượt làm bài</p></div>' +
     '<div class="card"><h3>🎪 Sân khấu ảo</h3><p class="sub" style="margin:0">Đã tập ' + stageStats.count + ' buổi · tổng ' + m + ' phút · Sổ tay: ' + notes.length + ' câu</p></div>';
 };
