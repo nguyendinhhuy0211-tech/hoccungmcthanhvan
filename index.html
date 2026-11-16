@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>Học cùng MC Thanh Vân — Tiếng Anh cho MC</title>
+<meta name="description" content="Học tiếng Anh dẫn chương trình: câu mẫu sân khấu, kịch bản tình huống, flashcard và sổ tay của riêng bạn.">
+<style>
+:root{
+  --gold:#b8860b; --gold-soft:#f6ead0; --cream:#fdf9f0; --ink:#2b2620; --muted:#7a6f63;
+  --card:#ffffff; --line:#e9dfcd; --green:#2e7d4f; --red:#b3402e; --shadow:0 2px 10px rgba(60,45,20,.08);
+}
+*{box-sizing:border-box; -webkit-tap-highlight-color:transparent}
+body{margin:0; font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif; background:var(--cream); color:var(--ink); line-height:1.55}
+header{background:linear-gradient(160deg,#3a2f1d,#6b5322 55%,#8a6d2f); color:#fff; padding:22px 16px 18px; text-align:center}
+header h1{margin:0; font-size:22px; letter-spacing:.3px}
+header p{margin:6px 0 0; font-size:14px; opacity:.9}
+.stats{display:flex; gap:10px; justify-content:center; margin-top:14px; flex-wrap:wrap}
+.stat{background:rgba(255,255,255,.14); border:1px solid rgba(255,255,255,.25); border-radius:12px; padding:6px 12px; font-size:13px}
+.stat b{font-size:15px}
+.progress{height:8px; background:rgba(255,255,255,.25); border-radius:99px; margin:14px auto 0; max-width:420px; overflow:hidden}
+.progress i{display:block; height:100%; background:#ffd97a; width:0%}
+nav{position:sticky; top:0; z-index:20; background:#fff; border-bottom:1px solid var(--line); display:flex; overflow-x:auto; scrollbar-width:none}
+nav button{flex:1 0 auto; border:0; background:none; padding:12px 10px; font-size:14px; font-weight:600; color:var(--muted); border-bottom:3px solid transparent; cursor:pointer; white-space:nowrap}
+nav button.on{color:var(--gold); border-bottom-color:var(--gold)}
+main{max-width:680px; margin:0 auto; padding:16px 14px 90px}
+section.view{display:none} section.view.on{display:block}
+h2{font-size:19px; margin:4px 0 4px}
+.sub{color:var(--muted); font-size:14px; margin:0 0 14px}
+.card{background:var(--card); border:1px solid var(--line); border-radius:14px; box-shadow:var(--shadow); padding:14px; margin-bottom:12px}
+.topic{display:flex; gap:12px; align-items:center; cursor:pointer}
+.topic .em{font-size:28px}
+.topic h3{margin:0; font-size:16px}
+.topic p{margin:2px 0 0; font-size:13px; color:var(--muted)}
+.topic .n{margin-left:auto; font-size:13px; color:var(--gold); font-weight:700; white-space:nowrap}
+.phrase .en{font-size:17px; font-weight:700; line-height:1.45}
+.phrase .vi{font-size:14px; color:#444; margin-top:4px}
+.phrase .pron{font-size:13px; color:var(--gold); margin-top:4px; font-style:italic}
+.phrase .tip{font-size:13px; color:var(--muted); margin-top:6px; background:#faf6ec; border-left:3px solid var(--gold); padding:6px 8px; border-radius:0 8px 8px 0}
+.row{display:flex; gap:8px; margin-top:10px; flex-wrap:wrap}
+button{font-family:inherit; cursor:pointer}
+.btn{border:1px solid var(--line); background:#fff; border-radius:99px; padding:8px 14px; font-size:14px; font-weight:600}
+.btn.play{background:var(--gold); border-color:var(--gold); color:#fff}
+.btn.known{background:#e7f3ea; border-color:#bcdcc4; color:var(--green)}
+.btn.known.on{background:var(--green); color:#fff; border-color:var(--green)}
+.btn.review{background:#fdf1e7; border-color:#f0d3b3; color:#9a5b12}
+.btn.review.on{background:#c97a1e; color:#fff; border-color:#c97a1e}
+.btn.ghost{background:none}
+.btn.primary{background:var(--gold); color:#fff; border-color:var(--gold); padding:10px 18px; font-size:15px}
+.badge{display:inline-block; font-size:12px; font-weight:700; padding:2px 8px; border-radius:99px; background:var(--gold-soft); color:#7a5a10}
+.scen{border:1px solid var(--line); border-radius:12px; padding:12px; margin-bottom:10px; background:#fffdf7}
+.scen h4{margin:0 0 2px; font-size:15px}
+.scen .sit{font-size:13px; color:var(--muted); margin:0 0 8px}
+.sline{display:flex; gap:8px; align-items:flex-start; padding:8px 0; border-top:1px dashed var(--line)}
+.sline .no{flex:0 0 22px; height:22px; border-radius:50%; background:var(--gold); color:#fff; text-align:center; line-height:22px; font-size:12px; font-weight:700; margin-top:2px}
+.sline .en{font-weight:600; font-size:15px}
+.sline .vi{font-size:13px; color:#555}
+.sline .mini{flex:0 0 auto}
+input,select,textarea{width:100%; padding:11px 12px; border:1px solid var(--line); border-radius:10px; font-size:15px; font-family:inherit; background:#fff}
+label{font-size:13px; font-weight:700; display:block; margin:12px 0 4px}
+.flash{min-height:220px; display:flex; flex-direction:column; justify-content:center; align-items:center; text-align:center; cursor:pointer}
+.flash .en{font-size:21px; font-weight:700}
+.flash .hint{color:var(--muted); font-size:13px; margin-top:10px}
+.flash .vi{font-size:16px; margin-top:10px; color:#444}
+.flash .pron{color:var(--gold); font-style:italic}
+.empty{color:var(--muted); text-align:center; padding:30px 10px}
+.note-item{display:flex; gap:10px; align-items:flex-start}
+.note-item .txt{flex:1}
+.note-item .en{font-weight:700}
+.note-item .vi{font-size:14px; color:#555}
+footer{text-align:center; color:var(--muted); font-size:12px; padding:20px}
+.back{color:var(--gold); font-weight:700; background:none; border:0; font-size:14px; padding:0; margin-bottom:10px}
+.search{margin-bottom:12px}
+.kbd{font-size:12px; color:var(--muted)}
+#voiceNote{font-size:12px; color:var(--muted); margin-top:8px}
+</style>
+</head>
+<body>
+<header>
+  <h1>🎤 Học cùng MC Thanh Vân</h1>
+  <p>Tiếng Anh dẫn chương trình — câu mẫu, kịch bản &amp; sổ tay của riêng bạn</p>
+  <div class="stats">
+    <span class="stat">🔥 Chuỗi ngày học: <b id="streak">0</b></span>
+    <span class="stat">✅ Đã thuộc: <b id="knownCount">0</b>/<span id="totalCount">56</span></span>
+    <span class="stat">📝 Sổ tay: <b id="noteCount">0</b> câu</span>
+  </div>
+  <div class="progress"><i id="progressBar"></i></div>
+</header>
+<nav id="nav">
+  <button data-view="today" class="on">🌅 Hôm nay</button>
+  <button data-view="topics">📚 Chủ đề</button>
+  <button data-view="review">🃏 Ôn tập</button>
+  <button data-view="notes">📝 Sổ tay</button>
+  <button data-view="builder">✨ Ghép câu</button>
+</nav>
+<main>
+  <section id="view-today" class="view on">
+    <h2>Câu sân khấu hôm nay</h2>
+    <p class="sub">Mỗi ngày một câu — nghe, đọc theo, rồi đánh dấu đã thuộc.</p>
+    <div id="dailyCard"></div>
+    <h2 style="margin-top:22px">Cần ôn lại</h2>
+    <p class="sub">Những câu bạn đã đánh dấu “Ôn lại sau”.</p>
+    <div id="reviewList"></div>
+  </section>
+
+  <section id="view-topics" class="view">
+    <h2>Chủ đề sân khấu</h2>
+    <p class="sub">7 chủ đề · 56 câu mẫu · 14 kịch bản tình huống — tất cả đều có giọng đọc.</p>
+    <div class="search"><input id="searchInput" type="search" placeholder="🔍 Tìm câu mẫu… gõ từ khóa tiếng Anh hoặc tiếng Việt"></div>
+    <div id="searchResults"></div>
+    <div id="topicList"></div>
+    <div id="topicDetail" style="display:none"></div>
+  </section>
+
+  <section id="view-review" class="view">
+    <h2>Ôn tập flashcard</h2>
+    <p class="sub">Bấm vào thẻ để lật xem nghĩa. Câu nào chưa thuộc sẽ quay lại sau.</p>
+    <div id="flashWrap"></div>
+  </section>
+
+  <section id="view-notes" class="view">
+    <h2>Sổ tay của bạn</h2>
+    <p class="sub">Lưu câu tiếng Anh của riêng bạn — lưu trên máy của bạn, mở lại vẫn còn.</p>
+    <div class="card">
+      <label for="noteEn">Câu tiếng Anh</label>
+      <textarea id="noteEn" rows="2" placeholder="VD: Let's give a warm welcome to our guest of honour!"></textarea>
+      <label for="noteVi">Nghĩa tiếng Việt (không bắt buộc)</label>
+      <input id="noteVi" type="text" placeholder="VD: Xin mời quý vị chào đón vị khách danh dự!">
+      <div class="row"><button class="btn primary" id="addNoteBtn">＋ Lưu vào sổ tay</button></div>
+    </div>
+    <div id="noteList"></div>
+  </section>
+
+  <section id="view-builder" class="view">
+    <h2>Ghép câu dẫn nhanh</h2>
+    <p class="sub">Không cần AI — chọn loại sự kiện và khoảnh khắc, điền tên, web ghép sẵn một câu dẫn chuẩn để bạn đọc theo.</p>
+    <div class="card">
+      <label for="bEvent">Loại sự kiện</label>
+      <select id="bEvent">
+        <option value="khai-mac">Khai mạc / Lễ kỷ niệm</option>
+        <option value="dai-bieu">Giới thiệu đại biểu</option>
+        <option value="khai-truong">Khai trương / Khánh thành</option>
+        <option value="gala">Gala Dinner</option>
+        <option value="hoi-thao">Hội thảo</option>
+        <option value="dam-cuoi">Đám cưới</option>
+      </select>
+      <label for="bMoment">Khoảnh khắc</label>
+      <select id="bMoment">
+        <option value="open">Mở đầu / chào mừng</option>
+        <option value="invite">Mời khách lên sân khấu</option>
+        <option value="thanks">Cảm ơn / kết thúc</option>
+        <option value="transition">Chuyển sang phần tiếp theo</option>
+      </select>
+      <label for="bName">Tên sự kiện / tên khách (điền để câu nghe thật hơn)</label>
+      <input id="bName" type="text" placeholder="VD: Lễ khai trương CHAM Riverside">
+      <div class="row"><button class="btn primary" id="buildBtn">✨ Ghép câu cho mình</button></div>
+      <div id="builtResult" style="margin-top:14px"></div>
+    </div>
+    <p class="sub">Mẹo: câu ghép được lấy từ kho 56 câu mẫu — bạn có thể bấm nghe, lưu vào sổ tay, hoặc sửa lại theo ý mình.</p>
+  </section>
+</main>
+<footer>
+  Học cùng MC Thanh Vân · Giọng đọc dùng giọng nữ tiếng Anh trên máy của bạn.<br>
+  Tiến độ, chuỗi ngày học và sổ tay được lưu trên chính thiết bị này.
+</footer>
+<script src="app.js"></script>
+</body>
+</html>
