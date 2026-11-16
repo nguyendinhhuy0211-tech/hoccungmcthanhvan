@@ -521,7 +521,6 @@ function renderSpeak() {
     h += '<p class="sub" style="margin:12px 0 0">Bấm “Lấy câu ngẫu nhiên” để bắt đầu. Bạn sẽ nghe mẫu, đọc theo và thu âm lại giọng của mình.</p>';
   } else {
     const p = speakPhrase;
-    const rating = speakStats.ratings[p.id];
     h += '<div class="en" style="font-size:18px; font-weight:700; margin-top:12px">' + esc(p.en) + '</div>' +
       '<div class="vi" style="color:#555">' + esc(p.vi) + '</div>' +
       '<div class="pron" style="color:var(--gold); font-style:italic">🗣️ ' + esc(p.pron) + '</div>' +
@@ -530,8 +529,8 @@ function renderSpeak() {
     if (recState === 'idle') {
       h += '<div class="row"><button class="btn primary" id="recStartBtn">● Thu âm giọng của bạn</button>' +
         (hasSR() ? '<button class="btn primary" id="scoreBtn">✦ Chấm điểm tự động</button>' : '') + '</div>' +
-        '<p class="kbd">Trình duyệt sẽ xin quyền dùng micro. Nếu bạn không cho phép, vẫn có thể nghe mẫu rồi tự chấm bên dưới.</p>' +
-        (hasSR() ? '' : '<p class="kbd">Trình duyệt này không hỗ trợ chấm điểm tự động (cần dùng Chrome). Bạn vẫn thu âm và tự chấm như thường.</p>') +
+        '<p class="kbd">Trình duyệt sẽ xin quyền dùng micro. Nếu bạn không cho phép, vẫn có thể nghe mẫu rồi đọc theo.</p>' +
+        (hasSR() ? '' : '<p class="kbd">Trình duyệt này không hỗ trợ chấm điểm tự động (cần dùng Chrome). Bạn vẫn thu âm để nghe lại như thường.</p>') +
         (scoreError ? '<p style="color:#dc2626; margin:8px 0 0">' + esc(scoreError) + '</p>' : '');
     } else if (recState === 'listening') {
       h += '<div class="row"><button class="btn danger" id="scoreStopBtn">■ Dừng chấm điểm</button></div>' +
@@ -541,10 +540,9 @@ function renderSpeak() {
         '<p class="kbd">Đang thu… đọc to, rõ ràng như đang đứng trên sân khấu.</p>';
     } else if (recState === 'done') {
       h += '<p style="margin:12px 0 6px"><b>Bản thu của bạn:</b></p><audio controls src="' + recUrl + '" style="width:100%"></audio>' +
-        '<div class="row"><button class="btn" id="recAgainBtn">↻ Thu lại</button></div>' +
-        '<p style="margin:14px 0 6px"><b>Bạn tự chấm lần đọc này:</b></p><div class="row">' +
-        '<button class="btn known ' + (rating === 'good' ? 'on' : '') + '" id="rateGoodBtn">✓ Đạt — rõ, có ngữ điệu</button>' +
-        '<button class="btn review ' + (rating === 'retry' ? 'on' : '') + '" id="rateRetryBtn">↻ Chưa đạt — tập lại sau</button></div>';
+        '<div class="row"><button class="btn" id="recAgainBtn">↻ Thu lại</button>' +
+        (hasSR() ? '<button class="btn primary" id="scoreBtn">✦ Chấm điểm tự động</button>' : '') + '</div>' +
+        '<p class="kbd">Nghe lại bản thu của bạn, rồi bấm “Chấm điểm tự động” để máy chấm lần đọc tiếp theo.</p>';
     }
     if (autoResult && autoResult.phraseId === p.id) {
       h += '<div style="margin-top:14px"><b>Kết quả chấm điểm:</b></div>' +
@@ -552,7 +550,7 @@ function renderSpeak() {
           '<span style="background:' + (w.ok ? '#dcfce7' : '#fee2e2') + '; color:' + (w.ok ? '#15803d' : '#dc2626') + '; border-radius:6px; padding:2px 6px; margin:1px; display:inline-block">' + esc(w.word) + '</span>').join(' ') + '</div>' +
         '<p class="sub" style="margin:4px 0">Máy nghe được: “' + esc(autoResult.heard) + '”</p>' +
         '<p style="margin:6px 0"><b>' + autoResult.score + '/' + autoResult.total + ' từ đúng (' + autoResult.pct + '%) — ' + (autoResult.ok ? '✓ Đạt!' : 'Chưa đạt, tập lại nhé!') + '</b></p>' +
-        '<p class="kbd">Chấm bằng nhận dạng giọng nói nên đôi khi máy nghe nhầm. Nếu bạn chắc mình đọc đúng mà vẫn bị tô đỏ, cứ bấm “✓ Đạt” bên dưới.</p>' +
+        '<p class="kbd">Chấm bằng nhận dạng giọng nói nên đôi khi máy nghe nhầm. Nếu bạn chắc mình đọc đúng mà vẫn bị tô đỏ, cứ bấm “↻ Chấm lại” để đọc lại.</p>' +
         '<div class="row"><button class="btn" id="scoreAgainBtn">↻ Chấm lại</button></div>';
     }
     h += '<p class="kbd" style="margin-top:12px">Đã chấm ' + Object.keys(speakStats.ratings).length + ' câu · ' +
@@ -564,21 +562,12 @@ function renderSpeak() {
   const rs = $('#recStartBtn'); if (rs) rs.onclick = startRecording;
   const rp = $('#recStopBtn'); if (rp) rp.onclick = stopRecording;
   const ra = $('#recAgainBtn'); if (ra) ra.onclick = () => { recState = 'idle'; recUrl = null; renderSpeak(); };
-  const rg = $('#rateGoodBtn'); if (rg) rg.onclick = () => rateSpeaking('good');
-  const rr = $('#rateRetryBtn'); if (rr) rr.onclick = () => rateSpeaking('retry');
   const sb = $('#scoreBtn'); if (sb) sb.onclick = startScoring;
   const ss = $('#scoreStopBtn'); if (ss) ss.onclick = stopScoring;
   const sa = $('#scoreAgainBtn'); if (sa) sa.onclick = startScoring;
 }
-function rateSpeaking(v) {
-  if (!speakPhrase) return;
-  speakStats.ratings[speakPhrase.id] = v;
-  speakStats.count++;
-  save(LS.speak, speakStats);
-  renderStats(); renderSpeak();
-}
 async function startRecording() {
-  if (!navigator.mediaDevices || !navigator.mediaDevices.getUserMedia) { alert('Trình duyệt này không hỗ trợ thu âm. Bạn vẫn có thể nghe mẫu rồi tự chấm.'); return; }
+  if (!navigator.mediaDevices || !navigator.mediaDevices.getUserMedia) { alert('Trình duyệt này không hỗ trợ thu âm. Bạn vẫn có thể nghe mẫu rồi đọc theo.'); return; }
   try {
     recStream = await navigator.mediaDevices.getUserMedia({ audio: true });
     recChunks = [];
@@ -597,7 +586,7 @@ async function startRecording() {
     recTimer = setInterval(() => { recSecs++; const b = $('#recStopBtn'); if (b) b.textContent = '■ Dừng thu âm (' + recSecs + 's)'; }, 1000);
     renderSpeak();
   } catch (err) {
-    alert('Không dùng được micro (' + (err.name || 'bị từ chối') + '). Bạn vẫn có thể nghe mẫu rồi đọc theo và tự chấm.');
+    alert('Không dùng được micro (' + (err.name || 'bị từ chối') + '). Bạn vẫn có thể nghe mẫu rồi đọc theo.');
   }
 }
 function stopRecording() {
@@ -625,7 +614,7 @@ function scoreWords(target, heard) {
 }
 function startScoring() {
   if (!speakPhrase) return;
-  if (!hasSR()) { scoreError = 'Trình duyệt này không hỗ trợ chấm điểm tự động. Bạn hãy dùng Chrome, hoặc thu âm rồi tự chấm.'; renderSpeak(); return; }
+  if (!hasSR()) { scoreError = 'Trình duyệt này không hỗ trợ chấm điểm tự động. Bạn hãy dùng Chrome, hoặc thu âm để nghe lại.'; renderSpeak(); return; }
   try { stopAudio(); } catch (e) {}
   scoreError = null; autoResult = null; scoreGotResult = false;
   const SR = window.SpeechRecognition || window.webkitSpeechRecognition;
