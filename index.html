@@ -3,42 +3,64 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-<title>Học cùng MC Thanh Vân — Tiếng Anh cho MC</title>
-<meta name="description" content="Học tiếng Anh dẫn chương trình: câu mẫu sân khấu, kịch bản tình huống, flashcard và sổ tay của riêng bạn.">
+<title>MC Academy — Học tiếng Anh cho MC cùng Thanh Vân</title>
+<meta name="description" content="MC Academy: học tiếng Anh dẫn chương trình — lộ trình, khóa học, từ vựng, mẫu câu, luyện nghe, luyện nói, kho kịch bản, sân khấu ảo, teleprompter và kiểm tra.">
 <style>
 :root{
-  --gold:#b8860b; --gold-soft:#f6ead0; --cream:#fdf9f0; --ink:#2b2620; --muted:#7a6f63;
-  --card:#ffffff; --line:#e9dfcd; --green:#2e7d4f; --red:#b3402e; --shadow:0 2px 10px rgba(60,45,20,.08);
+  --navy:#0c1425; --navy2:#111c33; --navy3:#16233f; --gold:#c9a227; --gold-soft:#f6ead0;
+  --cream:#f7f5f0; --ink:#23272f; --muted:#6b7280; --card:#ffffff; --line:#e5e1d8;
+  --green:#2e7d4f; --red:#b3402e; --shadow:0 2px 12px rgba(15,23,42,.08);
 }
 *{box-sizing:border-box; -webkit-tap-highlight-color:transparent}
 body{margin:0; font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif; background:var(--cream); color:var(--ink); line-height:1.55}
-header{background:linear-gradient(160deg,#3a2f1d,#6b5322 55%,#8a6d2f); color:#fff; padding:22px 16px 18px; text-align:center}
-header h1{margin:0; font-size:22px; letter-spacing:.3px}
-header p{margin:6px 0 0; font-size:14px; opacity:.9}
-.stats{display:flex; gap:10px; justify-content:center; margin-top:14px; flex-wrap:wrap}
-.stat{background:rgba(255,255,255,.14); border:1px solid rgba(255,255,255,.25); border-radius:12px; padding:6px 12px; font-size:13px}
-.stat b{font-size:15px}
-.progress{height:8px; background:rgba(255,255,255,.25); border-radius:99px; margin:14px auto 0; max-width:420px; overflow:hidden}
-.progress i{display:block; height:100%; background:#ffd97a; width:0%}
-nav{position:sticky; top:0; z-index:20; background:#fff; border-bottom:1px solid var(--line); display:flex; overflow-x:auto; scrollbar-width:none}
-nav button{flex:1 0 auto; border:0; background:none; padding:12px 10px; font-size:14px; font-weight:600; color:var(--muted); border-bottom:3px solid transparent; cursor:pointer; white-space:nowrap}
-nav button.on{color:var(--gold); border-bottom-color:var(--gold)}
-main{max-width:680px; margin:0 auto; padding:16px 14px 90px}
+button{font-family:inherit; cursor:pointer}
+.layout{display:flex; min-height:100vh}
+/* ---------- sidebar ---------- */
+.sidebar{position:fixed; left:0; top:0; bottom:0; width:248px; background:var(--navy); color:#dbe2f0; display:flex; flex-direction:column; z-index:30}
+.brand{display:flex; align-items:center; gap:10px; padding:20px 18px 14px; color:var(--gold); font-weight:800; font-size:18px; letter-spacing:.5px}
+.brand .mic{font-size:22px}
+.sidebar nav{flex:1; overflow-y:auto; padding:4px 10px 10px}
+.sidebar nav button{display:flex; align-items:center; gap:11px; width:100%; border:0; background:none; color:#c3ccdf; padding:11px 12px; font-size:14.5px; font-weight:600; border-radius:10px; text-align:left; white-space:nowrap}
+.sidebar nav button .ic{width:22px; text-align:center; font-size:16px}
+.sidebar nav button:hover{background:var(--navy2); color:#fff}
+.sidebar nav button.on{background:#232f4d; color:#ffd97a}
+.side-foot{padding:12px 16px; font-size:12.5px; color:#8b96ad; border-top:1px solid #1b2740}
+.side-foot b{color:#ffd97a}
+/* ---------- main ---------- */
+main{flex:1; margin-left:248px; min-width:0}
+.wrap{max-width:860px; margin:0 auto; padding:22px 20px 90px}
 section.view{display:none} section.view.on{display:block}
+h1{font-size:24px; margin:2px 0 4px}
 h2{font-size:19px; margin:4px 0 4px}
+h3{font-size:16px; margin:0 0 6px}
 .sub{color:var(--muted); font-size:14px; margin:0 0 14px}
 .card{background:var(--card); border:1px solid var(--line); border-radius:14px; box-shadow:var(--shadow); padding:14px; margin-bottom:12px}
-.topic{display:flex; gap:12px; align-items:center; cursor:pointer}
-.topic .em{font-size:28px}
-.topic h3{margin:0; font-size:16px}
-.topic p{margin:2px 0 0; font-size:13px; color:var(--muted)}
-.topic .n{margin-left:auto; font-size:13px; color:var(--gold); font-weight:700; white-space:nowrap}
+.hero{position:relative; border-radius:16px; overflow:hidden; min-height:220px; background:linear-gradient(140deg,#1a2340,#3a2f1d 60%,#8a6d2f); display:flex; align-items:flex-end; margin-bottom:14px}
+.hero img{position:absolute; inset:0; width:100%; height:100%; object-fit:cover}
+.hero .shade{position:absolute; inset:0; background:linear-gradient(180deg,rgba(10,16,32,.05) 40%,rgba(10,16,32,.82))}
+.hero .cap{position:relative; padding:18px; color:#fff}
+.hero .cap h2{font-size:22px; margin:0}
+.hero .cap p{margin:4px 0 0; opacity:.92; font-size:14px}
+.ring-wrap{display:flex; gap:18px; align-items:center; flex-wrap:wrap}
+.ring{position:relative; width:120px; height:120px; flex:0 0 auto}
+.ring svg{transform:rotate(-90deg)}
+.ring .pct{position:absolute; inset:0; display:flex; flex-direction:column; align-items:center; justify-content:center}
+.ring .pct b{font-size:26px; color:var(--green)}
+.ring .pct span{font-size:12px; color:var(--muted)}
+.statgrid{display:grid; grid-template-columns:repeat(4,1fr); gap:10px; margin-top:12px}
+.statbox{background:#faf8f2; border:1px solid var(--line); border-radius:12px; padding:10px; text-align:center}
+.statbox b{font-size:20px; display:block}
+.statbox span{font-size:12px; color:var(--muted)}
+.skill{margin:10px 0}
+.skill .lab{display:flex; justify-content:space-between; font-size:14px; margin-bottom:4px}
+.skill .lab b{font-weight:700}
+.bar{height:9px; background:#eee9dc; border-radius:99px; overflow:hidden}
+.bar i{display:block; height:100%; background:var(--gold); width:0%; transition:width .4s}
 .phrase .en{font-size:17px; font-weight:700; line-height:1.45}
 .phrase .vi{font-size:14px; color:#444; margin-top:4px}
 .phrase .pron{font-size:13px; color:var(--gold); margin-top:4px; font-style:italic}
 .phrase .tip{font-size:13px; color:var(--muted); margin-top:6px; background:#faf6ec; border-left:3px solid var(--gold); padding:6px 8px; border-radius:0 8px 8px 0}
 .row{display:flex; gap:8px; margin-top:10px; flex-wrap:wrap}
-button{font-family:inherit; cursor:pointer}
 .btn{border:1px solid var(--line); background:#fff; border-radius:99px; padding:8px 14px; font-size:14px; font-weight:600}
 .btn.play{background:var(--gold); border-color:var(--gold); color:#fff}
 .btn.known{background:#e7f3ea; border-color:#bcdcc4; color:var(--green)}
@@ -47,7 +69,13 @@ button{font-family:inherit; cursor:pointer}
 .btn.review.on{background:#c97a1e; color:#fff; border-color:#c97a1e}
 .btn.ghost{background:none}
 .btn.primary{background:var(--gold); color:#fff; border-color:var(--gold); padding:10px 18px; font-size:15px}
+.btn.danger{background:#fdecea; border-color:#f3c1bb; color:var(--red)}
 .badge{display:inline-block; font-size:12px; font-weight:700; padding:2px 8px; border-radius:99px; background:var(--gold-soft); color:#7a5a10}
+.topic{display:flex; gap:12px; align-items:center; cursor:pointer}
+.topic .em{font-size:28px}
+.topic h3{margin:0; font-size:16px}
+.topic p{margin:2px 0 0; font-size:13px; color:var(--muted)}
+.topic .n{margin-left:auto; font-size:13px; color:var(--gold); font-weight:700; white-space:nowrap}
 .scen{border:1px solid var(--line); border-radius:12px; padding:12px; margin-bottom:10px; background:#fffdf7}
 .scen h4{margin:0 0 2px; font-size:15px}
 .scen .sit{font-size:13px; color:var(--muted); margin:0 0 8px}
@@ -57,8 +85,9 @@ button{font-family:inherit; cursor:pointer}
 .sline .vi{font-size:13px; color:#555}
 .sline .mini{flex:0 0 auto}
 input,select,textarea{width:100%; padding:11px 12px; border:1px solid var(--line); border-radius:10px; font-size:15px; font-family:inherit; background:#fff}
+input[type=range]{padding:0}
 label{font-size:13px; font-weight:700; display:block; margin:12px 0 4px}
-.flash{min-height:220px; display:flex; flex-direction:column; justify-content:center; align-items:center; text-align:center; cursor:pointer}
+.flash{min-height:200px; display:flex; flex-direction:column; justify-content:center; align-items:center; text-align:center; cursor:pointer}
 .flash .en{font-size:21px; font-weight:700}
 .flash .hint{color:var(--muted); font-size:13px; margin-top:10px}
 .flash .vi{font-size:16px; margin-top:10px; color:#444}
@@ -72,54 +101,101 @@ footer{text-align:center; color:var(--muted); font-size:12px; padding:20px}
 .back{color:var(--gold); font-weight:700; background:none; border:0; font-size:14px; padding:0; margin-bottom:10px}
 .search{margin-bottom:12px}
 .kbd{font-size:12px; color:var(--muted)}
-#voiceNote{font-size:12px; color:var(--muted); margin-top:8px}
+.opt{display:block; width:100%; text-align:left; border:1px solid var(--line); background:#fff; border-radius:12px; padding:12px; font-size:15px; margin-bottom:8px}
+.opt.correct{background:#e7f3ea; border-color:#2e7d4f; color:#1d5c34; font-weight:700}
+.opt.wrong{background:#fdecea; border-color:#b3402e; color:#8c2f22}
+.opt:disabled{opacity:1}
+.stage-card{border-left:4px solid var(--gold)}
+.pbar{height:8px; background:#eee9dc; border-radius:99px; overflow:hidden; margin-top:8px}
+.pbar i{display:block; height:100%; background:var(--gold); width:0%}
+.big-en{font-size:24px; font-weight:700; line-height:1.5; text-align:center}
+.big-vi{font-size:16px; color:#cfd6e6; text-align:center; margin-top:10px}
+#stageOverlay{position:fixed; inset:0; background:#070d1a; color:#fff; z-index:100; display:none; flex-direction:column; padding:20px}
+#stageOverlay.on{display:flex}
+#stageOverlay .timer{font-size:15px; color:#ffd97a; text-align:center; margin-bottom:6px}
+.tele-box{height:340px; overflow-y:auto; border:1px solid var(--line); border-radius:12px; padding:18px; background:#0c1425; color:#f4f1e6; line-height:1.9}
+.tele-box p{margin:0 0 14px}
+.check{display:flex; gap:10px; align-items:flex-start; padding:9px 0; border-bottom:1px dashed var(--line); font-size:14.5px}
+.check input{width:auto; margin-top:3px; accent-color:var(--gold)}
+.grid2{display:grid; grid-template-columns:1fr 1fr; gap:12px}
+@media (max-width:860px){
+  .layout{display:block}
+  .sidebar{position:static; width:auto}
+  .brand{padding:14px 16px 8px}
+  .sidebar nav{display:flex; overflow-x:auto; padding:0 8px 10px; position:sticky; top:0; background:var(--navy); z-index:30; scrollbar-width:none}
+  .sidebar nav button{width:auto; flex:0 0 auto; padding:9px 12px}
+  .side-foot{display:none}
+  main{margin-left:0}
+  .wrap{padding:16px 12px 80px}
+  .statgrid{grid-template-columns:repeat(2,1fr)}
+  .grid2{grid-template-columns:1fr}
+  .hero{min-height:180px}
+}
 </style>
 </head>
 <body>
-<header>
-  <h1>🎤 Học cùng MC Thanh Vân</h1>
-  <p>Tiếng Anh dẫn chương trình — câu mẫu, kịch bản &amp; sổ tay của riêng bạn</p>
-  <div class="stats">
-    <span class="stat">🔥 Chuỗi ngày học: <b id="streak">0</b></span>
-    <span class="stat">✅ Đã thuộc: <b id="knownCount">0</b>/<span id="totalCount">56</span></span>
-    <span class="stat">📝 Sổ tay: <b id="noteCount">0</b> câu</span>
-  </div>
-  <div class="progress"><i id="progressBar"></i></div>
-</header>
-<nav id="nav">
-  <button data-view="today" class="on">🌅 Hôm nay</button>
-  <button data-view="topics">📚 Chủ đề</button>
-  <button data-view="review">🃏 Ôn tập</button>
-  <button data-view="notes">📝 Sổ tay</button>
-  <button data-view="builder">✨ Ghép câu</button>
-</nav>
-<main>
-  <section id="view-today" class="view on">
+<div class="layout">
+<aside class="sidebar">
+  <div class="brand"><span class="mic">🎙️</span> MC ACADEMY</div>
+  <nav id="nav">
+    <button data-view="overview" class="on"><span class="ic">▦</span> Tổng quan</button>
+    <button data-view="roadmap"><span class="ic">🔗</span> Lộ trình học</button>
+    <button data-view="courses"><span class="ic">🎓</span> Khóa học</button>
+    <button data-view="vocab"><span class="ic">📖</span> Từ vựng</button>
+    <button data-view="phrases"><span class="ic">💬</span> Mẫu câu MC</button>
+    <button data-view="listening"><span class="ic">🎧</span> Luyện nghe</button>
+    <button data-view="speaking"><span class="ic">🎙️</span> Luyện nói</button>
+    <button data-view="scripts"><span class="ic">📊</span> Kho kịch bản</button>
+    <button data-view="coach"><span class="ic">✨</span> AI MC Coach</button>
+    <button data-view="stage"><span class="ic">🎪</span> Sân khấu ảo</button>
+    <button data-view="tele"><span class="ic">🖥️</span> Teleprompter</button>
+    <button data-view="studio"><span class="ic">📝</span> AI Script Studio</button>
+    <button data-view="quiz"><span class="ic">📋</span> Kiểm tra</button>
+    <button data-view="progress"><span class="ic">📈</span> Tiến độ học</button>
+  </nav>
+  <div class="side-foot">🔥 Chuỗi ngày học: <b id="sideStreak">0</b> · ✅ Đã thuộc: <b id="sideKnown">0</b>/56</div>
+</aside>
+
+<main><div class="wrap">
+
+  <!-- 1. TỔNG QUAN -->
+  <section id="view-overview" class="view on">
+    <h1>Welcome back!</h1>
+    <p class="sub">Chào mừng bạn quay lại sân khấu — hôm nay mình luyện tiếp nhé.</p>
+    <div class="hero">
+      <img src="https://images.unsplash.com/photo-1505373877841-8d25f7d46678?w=1200&q=80&auto=format&fit=crop" alt="Sân khấu" onerror="this.style.display='none'">
+      <div class="shade"></div>
+      <div class="cap"><h2>🎤 MC Thanh Vân</h2><p>Tiếng Anh dẫn chương trình — tự tin trên mọi sân khấu.</p></div>
+    </div>
+    <div class="card">
+      <div class="ring-wrap">
+        <div class="ring">
+          <svg width="120" height="120" viewBox="0 0 120 120">
+            <circle cx="60" cy="60" r="52" fill="none" stroke="#eee9dc" stroke-width="10"/>
+            <circle id="ringFg" cx="60" cy="60" r="52" fill="none" stroke="#2e7d4f" stroke-width="10" stroke-linecap="round" stroke-dasharray="326.7" stroke-dashoffset="326.7"/>
+          </svg>
+          <div class="pct"><b id="overallPct">0%</b><span>Tiến độ học tập</span></div>
+        </div>
+        <div style="flex:1; min-width:220px">
+          <h3 style="margin:0">Tiến độ của bạn — tính từ dữ liệu thật</h3>
+          <p class="sub" style="margin:4px 0 0">Vòng tròn là tỉ lệ câu mẫu bạn đã đánh dấu “Đã thuộc” trên tổng số 56 câu. Các thanh kỹ năng bên dưới cũng tính từ số liệu học thật của bạn, không phải số minh họa.</p>
+          <div class="statgrid">
+            <div class="statbox"><b id="streak">0</b><span>🔥 Chuỗi ngày</span></div>
+            <div class="statbox"><b id="knownCount">0</b><span>✅ Đã thuộc</span></div>
+            <div class="statbox"><b id="quizBest">–</b><span>🏆 Kiểm tra cao nhất</span></div>
+            <div class="statbox"><b id="noteCount">0</b><span>📝 Sổ tay</span></div>
+          </div>
+        </div>
+      </div>
+      <div id="skillBars" style="margin-top:14px"></div>
+    </div>
     <h2>Câu sân khấu hôm nay</h2>
     <p class="sub">Mỗi ngày một câu — nghe, đọc theo, rồi đánh dấu đã thuộc.</p>
     <div id="dailyCard"></div>
     <h2 style="margin-top:22px">Cần ôn lại</h2>
     <p class="sub">Những câu bạn đã đánh dấu “Ôn lại sau”.</p>
     <div id="reviewList"></div>
-  </section>
-
-  <section id="view-topics" class="view">
-    <h2>Chủ đề sân khấu</h2>
-    <p class="sub">7 chủ đề · 56 câu mẫu · 14 kịch bản tình huống — tất cả đều có giọng đọc.</p>
-    <div class="search"><input id="searchInput" type="search" placeholder="🔍 Tìm câu mẫu… gõ từ khóa tiếng Anh hoặc tiếng Việt"></div>
-    <div id="searchResults"></div>
-    <div id="topicList"></div>
-    <div id="topicDetail" style="display:none"></div>
-  </section>
-
-  <section id="view-review" class="view">
-    <h2>Ôn tập flashcard</h2>
-    <p class="sub">Bấm vào thẻ để lật xem nghĩa. Câu nào chưa thuộc sẽ quay lại sau.</p>
-    <div id="flashWrap"></div>
-  </section>
-
-  <section id="view-notes" class="view">
-    <h2>Sổ tay của bạn</h2>
+    <h2 style="margin-top:22px">📝 Sổ tay của bạn</h2>
     <p class="sub">Lưu câu tiếng Anh của riêng bạn — lưu trên máy của bạn, mở lại vẫn còn.</p>
     <div class="card">
       <label for="noteEn">Câu tiếng Anh</label>
@@ -131,9 +207,76 @@ footer{text-align:center; color:var(--muted); font-size:12px; padding:20px}
     <div id="noteList"></div>
   </section>
 
-  <section id="view-builder" class="view">
-    <h2>Ghép câu dẫn nhanh</h2>
-    <p class="sub">Không cần AI — chọn loại sự kiện và khoảnh khắc, điền tên, web ghép sẵn một câu dẫn chuẩn để bạn đọc theo.</p>
+  <!-- 2. LỘ TRÌNH HỌC -->
+  <section id="view-roadmap" class="view">
+    <h1>Lộ trình học</h1>
+    <p class="sub">4 giai đoạn từ câu chào đầu tiên đến làm chủ sân khấu. Học xong một giai đoạn là mở khóa giai đoạn tiếp theo trong hành trình của bạn.</p>
+    <div id="roadmapList"></div>
+  </section>
+
+  <!-- 3. KHÓA HỌC -->
+  <section id="view-courses" class="view">
+    <h1>Khóa học</h1>
+    <p class="sub">7 chủ đề sân khấu · 56 câu mẫu · 14 kịch bản tình huống — tất cả đều có giọng đọc.</p>
+    <div id="courseList"></div>
+    <div id="topicDetail" style="display:none"></div>
+  </section>
+
+  <!-- 4. TỪ VỰNG -->
+  <section id="view-vocab" class="view">
+    <h1>Từ vựng</h1>
+    <p class="sub">Tất cả câu mẫu dưới dạng thẻ từ — bấm Nghe để luyện phát âm từng câu.</p>
+    <div class="search"><input id="vocabSearch" type="search" placeholder="🔍 Tìm câu mẫu… gõ từ khóa tiếng Anh hoặc tiếng Việt"></div>
+    <div id="vocabList"></div>
+  </section>
+
+  <!-- 5. MẪU CÂU MC -->
+  <section id="view-phrases" class="view">
+    <h1>Mẫu câu MC</h1>
+    <p class="sub">56 câu mẫu sân khấu với nghĩa tiếng Việt, gợi ý phát âm và mẹo dùng trên sân khấu.</p>
+    <div class="row" style="margin:0 0 12px">
+      <select id="phraseTopic" style="flex:1; min-width:160px"></select>
+      <button class="btn" id="phraseModeList">📋 Danh sách</button>
+      <button class="btn" id="phraseModeFlash">🃏 Flashcard</button>
+    </div>
+    <div class="search"><input id="phraseSearch" type="search" placeholder="🔍 Tìm câu mẫu…"></div>
+    <div id="phraseList"></div>
+    <div id="phraseFlash" style="display:none"></div>
+  </section>
+
+  <!-- 6. LUYỆN NGHE -->
+  <section id="view-listening" class="view">
+    <h1>Luyện nghe</h1>
+    <p class="sub">Nghe câu tiếng Anh rồi chọn đúng nghĩa tiếng Việt. Mỗi câu đúng được tính vào kỹ năng Luyện nghe của bạn.</p>
+    <div id="listenBox"></div>
+  </section>
+
+  <!-- 7. LUYỆN NÓI -->
+  <section id="view-speaking" class="view">
+    <h1>Luyện nói</h1>
+    <p class="sub">Nghe mẫu rồi đọc theo (shadowing): thu âm giọng của bạn, nghe lại và tự chấm Đạt / Chưa đạt.</p>
+    <div id="speakBox"></div>
+  </section>
+
+  <!-- 8. KHO KỊCH BẢN -->
+  <section id="view-scripts" class="view">
+    <h1>Kho kịch bản</h1>
+    <p class="sub">14 kịch bản xử lý tình huống — mỗi kịch bản 3 câu theo đúng thứ tự khi sự cố xảy ra trên sân khấu.</p>
+    <div class="row" style="margin:0 0 12px"><select id="scriptTopic" style="flex:1; min-width:160px"></select></div>
+    <div id="scriptList"></div>
+  </section>
+
+  <!-- 9. AI MC COACH -->
+  <section id="view-coach" class="view">
+    <h1>AI MC Coach</h1>
+    <p class="sub">Hướng dẫn dẫn chương trình chạy ngay trên máy của bạn (không dùng AI máy chủ): mẹo theo từng chủ đề, checklist lỗi thường gặp, và công cụ ghép câu dẫn nhanh.</p>
+    <h2>💡 Mẹo dẫn theo chủ đề</h2>
+    <div id="coachTips"></div>
+    <h2 style="margin-top:20px">⚠️ Lỗi thường gặp — tự kiểm tra</h2>
+    <p class="sub">Tick vào những lỗi bạn đã khắc phục được.</p>
+    <div id="mistakeList" class="card"></div>
+    <h2 style="margin-top:20px">✨ Ghép câu dẫn nhanh</h2>
+    <p class="sub">Chọn loại sự kiện và khoảnh khắc, điền tên, web ghép sẵn một câu dẫn chuẩn để bạn đọc theo.</p>
     <div class="card">
       <label for="bEvent">Loại sự kiện</label>
       <select id="bEvent">
@@ -156,13 +299,115 @@ footer{text-align:center; color:var(--muted); font-size:12px; padding:20px}
       <div class="row"><button class="btn primary" id="buildBtn">✨ Ghép câu cho mình</button></div>
       <div id="builtResult" style="margin-top:14px"></div>
     </div>
-    <p class="sub">Mẹo: câu ghép được lấy từ kho 56 câu mẫu — bạn có thể bấm nghe, lưu vào sổ tay, hoặc sửa lại theo ý mình.</p>
   </section>
-</main>
+
+  <!-- 10. SÂN KHẤU ẢO -->
+  <section id="view-stage" class="view">
+    <h1>Sân khấu ảo</h1>
+    <p class="sub">Tập dẫn như đang đứng trên sân khấu thật: chọn một kịch bản, đọc từng câu, bấm giờ và ghi lại số buổi bạn đã tập.</p>
+    <div class="card">
+      <label for="stageScenario">Chọn kịch bản để tập</label>
+      <select id="stageScenario"></select>
+      <div class="row"><button class="btn primary" id="stageStartBtn">🎪 Bắt đầu buổi tập</button></div>
+      <p class="sub" id="stageStats" style="margin:10px 0 0"></p>
+    </div>
+    <div class="card"><h3>Cách tập hiệu quả</h3><p class="sub" style="margin:0">Đứng thẳng, cầm điện thoại như cầm micro. Đọc từng câu to, rõ, nhìn thẳng về phía trước — đừng nhìn chằm chằm vào màn hình. Hết kịch bản thì bấm kết thúc để ghi lại buổi tập.</p></div>
+  </section>
+
+  <!-- 11. TELEPROMPTER -->
+  <section id="view-tele" class="view">
+    <h1>Teleprompter</h1>
+    <p class="sub">Máy nhắc chữ trên sân khấu: chọn kịch bản, chỉnh tốc độ cuộn và cỡ chữ, rồi đọc theo dòng chữ chạy.</p>
+    <div class="card">
+      <label for="teleScenario">Chọn kịch bản</label>
+      <select id="teleScenario"></select>
+      <label for="teleSpeed">Tốc độ cuộn: <span id="teleSpeedVal">1.0×</span></label>
+      <input id="teleSpeed" type="range" min="0.5" max="3" step="0.5" value="1">
+      <label for="teleFont">Cỡ chữ: <span id="teleFontVal">22px</span></label>
+      <input id="teleFont" type="range" min="18" max="36" step="2" value="22">
+      <div class="row">
+        <button class="btn primary" id="telePlayBtn">▶ Chạy chữ</button>
+        <button class="btn" id="teleListenBtn">🔊 Nghe mẫu</button>
+      </div>
+    </div>
+    <div class="tele-box" id="teleBox"></div>
+  </section>
+
+  <!-- 12. AI SCRIPT STUDIO -->
+  <section id="view-studio" class="view">
+    <h1>AI Script Studio</h1>
+    <p class="sub">Soạn trọn một kịch bản dẫn — Mở đầu → Giới thiệu khách mời → Chuyển ý → Kết thúc — ghép từ kho câu mẫu ngay trên máy của bạn. Nghe thử từng câu, rồi sao chép toàn bộ để dùng.</p>
+    <div class="card">
+      <label for="stEvent">Loại sự kiện</label>
+      <select id="stEvent">
+        <option value="khai-mac">Khai mạc / Lễ kỷ niệm</option>
+        <option value="khai-truong">Khai trương / Khánh thành</option>
+        <option value="gala">Gala Dinner</option>
+        <option value="hoi-thao">Hội thảo</option>
+        <option value="dam-cuoi">Đám cưới</option>
+      </select>
+      <label for="stName">Tên sự kiện</label>
+      <input id="stName" type="text" placeholder="VD: Lễ khai trương CHAM Riverside">
+      <label for="stGuest">Tên khách mời chính (không bắt buộc)</label>
+      <input id="stGuest" type="text" placeholder="VD: ông Nguyễn Văn A">
+      <label for="stTone">Giọng điệu</label>
+      <select id="stTone">
+        <option value="formal">Trang trọng</option>
+        <option value="warm">Ấm cúng, thân mật</option>
+        <option value="lively">Vui tươi, hào hứng</option>
+      </select>
+      <div class="row"><button class="btn primary" id="studioBtn">📝 Soạn kịch bản</button></div>
+    </div>
+    <div id="studioResult"></div>
+  </section>
+
+  <!-- 13. KIỂM TRA -->
+  <section id="view-quiz" class="view">
+    <h1>Kiểm tra</h1>
+    <p class="sub">10 câu mỗi lượt, lấy từ 56 câu mẫu. Điểm cao nhất của bạn được lưu lại.</p>
+    <div class="card">
+      <label for="quizMode">Dạng kiểm tra</label>
+      <select id="quizMode">
+        <option value="en-vi">Tiếng Anh → chọn nghĩa tiếng Việt</option>
+        <option value="vi-en">Tiếng Việt → chọn câu tiếng Anh</option>
+        <option value="fill">Điền từ còn thiếu vào câu</option>
+      </select>
+      <div class="row"><button class="btn primary" id="quizStartBtn">▶ Bắt đầu kiểm tra</button></div>
+      <p class="sub" id="quizBestLine" style="margin:10px 0 0"></p>
+    </div>
+    <div id="quizBox"></div>
+  </section>
+
+  <!-- 14. TIẾN ĐỘ HỌC -->
+  <section id="view-progress" class="view">
+    <h1>Tiến độ học</h1>
+    <p class="sub">Toàn bộ số liệu học của bạn — lưu trên máy của bạn, mở lại vẫn còn.</p>
+    <div id="progressBox"></div>
+  </section>
+
+</div>
 <footer>
-  Học cùng MC Thanh Vân · Giọng đọc Google, bấm là phát; nút “Nghe chậm” dùng giọng trên máy của bạn.<br>
+  MC Academy · Học cùng MC Thanh Vân · Giọng đọc Google, bấm là phát; nút “Nghe chậm” dùng giọng trên máy của bạn.<br>
   Tiến độ, chuỗi ngày học và sổ tay được lưu trên chính thiết bị này.
 </footer>
+</main>
+</div>
+
+<!-- Sân khấu ảo: lớp phủ toàn màn hình -->
+<div id="stageOverlay">
+  <div class="timer" id="stageTimer">⏱ 00:00</div>
+  <div style="flex:1; display:flex; flex-direction:column; justify-content:center; align-items:center; text-align:center; padding:0 8px">
+    <div class="badge" id="stageScenTitle" style="margin-bottom:14px"></div>
+    <div class="big-en" id="stageLineEn"></div>
+    <div class="big-vi" id="stageLineVi"></div>
+    <div class="kbd" id="stageLineNo" style="margin-top:14px; color:#8b96ad"></div>
+  </div>
+  <div class="row" style="justify-content:center; margin:0 0 10px">
+    <button class="btn play" id="stageNextBtn">Câu tiếp theo →</button>
+    <button class="btn danger" id="stageEndBtn">■ Kết thúc buổi tập</button>
+  </div>
+</div>
+
 <script src="app.js"></script>
 </body>
 </html>
