@@ -1,0 +1,6074 @@
+{
+ "categories": [
+  {
+   "id": "opening",
+   "tag": "OPENING",
+   "title": "Khai mạc & chào đón",
+   "words": [
+    {
+     "en": "welcome",
+     "pron": "/ˈwelkəm/",
+     "vi": "chào mừng",
+     "ex": "Welcome, everyone, to this wonderful evening!"
+    },
+    {
+     "en": "greeting",
+     "pron": "/ˈɡriːtɪŋ/",
+     "vi": "lời chào",
+     "ex": "Let me start with a warm greeting to you all."
+    },
+    {
+     "en": "greet",
+     "pron": "/ɡriːt/",
+     "vi": "chào đón",
+     "ex": "Please greet our guests with a big smile."
+    },
+    {
+     "en": "introduce",
+     "pron": "/ˌɪntrəˈduːs/",
+     "vi": "giới thiệu",
+     "ex": "Allow me to introduce myself — I am your host tonight."
+    },
+    {
+     "en": "introduction",
+     "pron": "/ˌɪntrəˈdʌkʃn/",
+     "vi": "phần giới thiệu",
+     "ex": "A short introduction before we begin the program."
+    },
+    {
+     "en": "host",
+     "pron": "/hoʊst/",
+     "vi": "người dẫn chương trình",
+     "ex": "I am honoured to be your host this evening."
+    },
+    {
+     "en": "emcee",
+     "pron": "/ˌemˈsiː/",
+     "vi": "MC",
+     "ex": "Our emcee will guide you through the night."
+    },
+    {
+     "en": "master of ceremonies",
+     "pron": "/ˈmæstər əv ˈserəmoʊniz/",
+     "vi": "người dẫn chương trình",
+     "ex": "Please welcome our master of ceremonies."
+    },
+    {
+     "en": "audience",
+     "pron": "/ˈɔːdiəns/",
+     "vi": "khán giả",
+     "ex": "Good evening, dear audience!"
+    },
+    {
+     "en": "stage",
+     "pron": "/steɪdʒ/",
+     "vi": "sân khấu",
+     "ex": "Welcome to the stage, everyone!"
+    },
+    {
+     "en": "opening",
+     "pron": "/ˈoʊpənɪŋ/",
+     "vi": "phần mở đầu",
+     "ex": "Let us begin with a grand opening."
+    },
+    {
+     "en": "ceremony",
+     "pron": "/ˈserəmoʊni/",
+     "vi": "buổi lễ",
+     "ex": "Welcome to this beautiful ceremony."
+    },
+    {
+     "en": "celebrate",
+     "pron": "/ˈseləbreɪt/",
+     "vi": "ăn mừng, kỷ niệm",
+     "ex": "Tonight we celebrate ten wonderful years."
+    },
+    {
+     "en": "celebration",
+     "pron": "/ˌseləˈbreɪʃn/",
+     "vi": "lễ kỷ niệm",
+     "ex": "This celebration marks a new chapter."
+    },
+    {
+     "en": "honor",
+     "pron": "/ˈɑːnər/",
+     "vi": "vinh dự",
+     "ex": "It is an honor to stand before you tonight."
+    },
+    {
+     "en": "guest",
+     "pron": "/ɡest/",
+     "vi": "khách mời",
+     "ex": "Welcome, our honored guests!"
+    },
+    {
+     "en": "distinguished",
+     "pron": "/dɪˈstɪŋɡwɪʃt/",
+     "vi": "đáng kính, quý",
+     "ex": "Please welcome our distinguished guests."
+    },
+    {
+     "en": "ladies and gentlemen",
+     "pron": "/ˈleɪdiz ənd ˈdʒentlmən/",
+     "vi": "thưa quý ông quý bà",
+     "ex": "Ladies and gentlemen, welcome!"
+    },
+    {
+     "en": "good morning",
+     "pron": "/ɡʊd ˈmɔːrnɪŋ/",
+     "vi": "chào buổi sáng",
+     "ex": "Good morning, everyone!"
+    },
+    {
+     "en": "good afternoon",
+     "pron": "/ɡʊd ˌæftərˈnuːn/",
+     "vi": "chào buổi chiều",
+     "ex": "Good afternoon, ladies and gentlemen."
+    },
+    {
+     "en": "good evening",
+     "pron": "/ɡʊd ˈiːvnɪŋ/",
+     "vi": "chào buổi tối",
+     "ex": "Good evening, and welcome to our gala."
+    },
+    {
+     "en": "applause",
+     "pron": "/əˈplɔːz/",
+     "vi": "tràng pháo tay",
+     "ex": "Please give them a big round of applause."
+    },
+    {
+     "en": "round of applause",
+     "pron": "/raʊnd əv əˈplɔːz/",
+     "vi": "một tràng pháo tay",
+     "ex": "Let us give a warm round of applause."
+    },
+    {
+     "en": "warm welcome",
+     "pron": "/wɔːrm ˈwelkəm/",
+     "vi": "sự chào đón nồng nhiệt",
+     "ex": "Please give a warm welcome to our guests."
+    },
+    {
+     "en": "kick off",
+     "pron": "/kɪk ɔːf/",
+     "vi": "bắt đầu",
+     "ex": "Let us kick off this wonderful evening."
+    },
+    {
+     "en": "begin",
+     "pron": "/bɪˈɡɪn/",
+     "vi": "bắt đầu",
+     "ex": "Let the show begin!"
+    },
+    {
+     "en": "commence",
+     "pron": "/kəˈmens/",
+     "vi": "bắt đầu (trang trọng)",
+     "ex": "We now commence the ceremony."
+    },
+    {
+     "en": "gather",
+     "pron": "/ˈɡæðər/",
+     "vi": "tụ họp",
+     "ex": "We gather here today to celebrate."
+    },
+    {
+     "en": "gathering",
+     "pron": "/ˈɡæðərɪŋ/",
+     "vi": "buổi gặp gỡ",
+     "ex": "Welcome to this joyful gathering."
+    },
+    {
+     "en": "excitement",
+     "pron": "/ɪkˈsaɪtmənt/",
+     "vi": "sự háo hức",
+     "ex": "I can feel the excitement in the room."
+    },
+    {
+     "en": "exciting",
+     "pron": "/ɪkˈsaɪtɪŋ/",
+     "vi": "thú vị, hào hứng",
+     "ex": "We have an exciting evening ahead."
+    },
+    {
+     "en": "special",
+     "pron": "/ˈspeʃl/",
+     "vi": "đặc biệt",
+     "ex": "Today is a very special day."
+    },
+    {
+     "en": "occasion",
+     "pron": "/əˈkeɪʒn/",
+     "vi": "dịp, sự kiện",
+     "ex": "This is a truly special occasion."
+    },
+    {
+     "en": "moment",
+     "pron": "/ˈmoʊmənt/",
+     "vi": "khoảnh khắc",
+     "ex": "Let us enjoy every moment tonight."
+    },
+    {
+     "en": "memorable",
+     "pron": "/ˈmemərəbl/",
+     "vi": "đáng nhớ",
+     "ex": "Let us make this night truly memorable."
+    },
+    {
+     "en": "unforgettable",
+     "pron": "/ˌʌnfərˈɡetəbl/",
+     "vi": "không thể quên",
+     "ex": "An unforgettable evening awaits you."
+    },
+    {
+     "en": "together",
+     "pron": "/təˈɡeðər/",
+     "vi": "cùng nhau",
+     "ex": "Tonight we are all together."
+    },
+    {
+     "en": "join",
+     "pron": "/dʒɔɪn/",
+     "vi": "tham gia",
+     "ex": "Please join me in welcoming our guests."
+    },
+    {
+     "en": "pleasure",
+     "pron": "/ˈpleʒər/",
+     "vi": "niềm vinh hạnh",
+     "ex": "It is my great pleasure to be here."
+    },
+    {
+     "en": "privilege",
+     "pron": "/ˈprɪvəlɪdʒ/",
+     "vi": "vinh dự",
+     "ex": "It is a privilege to host this event."
+    },
+    {
+     "en": "proud",
+     "pron": "/praʊd/",
+     "vi": "tự hào",
+     "ex": "We are so proud to share this moment."
+    },
+    {
+     "en": "thrilled",
+     "pron": "/θrɪld/",
+     "vi": "rất vui mừng",
+     "ex": "I am thrilled to be your host tonight."
+    },
+    {
+     "en": "delighted",
+     "pron": "/dɪˈlaɪtɪd/",
+     "vi": "rất vui",
+     "ex": "We are delighted to have you here."
+    },
+    {
+     "en": "energy",
+     "pron": "/ˈenərdʒi/",
+     "vi": "năng lượng",
+     "ex": "Feel the energy in this room tonight!"
+    },
+    {
+     "en": "energetic",
+     "pron": "/ˌenərˈdʒetɪk/",
+     "vi": "đầy năng lượng",
+     "ex": "Let us start with an energetic welcome."
+    },
+    {
+     "en": "atmosphere",
+     "pron": "/ˈætməsfɪr/",
+     "vi": "không khí",
+     "ex": "The atmosphere tonight is wonderful."
+    },
+    {
+     "en": "warm",
+     "pron": "/wɔːrm/",
+     "vi": "ấm áp",
+     "ex": "Thank you for such a warm welcome."
+    },
+    {
+     "en": "friendly",
+     "pron": "/ˈfrendli/",
+     "vi": "thân thiện",
+     "ex": "A friendly smile opens every show."
+    },
+    {
+     "en": "smile",
+     "pron": "/smaɪl/",
+     "vi": "nụ cười",
+     "ex": "Start with a smile, and the audience smiles back."
+    },
+    {
+     "en": "cheerful",
+     "pron": "/ˈtʃɪrfəl/",
+     "vi": "vui vẻ",
+     "ex": "A cheerful voice wakes up the room."
+    },
+    {
+     "en": "vibrant",
+     "pron": "/ˈvaɪbrənt/",
+     "vi": "sôi động",
+     "ex": "What a vibrant crowd tonight!"
+    },
+    {
+     "en": "elegant",
+     "pron": "/ˈelɪɡənt/",
+     "vi": "thanh lịch",
+     "ex": "Welcome to this elegant evening."
+    },
+    {
+     "en": "grand",
+     "pron": "/ɡrænd/",
+     "vi": "hoành tráng",
+     "ex": "A grand welcome to you all!"
+    },
+    {
+     "en": "spectacular",
+     "pron": "/spekˈtækjələr/",
+     "vi": "ngoạn mục",
+     "ex": "Get ready for a spectacular night."
+    },
+    {
+     "en": "wonderful",
+     "pron": "/ˈwʌndərfəl/",
+     "vi": "tuyệt vời",
+     "ex": "Welcome to this wonderful celebration."
+    },
+    {
+     "en": "amazing",
+     "pron": "/əˈmeɪzɪŋ/",
+     "vi": "tuyệt vời",
+     "ex": "We have an amazing program for you."
+    },
+    {
+     "en": "fantastic",
+     "pron": "/fænˈtæstɪk/",
+     "vi": "tuyệt vời",
+     "ex": "What a fantastic audience!"
+    },
+    {
+     "en": "beautiful",
+     "pron": "/ˈbjuːtɪfəl/",
+     "vi": "đẹp",
+     "ex": "Good evening, beautiful people!"
+    },
+    {
+     "en": "lovely",
+     "pron": "/ˈlʌvli/",
+     "vi": "đáng yêu",
+     "ex": "What a lovely evening to celebrate."
+    },
+    {
+     "en": "delightful",
+     "pron": "/dɪˈlaɪtfəl/",
+     "vi": "thú vị",
+     "ex": "It is delightful to see so many familiar faces."
+    },
+    {
+     "en": "happy",
+     "pron": "/ˈhæpi/",
+     "vi": "vui vẻ",
+     "ex": "We are happy to welcome you all."
+    },
+    {
+     "en": "glad",
+     "pron": "/ɡlæd/",
+     "vi": "vui mừng",
+     "ex": "I am so glad you could join us."
+    },
+    {
+     "en": "journey",
+     "pron": "/ˈdʒɜːrni/",
+     "vi": "hành trình",
+     "ex": "Tonight begins a beautiful journey."
+    },
+    {
+     "en": "take your seats",
+     "pron": "/teɪk jɔːr siːts/",
+     "vi": "mời ngồi vào chỗ",
+     "ex": "Please take your seats, the show is about to begin."
+    },
+    {
+     "en": "settle in",
+     "pron": "/ˈsetl ɪn/",
+     "vi": "ổn định chỗ ngồi",
+     "ex": "Please settle in and enjoy the evening."
+    },
+    {
+     "en": "sit back",
+     "pron": "/sɪt bæk/",
+     "vi": "ngồi thoải mái",
+     "ex": "Sit back, relax, and enjoy the show."
+    },
+    {
+     "en": "relax",
+     "pron": "/rɪˈlæks/",
+     "vi": "thư giãn",
+     "ex": "Relax and enjoy every moment tonight."
+    },
+    {
+     "en": "enjoy",
+     "pron": "/ɪnˈdʒɔɪ/",
+     "vi": "tận hưởng",
+     "ex": "Enjoy this special evening with us."
+    },
+    {
+     "en": "tonight",
+     "pron": "/təˈnaɪt/",
+     "vi": "tối nay",
+     "ex": "Tonight is a night to remember."
+    },
+    {
+     "en": "program",
+     "pron": "/ˈproʊɡræm/",
+     "vi": "chương trình",
+     "ex": "Here is our program for this evening."
+    },
+    {
+     "en": "agenda",
+     "pron": "/əˈdʒendə/",
+     "vi": "chương trình làm việc",
+     "ex": "Let me share tonight's agenda with you."
+    },
+    {
+     "en": "schedule",
+     "pron": "/ˈskedʒuːl/",
+     "vi": "lịch trình",
+     "ex": "The schedule for tonight is full of surprises."
+    },
+    {
+     "en": "highlight",
+     "pron": "/ˈhaɪlaɪt/",
+     "vi": "điểm nhấn",
+     "ex": "The highlight of tonight is our special guest."
+    },
+    {
+     "en": "promise",
+     "pron": "/ˈprɑːmɪs/",
+     "vi": "lời hứa",
+     "ex": "I promise you a night to remember."
+    },
+    {
+     "en": "curtain",
+     "pron": "/ˈkɜːrtn/",
+     "vi": "màn sân khấu",
+     "ex": "When the curtain rises, the magic begins."
+    },
+    {
+     "en": "spotlight",
+     "pron": "/ˈspɑːtlaɪt/",
+     "vi": "đèn sân khấu",
+     "ex": "Please step into the spotlight."
+    },
+    {
+     "en": "debut",
+     "pron": "/deɪˈbjuː/",
+     "vi": "lần đầu ra mắt",
+     "ex": "Tonight marks the debut of our new program."
+    },
+    {
+     "en": "launch",
+     "pron": "/lɔːntʃ/",
+     "vi": "ra mắt",
+     "ex": "We are here to launch a new beginning."
+    },
+    {
+     "en": "milestone",
+     "pron": "/ˈmaɪlstoʊn/",
+     "vi": "cột mốc",
+     "ex": "This is an important milestone for us all."
+    },
+    {
+     "en": "toast",
+     "pron": "/toʊst/",
+     "vi": "lời chúc mừng (nâng ly)",
+     "ex": "Let us raise a toast to new beginnings."
+    },
+    {
+     "en": "cheers",
+     "pron": "/tʃɪrz/",
+     "vi": "chúc mừng (cạn ly)",
+     "ex": "Cheers to a wonderful evening!"
+    },
+    {
+     "en": "welcome aboard",
+     "pron": "/ˈwelkəm əˈbɔːrd/",
+     "vi": "chào mừng tham gia",
+     "ex": "Welcome aboard this exciting journey!"
+    },
+    {
+     "en": "on behalf of",
+     "pron": "/ɑːn bɪˈhæf əv/",
+     "vi": "thay mặt cho",
+     "ex": "On behalf of the organizers, welcome!"
+    },
+    {
+     "en": "it is my pleasure",
+     "pron": "/ɪt ɪz maɪ ˈpleʒər/",
+     "vi": "rất hân hạnh",
+     "ex": "It is my pleasure to welcome you tonight."
+    },
+    {
+     "en": "let the show begin",
+     "pron": "/let ðə ʃoʊ bɪˈɡɪn/",
+     "vi": "chương trình bắt đầu",
+     "ex": "Ladies and gentlemen, let the show begin!"
+    },
+    {
+     "en": "here we go",
+     "pron": "/hɪər wiː ɡoʊ/",
+     "vi": "bắt đầu nào",
+     "ex": "Here we go — welcome to the show!"
+    },
+    {
+     "en": "without further ado",
+     "pron": "/wɪˈðaʊt ˈfɜːrðər əˈduː/",
+     "vi": "không dài dòng nữa",
+     "ex": "Without further ado, let us begin."
+    },
+    {
+     "en": "first of all",
+     "pron": "/fɜːrst əv ɔːl/",
+     "vi": "trước hết",
+     "ex": "First of all, welcome everyone!"
+    },
+    {
+     "en": "before we begin",
+     "pron": "/bɪˈfɔːr wiː bɪˈɡɪn/",
+     "vi": "trước khi bắt đầu",
+     "ex": "Before we begin, a warm welcome to you all."
+    },
+    {
+     "en": "a big hand",
+     "pron": "/ə bɪɡ hænd/",
+     "vi": "tràng pháo tay lớn",
+     "ex": "Let us give a big hand to our guests."
+    },
+    {
+     "en": "give it up for",
+     "pron": "/ɡɪv ɪt ʌp fɔːr/",
+     "vi": "hãy vỗ tay cho",
+     "ex": "Give it up for our amazing performers!"
+    },
+    {
+     "en": "put your hands together",
+     "pron": "/pʊt jɔːr hændz təˈɡeðər/",
+     "vi": "hãy vỗ tay",
+     "ex": "Put your hands together for our guests."
+    },
+    {
+     "en": "make some noise",
+     "pron": "/meɪk sʌm nɔɪz/",
+     "vi": "hãy cổ vũ nồng nhiệt",
+     "ex": "Make some noise for our stars tonight!"
+    },
+    {
+     "en": "the wait is over",
+     "pron": "/ðə weɪt ɪz ˈoʊvər/",
+     "vi": "chờ đợi đã kết thúc",
+     "ex": "The wait is over — welcome to the show!"
+    },
+    {
+     "en": "this evening promises",
+     "pron": "/ðɪs ˈiːvnɪŋ ˈprɑːmɪsɪz/",
+     "vi": "tối nay hứa hẹn",
+     "ex": "This evening promises to be unforgettable."
+    },
+    {
+     "en": "a night to remember",
+     "pron": "/ə naɪt tə rɪˈmembər/",
+     "vi": "một đêm đáng nhớ",
+     "ex": "Welcome to a night to remember."
+    },
+    {
+     "en": "welcome one and all",
+     "pron": "/ˈwelkəm wʌn ənd ɔːl/",
+     "vi": "chào mừng tất cả",
+     "ex": "Welcome one and all to this celebration."
+    },
+    {
+     "en": "good to see you",
+     "pron": "/ɡʊd tə siː juː/",
+     "vi": "rất vui gặp bạn",
+     "ex": "Good to see you all here tonight."
+    },
+    {
+     "en": "thank you for coming",
+     "pron": "/θæŋk juː fɔːr ˈkʌmɪŋ/",
+     "vi": "cảm ơn đã đến",
+     "ex": "Thank you for coming tonight."
+    },
+    {
+     "en": "let us celebrate",
+     "pron": "/let ʌs ˈseləbreɪt/",
+     "vi": "hãy cùng ăn mừng",
+     "ex": "Let us celebrate this special day together."
+    }
+   ]
+  },
+  {
+   "id": "guests",
+   "tag": "INTRODUCING GUESTS",
+   "title": "Giới thiệu đại biểu",
+   "words": [
+    {
+     "en": "guest of honour",
+     "pron": "/ɡest əv ˈɑːnər/",
+     "vi": "khách danh dự",
+     "ex": "Please welcome our guest of honour."
+    },
+    {
+     "en": "VIP",
+     "pron": "/ˌviː aɪ ˈpiː/",
+     "vi": "khách VIP",
+     "ex": "Our VIP guests have arrived."
+    },
+    {
+     "en": "honorable",
+     "pron": "/ˈɑːnərəbl/",
+     "vi": "đáng kính",
+     "ex": "Please welcome our honorable chairman."
+    },
+    {
+     "en": "respected",
+     "pron": "/rɪˈspektɪd/",
+     "vi": "được kính trọng",
+     "ex": "Our respected chairman, please welcome him."
+    },
+    {
+     "en": "chairman",
+     "pron": "/ˈtʃermən/",
+     "vi": "chủ tịch",
+     "ex": "Please welcome our chairman, Mr. Nguyen."
+    },
+    {
+     "en": "chairwoman",
+     "pron": "/ˈtʃerwʊmən/",
+     "vi": "nữ chủ tịch",
+     "ex": "Please welcome our chairwoman."
+    },
+    {
+     "en": "director",
+     "pron": "/dəˈrektər/",
+     "vi": "giám đốc",
+     "ex": "Our director will share a few words."
+    },
+    {
+     "en": "manager",
+     "pron": "/ˈmænɪdʒər/",
+     "vi": "quản lý",
+     "ex": "Let us welcome our general manager."
+    },
+    {
+     "en": "president",
+     "pron": "/ˈprezɪdənt/",
+     "vi": "chủ tịch, tổng giám đốc",
+     "ex": "Please welcome the president of our company."
+    },
+    {
+     "en": "founder",
+     "pron": "/ˈfaʊndər/",
+     "vi": "người sáng lập",
+     "ex": "Please welcome our founder."
+    },
+    {
+     "en": "representative",
+     "pron": "/ˌreprɪˈzentətɪv/",
+     "vi": "đại diện",
+     "ex": "Welcome our representative from the city."
+    },
+    {
+     "en": "delegate",
+     "pron": "/ˈdelɪɡət/",
+     "vi": "đại biểu",
+     "ex": "Welcome all delegates from across the country."
+    },
+    {
+     "en": "delegation",
+     "pron": "/ˌdelɪˈɡeɪʃn/",
+     "vi": "đoàn đại biểu",
+     "ex": "Please welcome the delegation from Japan."
+    },
+    {
+     "en": "speaker",
+     "pron": "/ˈspiːkər/",
+     "vi": "diễn giả",
+     "ex": "Our next speaker is a well-known expert."
+    },
+    {
+     "en": "keynote speaker",
+     "pron": "/ˈkiːnoʊt ˈspiːkər/",
+     "vi": "diễn giả chính",
+     "ex": "Please welcome our keynote speaker."
+    },
+    {
+     "en": "performer",
+     "pron": "/pərˈfɔːrmər/",
+     "vi": "nghệ sĩ biểu diễn",
+     "ex": "Our next performer is ready."
+    },
+    {
+     "en": "artist",
+     "pron": "/ˈɑːrtɪst/",
+     "vi": "nghệ sĩ",
+     "ex": "Please welcome the artist to the stage."
+    },
+    {
+     "en": "singer",
+     "pron": "/ˈsɪŋər/",
+     "vi": "ca sĩ",
+     "ex": "Our singer tonight is a rising star."
+    },
+    {
+     "en": "musician",
+     "pron": "/mjuːˈzɪʃn/",
+     "vi": "nhạc sĩ",
+     "ex": "Let us welcome our talented musicians."
+    },
+    {
+     "en": "judge",
+     "pron": "/dʒʌdʒ/",
+     "vi": "giám khảo",
+     "ex": "Please welcome our judges."
+    },
+    {
+     "en": "sponsor",
+     "pron": "/ˈspɑːnsər/",
+     "vi": "nhà tài trợ",
+     "ex": "Thank you to our generous sponsors."
+    },
+    {
+     "en": "partner",
+     "pron": "/ˈpɑːrtnər/",
+     "vi": "đối tác",
+     "ex": "Welcome our partners from around the world."
+    },
+    {
+     "en": "client",
+     "pron": "/ˈklaɪənt/",
+     "vi": "khách hàng",
+     "ex": "Thank you, our valued clients."
+    },
+    {
+     "en": "customer",
+     "pron": "/ˈkʌstəmər/",
+     "vi": "khách hàng",
+     "ex": "Welcome, dear customers."
+    },
+    {
+     "en": "attendee",
+     "pron": "/ətenˈdiː/",
+     "vi": "người tham dự",
+     "ex": "Welcome to all attendees tonight."
+    },
+    {
+     "en": "participant",
+     "pron": "/pɑːrˈtɪsɪpənt/",
+     "vi": "người tham gia",
+     "ex": "Thank you to every participant."
+    },
+    {
+     "en": "presenter",
+     "pron": "/prɪˈzentər/",
+     "vi": "người thuyết trình",
+     "ex": "Our presenter will begin shortly."
+    },
+    {
+     "en": "hostess",
+     "pron": "/ˈhoʊstəs/",
+     "vi": "nữ chủ trì",
+     "ex": "Our hostess will guide the evening."
+    },
+    {
+     "en": "co-host",
+     "pron": "/koʊ hoʊst/",
+     "vi": "đồng MC",
+     "ex": "Please welcome my co-host tonight."
+    },
+    {
+     "en": "special guest",
+     "pron": "/ˈspeʃl ɡest/",
+     "vi": "khách mời đặc biệt",
+     "ex": "Please welcome our special guest."
+    },
+    {
+     "en": "esteemed",
+     "pron": "/ɪˈstiːmd/",
+     "vi": "được kính trọng",
+     "ex": "Our esteemed guests, welcome."
+    },
+    {
+     "en": "beloved",
+     "pron": "/bɪˈlʌvd/",
+     "vi": "yêu quý",
+     "ex": "Our beloved teacher is here tonight."
+    },
+    {
+     "en": "renowned",
+     "pron": "/rɪˈnaʊnd/",
+     "vi": "nổi tiếng",
+     "ex": "Please welcome the renowned artist."
+    },
+    {
+     "en": "famous",
+     "pron": "/ˈfeɪməs/",
+     "vi": "nổi tiếng",
+     "ex": "Our famous singer is here."
+    },
+    {
+     "en": "talented",
+     "pron": "/ˈtæləntɪd/",
+     "vi": "tài năng",
+     "ex": "Please welcome our talented dancers."
+    },
+    {
+     "en": "outstanding",
+     "pron": "/aʊtˈstændɪŋ/",
+     "vi": "xuất sắc",
+     "ex": "An outstanding performer is next."
+    },
+    {
+     "en": "remarkable",
+     "pron": "/rɪˈmɑːrkəbl/",
+     "vi": "đáng chú ý",
+     "ex": "Please welcome a remarkable speaker."
+    },
+    {
+     "en": "inspiring",
+     "pron": "/ɪnˈspaɪərɪŋ/",
+     "vi": "truyền cảm hứng",
+     "ex": "An inspiring leader joins us tonight."
+    },
+    {
+     "en": "professional",
+     "pron": "/prəˈfeʃənl/",
+     "vi": "chuyên nghiệp",
+     "ex": "Our professional team is ready."
+    },
+    {
+     "en": "expert",
+     "pron": "/ˈekspɜːrt/",
+     "vi": "chuyên gia",
+     "ex": "Let us welcome our expert speaker."
+    },
+    {
+     "en": "professor",
+     "pron": "/prəˈfesər/",
+     "vi": "giáo sư",
+     "ex": "Please welcome Professor Smith."
+    },
+    {
+     "en": "doctor",
+     "pron": "/ˈdɑːktər/",
+     "vi": "tiến sĩ, bác sĩ",
+     "ex": "Please welcome Doctor Lan."
+    },
+    {
+     "en": "mister",
+     "pron": "/ˈmɪstər/",
+     "vi": "ông",
+     "ex": "Please welcome Mister John Smith."
+    },
+    {
+     "en": "miss",
+     "pron": "/mɪs/",
+     "vi": "cô",
+     "ex": "Please welcome Miss Anna."
+    },
+    {
+     "en": "madam",
+     "pron": "/ˈmædəm/",
+     "vi": "bà",
+     "ex": "Madam Chair, welcome."
+    },
+    {
+     "en": "sir",
+     "pron": "/sɜːr/",
+     "vi": "ngài",
+     "ex": "Thank you, sir, for joining us."
+    },
+    {
+     "en": "title",
+     "pron": "/ˈtaɪtl/",
+     "vi": "chức danh",
+     "ex": "His title is Director of Marketing."
+    },
+    {
+     "en": "position",
+     "pron": "/pəˈzɪʃn/",
+     "vi": "vị trí, chức vụ",
+     "ex": "She holds a senior position."
+    },
+    {
+     "en": "role",
+     "pron": "/roʊl/",
+     "vi": "vai trò",
+     "ex": "He plays an important role tonight."
+    },
+    {
+     "en": "introduce to the stage",
+     "pron": "/ˌɪntrəˈduːs tə ðə steɪdʒ/",
+     "vi": "mời lên sân khấu",
+     "ex": "Please welcome her to the stage."
+    },
+    {
+     "en": "please welcome",
+     "pron": "/pliːz ˈwelkəm/",
+     "vi": "xin mời chào đón",
+     "ex": "Please welcome our next guest!"
+    },
+    {
+     "en": "join me in welcoming",
+     "pron": "/dʒɔɪn miː ɪn ˈwelkəmɪŋ/",
+     "vi": "hãy cùng tôi chào đón",
+     "ex": "Join me in welcoming our chairman."
+    },
+    {
+     "en": "a big round of applause for",
+     "pron": "/ə bɪɡ raʊnd əv əˈplɔːz fɔːr/",
+     "vi": "tràng pháo tay cho",
+     "ex": "A big round of applause for our guest!"
+    },
+    {
+     "en": "put your hands together for",
+     "pron": "/pʊt jɔːr hændz təˈɡeðər fɔːr/",
+     "vi": "vỗ tay chào đón",
+     "ex": "Put your hands together for our speaker."
+    },
+    {
+     "en": "give a warm welcome to",
+     "pron": "/ɡɪv ə wɔːrm ˈwelkəm tə/",
+     "vi": "chào đón nồng nhiệt",
+     "ex": "Give a warm welcome to our director."
+    },
+    {
+     "en": "it is my pleasure to introduce",
+     "pron": "/ɪt ɪz maɪ ˈpleʒər tə ˌɪntrəˈduːs/",
+     "vi": "hân hạnh giới thiệu",
+     "ex": "It is my pleasure to introduce our guest."
+    },
+    {
+     "en": "may I introduce",
+     "pron": "/meɪ aɪ ˌɪntrəˈduːs/",
+     "vi": "xin phép giới thiệu",
+     "ex": "May I introduce our keynote speaker?"
+    },
+    {
+     "en": "allow me to introduce",
+     "pron": "/əˈlaʊ miː tə ˌɪntrəˈduːs/",
+     "vi": "cho phép tôi giới thiệu",
+     "ex": "Allow me to introduce our special guest."
+    },
+    {
+     "en": "ladies and gentlemen, please welcome",
+     "pron": "/ˈleɪdiz ənd ˈdʒentlmən pliːz ˈwelkəm/",
+     "vi": "thưa quý vị, xin chào đón",
+     "ex": "Ladies and gentlemen, please welcome our chairman."
+    },
+    {
+     "en": "on stage now",
+     "pron": "/ɑːn steɪdʒ naʊ/",
+     "vi": "đang trên sân khấu",
+     "ex": "On stage now, our guest of honour."
+    },
+    {
+     "en": "take the stage",
+     "pron": "/teɪk ðə steɪdʒ/",
+     "vi": "bước lên sân khấu",
+     "ex": "Please take the stage, Mr. Chairman."
+    },
+    {
+     "en": "step forward",
+     "pron": "/step ˈfɔːrwərd/",
+     "vi": "bước lên phía trước",
+     "ex": "Please step forward to receive your award."
+    },
+    {
+     "en": "come up on stage",
+     "pron": "/kʌm ʌp ɑːn steɪdʒ/",
+     "vi": "lên sân khấu",
+     "ex": "Please come up on stage."
+    },
+    {
+     "en": "share a few words",
+     "pron": "/ʃer ə fjuː wɜːrdz/",
+     "vi": "chia sẻ vài lời",
+     "ex": "He will share a few words with us."
+    },
+    {
+     "en": "say a few words",
+     "pron": "/seɪ ə fjuː wɜːrdz/",
+     "vi": "nói vài lời",
+     "ex": "Please say a few words, Madam."
+    },
+    {
+     "en": "address",
+     "pron": "/əˈdres/",
+     "vi": "phát biểu",
+     "ex": "She will now address the audience."
+    },
+    {
+     "en": "speech",
+     "pron": "/spiːtʃ/",
+     "vi": "bài phát biểu",
+     "ex": "Please welcome her for the opening speech."
+    },
+    {
+     "en": "opening remarks",
+     "pron": "/ˈoʊpənɪŋ rɪˈmɑːrks/",
+     "vi": "lời phát biểu khai mạc",
+     "ex": "Now, the opening remarks from our chairman."
+    },
+    {
+     "en": "welcome speech",
+     "pron": "/ˈwelkəm spiːtʃ/",
+     "vi": "bài phát biểu chào mừng",
+     "ex": "Please welcome him for the welcome speech."
+    },
+    {
+     "en": "keynote address",
+     "pron": "/ˈkiːnoʊt əˈdres/",
+     "vi": "bài phát biểu chính",
+     "ex": "The keynote address will begin shortly."
+    },
+    {
+     "en": "distinguished speaker",
+     "pron": "/dɪˈstɪŋɡwɪʃt ˈspiːkər/",
+     "vi": "diễn giả đáng kính",
+     "ex": "Our distinguished speaker is ready."
+    },
+    {
+     "en": "panel",
+     "pron": "/ˈpænl/",
+     "vi": "ban thảo luận",
+     "ex": "Please welcome our panel of experts."
+    },
+    {
+     "en": "panelist",
+     "pron": "/ˈpænəlɪst/",
+     "vi": "thành viên ban thảo luận",
+     "ex": "Our panelists are ready to discuss."
+    },
+    {
+     "en": "moderator",
+     "pron": "/ˈmɑːdəreɪtər/",
+     "vi": "người điều phối",
+     "ex": "Our moderator will guide the discussion."
+    },
+    {
+     "en": "host of the evening",
+     "pron": "/hoʊst əv ðiː ˈiːvnɪŋ/",
+     "vi": "MC của buổi tối",
+     "ex": "I am your host of the evening."
+    },
+    {
+     "en": "chief guest",
+     "pron": "/tʃiːf ɡest/",
+     "vi": "khách mời chính",
+     "ex": "Please welcome our chief guest."
+    },
+    {
+     "en": "guest speaker",
+     "pron": "/ɡest ˈspiːkər/",
+     "vi": "diễn giả khách mời",
+     "ex": "Our guest speaker has arrived."
+    },
+    {
+     "en": "honorary guest",
+     "pron": "/ˈɑːnəreri ɡest/",
+     "vi": "khách danh dự",
+     "ex": "Welcome our honorary guest."
+    },
+    {
+     "en": "dignitary",
+     "pron": "/ˈdɪɡnəteri/",
+     "vi": "nhân vật quan trọng",
+     "ex": "Please welcome the dignitaries."
+    },
+    {
+     "en": "celebrity",
+     "pron": "/səˈlebrəti/",
+     "vi": "người nổi tiếng",
+     "ex": "A celebrity guest joins us tonight."
+    },
+    {
+     "en": "star",
+     "pron": "/stɑːr/",
+     "vi": "ngôi sao",
+     "ex": "Please welcome our star of the evening."
+    },
+    {
+     "en": "icon",
+     "pron": "/ˈaɪkɑːn/",
+     "vi": "biểu tượng",
+     "ex": "An icon of the industry is here."
+    },
+    {
+     "en": "legend",
+     "pron": "/ˈledʒənd/",
+     "vi": "huyền thoại",
+     "ex": "Please welcome a true legend."
+    },
+    {
+     "en": "veteran",
+     "pron": "/ˈvetərən/",
+     "vi": "người kỳ cựu",
+     "ex": "Our veteran host will lead the night."
+    },
+    {
+     "en": "ambassador",
+     "pron": "/æmˈbæsədər/",
+     "vi": "đại sứ",
+     "ex": "Please welcome the ambassador."
+    },
+    {
+     "en": "consul",
+     "pron": "/ˈkɑːnsl/",
+     "vi": "lãnh sự",
+     "ex": "Welcome, Mr. Consul."
+    },
+    {
+     "en": "mayor",
+     "pron": "/ˈmeɪər/",
+     "vi": "thị trưởng",
+     "ex": "Please welcome our mayor."
+    },
+    {
+     "en": "governor",
+     "pron": "/ˈɡʌvərnər/",
+     "vi": "thống đốc",
+     "ex": "Welcome, Governor."
+    },
+    {
+     "en": "minister",
+     "pron": "/ˈmɪnɪstər/",
+     "vi": "bộ trưởng",
+     "ex": "Please welcome the minister."
+    },
+    {
+     "en": "official",
+     "pron": "/əˈfɪʃl/",
+     "vi": "quan chức",
+     "ex": "Please welcome our officials."
+    },
+    {
+     "en": "leader",
+     "pron": "/ˈliːdər/",
+     "vi": "lãnh đạo",
+     "ex": "Our leader will now speak."
+    },
+    {
+     "en": "executive",
+     "pron": "/ɪɡˈzekjətɪv/",
+     "vi": "lãnh đạo cấp cao",
+     "ex": "Please welcome our chief executive."
+    },
+    {
+     "en": "entrepreneur",
+     "pron": "/ˌɑːntrəprəˈnɜːr/",
+     "vi": "doanh nhân",
+     "ex": "An entrepreneur joins us tonight."
+    },
+    {
+     "en": "investor",
+     "pron": "/ɪnˈvestər/",
+     "vi": "nhà đầu tư",
+     "ex": "Welcome our investors."
+    },
+    {
+     "en": "philanthropist",
+     "pron": "/fɪˈlænθrəpɪst/",
+     "vi": "nhà từ thiện",
+     "ex": "Please welcome our philanthropist."
+    },
+    {
+     "en": "scholar",
+     "pron": "/ˈskɑːlər/",
+     "vi": "học giả",
+     "ex": "A scholar will share his research."
+    },
+    {
+     "en": "author",
+     "pron": "/ˈɔːθər/",
+     "vi": "tác giả",
+     "ex": "Please welcome the author."
+    },
+    {
+     "en": "coach",
+     "pron": "/koʊtʃ/",
+     "vi": "huấn luyện viên",
+     "ex": "Our coach will share his story."
+    },
+    {
+     "en": "mentor",
+     "pron": "/ˈmentɔːr/",
+     "vi": "người cố vấn",
+     "ex": "Please welcome our mentor."
+    },
+    {
+     "en": "welcome to the stage",
+     "pron": "/ˈwelkəm tə ðə steɪdʒ/",
+     "vi": "chào mừng lên sân khấu",
+     "ex": "Welcome to the stage, our guest of honour!"
+    }
+   ]
+  },
+  {
+   "id": "grand-opening",
+   "tag": "GRAND OPENING",
+   "title": "Khai trương & khánh thành",
+   "words": [
+    {
+     "en": "inauguration",
+     "pron": "/ɪnˌɔːɡjəˈreɪʃn/",
+     "vi": "lễ khánh thành",
+     "ex": "Welcome to the inauguration ceremony."
+    },
+    {
+     "en": "ribbon cutting",
+     "pron": "/ˈrɪbən ˈkʌtɪŋ/",
+     "vi": "lễ cắt băng",
+     "ex": "The ribbon cutting begins in five minutes."
+    },
+    {
+     "en": "cut the ribbon",
+     "pron": "/kʌt ðə ˈrɪbən/",
+     "vi": "cắt băng khánh thành",
+     "ex": "Please cut the ribbon to open the store."
+    },
+    {
+     "en": "scissors",
+     "pron": "/ˈsɪzərz/",
+     "vi": "kéo",
+     "ex": "Here are the golden scissors."
+    },
+    {
+     "en": "unveil",
+     "pron": "/ʌnˈveɪl/",
+     "vi": "vén màn, công bố",
+     "ex": "Let us unveil the new signboard."
+    },
+    {
+     "en": "unveiling",
+     "pron": "/ʌnˈveɪlɪŋ/",
+     "vi": "lễ công bố",
+     "ex": "The unveiling of our new branch is today."
+    },
+    {
+     "en": "grand opening",
+     "pron": "/ɡrænd ˈoʊpənɪŋ/",
+     "vi": "lễ khai trương",
+     "ex": "Welcome to our grand opening!"
+    },
+    {
+     "en": "opening day",
+     "pron": "/ˈoʊpənɪŋ deɪ/",
+     "vi": "ngày khai trương",
+     "ex": "Today is our opening day."
+    },
+    {
+     "en": "new chapter",
+     "pron": "/nuː ˈtʃæptər/",
+     "vi": "chương mới",
+     "ex": "Today begins a new chapter."
+    },
+    {
+     "en": "new beginning",
+     "pron": "/nuː bɪˈɡɪnɪŋ/",
+     "vi": "khởi đầu mới",
+     "ex": "This is a new beginning for us all."
+    },
+    {
+     "en": "landmark",
+     "pron": "/ˈlændmɑːrk/",
+     "vi": "dấu mốc",
+     "ex": "Today is a landmark day for our company."
+    },
+    {
+     "en": "breakthrough",
+     "pron": "/ˈbreɪkθruː/",
+     "vi": "bước đột phá",
+     "ex": "This store is a breakthrough for our brand."
+    },
+    {
+     "en": "success",
+     "pron": "/səkˈses/",
+     "vi": "thành công",
+     "ex": "We wish you great success."
+    },
+    {
+     "en": "successful",
+     "pron": "/səkˈsesfəl/",
+     "vi": "thành công",
+     "ex": "A successful opening to you all."
+    },
+    {
+     "en": "prosperity",
+     "pron": "/prɑːˈsperəti/",
+     "vi": "thịnh vượng",
+     "ex": "We wish you prosperity and growth."
+    },
+    {
+     "en": "prosperous",
+     "pron": "/ˈprɑːspərəs/",
+     "vi": "thịnh vượng",
+     "ex": "A prosperous future awaits."
+    },
+    {
+     "en": "growth",
+     "pron": "/ɡroʊθ/",
+     "vi": "tăng trưởng",
+     "ex": "We celebrate a year of growth."
+    },
+    {
+     "en": "expand",
+     "pron": "/ɪkˈspænd/",
+     "vi": "mở rộng",
+     "ex": "We expand to serve you better."
+    },
+    {
+     "en": "expansion",
+     "pron": "/ɪkˈspænʃn/",
+     "vi": "sự mở rộng",
+     "ex": "This expansion marks a big step."
+    },
+    {
+     "en": "branch",
+     "pron": "/bræntʃ/",
+     "vi": "chi nhánh",
+     "ex": "Welcome to our newest branch."
+    },
+    {
+     "en": "store",
+     "pron": "/stɔːr/",
+     "vi": "cửa hàng",
+     "ex": "Welcome to our new store."
+    },
+    {
+     "en": "showroom",
+     "pron": "/ˈʃoʊruːm/",
+     "vi": "phòng trưng bày",
+     "ex": "Please visit our showroom."
+    },
+    {
+     "en": "office",
+     "pron": "/ˈɔːfɪs/",
+     "vi": "văn phòng",
+     "ex": "Welcome to our new office."
+    },
+    {
+     "en": "headquarters",
+     "pron": "/ˈhedkwɔːrtərz/",
+     "vi": "trụ sở chính",
+     "ex": "Our headquarters opens today."
+    },
+    {
+     "en": "business",
+     "pron": "/ˈbɪznəs/",
+     "vi": "doanh nghiệp",
+     "ex": "A new business begins today."
+    },
+    {
+     "en": "enterprise",
+     "pron": "/ˈentərpraɪz/",
+     "vi": "doanh nghiệp",
+     "ex": "Welcome to this enterprise."
+    },
+    {
+     "en": "company",
+     "pron": "/ˈkʌmpəni/",
+     "vi": "công ty",
+     "ex": "Our company grows stronger."
+    },
+    {
+     "en": "brand",
+     "pron": "/brænd/",
+     "vi": "thương hiệu",
+     "ex": "Our brand is now in Da Nang."
+    },
+    {
+     "en": "flagship",
+     "pron": "/ˈflæɡʃɪp/",
+     "vi": "cửa hàng chủ lực",
+     "ex": "This is our flagship store."
+    },
+    {
+     "en": "outlet",
+     "pron": "/ˈaʊtlet/",
+     "vi": "cửa hàng bán lẻ",
+     "ex": "Welcome to our new outlet."
+    },
+    {
+     "en": "franchise",
+     "pron": "/ˈfræntʃaɪz/",
+     "vi": "nhượng quyền",
+     "ex": "Our first franchise opens today."
+    },
+    {
+     "en": "investment",
+     "pron": "/ɪnˈvestmənt/",
+     "vi": "đầu tư",
+     "ex": "A big investment in our community."
+    },
+    {
+     "en": "invest",
+     "pron": "/ɪnˈvest/",
+     "vi": "đầu tư",
+     "ex": "We invest in quality and service."
+    },
+    {
+     "en": "capital",
+     "pron": "/ˈkæpɪtl/",
+     "vi": "vốn",
+     "ex": "New capital brings new chances."
+    },
+    {
+     "en": "market",
+     "pron": "/ˈmɑːrkɪt/",
+     "vi": "thị trường",
+     "ex": "We enter a new market today."
+    },
+    {
+     "en": "community",
+     "pron": "/kəˈmjuːnəti/",
+     "vi": "cộng đồng",
+     "ex": "Thank you to our community."
+    },
+    {
+     "en": "local",
+     "pron": "/ˈloʊkl/",
+     "vi": "địa phương",
+     "ex": "We support our local community."
+    },
+    {
+     "en": "neighborhood",
+     "pron": "/ˈneɪbərhʊd/",
+     "vi": "khu phố",
+     "ex": "Our new store serves the whole neighborhood."
+    },
+    {
+     "en": "blessing",
+     "pron": "/ˈblesɪŋ/",
+     "vi": "lời chúc phúc",
+     "ex": "A blessing for our new home."
+    },
+    {
+     "en": "lucky",
+     "pron": "/ˈlʌki/",
+     "vi": "may mắn",
+     "ex": "A lucky start for our store."
+    },
+    {
+     "en": "fortune",
+     "pron": "/ˈfɔːrtʃən/",
+     "vi": "vận may",
+     "ex": "Good fortune to our new business."
+    },
+    {
+     "en": "good luck",
+     "pron": "/ɡʊd lʌk/",
+     "vi": "chúc may mắn",
+     "ex": "Good luck to our new store!"
+    },
+    {
+     "en": "wish",
+     "pron": "/wɪʃ/",
+     "vi": "lời chúc",
+     "ex": "We wish you all the best."
+    },
+    {
+     "en": "congratulations",
+     "pron": "/kənˌɡrætʃəˈleɪʃnz/",
+     "vi": "chúc mừng",
+     "ex": "Congratulations on your grand opening!"
+    },
+    {
+     "en": "congratulate",
+     "pron": "/kənˈɡrætʃəleɪt/",
+     "vi": "chúc mừng",
+     "ex": "Let us congratulate the owners."
+    },
+    {
+     "en": "achievement",
+     "pron": "/əˈtʃiːvmənt/",
+     "vi": "thành tựu",
+     "ex": "This opening is a great achievement."
+    },
+    {
+     "en": "achieve",
+     "pron": "/əˈtʃiːv/",
+     "vi": "đạt được",
+     "ex": "Together we achieve great things."
+    },
+    {
+     "en": "goal",
+     "pron": "/ɡoʊl/",
+     "vi": "mục tiêu",
+     "ex": "Our goal is to serve you better."
+    },
+    {
+     "en": "vision",
+     "pron": "/ˈvɪʒn/",
+     "vi": "tầm nhìn",
+     "ex": "Our vision is to grow with you."
+    },
+    {
+     "en": "mission",
+     "pron": "/ˈmɪʃn/",
+     "vi": "sứ mệnh",
+     "ex": "Our mission is quality service."
+    },
+    {
+     "en": "future",
+     "pron": "/ˈfjuːtʃər/",
+     "vi": "tương lai",
+     "ex": "The future looks bright."
+    },
+    {
+     "en": "bright future",
+     "pron": "/braɪt ˈfjuːtʃər/",
+     "vi": "tương lai tươi sáng",
+     "ex": "A bright future begins today."
+    },
+    {
+     "en": "dream",
+     "pron": "/driːm/",
+     "vi": "ước mơ",
+     "ex": "A dream comes true today."
+    },
+    {
+     "en": "dream come true",
+     "pron": "/driːm kʌm truː/",
+     "vi": "ước mơ thành hiện thực",
+     "ex": "A dream come true for our family."
+    },
+    {
+     "en": "hard work",
+     "pron": "/hɑːrd wɜːrk/",
+     "vi": "làm việc chăm chỉ",
+     "ex": "Hard work brings us here today."
+    },
+    {
+     "en": "dedication",
+     "pron": "/ˌdedɪˈkeɪʃn/",
+     "vi": "sự tận tâm",
+     "ex": "Thank you for your dedication."
+    },
+    {
+     "en": "teamwork",
+     "pron": "/ˈtiːmwɜːrk/",
+     "vi": "làm việc nhóm",
+     "ex": "Teamwork made this opening possible."
+    },
+    {
+     "en": "team",
+     "pron": "/tiːm/",
+     "vi": "đội ngũ",
+     "ex": "Please welcome our amazing team."
+    },
+    {
+     "en": "staff",
+     "pron": "/stæf/",
+     "vi": "nhân viên",
+     "ex": "Our staff is ready to serve you."
+    },
+    {
+     "en": "employee",
+     "pron": "/ɪmˈplɔɪiː/",
+     "vi": "nhân viên",
+     "ex": "Meet our friendly employees."
+    },
+    {
+     "en": "first day",
+     "pron": "/fɜːrst deɪ/",
+     "vi": "ngày đầu tiên",
+     "ex": "Our first day is a great success."
+    },
+    {
+     "en": "first step",
+     "pron": "/fɜːrst step/",
+     "vi": "bước đầu tiên",
+     "ex": "Today is our first step forward."
+    },
+    {
+     "en": "opportunity",
+     "pron": "/ˌɑːpərˈtuːnəti/",
+     "vi": "cơ hội",
+     "ex": "A great opportunity for everyone."
+    },
+    {
+     "en": "open for business",
+     "pron": "/ˈoʊpən fɔːr ˈbɪznəs/",
+     "vi": "mở cửa kinh doanh",
+     "ex": "We are now open for business!"
+    },
+    {
+     "en": "now open",
+     "pron": "/naʊ ˈoʊpən/",
+     "vi": "đã mở cửa",
+     "ex": "Our store is now open!"
+    },
+    {
+     "en": "doors open",
+     "pron": "/dɔːrz ˈoʊpən/",
+     "vi": "mở cửa đón khách",
+     "ex": "The doors open at nine o'clock."
+    },
+    {
+     "en": "walk through",
+     "pron": "/wɔːk θruː/",
+     "vi": "bước vào",
+     "ex": "Please walk through our new store."
+    },
+    {
+     "en": "take a tour",
+     "pron": "/teɪk ə tʊr/",
+     "vi": "tham quan",
+     "ex": "Let us take a tour of the new store."
+    },
+    {
+     "en": "explore",
+     "pron": "/ɪkˈsplɔːr/",
+     "vi": "khám phá",
+     "ex": "Explore our new space today."
+    },
+    {
+     "en": "discover",
+     "pron": "/dɪˈskʌvər/",
+     "vi": "khám phá",
+     "ex": "Discover what is new inside."
+    },
+    {
+     "en": "modern",
+     "pron": "/ˈmɑːdərn/",
+     "vi": "hiện đại",
+     "ex": "A modern store for a modern city."
+    },
+    {
+     "en": "innovative",
+     "pron": "/ˈɪnəveɪtɪv/",
+     "vi": "sáng tạo",
+     "ex": "An innovative design for our guests."
+    },
+    {
+     "en": "innovation",
+     "pron": "/ˌɪnəˈveɪʃn/",
+     "vi": "đổi mới",
+     "ex": "Innovation is at our heart."
+    },
+    {
+     "en": "design",
+     "pron": "/dɪˈzaɪn/",
+     "vi": "thiết kế",
+     "ex": "The design of our store is unique."
+    },
+    {
+     "en": "architecture",
+     "pron": "/ˈɑːrkɪtektʃər/",
+     "vi": "kiến trúc",
+     "ex": "The architecture is truly beautiful."
+    },
+    {
+     "en": "spacious",
+     "pron": "/ˈspeɪʃəs/",
+     "vi": "rộng rãi",
+     "ex": "A spacious room for all our guests."
+    },
+    {
+     "en": "comfortable",
+     "pron": "/ˈkʌmftəbəl/",
+     "vi": "thoải mái",
+     "ex": "A comfortable place to shop."
+    },
+    {
+     "en": "convenient",
+     "pron": "/kənˈviːniənt/",
+     "vi": "tiện lợi",
+     "ex": "A convenient location for everyone."
+    },
+    {
+     "en": "service",
+     "pron": "/ˈsɜːrvɪs/",
+     "vi": "dịch vụ",
+     "ex": "Our service is our pride."
+    },
+    {
+     "en": "quality",
+     "pron": "/ˈkwɑːləti/",
+     "vi": "chất lượng",
+     "ex": "Quality is our promise."
+    },
+    {
+     "en": "premium",
+     "pron": "/ˈpriːmiəm/",
+     "vi": "cao cấp",
+     "ex": "Premium quality for our guests."
+    },
+    {
+     "en": "exclusive",
+     "pron": "/ɪkˈskluːsɪv/",
+     "vi": "độc quyền",
+     "ex": "An exclusive offer today only."
+    },
+    {
+     "en": "special offer",
+     "pron": "/ˈspeʃl ˈɔːfər/",
+     "vi": "ưu đãi đặc biệt",
+     "ex": "A special offer for opening day."
+    },
+    {
+     "en": "discount",
+     "pron": "/ˈdɪskaʊnt/",
+     "vi": "giảm giá",
+     "ex": "Enjoy a ten percent discount today."
+    },
+    {
+     "en": "promotion",
+     "pron": "/prəˈmoʊʃn/",
+     "vi": "khuyến mãi",
+     "ex": "Our opening promotion starts now."
+    },
+    {
+     "en": "gift",
+     "pron": "/ɡɪft/",
+     "vi": "quà tặng",
+     "ex": "A small gift for our first guests."
+    },
+    {
+     "en": "souvenir",
+     "pron": "/ˌsuːvəˈnɪr/",
+     "vi": "quà lưu niệm",
+     "ex": "Take home a souvenir today."
+    },
+    {
+     "en": "lucky draw",
+     "pron": "/ˈlʌki drɔː/",
+     "vi": "bốc thăm may mắn",
+     "ex": "Join our lucky draw today."
+    },
+    {
+     "en": "prize",
+     "pron": "/praɪz/",
+     "vi": "giải thưởng",
+     "ex": "Win a prize in our lucky draw."
+    },
+    {
+     "en": "winner",
+     "pron": "/ˈwɪnər/",
+     "vi": "người chiến thắng",
+     "ex": "Our winner tonight receives a gift."
+    },
+    {
+     "en": "ribbon",
+     "pron": "/ˈrɪbən/",
+     "vi": "dải ruy băng",
+     "ex": "The golden ribbon is ready."
+    },
+    {
+     "en": "golden scissors",
+     "pron": "/ˈɡoʊldən ˈsɪzərz/",
+     "vi": "kéo vàng",
+     "ex": "Please take the golden scissors."
+    },
+    {
+     "en": "plaque",
+     "pron": "/plæk/",
+     "vi": "biển, tấm bảng",
+     "ex": "Please unveil the plaque."
+    },
+    {
+     "en": "signboard",
+     "pron": "/ˈsaɪnbɔːrd/",
+     "vi": "bảng hiệu",
+     "ex": "Our new signboard shines bright."
+    },
+    {
+     "en": "grand opening ceremony",
+     "pron": "/ɡrænd ˈoʊpənɪŋ ˈserəmoʊni/",
+     "vi": "lễ khai trương",
+     "ex": "Welcome to the grand opening ceremony."
+    },
+    {
+     "en": "opening ceremony",
+     "pron": "/ˈoʊpənɪŋ ˈserəmoʊni/",
+     "vi": "lễ khai mạc",
+     "ex": "The opening ceremony begins now."
+    },
+    {
+     "en": "welcome to our new home",
+     "pron": "/ˈwelkəm tə aʊər nuː hoʊm/",
+     "vi": "chào mừng đến ngôi nhà mới",
+     "ex": "Welcome to our new home!"
+    },
+    {
+     "en": "a fresh start",
+     "pron": "/ə freʃ stɑːrt/",
+     "vi": "khởi đầu mới",
+     "ex": "Today is a fresh start for us."
+    },
+    {
+     "en": "to many more years",
+     "pron": "/tə ˈmeni mɔːr jɪrz/",
+     "vi": "chúc nhiều năm nữa",
+     "ex": "To many more years of success!"
+    },
+    {
+     "en": "cheers to new beginnings",
+     "pron": "/tʃɪrz tə nuː bɪˈɡɪnɪŋz/",
+     "vi": "chúc mừng khởi đầu mới",
+     "ex": "Cheers to new beginnings!"
+    }
+   ]
+  },
+  {
+   "id": "gala",
+   "tag": "GALA DINNER",
+   "title": "Gala Dinner & tiệc",
+   "words": [
+    {
+     "en": "gala",
+     "pron": "/ˈɡɑːlə/",
+     "vi": "dạ tiệc",
+     "ex": "Welcome to our gala dinner."
+    },
+    {
+     "en": "dinner",
+     "pron": "/ˈdɪnər/",
+     "vi": "bữa tối",
+     "ex": "Enjoy your dinner tonight."
+    },
+    {
+     "en": "banquet",
+     "pron": "/ˈbæŋkwət/",
+     "vi": "yến tiệc",
+     "ex": "Welcome to our banquet."
+    },
+    {
+     "en": "feast",
+     "pron": "/fiːst/",
+     "vi": "bữa tiệc lớn",
+     "ex": "A feast awaits you tonight."
+    },
+    {
+     "en": "party",
+     "pron": "/ˈpɑːrti/",
+     "vi": "bữa tiệc",
+     "ex": "Let the party begin!"
+    },
+    {
+     "en": "reception",
+     "pron": "/rɪˈsepʃn/",
+     "vi": "tiệc đón tiếp",
+     "ex": "Welcome to the reception."
+    },
+    {
+     "en": "cocktail",
+     "pron": "/ˈkɑːkteɪl/",
+     "vi": "cocktail",
+     "ex": "Enjoy a cocktail before dinner."
+    },
+    {
+     "en": "raise a glass",
+     "pron": "/reɪz ə ɡlæs/",
+     "vi": "nâng ly",
+     "ex": "Please raise a glass to our success."
+    },
+    {
+     "en": "raise your glass",
+     "pron": "/reɪz jɔːr ɡlæs/",
+     "vi": "nâng ly",
+     "ex": "Please raise your glass."
+    },
+    {
+     "en": "bottoms up",
+     "pron": "/ˈbɑːtəmz ʌp/",
+     "vi": "cạn ly",
+     "ex": "Bottoms up, everyone!"
+    },
+    {
+     "en": "wine",
+     "pron": "/waɪn/",
+     "vi": "rượu vang",
+     "ex": "A glass of wine for our guests."
+    },
+    {
+     "en": "champagne",
+     "pron": "/ʃæmˈpeɪn/",
+     "vi": "rượu sâm panh",
+     "ex": "Let us open the champagne."
+    },
+    {
+     "en": "menu",
+     "pron": "/ˈmenjuː/",
+     "vi": "thực đơn",
+     "ex": "Tonight's menu is special."
+    },
+    {
+     "en": "course",
+     "pron": "/kɔːrs/",
+     "vi": "món ăn (trong bữa)",
+     "ex": "The first course is a fresh salad."
+    },
+    {
+     "en": "dessert",
+     "pron": "/dɪˈzɜːrt/",
+     "vi": "món tráng miệng",
+     "ex": "Dessert is served after dinner."
+    },
+    {
+     "en": "appetizer",
+     "pron": "/ˈæpətaɪzər/",
+     "vi": "món khai vị",
+     "ex": "Our appetizer is ready."
+    },
+    {
+     "en": "main course",
+     "pron": "/meɪn kɔːrs/",
+     "vi": "món chính",
+     "ex": "The main course is served."
+    },
+    {
+     "en": "delicacy",
+     "pron": "/ˈdelɪkəsi/",
+     "vi": "món ngon",
+     "ex": "Try this local delicacy."
+    },
+    {
+     "en": "cuisine",
+     "pron": "/kwɪˈziːn/",
+     "vi": "ẩm thực",
+     "ex": "Enjoy Vietnamese cuisine tonight."
+    },
+    {
+     "en": "delicious",
+     "pron": "/dɪˈlɪʃəs/",
+     "vi": "ngon",
+     "ex": "The food is delicious."
+    },
+    {
+     "en": "taste",
+     "pron": "/teɪst/",
+     "vi": "nếm thử",
+     "ex": "Taste our chef's special dish."
+    },
+    {
+     "en": "flavor",
+     "pron": "/ˈfleɪvər/",
+     "vi": "hương vị",
+     "ex": "The flavor is amazing."
+    },
+    {
+     "en": "chef",
+     "pron": "/ʃef/",
+     "vi": "đầu bếp",
+     "ex": "Our chef prepares tonight's menu."
+    },
+    {
+     "en": "waiter",
+     "pron": "/ˈweɪtər/",
+     "vi": "nhân viên phục vụ",
+     "ex": "Our waiters are ready to serve."
+    },
+    {
+     "en": "waitress",
+     "pron": "/ˈweɪtrəs/",
+     "vi": "nữ phục vụ",
+     "ex": "Our waitresses will serve dinner."
+    },
+    {
+     "en": "serve",
+     "pron": "/sɜːrv/",
+     "vi": "phục vụ",
+     "ex": "Dinner is served."
+    },
+    {
+     "en": "table",
+     "pron": "/ˈteɪbl/",
+     "vi": "bàn",
+     "ex": "Please find your table."
+    },
+    {
+     "en": "seating",
+     "pron": "/ˈsiːtɪŋ/",
+     "vi": "chỗ ngồi",
+     "ex": "The seating plan is on the board."
+    },
+    {
+     "en": "seat",
+     "pron": "/siːt/",
+     "vi": "ghế ngồi",
+     "ex": "Please take your seat."
+    },
+    {
+     "en": "table setting",
+     "pron": "/ˈteɪbl ˈsetɪŋ/",
+     "vi": "cách bày bàn",
+     "ex": "The table setting is beautiful."
+    },
+    {
+     "en": "candle",
+     "pron": "/ˈkændl/",
+     "vi": "nến",
+     "ex": "Candles light up the evening."
+    },
+    {
+     "en": "flower",
+     "pron": "/ˈflaʊər/",
+     "vi": "hoa",
+     "ex": "Flowers decorate every table."
+    },
+    {
+     "en": "decoration",
+     "pron": "/ˌdekəˈreɪʃn/",
+     "vi": "trang trí",
+     "ex": "The decorations are lovely."
+    },
+    {
+     "en": "fancy",
+     "pron": "/ˈfænsi/",
+     "vi": "sang trọng",
+     "ex": "A fancy evening awaits."
+    },
+    {
+     "en": "formal",
+     "pron": "/ˈfɔːrml/",
+     "vi": "trang trọng",
+     "ex": "Tonight is a formal gala."
+    },
+    {
+     "en": "dress code",
+     "pron": "/dres koʊd/",
+     "vi": "quy định trang phục",
+     "ex": "The dress code is formal."
+    },
+    {
+     "en": "black tie",
+     "pron": "/blæk taɪ/",
+     "vi": "trang phục dạ tiệc",
+     "ex": "This is a black tie event."
+    },
+    {
+     "en": "evening gown",
+     "pron": "/ˈiːvnɪŋ ɡaʊn/",
+     "vi": "váy dạ hội",
+     "ex": "She wears a beautiful evening gown."
+    },
+    {
+     "en": "suit",
+     "pron": "/suːt/",
+     "vi": "bộ vest",
+     "ex": "He wears a smart suit."
+    },
+    {
+     "en": "dance",
+     "pron": "/dæns/",
+     "vi": "nhảy",
+     "ex": "Let us dance the night away."
+    },
+    {
+     "en": "dancing",
+     "pron": "/ˈdænsɪŋ/",
+     "vi": "khiêu vũ",
+     "ex": "Dancing begins after dinner."
+    },
+    {
+     "en": "music",
+     "pron": "/ˈmjuːzɪk/",
+     "vi": "âm nhạc",
+     "ex": "Enjoy live music tonight."
+    },
+    {
+     "en": "band",
+     "pron": "/bænd/",
+     "vi": "ban nhạc",
+     "ex": "Our band will play all night."
+    },
+    {
+     "en": "orchestra",
+     "pron": "/ˈɔːrkəstrə/",
+     "vi": "dàn nhạc",
+     "ex": "The orchestra is ready."
+    },
+    {
+     "en": "violin",
+     "pron": "/ˌvaɪəˈlɪn/",
+     "vi": "đàn violin",
+     "ex": "A violin plays softly."
+    },
+    {
+     "en": "piano",
+     "pron": "/piˈænoʊ/",
+     "vi": "đàn piano",
+     "ex": "Piano music fills the hall."
+    },
+    {
+     "en": "song",
+     "pron": "/sɔːŋ/",
+     "vi": "bài hát",
+     "ex": "A beautiful song for you."
+    },
+    {
+     "en": "sing",
+     "pron": "/sɪŋ/",
+     "vi": "hát",
+     "ex": "Please sing along with us."
+    },
+    {
+     "en": "performance",
+     "pron": "/pərˈfɔːrməns/",
+     "vi": "tiết mục",
+     "ex": "A wonderful performance is next."
+    },
+    {
+     "en": "show",
+     "pron": "/ʃoʊ/",
+     "vi": "buổi biểu diễn",
+     "ex": "Enjoy the show tonight."
+    },
+    {
+     "en": "entertainment",
+     "pron": "/ˌentərˈteɪnmənt/",
+     "vi": "giải trí",
+     "ex": "Entertainment all night long."
+    },
+    {
+     "en": "award",
+     "pron": "/əˈwɔːrd/",
+     "vi": "giải thưởng",
+     "ex": "It is time for the awards."
+    },
+    {
+     "en": "award ceremony",
+     "pron": "/əˈwɔːrd ˈserəmoʊni/",
+     "vi": "lễ trao giải",
+     "ex": "Welcome to the award ceremony."
+    },
+    {
+     "en": "champion",
+     "pron": "/ˈtʃæmpiən/",
+     "vi": "nhà vô địch",
+     "ex": "Our champion receives the award."
+    },
+    {
+     "en": "trophy",
+     "pron": "/ˈtroʊfi/",
+     "vi": "cúp",
+     "ex": "The trophy goes to our winner."
+    },
+    {
+     "en": "reward",
+     "pron": "/rɪˈwɔːrd/",
+     "vi": "phần thưởng",
+     "ex": "A reward for our best team."
+    },
+    {
+     "en": "well done",
+     "pron": "/wel dʌn/",
+     "vi": "làm tốt lắm",
+     "ex": "Well done to our winners!"
+    },
+    {
+     "en": "festive",
+     "pron": "/ˈfestɪv/",
+     "vi": "lễ hội",
+     "ex": "A festive night for us all."
+    },
+    {
+     "en": "festival",
+     "pron": "/ˈfestɪvl/",
+     "vi": "lễ hội",
+     "ex": "The festival of flavors begins."
+    },
+    {
+     "en": "joy",
+     "pron": "/dʒɔɪ/",
+     "vi": "niềm vui",
+     "ex": "Joy fills the hall tonight."
+    },
+    {
+     "en": "joyful",
+     "pron": "/ˈdʒɔɪfəl/",
+     "vi": "vui vẻ",
+     "ex": "A joyful evening for us all."
+    },
+    {
+     "en": "laughter",
+     "pron": "/ˈlæftər/",
+     "vi": "tiếng cười",
+     "ex": "Laughter fills the room."
+    },
+    {
+     "en": "memory",
+     "pron": "/ˈmeməri/",
+     "vi": "kỷ niệm",
+     "ex": "A night full of memories."
+    },
+    {
+     "en": "special night",
+     "pron": "/ˈspeʃl naɪt/",
+     "vi": "đêm đặc biệt",
+     "ex": "A special night for us all."
+    },
+    {
+     "en": "thank you speech",
+     "pron": "/θæŋk juː spiːtʃ/",
+     "vi": "bài phát biểu cảm ơn",
+     "ex": "A thank you speech from our director."
+    },
+    {
+     "en": "closing speech",
+     "pron": "/ˈkloʊzɪŋ spiːtʃ/",
+     "vi": "bài phát biểu kết thúc",
+     "ex": "The closing speech begins now."
+    },
+    {
+     "en": "farewell",
+     "pron": "/ˌferˈwel/",
+     "vi": "lời chia tay",
+     "ex": "A farewell to our wonderful guests."
+    },
+    {
+     "en": "goodbye",
+     "pron": "/ɡʊdˈbaɪ/",
+     "vi": "tạm biệt",
+     "ex": "Goodbye, and thank you for coming."
+    },
+    {
+     "en": "see you again",
+     "pron": "/siː juː əˈɡen/",
+     "vi": "hẹn gặp lại",
+     "ex": "See you again next year!"
+    },
+    {
+     "en": "until next time",
+     "pron": "/ənˈtɪl nekst taɪm/",
+     "vi": "hẹn lần sau",
+     "ex": "Until next time, goodbye!"
+    },
+    {
+     "en": "have a great evening",
+     "pron": "/hæv ə ɡreɪt ˈiːvnɪŋ/",
+     "vi": "chúc buổi tối vui vẻ",
+     "ex": "Have a great evening, everyone!"
+    },
+    {
+     "en": "enjoy your evening",
+     "pron": "/ɪnˈdʒɔɪ jɔːr ˈiːvnɪŋ/",
+     "vi": "chúc buổi tối vui vẻ",
+     "ex": "Enjoy your evening!"
+    },
+    {
+     "en": "enjoy your meal",
+     "pron": "/ɪnˈdʒɔɪ jɔːr miːl/",
+     "vi": "chúc ngon miệng",
+     "ex": "Enjoy your meal, everyone."
+    },
+    {
+     "en": "dinner is served",
+     "pron": "/ˈdɪnər ɪz sɜːrvd/",
+     "vi": "bữa tối đã dọn",
+     "ex": "Ladies and gentlemen, dinner is served."
+    },
+    {
+     "en": "please be seated",
+     "pron": "/pliːz biː ˈsiːtɪd/",
+     "vi": "mời ngồi",
+     "ex": "Please be seated for dinner."
+    },
+    {
+     "en": "find your table",
+     "pron": "/faɪnd jɔːr ˈteɪbl/",
+     "vi": "tìm bàn của bạn",
+     "ex": "Please find your table."
+    },
+    {
+     "en": "welcome to the gala",
+     "pron": "/ˈwelkəm tə ðə ˈɡɑːlə/",
+     "vi": "chào mừng đến dạ tiệc",
+     "ex": "Welcome to the gala dinner!"
+    },
+    {
+     "en": "a toast to",
+     "pron": "/ə toʊst tə/",
+     "vi": "nâng ly chúc mừng",
+     "ex": "A toast to our success!"
+    },
+    {
+     "en": "let us raise our glasses",
+     "pron": "/let ʌs reɪz aʊər ˈɡlæsɪz/",
+     "vi": "hãy nâng ly",
+     "ex": "Let us raise our glasses."
+    },
+    {
+     "en": "to your health",
+     "pron": "/tə jɔːr helθ/",
+     "vi": "chúc sức khỏe",
+     "ex": "To your health!"
+    },
+    {
+     "en": "to our success",
+     "pron": "/tə aʊər səkˈses/",
+     "vi": "chúc thành công",
+     "ex": "To our success!"
+    },
+    {
+     "en": "to friendship",
+     "pron": "/tə ˈfrendʃɪp/",
+     "vi": "chúc tình bạn",
+     "ex": "To friendship and good times!"
+    },
+    {
+     "en": "friendship",
+     "pron": "/ˈfrendʃɪp/",
+     "vi": "tình bạn",
+     "ex": "Tonight we celebrate friendship."
+    },
+    {
+     "en": "family",
+     "pron": "/ˈfæməli/",
+     "vi": "gia đình",
+     "ex": "Welcome to our big family."
+    },
+    {
+     "en": "reunion",
+     "pron": "/riːˈjuːniən/",
+     "vi": "buổi gặp mặt",
+     "ex": "A reunion of old friends."
+    },
+    {
+     "en": "anniversary",
+     "pron": "/ˌænɪˈvɜːrsəri/",
+     "vi": "kỷ niệm",
+     "ex": "Happy tenth anniversary!"
+    },
+    {
+     "en": "birthday",
+     "pron": "/ˈbɜːrθdeɪ/",
+     "vi": "sinh nhật",
+     "ex": "Happy birthday to our guest!"
+    },
+    {
+     "en": "holiday",
+     "pron": "/ˈhɑːlədeɪ/",
+     "vi": "kỳ nghỉ",
+     "ex": "A holiday celebration tonight."
+    },
+    {
+     "en": "Christmas",
+     "pron": "/ˈkrɪsməs/",
+     "vi": "Giáng sinh",
+     "ex": "Merry Christmas, everyone!"
+    },
+    {
+     "en": "New Year",
+     "pron": "/nuː jɪr/",
+     "vi": "năm mới",
+     "ex": "Happy New Year!"
+    },
+    {
+     "en": "countdown",
+     "pron": "/ˈkaʊntdaʊn/",
+     "vi": "đếm ngược",
+     "ex": "The countdown begins now."
+    },
+    {
+     "en": "fireworks",
+     "pron": "/ˈfaɪərwɜːrks/",
+     "vi": "pháo hoa",
+     "ex": "Fireworks light up the sky."
+    },
+    {
+     "en": "confetti",
+     "pron": "/kənˈfeti/",
+     "vi": "giấy màu",
+     "ex": "Confetti falls from the sky."
+    },
+    {
+     "en": "balloon",
+     "pron": "/bəˈluːn/",
+     "vi": "bóng bay",
+     "ex": "Balloons decorate the hall."
+    },
+    {
+     "en": "magic",
+     "pron": "/ˈmædʒɪk/",
+     "vi": "kỳ diệu",
+     "ex": "A night full of magic."
+    },
+    {
+     "en": "surprise",
+     "pron": "/sərˈpraɪz/",
+     "vi": "bất ngờ",
+     "ex": "A surprise is waiting for you."
+    },
+    {
+     "en": "present",
+     "pron": "/ˈpreznt/",
+     "vi": "món quà",
+     "ex": "A present for our guests."
+    },
+    {
+     "en": "raffle",
+     "pron": "/ˈræfl/",
+     "vi": "xổ số",
+     "ex": "Join our raffle tonight."
+    },
+    {
+     "en": "auction",
+     "pron": "/ˈɔːkʃn/",
+     "vi": "đấu giá",
+     "ex": "Our charity auction begins now."
+    },
+    {
+     "en": "charity",
+     "pron": "/ˈtʃærəti/",
+     "vi": "từ thiện",
+     "ex": "Tonight supports charity."
+    }
+   ]
+  },
+  {
+   "id": "conference",
+   "tag": "CONFERENCE",
+   "title": "Hội thảo & hội nghị",
+   "words": [
+    {
+     "en": "seminar",
+     "pron": "/ˈsemɪnɑːr/",
+     "vi": "hội thảo",
+     "ex": "Welcome to today's seminar."
+    },
+    {
+     "en": "conference",
+     "pron": "/ˈkɑːnfərəns/",
+     "vi": "hội nghị",
+     "ex": "Welcome to our annual conference."
+    },
+    {
+     "en": "workshop",
+     "pron": "/ˈwɜːrkʃɑːp/",
+     "vi": "buổi tập huấn",
+     "ex": "Our workshop starts at nine."
+    },
+    {
+     "en": "forum",
+     "pron": "/ˈfɔːrəm/",
+     "vi": "diễn đàn",
+     "ex": "Welcome to the business forum."
+    },
+    {
+     "en": "summit",
+     "pron": "/ˈsʌmɪt/",
+     "vi": "hội nghị thượng đỉnh",
+     "ex": "Leaders meet at the summit."
+    },
+    {
+     "en": "symposium",
+     "pron": "/sɪmˈpoʊziəm/",
+     "vi": "hội thảo chuyên đề",
+     "ex": "A symposium on education begins."
+    },
+    {
+     "en": "lecture",
+     "pron": "/ˈlektʃər/",
+     "vi": "bài giảng",
+     "ex": "Please welcome our lecturer."
+    },
+    {
+     "en": "presentation",
+     "pron": "/ˌprezənˈteɪʃn/",
+     "vi": "bài thuyết trình",
+     "ex": "The presentation begins now."
+    },
+    {
+     "en": "discussion",
+     "pron": "/dɪˈskʌʃn/",
+     "vi": "thảo luận",
+     "ex": "Let us begin the discussion."
+    },
+    {
+     "en": "debate",
+     "pron": "/dɪˈbeɪt/",
+     "vi": "tranh luận",
+     "ex": "A lively debate follows."
+    },
+    {
+     "en": "question",
+     "pron": "/ˈkwestʃən/",
+     "vi": "câu hỏi",
+     "ex": "Do you have a question?"
+    },
+    {
+     "en": "answer",
+     "pron": "/ˈænsər/",
+     "vi": "câu trả lời",
+     "ex": "Thank you for your answer."
+    },
+    {
+     "en": "Q&A",
+     "pron": "/ˌkjuː ənd ˈeɪ/",
+     "vi": "hỏi đáp",
+     "ex": "Now, the Q&A session."
+    },
+    {
+     "en": "Q&A session",
+     "pron": "/ˌkjuː ənd ˈeɪ ˈseʃn/",
+     "vi": "phần hỏi đáp",
+     "ex": "The Q&A session is now open."
+    },
+    {
+     "en": "raise your hand",
+     "pron": "/reɪz jɔːr hænd/",
+     "vi": "giơ tay",
+     "ex": "Please raise your hand to ask."
+    },
+    {
+     "en": "microphone",
+     "pron": "/ˈmaɪkrəfoʊn/",
+     "vi": "micro",
+     "ex": "Please speak into the microphone."
+    },
+    {
+     "en": "mic",
+     "pron": "/maɪk/",
+     "vi": "micro",
+     "ex": "Pass the mic, please."
+    },
+    {
+     "en": "slide",
+     "pron": "/slaɪd/",
+     "vi": "slide trình chiếu",
+     "ex": "Next slide, please."
+    },
+    {
+     "en": "projector",
+     "pron": "/prəˈdʒektər/",
+     "vi": "máy chiếu",
+     "ex": "The projector is ready."
+    },
+    {
+     "en": "screen",
+     "pron": "/skriːn/",
+     "vi": "màn hình",
+     "ex": "Look at the screen, please."
+    },
+    {
+     "en": "handout",
+     "pron": "/ˈhændaʊt/",
+     "vi": "tài liệu phát tay",
+     "ex": "Your handouts are on the table."
+    },
+    {
+     "en": "timetable",
+     "pron": "/ˈtaɪmteɪbl/",
+     "vi": "thời gian biểu",
+     "ex": "The timetable is on the screen."
+    },
+    {
+     "en": "session",
+     "pron": "/ˈseʃn/",
+     "vi": "phiên",
+     "ex": "The morning session begins now."
+    },
+    {
+     "en": "break",
+     "pron": "/breɪk/",
+     "vi": "giờ nghỉ",
+     "ex": "We take a fifteen-minute break."
+    },
+    {
+     "en": "coffee break",
+     "pron": "/ˈkɔːfi breɪk/",
+     "vi": "giờ nghỉ giải lao",
+     "ex": "A coffee break at ten o'clock."
+    },
+    {
+     "en": "lunch break",
+     "pron": "/lʌntʃ breɪk/",
+     "vi": "giờ nghỉ trưa",
+     "ex": "Lunch break is from twelve to one."
+    },
+    {
+     "en": "networking",
+     "pron": "/ˈnetwɜːrkɪŋ/",
+     "vi": "giao lưu kết nối",
+     "ex": "Networking time begins now."
+    },
+    {
+     "en": "knowledge",
+     "pron": "/ˈnɑːlɪdʒ/",
+     "vi": "kiến thức",
+     "ex": "Share your knowledge with us."
+    },
+    {
+     "en": "research",
+     "pron": "/rɪˈsɜːrtʃ/",
+     "vi": "nghiên cứu",
+     "ex": "Her research is impressive."
+    },
+    {
+     "en": "finding",
+     "pron": "/ˈfaɪndɪŋ/",
+     "vi": "phát hiện",
+     "ex": "Let us share our findings."
+    },
+    {
+     "en": "result",
+     "pron": "/rɪˈzʌlt/",
+     "vi": "kết quả",
+     "ex": "The results are clear."
+    },
+    {
+     "en": "data",
+     "pron": "/ˈdeɪtə/",
+     "vi": "dữ liệu",
+     "ex": "The data shows great progress."
+    },
+    {
+     "en": "statistic",
+     "pron": "/stəˈtɪstɪk/",
+     "vi": "số liệu thống kê",
+     "ex": "Look at this statistic."
+    },
+    {
+     "en": "chart",
+     "pron": "/tʃɑːrt/",
+     "vi": "biểu đồ",
+     "ex": "This chart shows our growth."
+    },
+    {
+     "en": "graph",
+     "pron": "/ɡræf/",
+     "vi": "đồ thị",
+     "ex": "The graph speaks for itself."
+    },
+    {
+     "en": "report",
+     "pron": "/rɪˈpɔːrt/",
+     "vi": "báo cáo",
+     "ex": "Our report is ready."
+    },
+    {
+     "en": "insight",
+     "pron": "/ˈɪnsaɪt/",
+     "vi": "hiểu biết sâu",
+     "ex": "An insight into the market."
+    },
+    {
+     "en": "trend",
+     "pron": "/trend/",
+     "vi": "xu hướng",
+     "ex": "A new trend is rising."
+    },
+    {
+     "en": "topic",
+     "pron": "/ˈtɑːpɪk/",
+     "vi": "chủ đề",
+     "ex": "Today's topic is education."
+    },
+    {
+     "en": "theme",
+     "pron": "/θiːm/",
+     "vi": "chủ đề",
+     "ex": "Our theme this year is innovation."
+    },
+    {
+     "en": "focus",
+     "pron": "/ˈfoʊkəs/",
+     "vi": "trọng tâm",
+     "ex": "Our focus today is growth."
+    },
+    {
+     "en": "issue",
+     "pron": "/ˈɪʃuː/",
+     "vi": "vấn đề",
+     "ex": "Let us discuss this issue."
+    },
+    {
+     "en": "challenge",
+     "pron": "/ˈtʃælɪndʒ/",
+     "vi": "thách thức",
+     "ex": "A challenge we must face."
+    },
+    {
+     "en": "solution",
+     "pron": "/səˈluːʃn/",
+     "vi": "giải pháp",
+     "ex": "We offer a smart solution."
+    },
+    {
+     "en": "strategy",
+     "pron": "/ˈstrætədʒi/",
+     "vi": "chiến lược",
+     "ex": "Our strategy is clear."
+    },
+    {
+     "en": "plan",
+     "pron": "/plæn/",
+     "vi": "kế hoạch",
+     "ex": "Here is our plan for the year."
+    },
+    {
+     "en": "proposal",
+     "pron": "/prəˈpoʊzl/",
+     "vi": "đề xuất",
+     "ex": "A proposal for the future."
+    },
+    {
+     "en": "decision",
+     "pron": "/dɪˈsɪʒn/",
+     "vi": "quyết định",
+     "ex": "An important decision today."
+    },
+    {
+     "en": "conclusion",
+     "pron": "/kənˈkluːʒn/",
+     "vi": "kết luận",
+     "ex": "In conclusion, thank you."
+    },
+    {
+     "en": "summary",
+     "pron": "/ˈsʌməri/",
+     "vi": "tóm tắt",
+     "ex": "A short summary of the day."
+    },
+    {
+     "en": "takeaway",
+     "pron": "/ˈteɪkəweɪ/",
+     "vi": "điều rút ra",
+     "ex": "The key takeaway is simple."
+    },
+    {
+     "en": "key point",
+     "pron": "/kiː pɔɪnt/",
+     "vi": "điểm chính",
+     "ex": "The key point is this."
+    },
+    {
+     "en": "main idea",
+     "pron": "/meɪn aɪˈdiːə/",
+     "vi": "ý chính",
+     "ex": "The main idea is growth."
+    },
+    {
+     "en": "in other words",
+     "pron": "/ɪn ˈʌðər wɜːrdz/",
+     "vi": "nói cách khác",
+     "ex": "In other words, we grow together."
+    },
+    {
+     "en": "for example",
+     "pron": "/fɔːr ɪɡˈzæmpl/",
+     "vi": "ví dụ",
+     "ex": "For example, our sales grew fast."
+    },
+    {
+     "en": "such as",
+     "pron": "/sʌtʃ æz/",
+     "vi": "chẳng hạn như",
+     "ex": "Such as this project."
+    },
+    {
+     "en": "in conclusion",
+     "pron": "/ɪn kənˈkluːʒn/",
+     "vi": "kết luận",
+     "ex": "In conclusion, thank you all."
+    },
+    {
+     "en": "to sum up",
+     "pron": "/tə sʌm ʌp/",
+     "vi": "tóm lại",
+     "ex": "To sum up, we did well."
+    },
+    {
+     "en": "moving on",
+     "pron": "/ˈmuːvɪŋ ɑːn/",
+     "vi": "chuyển sang",
+     "ex": "Moving on to our next topic."
+    },
+    {
+     "en": "next up",
+     "pron": "/nekst ʌp/",
+     "vi": "tiếp theo",
+     "ex": "Next up, our speaker."
+    },
+    {
+     "en": "let us move on",
+     "pron": "/let ʌs muːv ɑːn/",
+     "vi": "hãy chuyển sang",
+     "ex": "Let us move on to the next part."
+    },
+    {
+     "en": "any questions",
+     "pron": "/ˈeni ˈkwestʃənz/",
+     "vi": "có câu hỏi nào không",
+     "ex": "Any questions from the floor?"
+    },
+    {
+     "en": "the floor is open",
+     "pron": "/ðə flɔːr ɪz ˈoʊpən/",
+     "vi": "mời đặt câu hỏi",
+     "ex": "The floor is now open for questions."
+    },
+    {
+     "en": "please ask",
+     "pron": "/pliːz æsk/",
+     "vi": "xin mời hỏi",
+     "ex": "Please ask your question."
+    },
+    {
+     "en": "thank you for your question",
+     "pron": "/θæŋk juː fɔːr jɔːr ˈkwestʃən/",
+     "vi": "cảm ơn câu hỏi",
+     "ex": "Thank you for your question."
+    },
+    {
+     "en": "great question",
+     "pron": "/ɡreɪt ˈkwestʃən/",
+     "vi": "câu hỏi hay",
+     "ex": "Great question! Let me answer."
+    },
+    {
+     "en": "I will answer",
+     "pron": "/aɪ wɪl ˈænsər/",
+     "vi": "tôi sẽ trả lời",
+     "ex": "I will answer that now."
+    },
+    {
+     "en": "let me explain",
+     "pron": "/let miː ɪkˈspleɪn/",
+     "vi": "để tôi giải thích",
+     "ex": "Let me explain this chart."
+    },
+    {
+     "en": "as you can see",
+     "pron": "/æz juː kən siː/",
+     "vi": "như quý vị thấy",
+     "ex": "As you can see, sales grew."
+    },
+    {
+     "en": "let us take a look",
+     "pron": "/let ʌs teɪk ə lʊk/",
+     "vi": "hãy cùng xem",
+     "ex": "Let us take a look at the data."
+    },
+    {
+     "en": "on the screen",
+     "pron": "/ɑːn ðə skriːn/",
+     "vi": "trên màn hình",
+     "ex": "On the screen you can see the chart."
+    },
+    {
+     "en": "on the next slide",
+     "pron": "/ɑːn ðə nekst slaɪd/",
+     "vi": "ở slide tiếp theo",
+     "ex": "On the next slide, the results."
+    },
+    {
+     "en": "turn to page",
+     "pron": "/tɜːrn tə peɪdʒ/",
+     "vi": "mở sang trang",
+     "ex": "Please turn to page five."
+    },
+    {
+     "en": "note",
+     "pron": "/noʊt/",
+     "vi": "ghi chú",
+     "ex": "Please note this point."
+    },
+    {
+     "en": "take notes",
+     "pron": "/teɪk noʊts/",
+     "vi": "ghi chép",
+     "ex": "Please take notes during the talk."
+    },
+    {
+     "en": "important",
+     "pron": "/ɪmˈpɔːrtnt/",
+     "vi": "quan trọng",
+     "ex": "This is an important point."
+    },
+    {
+     "en": "essential",
+     "pron": "/ɪˈsenʃl/",
+     "vi": "thiết yếu",
+     "ex": "An essential part of our plan."
+    },
+    {
+     "en": "significant",
+     "pron": "/sɪɡˈnɪfɪkənt/",
+     "vi": "đáng kể",
+     "ex": "A significant result."
+    },
+    {
+     "en": "effective",
+     "pron": "/ɪˈfektɪv/",
+     "vi": "hiệu quả",
+     "ex": "An effective solution."
+    },
+    {
+     "en": "efficient",
+     "pron": "/ɪˈfɪʃnt/",
+     "vi": "hiệu quả",
+     "ex": "An efficient way to work."
+    },
+    {
+     "en": "practical",
+     "pron": "/ˈpræktɪkl/",
+     "vi": "thực tế",
+     "ex": "A practical idea."
+    },
+    {
+     "en": "valuable",
+     "pron": "/ˈvæljuəbl/",
+     "vi": "giá trị",
+     "ex": "Valuable advice for us all."
+    },
+    {
+     "en": "useful",
+     "pron": "/ˈjuːsfəl/",
+     "vi": "hữu ích",
+     "ex": "A useful tip for you."
+    },
+    {
+     "en": "helpful",
+     "pron": "/ˈhelpfəl/",
+     "vi": "hữu ích",
+     "ex": "A helpful guide."
+    },
+    {
+     "en": "clear",
+     "pron": "/klɪr/",
+     "vi": "rõ ràng",
+     "ex": "A clear message."
+    },
+    {
+     "en": "simple",
+     "pron": "/ˈsɪmpl/",
+     "vi": "đơn giản",
+     "ex": "A simple idea."
+    },
+    {
+     "en": "complex",
+     "pron": "/kəmˈpleks/",
+     "vi": "phức tạp",
+     "ex": "A complex topic, simply explained."
+    },
+    {
+     "en": "detail",
+     "pron": "/ˈdiːteɪl/",
+     "vi": "chi tiết",
+     "ex": "Let us look at the details."
+    },
+    {
+     "en": "overview",
+     "pron": "/ˈoʊvərvjuː/",
+     "vi": "tổng quan",
+     "ex": "A quick overview first."
+    },
+    {
+     "en": "background",
+     "pron": "/ˈbækɡraʊnd/",
+     "vi": "bối cảnh",
+     "ex": "Some background on our project."
+    },
+    {
+     "en": "evidence",
+     "pron": "/ˈevɪdəns/",
+     "vi": "bằng chứng",
+     "ex": "The evidence is clear."
+    },
+    {
+     "en": "example",
+     "pron": "/ɪɡˈzæmpl/",
+     "vi": "ví dụ",
+     "ex": "Let me give an example."
+    },
+    {
+     "en": "case study",
+     "pron": "/keɪs ˈstʌdi/",
+     "vi": "nghiên cứu tình huống",
+     "ex": "A case study from last year."
+    },
+    {
+     "en": "best practice",
+     "pron": "/best ˈpræktɪs/",
+     "vi": "kinh nghiệm hay",
+     "ex": "A best practice to share."
+    },
+    {
+     "en": "experience",
+     "pron": "/ɪkˈspɪəriəns/",
+     "vi": "kinh nghiệm",
+     "ex": "Years of experience."
+    },
+    {
+     "en": "skill",
+     "pron": "/skɪl/",
+     "vi": "kỹ năng",
+     "ex": "A skill we all need."
+    },
+    {
+     "en": "learn",
+     "pron": "/lɜːrn/",
+     "vi": "học",
+     "ex": "We learn together today."
+    },
+    {
+     "en": "teach",
+     "pron": "/tiːtʃ/",
+     "vi": "dạy",
+     "ex": "She teaches us a new way."
+    },
+    {
+     "en": "share",
+     "pron": "/ʃer/",
+     "vi": "chia sẻ",
+     "ex": "Please share your ideas."
+    },
+    {
+     "en": "thank you for listening",
+     "pron": "/θæŋk juː fɔːr ˈlɪsənɪŋ/",
+     "vi": "cảm ơn đã lắng nghe",
+     "ex": "Thank you for listening."
+    }
+   ]
+  },
+  {
+   "id": "wedding",
+   "tag": "WEDDING",
+   "title": "Đám cưới",
+   "words": [
+    {
+     "en": "wedding",
+     "pron": "/ˈwedɪŋ/",
+     "vi": "đám cưới",
+     "ex": "Welcome to this beautiful wedding."
+    },
+    {
+     "en": "bride",
+     "pron": "/braɪd/",
+     "vi": "cô dâu",
+     "ex": "Please welcome the bride."
+    },
+    {
+     "en": "groom",
+     "pron": "/ɡruːm/",
+     "vi": "chú rể",
+     "ex": "Please welcome the groom."
+    },
+    {
+     "en": "couple",
+     "pron": "/ˈkʌpl/",
+     "vi": "cặp đôi",
+     "ex": "The happy couple is here."
+    },
+    {
+     "en": "newlyweds",
+     "pron": "/ˈnuːliweds/",
+     "vi": "đôi vợ chồng mới cưới",
+     "ex": "Congratulations to the newlyweds!"
+    },
+    {
+     "en": "bride and groom",
+     "pron": "/braɪd ənd ɡruːm/",
+     "vi": "cô dâu và chú rể",
+     "ex": "The bride and groom are here."
+    },
+    {
+     "en": "husband",
+     "pron": "/ˈhʌzbənd/",
+     "vi": "chồng",
+     "ex": "The husband waits at the altar."
+    },
+    {
+     "en": "wife",
+     "pron": "/waɪf/",
+     "vi": "vợ",
+     "ex": "His wife is beautiful tonight."
+    },
+    {
+     "en": "marriage",
+     "pron": "/ˈmærɪdʒ/",
+     "vi": "hôn nhân",
+     "ex": "Marriage is a beautiful journey."
+    },
+    {
+     "en": "marry",
+     "pron": "/ˈmæri/",
+     "vi": "kết hôn",
+     "ex": "Today they marry in front of family."
+    },
+    {
+     "en": "vow",
+     "pron": "/vaʊ/",
+     "vi": "lời thề",
+     "ex": "They exchange their vows."
+    },
+    {
+     "en": "wedding vows",
+     "pron": "/ˈwedɪŋ vaʊz/",
+     "vi": "lời thề nguyện",
+     "ex": "The wedding vows are so moving."
+    },
+    {
+     "en": "ring",
+     "pron": "/rɪŋ/",
+     "vi": "nhẫn",
+     "ex": "The ring is a symbol of love."
+    },
+    {
+     "en": "wedding ring",
+     "pron": "/ˈwedɪŋ rɪŋ/",
+     "vi": "nhẫn cưới",
+     "ex": "A beautiful wedding ring."
+    },
+    {
+     "en": "engagement",
+     "pron": "/ɪnˈɡeɪdʒmənt/",
+     "vi": "lễ đính hôn",
+     "ex": "Their engagement was last year."
+    },
+    {
+     "en": "engaged",
+     "pron": "/ɪnˈɡeɪdʒd/",
+     "vi": "đã đính hôn",
+     "ex": "They got engaged in Paris."
+    },
+    {
+     "en": "engagement ring",
+     "pron": "/ɪnˈɡeɪdʒmənt rɪŋ/",
+     "vi": "nhẫn đính hôn",
+     "ex": "A sparkling engagement ring."
+    },
+    {
+     "en": "bouquet",
+     "pron": "/buːˈkeɪ/",
+     "vi": "bó hoa cưới",
+     "ex": "The bride holds a lovely bouquet."
+    },
+    {
+     "en": "veil",
+     "pron": "/veɪl/",
+     "vi": "khăn voan",
+     "ex": "Her veil is beautiful."
+    },
+    {
+     "en": "dress",
+     "pron": "/dres/",
+     "vi": "váy cưới",
+     "ex": "Her dress is stunning."
+    },
+    {
+     "en": "tuxedo",
+     "pron": "/tʌkˈsiːdoʊ/",
+     "vi": "vest dạ tiệc",
+     "ex": "The groom wears a smart tuxedo."
+    },
+    {
+     "en": "altar",
+     "pron": "/ˈɔːltər/",
+     "vi": "bàn thờ cưới",
+     "ex": "They stand at the altar."
+    },
+    {
+     "en": "aisle",
+     "pron": "/aɪl/",
+     "vi": "lối đi",
+     "ex": "She walks down the aisle."
+    },
+    {
+     "en": "walk down the aisle",
+     "pron": "/wɔːk daʊn ðiː aɪl/",
+     "vi": "bước vào lễ đường",
+     "ex": "The bride walks down the aisle."
+    },
+    {
+     "en": "wedding ceremony",
+     "pron": "/ˈwedɪŋ ˈserəmoʊni/",
+     "vi": "lễ cưới",
+     "ex": "The wedding ceremony begins now."
+    },
+    {
+     "en": "wedding reception",
+     "pron": "/ˈwedɪŋ rɪˈsepʃn/",
+     "vi": "tiệc cưới",
+     "ex": "Welcome to the wedding reception."
+    },
+    {
+     "en": "first dance",
+     "pron": "/fɜːrst dæns/",
+     "vi": "điệu nhảy đầu tiên",
+     "ex": "The first dance begins now."
+    },
+    {
+     "en": "father of the bride",
+     "pron": "/ˈfɑːðər əv ðə braɪd/",
+     "vi": "bố cô dâu",
+     "ex": "The father of the bride will speak."
+    },
+    {
+     "en": "mother of the bride",
+     "pron": "/ˈmʌðər əv ðə braɪd/",
+     "vi": "mẹ cô dâu",
+     "ex": "The mother of the bride is here."
+    },
+    {
+     "en": "best man",
+     "pron": "/best mæn/",
+     "vi": "phù rể chính",
+     "ex": "Please welcome the best man."
+    },
+    {
+     "en": "maid of honor",
+     "pron": "/meɪd əv ˈɑːnər/",
+     "vi": "phù dâu chính",
+     "ex": "Our maid of honor is ready."
+    },
+    {
+     "en": "bridesmaid",
+     "pron": "/ˈbraɪdzmeɪd/",
+     "vi": "phù dâu",
+     "ex": "The bridesmaids look lovely."
+    },
+    {
+     "en": "groomsman",
+     "pron": "/ˈɡruːmzmən/",
+     "vi": "phù rể",
+     "ex": "Our groomsmen are ready."
+    },
+    {
+     "en": "flower girl",
+     "pron": "/ˈflaʊər ɡɜːrl/",
+     "vi": "bé gái rải hoa",
+     "ex": "The flower girl is adorable."
+    },
+    {
+     "en": "ring bearer",
+     "pron": "/rɪŋ ˈberər/",
+     "vi": "bé trai mang nhẫn",
+     "ex": "Our ring bearer is ready."
+    },
+    {
+     "en": "wedding guest",
+     "pron": "/ˈwedɪŋ ɡest/",
+     "vi": "khách dự cưới",
+     "ex": "Welcome, dear wedding guests."
+    },
+    {
+     "en": "love",
+     "pron": "/lʌv/",
+     "vi": "tình yêu",
+     "ex": "Love is in the air tonight."
+    },
+    {
+     "en": "forever",
+     "pron": "/fərˈevər/",
+     "vi": "mãi mãi",
+     "ex": "Together forever."
+    },
+    {
+     "en": "always",
+     "pron": "/ˈɔːlweɪz/",
+     "vi": "luôn luôn",
+     "ex": "Always and forever."
+    },
+    {
+     "en": "commitment",
+     "pron": "/kəˈmɪtmənt/",
+     "vi": "cam kết",
+     "ex": "A commitment for life."
+    },
+    {
+     "en": "happiness",
+     "pron": "/ˈhæpinəs/",
+     "vi": "hạnh phúc",
+     "ex": "We wish you happiness."
+    },
+    {
+     "en": "blessed",
+     "pron": "/blest/",
+     "vi": "được chúc phúc",
+     "ex": "A blessed couple."
+    },
+    {
+     "en": "bless",
+     "pron": "/bles/",
+     "vi": "chúc phúc",
+     "ex": "May God bless this couple."
+    },
+    {
+     "en": "best wishes",
+     "pron": "/best ˈwɪʃɪz/",
+     "vi": "lời chúc tốt đẹp nhất",
+     "ex": "Best wishes to the couple!"
+    },
+    {
+     "en": "cheers to the couple",
+     "pron": "/tʃɪrz tə ðə ˈkʌpl/",
+     "vi": "chúc mừng đôi uyên ương",
+     "ex": "Cheers to the couple!"
+    },
+    {
+     "en": "kiss",
+     "pron": "/kɪs/",
+     "vi": "nụ hôn",
+     "ex": "You may now kiss the bride."
+    },
+    {
+     "en": "you may kiss the bride",
+     "pron": "/juː meɪ kɪs ðə braɪd/",
+     "vi": "chú rể có thể hôn cô dâu",
+     "ex": "You may kiss the bride!"
+    },
+    {
+     "en": "husband and wife",
+     "pron": "/ˈhʌzbənd ənd waɪf/",
+     "vi": "vợ chồng",
+     "ex": "I present Mr. and Mrs. Nguyen, husband and wife!"
+    },
+    {
+     "en": "Mr. and Mrs.",
+     "pron": "/ˈmɪstər ənd ˈmɪsɪz/",
+     "vi": "ông bà",
+     "ex": "Mr. and Mrs. Nguyen!"
+    },
+    {
+     "en": "introduce the couple",
+     "pron": "/ˌɪntrəˈduːs ðə ˈkʌpl/",
+     "vi": "giới thiệu đôi uyên ương",
+     "ex": "Let me introduce the couple."
+    },
+    {
+     "en": "welcome the newlyweds",
+     "pron": "/ˈwelkəm ðə ˈnuːliweds/",
+     "vi": "chào đón đôi tân hôn",
+     "ex": "Please welcome the newlyweds!"
+    },
+    {
+     "en": "cake",
+     "pron": "/keɪk/",
+     "vi": "bánh cưới",
+     "ex": "Time to cut the cake."
+    },
+    {
+     "en": "wedding cake",
+     "pron": "/ˈwedɪŋ keɪk/",
+     "vi": "bánh cưới",
+     "ex": "The wedding cake is beautiful."
+    },
+    {
+     "en": "cut the cake",
+     "pron": "/kʌt ðə keɪk/",
+     "vi": "cắt bánh cưới",
+     "ex": "Please cut the cake together."
+    },
+    {
+     "en": "champagne tower",
+     "pron": "/ʃæmˈpeɪn ˈtaʊər/",
+     "vi": "tháp sâm panh",
+     "ex": "The champagne tower is ready."
+    },
+    {
+     "en": "pour the champagne",
+     "pron": "/pɔːr ðə ʃæmˈpeɪn/",
+     "vi": "rót sâm panh",
+     "ex": "Let us pour the champagne."
+    },
+    {
+     "en": "sparkler",
+     "pron": "/ˈspɑːrklər/",
+     "vi": "pháo hoa cầm tay",
+     "ex": "Sparklers light up the night."
+    },
+    {
+     "en": "lantern",
+     "pron": "/ˈlæntərn/",
+     "vi": "đèn lồng",
+     "ex": "Lanterns glow in the evening."
+    },
+    {
+     "en": "candlelight",
+     "pron": "/ˈkændllaɪt/",
+     "vi": "ánh nến",
+     "ex": "A candlelight dinner for two."
+    },
+    {
+     "en": "romantic",
+     "pron": "/roʊˈmæntɪk/",
+     "vi": "lãng mạn",
+     "ex": "A romantic evening."
+    },
+    {
+     "en": "romance",
+     "pron": "/ˈroʊmæns/",
+     "vi": "tình yêu lãng mạn",
+     "ex": "Their romance began years ago."
+    },
+    {
+     "en": "sweet",
+     "pron": "/swiːt/",
+     "vi": "ngọt ngào",
+     "ex": "A sweet moment for the couple."
+    },
+    {
+     "en": "charming",
+     "pron": "/ˈtʃɑːrmɪŋ/",
+     "vi": "duyên dáng",
+     "ex": "A charming couple."
+    },
+    {
+     "en": "gorgeous",
+     "pron": "/ˈɡɔːrdʒəs/",
+     "vi": "lộng lẫy",
+     "ex": "A gorgeous bride."
+    },
+    {
+     "en": "stunning",
+     "pron": "/ˈstʌnɪŋ/",
+     "vi": "lộng lẫy",
+     "ex": "She looks stunning tonight."
+    },
+    {
+     "en": "graceful",
+     "pron": "/ˈɡreɪsfəl/",
+     "vi": "duyên dáng",
+     "ex": "A graceful walk down the aisle."
+    },
+    {
+     "en": "heartfelt",
+     "pron": "/ˈhɑːrtfelt/",
+     "vi": "chân thành",
+     "ex": "A heartfelt speech."
+    },
+    {
+     "en": "touching",
+     "pron": "/ˈtʌtʃɪŋ/",
+     "vi": "cảm động",
+     "ex": "A touching moment."
+    },
+    {
+     "en": "emotional",
+     "pron": "/ɪˈmoʊʃənl/",
+     "vi": "xúc động",
+     "ex": "An emotional speech."
+    },
+    {
+     "en": "tears of joy",
+     "pron": "/tɪrz əv dʒɔɪ/",
+     "vi": "nước mắt hạnh phúc",
+     "ex": "Tears of joy fill the room."
+    },
+    {
+     "en": "celebrate love",
+     "pron": "/ˈseləbreɪt lʌv/",
+     "vi": "tôn vinh tình yêu",
+     "ex": "Tonight we celebrate love."
+    },
+    {
+     "en": "love story",
+     "pron": "/lʌv ˈstɔːri/",
+     "vi": "câu chuyện tình yêu",
+     "ex": "Let us hear their love story."
+    },
+    {
+     "en": "how they met",
+     "pron": "/haʊ ðeɪ met/",
+     "vi": "họ gặp nhau thế nào",
+     "ex": "Let us hear how they met."
+    },
+    {
+     "en": "first kiss",
+     "pron": "/fɜːrst kɪs/",
+     "vi": "nụ hôn đầu",
+     "ex": "Their first kiss was magical."
+    },
+    {
+     "en": "first date",
+     "pron": "/fɜːrst deɪt/",
+     "vi": "buổi hẹn đầu",
+     "ex": "Their first date was in Da Nang."
+    },
+    {
+     "en": "golden anniversary",
+     "pron": "/ˈɡoʊldən ˌænɪˈvɜːrsəri/",
+     "vi": "kỷ niệm vàng",
+     "ex": "A golden anniversary for them."
+    },
+    {
+     "en": "honeymoon",
+     "pron": "/ˈhʌnimuːn/",
+     "vi": "tuần trăng mật",
+     "ex": "They fly to Bali for their honeymoon."
+    },
+    {
+     "en": "two families",
+     "pron": "/tuː ˈfæməliz/",
+     "vi": "hai gia đình",
+     "ex": "Two families become one tonight."
+    },
+    {
+     "en": "become one",
+     "pron": "/bɪˈkʌm wʌn/",
+     "vi": "trở thành một",
+     "ex": "Two hearts become one."
+    },
+    {
+     "en": "two hearts",
+     "pron": "/tuː hɑːrts/",
+     "vi": "hai trái tim",
+     "ex": "Two hearts, one love."
+    },
+    {
+     "en": "one love",
+     "pron": "/wʌn lʌv/",
+     "vi": "một tình yêu",
+     "ex": "One love, forever."
+    },
+    {
+     "en": "happily ever after",
+     "pron": "/ˈhæpəli ˈevər ˈæftər/",
+     "vi": "hạnh phúc mãi mãi",
+     "ex": "And they lived happily ever after."
+    },
+    {
+     "en": "live happily ever after",
+     "pron": "/lɪv ˈhæpəli ˈevər ˈæftər/",
+     "vi": "sống hạnh phúc mãi mãi",
+     "ex": "Live happily ever after!"
+    },
+    {
+     "en": "wish them well",
+     "pron": "/wɪʃ ðem wel/",
+     "vi": "chúc họ hạnh phúc",
+     "ex": "Let us wish them well."
+    },
+    {
+     "en": "all the best",
+     "pron": "/ɔːl ðə best/",
+     "vi": "chúc mọi điều tốt đẹp",
+     "ex": "All the best to the couple!"
+    },
+    {
+     "en": "thank you for sharing",
+     "pron": "/θæŋk juː fɔːr ˈʃerɪŋ/",
+     "vi": "cảm ơn đã chia sẻ",
+     "ex": "Thank you for sharing this day."
+    },
+    {
+     "en": "thank you for being here",
+     "pron": "/θæŋk juː fɔːr ˈbiːɪŋ hɪr/",
+     "vi": "cảm ơn đã đến",
+     "ex": "Thank you for being here today."
+    },
+    {
+     "en": "dance floor",
+     "pron": "/dæns flɔːr/",
+     "vi": "sàn nhảy",
+     "ex": "Please join us on the dance floor."
+    },
+    {
+     "en": "slow dance",
+     "pron": "/sloʊ dæns/",
+     "vi": "điệu nhảy chậm",
+     "ex": "A slow dance for the couple."
+    },
+    {
+     "en": "wedding party",
+     "pron": "/ˈwedɪŋ ˈpɑːrti/",
+     "vi": "tiệc cưới",
+     "ex": "Welcome to the wedding party."
+    },
+    {
+     "en": "guest list",
+     "pron": "/ɡest lɪst/",
+     "vi": "danh sách khách",
+     "ex": "The guest list is full of friends."
+    },
+    {
+     "en": "invitation",
+     "pron": "/ˌɪnvɪˈteɪʃn/",
+     "vi": "thiệp mời",
+     "ex": "Thank you for the invitation."
+    },
+    {
+     "en": "RSVP",
+     "pron": "/ˌɑːr es viː ˈpiː/",
+     "vi": "xác nhận tham dự",
+     "ex": "Please RSVP by Friday."
+    },
+    {
+     "en": "seating chart",
+     "pron": "/ˈsiːtɪŋ tʃɑːrt/",
+     "vi": "sơ đồ chỗ ngồi",
+     "ex": "The seating chart is at the door."
+    },
+    {
+     "en": "photographer",
+     "pron": "/fəˈtɑːɡrəfər/",
+     "vi": "nhiếp ảnh gia",
+     "ex": "Our photographer is ready."
+    },
+    {
+     "en": "photo",
+     "pron": "/ˈfoʊtoʊ/",
+     "vi": "ảnh",
+     "ex": "Time for a photo with the couple."
+    },
+    {
+     "en": "take a photo",
+     "pron": "/teɪk ə ˈfoʊtoʊ/",
+     "vi": "chụp ảnh",
+     "ex": "Let us take a photo together."
+    },
+    {
+     "en": "say cheese",
+     "pron": "/seɪ tʃiːz/",
+     "vi": "cười nào",
+     "ex": "Say cheese, everyone!"
+    },
+    {
+     "en": "smile for the camera",
+     "pron": "/smaɪl fɔːr ðə ˈkæmrə/",
+     "vi": "cười lên nào",
+     "ex": "Smile for the camera!"
+    },
+    {
+     "en": "good night",
+     "pron": "/ɡʊd naɪt/",
+     "vi": "chúc ngủ ngon",
+     "ex": "Good night, and thank you all!"
+    }
+   ]
+  },
+  {
+   "id": "trouble",
+   "tag": "TROUBLESHOOTING & CLOSING",
+   "title": "Xử lý sự cố & kết thúc",
+   "words": [
+    {
+     "en": "problem",
+     "pron": "/ˈprɑːbləm/",
+     "vi": "vấn đề",
+     "ex": "A small problem with the sound."
+    },
+    {
+     "en": "trouble",
+     "pron": "/ˈtrʌbl/",
+     "vi": "rắc rối",
+     "ex": "We have a little trouble with the mic."
+    },
+    {
+     "en": "delay",
+     "pron": "/dɪˈleɪ/",
+     "vi": "trì hoãn",
+     "ex": "A short delay before we begin."
+    },
+    {
+     "en": "late",
+     "pron": "/leɪt/",
+     "vi": "trễ",
+     "ex": "Our speaker is a little late."
+    },
+    {
+     "en": "wait",
+     "pron": "/weɪt/",
+     "vi": "chờ đợi",
+     "ex": "Please wait a moment."
+    },
+    {
+     "en": "patience",
+     "pron": "/ˈpeɪʃns/",
+     "vi": "kiên nhẫn",
+     "ex": "Thank you for your patience."
+    },
+    {
+     "en": "thank you for your patience",
+     "pron": "/θæŋk juː fɔːr jɔːr ˈpeɪʃns/",
+     "vi": "cảm ơn đã kiên nhẫn",
+     "ex": "Thank you for your patience."
+    },
+    {
+     "en": "technical problem",
+     "pron": "/ˈteknɪkl ˈprɑːbləm/",
+     "vi": "sự cố kỹ thuật",
+     "ex": "A technical problem with the sound."
+    },
+    {
+     "en": "technical issue",
+     "pron": "/ˈteknɪkl ˈɪʃuː/",
+     "vi": "sự cố kỹ thuật",
+     "ex": "A technical issue, please wait."
+    },
+    {
+     "en": "mic problem",
+     "pron": "/maɪk ˈprɑːbləm/",
+     "vi": "sự cố micro",
+     "ex": "A mic problem — one moment, please."
+    },
+    {
+     "en": "sound",
+     "pron": "/saʊnd/",
+     "vi": "âm thanh",
+     "ex": "The sound is back now."
+    },
+    {
+     "en": "no sound",
+     "pron": "/noʊ saʊnd/",
+     "vi": "mất tiếng",
+     "ex": "No sound? Let us fix it."
+    },
+    {
+     "en": "check",
+     "pron": "/tʃek/",
+     "vi": "kiểm tra",
+     "ex": "Let us check the sound."
+    },
+    {
+     "en": "fix",
+     "pron": "/fɪks/",
+     "vi": "sửa",
+     "ex": "We will fix it in a moment."
+    },
+    {
+     "en": "fix it",
+     "pron": "/fɪks ɪt/",
+     "vi": "sửa nó",
+     "ex": "Our team will fix it quickly."
+    },
+    {
+     "en": "one moment",
+     "pron": "/wʌn ˈmoʊmənt/",
+     "vi": "một chút",
+     "ex": "One moment, please."
+    },
+    {
+     "en": "just a moment",
+     "pron": "/dʒʌst ə ˈmoʊmənt/",
+     "vi": "đợi một chút",
+     "ex": "Just a moment, please."
+    },
+    {
+     "en": "bear with us",
+     "pron": "/ber wɪð ʌs/",
+     "vi": "mong quý vị thông cảm",
+     "ex": "Please bear with us."
+    },
+    {
+     "en": "bear with me",
+     "pron": "/ber wɪð miː/",
+     "vi": "mong quý vị thông cảm",
+     "ex": "Bear with me for a moment."
+    },
+    {
+     "en": "we apologize",
+     "pron": "/wiː əˈpɑːlədʒaɪz/",
+     "vi": "chúng tôi xin lỗi",
+     "ex": "We apologize for the delay."
+    },
+    {
+     "en": "sorry",
+     "pron": "/ˈsɔːri/",
+     "vi": "xin lỗi",
+     "ex": "Sorry for the wait."
+    },
+    {
+     "en": "apologies",
+     "pron": "/əˈpɑːlədʒiz/",
+     "vi": "lời xin lỗi",
+     "ex": "Our apologies for the delay."
+    },
+    {
+     "en": "unfortunately",
+     "pron": "/ʌnˈfɔːrtʃənətli/",
+     "vi": "không may",
+     "ex": "Unfortunately, our speaker is late."
+    },
+    {
+     "en": "change of plan",
+     "pron": "/tʃeɪndʒ əv plæn/",
+     "vi": "thay đổi kế hoạch",
+     "ex": "A small change of plan."
+    },
+    {
+     "en": "plan B",
+     "pron": "/plæn biː/",
+     "vi": "phương án dự phòng",
+     "ex": "Time for plan B."
+    },
+    {
+     "en": "backup",
+     "pron": "/ˈbækʌp/",
+     "vi": "dự phòng",
+     "ex": "Our backup music is ready."
+    },
+    {
+     "en": "backup plan",
+     "pron": "/ˈbækʌp plæn/",
+     "vi": "kế hoạch dự phòng",
+     "ex": "We always have a backup plan."
+    },
+    {
+     "en": "stay calm",
+     "pron": "/steɪ kɑːm/",
+     "vi": "giữ bình tĩnh",
+     "ex": "Stay calm and smile."
+    },
+    {
+     "en": "keep calm",
+     "pron": "/kiːp kɑːm/",
+     "vi": "giữ bình tĩnh",
+     "ex": "Keep calm, the show goes on."
+    },
+    {
+     "en": "the show must go on",
+     "pron": "/ðə ʃoʊ mʌst ɡoʊ ɑːn/",
+     "vi": "chương trình vẫn tiếp tục",
+     "ex": "The show must go on!"
+    },
+    {
+     "en": "carry on",
+     "pron": "/ˈkæri ɑːn/",
+     "vi": "tiếp tục",
+     "ex": "Let us carry on with the show."
+    },
+    {
+     "en": "let us continue",
+     "pron": "/let ʌs kənˈtɪnjuː/",
+     "vi": "hãy tiếp tục",
+     "ex": "Let us continue with the program."
+    },
+    {
+     "en": "continue",
+     "pron": "/kənˈtɪnjuː/",
+     "vi": "tiếp tục",
+     "ex": "We continue with the next part."
+    },
+    {
+     "en": "meanwhile",
+     "pron": "/ˈmiːnwaɪl/",
+     "vi": "trong lúc đó",
+     "ex": "Meanwhile, enjoy the music."
+    },
+    {
+     "en": "in the meantime",
+     "pron": "/ɪn ðə ˈmiːntaɪm/",
+     "vi": "trong lúc chờ",
+     "ex": "In the meantime, a short video."
+    },
+    {
+     "en": "fill the time",
+     "pron": "/fɪl ðə taɪm/",
+     "vi": "lấp thời gian",
+     "ex": "Let us fill the time with music."
+    },
+    {
+     "en": "keep the energy up",
+     "pron": "/kiːp ðiː ˈenərdʒi ʌp/",
+     "vi": "giữ không khí sôi động",
+     "ex": "Keep the energy up, everyone!"
+    },
+    {
+     "en": "improvise",
+     "pron": "/ˈɪmprəvaɪz/",
+     "vi": "ứng biến",
+     "ex": "A good MC can improvise."
+    },
+    {
+     "en": "spontaneous",
+     "pron": "/spɑːnˈteɪniəs/",
+     "vi": "tự nhiên",
+     "ex": "A spontaneous joke saves the moment."
+    },
+    {
+     "en": "joke",
+     "pron": "/dʒoʊk/",
+     "vi": "câu đùa",
+     "ex": "A small joke to warm the room."
+    },
+    {
+     "en": "humor",
+     "pron": "/ˈhjuːmər/",
+     "vi": "hài hước",
+     "ex": "A little humor helps."
+    },
+    {
+     "en": "laugh",
+     "pron": "/læf/",
+     "vi": "cười",
+     "ex": "Let us laugh together."
+    },
+    {
+     "en": "keep smiling",
+     "pron": "/kiːp ˈsmaɪlɪŋ/",
+     "vi": "luôn mỉm cười",
+     "ex": "Keep smiling, the show goes on."
+    },
+    {
+     "en": "flexible",
+     "pron": "/ˈfleksəbl/",
+     "vi": "linh hoạt",
+     "ex": "Be flexible when plans change."
+    },
+    {
+     "en": "adapt",
+     "pron": "/əˈdæpt/",
+     "vi": "thích ứng",
+     "ex": "We adapt to every situation."
+    },
+    {
+     "en": "adjust",
+     "pron": "/əˈdʒʌst/",
+     "vi": "điều chỉnh",
+     "ex": "We adjust the schedule."
+    },
+    {
+     "en": "quick",
+     "pron": "/kwɪk/",
+     "vi": "nhanh",
+     "ex": "A quick fix is on the way."
+    },
+    {
+     "en": "quick fix",
+     "pron": "/kwɪk fɪks/",
+     "vi": "sửa nhanh",
+     "ex": "A quick fix, please."
+    },
+    {
+     "en": "workaround",
+     "pron": "/ˈwɜːrkəraʊnd/",
+     "vi": "giải pháp tạm thời",
+     "ex": "A quick workaround."
+    },
+    {
+     "en": "handle",
+     "pron": "/ˈhændl/",
+     "vi": "xử lý",
+     "ex": "We handle every problem calmly."
+    },
+    {
+     "en": "manage",
+     "pron": "/ˈmænɪdʒ/",
+     "vi": "xoay xở",
+     "ex": "We manage the situation well."
+    },
+    {
+     "en": "control",
+     "pron": "/kənˈtroʊl/",
+     "vi": "kiểm soát",
+     "ex": "Stay in control of the stage."
+    },
+    {
+     "en": "confident",
+     "pron": "/ˈkɑːnfɪdənt/",
+     "vi": "tự tin",
+     "ex": "A confident voice calms the room."
+    },
+    {
+     "en": "confidence",
+     "pron": "/ˈkɑːnfɪdəns/",
+     "vi": "sự tự tin",
+     "ex": "Confidence is your best tool."
+    },
+    {
+     "en": "breathe",
+     "pron": "/briːð/",
+     "vi": "hít thở",
+     "ex": "Breathe, smile, and continue."
+    },
+    {
+     "en": "take a deep breath",
+     "pron": "/teɪk ə diːp breθ/",
+     "vi": "hít thở sâu",
+     "ex": "Take a deep breath and continue."
+    },
+    {
+     "en": "stay relaxed",
+     "pron": "/steɪ rɪˈlækst/",
+     "vi": "giữ bình tĩnh",
+     "ex": "Stay relaxed, everyone."
+    },
+    {
+     "en": "do not worry",
+     "pron": "/duː nɑːt ˈwɜːri/",
+     "vi": "đừng lo lắng",
+     "ex": "Do not worry, we have it under control."
+    },
+    {
+     "en": "do not panic",
+     "pron": "/duː nɑːt ˈpænɪk/",
+     "vi": "đừng hoảng",
+     "ex": "Do not panic, please."
+    },
+    {
+     "en": "everything is under control",
+     "pron": "/ˈevriθɪŋ ɪz ˈʌndər kənˈtroʊl/",
+     "vi": "mọi thứ trong tầm kiểm soát",
+     "ex": "Everything is under control."
+    },
+    {
+     "en": "back on track",
+     "pron": "/bæk ɑːn træk/",
+     "vi": "trở lại đúng tiến độ",
+     "ex": "We are back on track."
+    },
+    {
+     "en": "we are back",
+     "pron": "/wiː ɑːr bæk/",
+     "vi": "chúng ta đã trở lại",
+     "ex": "We are back, everyone!"
+    },
+    {
+     "en": "and we are back",
+     "pron": "/ənd wiː ɑːr bæk/",
+     "vi": "và chúng ta đã trở lại",
+     "ex": "And we are back with the show."
+    },
+    {
+     "en": "let us get back to",
+     "pron": "/let ʌs ɡet bæk tə/",
+     "vi": "hãy quay lại",
+     "ex": "Let us get back to the program."
+    },
+    {
+     "en": "where were we",
+     "pron": "/wer wɜːr wiː/",
+     "vi": "chúng ta đang ở đâu",
+     "ex": "Where were we? Ah, the awards!"
+    },
+    {
+     "en": "as I was saying",
+     "pron": "/æz aɪ wəz ˈseɪɪŋ/",
+     "vi": "như tôi đang nói",
+     "ex": "As I was saying, welcome back."
+    },
+    {
+     "en": "let us wrap up",
+     "pron": "/let ʌs ræp ʌp/",
+     "vi": "hãy kết thúc",
+     "ex": "Let us wrap up this wonderful evening."
+    },
+    {
+     "en": "wrap up",
+     "pron": "/ræp ʌp/",
+     "vi": "kết thúc",
+     "ex": "Time to wrap up."
+    },
+    {
+     "en": "conclude",
+     "pron": "/kənˈkluːd/",
+     "vi": "kết luận",
+     "ex": "We conclude our program now."
+    },
+    {
+     "en": "closing",
+     "pron": "/ˈkloʊzɪŋ/",
+     "vi": "kết thúc",
+     "ex": "Our closing words tonight."
+    },
+    {
+     "en": "final",
+     "pron": "/ˈfaɪnl/",
+     "vi": "cuối cùng",
+     "ex": "Our final act tonight."
+    },
+    {
+     "en": "last but not least",
+     "pron": "/læst bət nɑːt liːst/",
+     "vi": "cuối cùng nhưng không kém phần quan trọng",
+     "ex": "Last but not least, our stars!"
+    },
+    {
+     "en": "finale",
+     "pron": "/fɪˈnæli/",
+     "vi": "phần kết",
+     "ex": "The grand finale is next."
+    },
+    {
+     "en": "grand finale",
+     "pron": "/ɡrænd fɪˈnæli/",
+     "vi": "phần kết hoành tráng",
+     "ex": "Welcome to the grand finale!"
+    },
+    {
+     "en": "end",
+     "pron": "/end/",
+     "vi": "kết thúc",
+     "ex": "The end of a beautiful night."
+    },
+    {
+     "en": "the end",
+     "pron": "/ðiː end/",
+     "vi": "kết thúc",
+     "ex": "This is the end of our program."
+    },
+    {
+     "en": "see you soon",
+     "pron": "/siː juː suːn/",
+     "vi": "hẹn sớm gặp lại",
+     "ex": "See you soon, everyone!"
+    },
+    {
+     "en": "thank you all",
+     "pron": "/θæŋk juː ɔːl/",
+     "vi": "cảm ơn tất cả",
+     "ex": "Thank you all for tonight."
+    },
+    {
+     "en": "thanks for coming",
+     "pron": "/θæŋks fɔːr ˈkʌmɪŋ/",
+     "vi": "cảm ơn đã đến",
+     "ex": "Thanks for coming tonight."
+    },
+    {
+     "en": "thank you for joining us",
+     "pron": "/θæŋk juː fɔːr ˈdʒɔɪnɪŋ ʌs/",
+     "vi": "cảm ơn đã tham gia",
+     "ex": "Thank you for joining us."
+    },
+    {
+     "en": "thank you for your time",
+     "pron": "/θæŋk juː fɔːr jɔːr taɪm/",
+     "vi": "cảm ơn thời gian của quý vị",
+     "ex": "Thank you for your time tonight."
+    },
+    {
+     "en": "have a safe trip home",
+     "pron": "/hæv ə seɪf trɪp hoʊm/",
+     "vi": "chúc về nhà an toàn",
+     "ex": "Have a safe trip home."
+    },
+    {
+     "en": "drive safely",
+     "pron": "/draɪv ˈseɪfli/",
+     "vi": "lái xe cẩn thận",
+     "ex": "Drive safely, everyone."
+    },
+    {
+     "en": "good night and thank you",
+     "pron": "/ɡʊd naɪt ənd θæŋk juː/",
+     "vi": "chúc ngủ ngon và cảm ơn",
+     "ex": "Good night, and thank you all."
+    },
+    {
+     "en": "see you next time",
+     "pron": "/siː juː nekst taɪm/",
+     "vi": "hẹn gặp lại lần sau",
+     "ex": "See you next time!"
+    },
+    {
+     "en": "hope to see you again",
+     "pron": "/hoʊp tə siː juː əˈɡen/",
+     "vi": "hy vọng gặp lại",
+     "ex": "Hope to see you again soon."
+    },
+    {
+     "en": "take care",
+     "pron": "/teɪk ker/",
+     "vi": "giữ gìn sức khỏe",
+     "ex": "Take care, everyone."
+    },
+    {
+     "en": "wish you all the best",
+     "pron": "/wɪʃ juː ɔːl ðə best/",
+     "vi": "chúc mọi điều tốt đẹp",
+     "ex": "We wish you all the best."
+    },
+    {
+     "en": "a wonderful night",
+     "pron": "/ə ˈwʌndərfəl naɪt/",
+     "vi": "một đêm tuyệt vời",
+     "ex": "What a wonderful night!"
+    },
+    {
+     "en": "what a night",
+     "pron": "/wʌt ə naɪt/",
+     "vi": "đêm thật tuyệt",
+     "ex": "What a night, everyone!"
+    },
+    {
+     "en": "unforgettable night",
+     "pron": "/ˌʌnfərˈɡetəbl naɪt/",
+     "vi": "đêm khó quên",
+     "ex": "An unforgettable night."
+    },
+    {
+     "en": "thank you once again",
+     "pron": "/θæŋk juː wʌns əˈɡen/",
+     "vi": "cảm ơn một lần nữa",
+     "ex": "Thank you once again."
+    },
+    {
+     "en": "one more time",
+     "pron": "/wʌn mɔːr taɪm/",
+     "vi": "một lần nữa",
+     "ex": "One more time, a big applause!"
+    },
+    {
+     "en": "give yourselves a round of applause",
+     "pron": "/ɡɪv jɔːrˈselvz ə raʊnd əv əˈplɔːz/",
+     "vi": "hãy tự vỗ tay cho mình",
+     "ex": "Give yourselves a round of applause!"
+    },
+    {
+     "en": "you have been wonderful",
+     "pron": "/juː hæv bɪn ˈwʌndərfəl/",
+     "vi": "quý vị thật tuyệt vời",
+     "ex": "You have been a wonderful audience."
+    },
+    {
+     "en": "wonderful audience",
+     "pron": "/ˈwʌndərfəl ˈɔːdiəns/",
+     "vi": "khán giả tuyệt vời",
+     "ex": "Thank you, wonderful audience."
+    },
+    {
+     "en": "until we meet again",
+     "pron": "/ənˈtɪl wiː miːt əˈɡen/",
+     "vi": "hẹn gặp lại",
+     "ex": "Until we meet again, goodbye."
+    },
+    {
+     "en": "the night is young",
+     "pron": "/ðə naɪt ɪz jʌŋ/",
+     "vi": "đêm còn dài",
+     "ex": "The night is young — enjoy!"
+    },
+    {
+     "en": "keep the party going",
+     "pron": "/kiːp ðə ˈpɑːrti ˈɡoʊɪŋ/",
+     "vi": "tiếp tục bữa tiệc",
+     "ex": "Keep the party going!"
+    },
+    {
+     "en": "good night, everyone",
+     "pron": "/ɡʊd naɪt ˈevriwʌn/",
+     "vi": "chúc ngủ ngon mọi người",
+     "ex": "Good night, everyone!"
+    }
+   ]
+  },
+  {
+   "id": "voice",
+   "tag": "VOICE & BODY LANGUAGE",
+   "title": "Giọng nói & ngôn ngữ cơ thể",
+   "words": [
+    {
+     "en": "voice",
+     "pron": "/vɔɪs/",
+     "vi": "giọng nói",
+     "ex": "Your voice is your best tool."
+    },
+    {
+     "en": "tone",
+     "pron": "/toʊn/",
+     "vi": "tông giọng",
+     "ex": "Keep a warm tone."
+    },
+    {
+     "en": "pitch",
+     "pron": "/pɪtʃ/",
+     "vi": "cao độ",
+     "ex": "Vary your pitch."
+    },
+    {
+     "en": "volume",
+     "pron": "/ˈvɑːljuːm/",
+     "vi": "âm lượng",
+     "ex": "Speak with the right volume."
+    },
+    {
+     "en": "loud",
+     "pron": "/laʊd/",
+     "vi": "to",
+     "ex": "Speak loud and clear."
+    },
+    {
+     "en": "soft",
+     "pron": "/sɔːft/",
+     "vi": "nhẹ nhàng",
+     "ex": "A soft voice for a wedding."
+    },
+    {
+     "en": "clarity",
+     "pron": "/ˈklærəti/",
+     "vi": "sự rõ ràng",
+     "ex": "Clarity is key for an MC."
+    },
+    {
+     "en": "pronunciation",
+     "pron": "/prəˌnʌnsiˈeɪʃn/",
+     "vi": "phát âm",
+     "ex": "Good pronunciation matters."
+    },
+    {
+     "en": "pronounce",
+     "pron": "/prəˈnaʊns/",
+     "vi": "phát âm",
+     "ex": "Pronounce each name carefully."
+    },
+    {
+     "en": "accent",
+     "pron": "/ˈæksent/",
+     "vi": "giọng địa phương",
+     "ex": "A clear accent helps the audience."
+    },
+    {
+     "en": "intonation",
+     "pron": "/ˌɪntoʊˈneɪʃn/",
+     "vi": "ngữ điệu",
+     "ex": "Use intonation to keep attention."
+    },
+    {
+     "en": "rhythm",
+     "pron": "/ˈrɪðəm/",
+     "vi": "nhịp điệu",
+     "ex": "Find the rhythm of the show."
+    },
+    {
+     "en": "pace",
+     "pron": "/peɪs/",
+     "vi": "tốc độ nói",
+     "ex": "Slow your pace at the start."
+    },
+    {
+     "en": "speed",
+     "pron": "/spiːd/",
+     "vi": "tốc độ",
+     "ex": "Control your speed."
+    },
+    {
+     "en": "pause",
+     "pron": "/pɔːz/",
+     "vi": "ngừng lại",
+     "ex": "Pause before the big news."
+    },
+    {
+     "en": "take a pause",
+     "pron": "/teɪk ə pɔːz/",
+     "vi": "ngừng một nhịp",
+     "ex": "Take a pause for effect."
+    },
+    {
+     "en": "breathing",
+     "pron": "/ˈbriːðɪŋ/",
+     "vi": "hơi thở",
+     "ex": "Good breathing supports your voice."
+    },
+    {
+     "en": "projection",
+     "pron": "/prəˈdʒekʃn/",
+     "vi": "sự truyền giọng",
+     "ex": "Voice projection fills the hall."
+    },
+    {
+     "en": "project your voice",
+     "pron": "/prəˈdʒekt jɔːr vɔɪs/",
+     "vi": "truyền giọng",
+     "ex": "Project your voice to the back row."
+    },
+    {
+     "en": "warm up",
+     "pron": "/wɔːrm ʌp/",
+     "vi": "khởi động giọng",
+     "ex": "Warm up your voice before the show."
+    },
+    {
+     "en": "vocal warm-up",
+     "pron": "/ˈvoʊkl ˈwɔːrm ʌp/",
+     "vi": "khởi động giọng",
+     "ex": "Do a vocal warm-up."
+    },
+    {
+     "en": "throat",
+     "pron": "/θroʊt/",
+     "vi": "cổ họng",
+     "ex": "Keep your throat warm with water."
+    },
+    {
+     "en": "water",
+     "pron": "/ˈwɔːtər/",
+     "vi": "nước",
+     "ex": "Keep water near the stage."
+    },
+    {
+     "en": "drink water",
+     "pron": "/drɪŋk ˈwɔːtər/",
+     "vi": "uống nước",
+     "ex": "Drink water between parts."
+    },
+    {
+     "en": "articulate",
+     "pron": "/ɑːrˈtɪkjəleɪt/",
+     "vi": "phát âm rõ ràng",
+     "ex": "Articulate every word."
+    },
+    {
+     "en": "articulation",
+     "pron": "/ɑːrˌtɪkjəˈleɪʃn/",
+     "vi": "sự phát âm rõ",
+     "ex": "Clear articulation wins the audience."
+    },
+    {
+     "en": "enunciate",
+     "pron": "/ɪˈnʌnsieɪt/",
+     "vi": "phát âm rõ",
+     "ex": "Enunciate the names clearly."
+    },
+    {
+     "en": "mumble",
+     "pron": "/ˈmʌmbl/",
+     "vi": "nói lí nhí",
+     "ex": "Do not mumble on stage."
+    },
+    {
+     "en": "stutter",
+     "pron": "/ˈstʌtər/",
+     "vi": "nói lắp",
+     "ex": "Even a stutter can be managed calmly."
+    },
+    {
+     "en": "filler word",
+     "pron": "/ˈfɪlər wɜːrd/",
+     "vi": "từ đệm",
+     "ex": "Avoid filler words like um."
+    },
+    {
+     "en": "um",
+     "pron": "/ʌm/",
+     "vi": "ừm",
+     "ex": "Say um less on stage."
+    },
+    {
+     "en": "uh",
+     "pron": "/ʌ/",
+     "vi": "ờ",
+     "ex": "Avoid uh between sentences."
+    },
+    {
+     "en": "speak slowly",
+     "pron": "/spiːk ˈsloʊli/",
+     "vi": "nói chậm",
+     "ex": "Speak slowly and clearly."
+    },
+    {
+     "en": "speak clearly",
+     "pron": "/spiːk ˈklɪrli/",
+     "vi": "nói rõ ràng",
+     "ex": "Speak clearly for the back row."
+    },
+    {
+     "en": "eye contact",
+     "pron": "/aɪ ˈkɑːntækt/",
+     "vi": "giao tiếp bằng mắt",
+     "ex": "Keep eye contact with the audience."
+    },
+    {
+     "en": "look",
+     "pron": "/lʊk/",
+     "vi": "nhìn",
+     "ex": "Look at the audience, not the floor."
+    },
+    {
+     "en": "a warm smile",
+     "pron": "/ə wɔːrm smaɪl/",
+     "vi": "nụ cười ấm áp",
+     "ex": "A warm smile opens the show."
+    },
+    {
+     "en": "facial expression",
+     "pron": "/ˈfeɪʃl ɪkˈspreʃn/",
+     "vi": "biểu cảm khuôn mặt",
+     "ex": "Your facial expression tells the story."
+    },
+    {
+     "en": "gesture",
+     "pron": "/ˈdʒestʃər/",
+     "vi": "cử chỉ",
+     "ex": "Use open gestures."
+    },
+    {
+     "en": "hand gesture",
+     "pron": "/hænd ˈdʒestʃər/",
+     "vi": "cử chỉ tay",
+     "ex": "A hand gesture guides the eye."
+    },
+    {
+     "en": "body language",
+     "pron": "/ˈbɑːdi ˈlæŋɡwɪdʒ/",
+     "vi": "ngôn ngữ cơ thể",
+     "ex": "Body language speaks loudly."
+    },
+    {
+     "en": "posture",
+     "pron": "/ˈpɑːstʃər/",
+     "vi": "tư thế",
+     "ex": "Stand with good posture."
+    },
+    {
+     "en": "stand tall",
+     "pron": "/stænd tɔːl/",
+     "vi": "đứng thẳng",
+     "ex": "Stand tall and confident."
+    },
+    {
+     "en": "stand up straight",
+     "pron": "/stænd ʌp streɪt/",
+     "vi": "đứng thẳng",
+     "ex": "Stand up straight on stage."
+    },
+    {
+     "en": "shoulders back",
+     "pron": "/ˈʃoʊldərz bæk/",
+     "vi": "vai mở ra sau",
+     "ex": "Shoulders back, chin up."
+    },
+    {
+     "en": "chin up",
+     "pron": "/tʃɪn ʌp/",
+     "vi": "cằm ngẩng cao",
+     "ex": "Chin up and smile."
+    },
+    {
+     "en": "walk",
+     "pron": "/wɔːk/",
+     "vi": "đi bộ",
+     "ex": "Walk slowly across the stage."
+    },
+    {
+     "en": "move",
+     "pron": "/muːv/",
+     "vi": "di chuyển",
+     "ex": "Move with purpose on stage."
+    },
+    {
+     "en": "step",
+     "pron": "/step/",
+     "vi": "bước đi",
+     "ex": "Take a step toward the audience."
+    },
+    {
+     "en": "stage presence",
+     "pron": "/steɪdʒ ˈprezns/",
+     "vi": "phong thái sân khấu",
+     "ex": "Great stage presence wins the room."
+    },
+    {
+     "en": "presence",
+     "pron": "/ˈprezns/",
+     "vi": "phong thái",
+     "ex": "Her presence fills the hall."
+    },
+    {
+     "en": "charisma",
+     "pron": "/kəˈrɪzmə/",
+     "vi": "sức hút",
+     "ex": "Charisma is felt, not taught."
+    },
+    {
+     "en": "self-confidence",
+     "pron": "/self ˈkɑːnfɪdəns/",
+     "vi": "sự tự tin",
+     "ex": "Self-confidence grows with practice."
+    },
+    {
+     "en": "calm",
+     "pron": "/kɑːm/",
+     "vi": "bình tĩnh",
+     "ex": "A calm voice calms the room."
+    },
+    {
+     "en": "relaxed",
+     "pron": "/rɪˈlækst/",
+     "vi": "thư giãn",
+     "ex": "Stay relaxed on stage."
+    },
+    {
+     "en": "nervous",
+     "pron": "/ˈnɜːrvəs/",
+     "vi": "lo lắng",
+     "ex": "Even pros feel nervous."
+    },
+    {
+     "en": "stage fright",
+     "pron": "/steɪdʒ fraɪt/",
+     "vi": "sợ sân khấu",
+     "ex": "Stage fright fades with practice."
+    },
+    {
+     "en": "overcome",
+     "pron": "/ˌoʊvərˈkʌm/",
+     "vi": "vượt qua",
+     "ex": "Overcome your fear step by step."
+    },
+    {
+     "en": "practice",
+     "pron": "/ˈpræktɪs/",
+     "vi": "luyện tập",
+     "ex": "Practice makes perfect."
+    },
+    {
+     "en": "rehearse",
+     "pron": "/rɪˈhɜːrs/",
+     "vi": "tập dượt",
+     "ex": "Rehearse your opening line."
+    },
+    {
+     "en": "rehearsal",
+     "pron": "/rɪˈhɜːrsl/",
+     "vi": "buổi tập dượt",
+     "ex": "A rehearsal before the show."
+    },
+    {
+     "en": "mirror",
+     "pron": "/ˈmɪrər/",
+     "vi": "gương",
+     "ex": "Practice in front of a mirror."
+    },
+    {
+     "en": "record yourself",
+     "pron": "/rɪˈkɔːrd jɔːrˈself/",
+     "vi": "tự thu âm",
+     "ex": "Record yourself and listen back."
+    },
+    {
+     "en": "listen back",
+     "pron": "/ˈlɪsən bæk/",
+     "vi": "nghe lại",
+     "ex": "Listen back to your recording."
+    },
+    {
+     "en": "feedback",
+     "pron": "/ˈfiːdbæk/",
+     "vi": "phản hồi",
+     "ex": "Ask for feedback after the show."
+    },
+    {
+     "en": "improve",
+     "pron": "/ɪmˈpruːv/",
+     "vi": "cải thiện",
+     "ex": "Improve a little every day."
+    },
+    {
+     "en": "enthusiasm",
+     "pron": "/ɪnˈθuːziæzəm/",
+     "vi": "nhiệt huyết",
+     "ex": "Enthusiasm is contagious."
+    },
+    {
+     "en": "passion",
+     "pron": "/ˈpæʃn/",
+     "vi": "đam mê",
+     "ex": "Speak with passion."
+    },
+    {
+     "en": "emotion",
+     "pron": "/ɪˈmoʊʃn/",
+     "vi": "cảm xúc",
+     "ex": "Put emotion into your words."
+    },
+    {
+     "en": "sincere",
+     "pron": "/sɪnˈsɪr/",
+     "vi": "chân thành",
+     "ex": "A sincere voice touches hearts."
+    },
+    {
+     "en": "genuine",
+     "pron": "/ˈdʒenjuɪn/",
+     "vi": "chân thật",
+     "ex": "Be genuine on stage."
+    },
+    {
+     "en": "natural",
+     "pron": "/ˈnætʃrəl/",
+     "vi": "tự nhiên",
+     "ex": "A natural style wins."
+    },
+    {
+     "en": "authentic",
+     "pron": "/ɔːˈθentɪk/",
+     "vi": "chân thật",
+     "ex": "An authentic voice."
+    },
+    {
+     "en": "warmth",
+     "pron": "/wɔːrmθ/",
+     "vi": "sự ấm áp",
+     "ex": "Speak with warmth."
+    },
+    {
+     "en": "approachable",
+     "pron": "/əˈproʊtʃəbl/",
+     "vi": "thân thiện",
+     "ex": "An approachable host."
+    },
+    {
+     "en": "connect",
+     "pron": "/kəˈnekt/",
+     "vi": "kết nối",
+     "ex": "Connect with your audience."
+    },
+    {
+     "en": "engage",
+     "pron": "/ɪnˈɡeɪdʒ/",
+     "vi": "thu hút",
+     "ex": "Engage the audience from the start."
+    },
+    {
+     "en": "interact",
+     "pron": "/ˌɪntərˈækt/",
+     "vi": "tương tác",
+     "ex": "Interact with the crowd."
+    },
+    {
+     "en": "involve",
+     "pron": "/ɪnˈvɑːlv/",
+     "vi": "lôi cuốn",
+     "ex": "Involve the audience in the fun."
+    },
+    {
+     "en": "attention",
+     "pron": "/əˈtenʃn/",
+     "vi": "sự chú ý",
+     "ex": "Win the audience's attention."
+    },
+    {
+     "en": "attention span",
+     "pron": "/əˈtenʃn spæn/",
+     "vi": "khoảng chú ý",
+     "ex": "Keep the attention span in mind."
+    },
+    {
+     "en": "hook",
+     "pron": "/hʊk/",
+     "vi": "câu mở đầu thu hút",
+     "ex": "Start with a strong hook."
+    },
+    {
+     "en": "opening line",
+     "pron": "/ˈoʊpənɪŋ laɪn/",
+     "vi": "câu mở đầu",
+     "ex": "Your opening line sets the tone."
+    },
+    {
+     "en": "first impression",
+     "pron": "/fɜːrst ɪmˈpreʃn/",
+     "vi": "ấn tượng đầu tiên",
+     "ex": "First impressions matter."
+    },
+    {
+     "en": "make an impression",
+     "pron": "/meɪk ən ɪmˈpreʃn/",
+     "vi": "tạo ấn tượng",
+     "ex": "Make a great first impression."
+    },
+    {
+     "en": "be yourself",
+     "pron": "/biː jɔːrˈself/",
+     "vi": "là chính mình",
+     "ex": "Be yourself on stage."
+    },
+    {
+     "en": "enjoy yourself",
+     "pron": "/ɪnˈdʒɔɪ jɔːrˈself/",
+     "vi": "tận hưởng",
+     "ex": "Enjoy yourself on stage."
+    },
+    {
+     "en": "have fun",
+     "pron": "/hæv fʌn/",
+     "vi": "vui vẻ",
+     "ex": "Have fun with the audience."
+    },
+    {
+     "en": "shine",
+     "pron": "/ʃaɪn/",
+     "vi": "tỏa sáng",
+     "ex": "Time to shine on stage."
+    },
+    {
+     "en": "glow",
+     "pron": "/ɡloʊ/",
+     "vi": "rạng rỡ",
+     "ex": "Glow with confidence."
+    },
+    {
+     "en": "sparkle",
+     "pron": "/ˈspɑːrkl/",
+     "vi": "lấp lánh",
+     "ex": "Sparkle on stage tonight."
+    },
+    {
+     "en": "radiate",
+     "pron": "/ˈreɪdieɪt/",
+     "vi": "tỏa ra",
+     "ex": "Radiate positive energy."
+    },
+    {
+     "en": "positive energy",
+     "pron": "/ˈpɑːzətɪv ˈenərdʒi/",
+     "vi": "năng lượng tích cực",
+     "ex": "Positive energy fills the room."
+    },
+    {
+     "en": "good vibes",
+     "pron": "/ɡʊd vaɪbz/",
+     "vi": "cảm xúc tích cực",
+     "ex": "Good vibes all night."
+    },
+    {
+     "en": "vibe",
+     "pron": "/vaɪb/",
+     "vi": "không khí",
+     "ex": "The vibe tonight is perfect."
+    },
+    {
+     "en": "mood",
+     "pron": "/muːd/",
+     "vi": "tâm trạng",
+     "ex": "Set the mood with your voice."
+    },
+    {
+     "en": "set the tone",
+     "pron": "/set ðə toʊn/",
+     "vi": "tạo tông giọng",
+     "ex": "Set the tone with your first line."
+    },
+    {
+     "en": "lead the room",
+     "pron": "/liːd ðə ruːm/",
+     "vi": "dẫn dắt khán phòng",
+     "ex": "Lead the room with your voice."
+    },
+    {
+     "en": "own the stage",
+     "pron": "/oʊn ðə steɪdʒ/",
+     "vi": "làm chủ sân khấu",
+     "ex": "Own the stage tonight."
+    },
+    {
+     "en": "you own the stage",
+     "pron": "/juː oʊn ðə steɪdʒ/",
+     "vi": "bạn làm chủ sân khấu",
+     "ex": "You own the stage!"
+    }
+   ]
+  },
+  {
+   "id": "stage",
+   "tag": "STAGE, SOUND & LIGHTING",
+   "title": "Sân khấu, âm thanh & ánh sáng",
+   "words": [
+    {
+     "en": "main stage",
+     "pron": "/meɪn steɪdʒ/",
+     "vi": "sân khấu chính",
+     "ex": "Welcome to the main stage."
+    },
+    {
+     "en": "backstage",
+     "pron": "/ˈbæksteɪdʒ/",
+     "vi": "hậu trường",
+     "ex": "Meet me backstage."
+    },
+    {
+     "en": "front row",
+     "pron": "/frʌnt roʊ/",
+     "vi": "hàng ghế đầu",
+     "ex": "Our VIPs sit in the front row."
+    },
+    {
+     "en": "auditorium",
+     "pron": "/ˌɔːdɪˈtɔːriəm/",
+     "vi": "khán phòng",
+     "ex": "A full auditorium tonight."
+    },
+    {
+     "en": "hall",
+     "pron": "/hɔːl/",
+     "vi": "hội trường",
+     "ex": "Welcome to the hall."
+    },
+    {
+     "en": "venue",
+     "pron": "/ˈvenjuː/",
+     "vi": "địa điểm tổ chức",
+     "ex": "A beautiful venue tonight."
+    },
+    {
+     "en": "arena",
+     "pron": "/əˈriːnə/",
+     "vi": "đấu trường",
+     "ex": "The arena is full."
+    },
+    {
+     "en": "platform",
+     "pron": "/ˈplætfɔːrm/",
+     "vi": "bục",
+     "ex": "Step onto the platform."
+    },
+    {
+     "en": "podium",
+     "pron": "/ˈpoʊdiəm/",
+     "vi": "bục phát biểu",
+     "ex": "Please step to the podium."
+    },
+    {
+     "en": "lectern",
+     "pron": "/ˈlektərn/",
+     "vi": "bục giảng",
+     "ex": "The lectern is ready."
+    },
+    {
+     "en": "backdrop",
+     "pron": "/ˈbækdrɑːp/",
+     "vi": "phông nền",
+     "ex": "A beautiful backdrop."
+    },
+    {
+     "en": "banner",
+     "pron": "/ˈbænər/",
+     "vi": "băng rôn",
+     "ex": "Our banner welcomes you."
+    },
+    {
+     "en": "stage curtain",
+     "pron": "/steɪdʒ ˈkɜːrtn/",
+     "vi": "màn sân khấu",
+     "ex": "The stage curtain rises."
+    },
+    {
+     "en": "lighting",
+     "pron": "/ˈlaɪtɪŋ/",
+     "vi": "ánh sáng",
+     "ex": "The lighting is perfect."
+    },
+    {
+     "en": "light",
+     "pron": "/laɪt/",
+     "vi": "đèn",
+     "ex": "Lights up, everyone!"
+    },
+    {
+     "en": "follow spot",
+     "pron": "/ˈfɑːloʊ spɑːt/",
+     "vi": "đèn rọi theo",
+     "ex": "The follow spot is on our guest."
+    },
+    {
+     "en": "floodlight",
+     "pron": "/ˈflʌdlaɪt/",
+     "vi": "đèn pha",
+     "ex": "Floodlights light the stage."
+    },
+    {
+     "en": "laser",
+     "pron": "/ˈleɪzər/",
+     "vi": "tia laser",
+     "ex": "Laser lights dance tonight."
+    },
+    {
+     "en": "LED",
+     "pron": "/ˌel iː ˈdiː/",
+     "vi": "đèn LED",
+     "ex": "LED lights shine bright."
+    },
+    {
+     "en": "LED screen",
+     "pron": "/ˌel iː ˈdiː skriːn/",
+     "vi": "màn hình LED",
+     "ex": "Look at the LED screen."
+    },
+    {
+     "en": "sound system",
+     "pron": "/saʊnd ˈsɪstəm/",
+     "vi": "hệ thống âm thanh",
+     "ex": "Our sound system is ready."
+    },
+    {
+     "en": "loudspeaker",
+     "pron": "/ˈlaʊdspiːkər/",
+     "vi": "loa",
+     "ex": "The loudspeakers are on."
+    },
+    {
+     "en": "audio",
+     "pron": "/ˈɔːdioʊ/",
+     "vi": "âm thanh",
+     "ex": "Check the audio, please."
+    },
+    {
+     "en": "sound check",
+     "pron": "/saʊnd tʃek/",
+     "vi": "kiểm tra âm thanh",
+     "ex": "Sound check in five minutes."
+    },
+    {
+     "en": "sound engineer",
+     "pron": "/saʊnd ˌendʒɪˈnɪr/",
+     "vi": "kỹ thuật viên âm thanh",
+     "ex": "Our sound engineer is ready."
+    },
+    {
+     "en": "technician",
+     "pron": "/tekˈnɪʃn/",
+     "vi": "kỹ thuật viên",
+     "ex": "Our technicians are backstage."
+    },
+    {
+     "en": "control room",
+     "pron": "/kənˈtroʊl ruːm/",
+     "vi": "phòng điều khiển",
+     "ex": "The control room is ready."
+    },
+    {
+     "en": "mixer",
+     "pron": "/ˈmɪksər/",
+     "vi": "bàn trộn âm thanh",
+     "ex": "The mixer is set."
+    },
+    {
+     "en": "turn it up",
+     "pron": "/tɜːrn ɪt ʌp/",
+     "vi": "vặn to lên",
+     "ex": "Turn it up, please."
+    },
+    {
+     "en": "turn it down",
+     "pron": "/tɜːrn ɪt daʊn/",
+     "vi": "vặn nhỏ lại",
+     "ex": "Turn it down a little."
+    },
+    {
+     "en": "echo",
+     "pron": "/ˈekoʊ/",
+     "vi": "tiếng vang",
+     "ex": "A little echo in the hall."
+    },
+    {
+     "en": "noise",
+     "pron": "/nɔɪz/",
+     "vi": "tiếng ồn",
+     "ex": "Please keep the noise down."
+    },
+    {
+     "en": "silence",
+     "pron": "/ˈsaɪləns/",
+     "vi": "im lặng",
+     "ex": "A moment of silence."
+    },
+    {
+     "en": "quiet",
+     "pron": "/ˈkwaɪət/",
+     "vi": "yên lặng",
+     "ex": "Quiet, please, the show begins."
+    },
+    {
+     "en": "background music",
+     "pron": "/ˈbækɡraʊnd ˈmjuːzɪk/",
+     "vi": "nhạc nền",
+     "ex": "Background music plays softly."
+    },
+    {
+     "en": "soundtrack",
+     "pron": "/ˈsaʊndtræk/",
+     "vi": "nhạc nền",
+     "ex": "Our soundtrack tonight."
+    },
+    {
+     "en": "play the music",
+     "pron": "/pleɪ ðə ˈmjuːzɪk/",
+     "vi": "phát nhạc",
+     "ex": "Play the music, please."
+    },
+    {
+     "en": "hit it",
+     "pron": "/hɪt ɪt/",
+     "vi": "phát đi",
+     "ex": "Hit it, DJ!"
+    },
+    {
+     "en": "DJ",
+     "pron": "/ˈdiː ˈdʒeɪ/",
+     "vi": "DJ",
+     "ex": "Our DJ is ready."
+    },
+    {
+     "en": "video",
+     "pron": "/ˈvɪdioʊ/",
+     "vi": "video",
+     "ex": "Let us watch a short video."
+    },
+    {
+     "en": "clip",
+     "pron": "/klɪp/",
+     "vi": "đoạn video",
+     "ex": "A short clip for you."
+    },
+    {
+     "en": "slideshow",
+     "pron": "/ˈslaɪdʃoʊ/",
+     "vi": "trình chiếu ảnh",
+     "ex": "A slideshow of memories."
+    },
+    {
+     "en": "visual",
+     "pron": "/ˈvɪʒuəl/",
+     "vi": "hình ảnh",
+     "ex": "Beautiful visuals tonight."
+    },
+    {
+     "en": "big screen",
+     "pron": "/bɪɡ skriːn/",
+     "vi": "màn hình lớn",
+     "ex": "Look at the big screen."
+    },
+    {
+     "en": "camera",
+     "pron": "/ˈkæmrə/",
+     "vi": "máy quay",
+     "ex": "Smile for the camera."
+    },
+    {
+     "en": "live stream",
+     "pron": "/laɪv striːm/",
+     "vi": "phát trực tiếp",
+     "ex": "We are live streaming tonight."
+    },
+    {
+     "en": "broadcast",
+     "pron": "/ˈbrɔːdkæst/",
+     "vi": "phát sóng",
+     "ex": "Tonight's broadcast is live."
+    },
+    {
+     "en": "recording",
+     "pron": "/rɪˈkɔːrdɪŋ/",
+     "vi": "bản ghi",
+     "ex": "The recording starts now."
+    },
+    {
+     "en": "photography",
+     "pron": "/fəˈtɑːɡrəfi/",
+     "vi": "nhiếp ảnh",
+     "ex": "Photography is welcome."
+    },
+    {
+     "en": "prop",
+     "pron": "/prɑːp/",
+     "vi": "đạo cụ",
+     "ex": "A fun prop for the show."
+    },
+    {
+     "en": "costume",
+     "pron": "/ˈkɑːstuːm/",
+     "vi": "trang phục",
+     "ex": "A beautiful costume."
+    },
+    {
+     "en": "makeup",
+     "pron": "/ˈmeɪkʌp/",
+     "vi": "trang điểm",
+     "ex": "Makeup is ready backstage."
+    },
+    {
+     "en": "wardrobe",
+     "pron": "/ˈwɔːrdroʊb/",
+     "vi": "trang phục",
+     "ex": "Check your wardrobe."
+    },
+    {
+     "en": "dress rehearsal",
+     "pron": "/dres rɪˈhɜːrsl/",
+     "vi": "tổng duyệt",
+     "ex": "A dress rehearsal at five."
+    },
+    {
+     "en": "run-through",
+     "pron": "/ˈrʌn θruː/",
+     "vi": "chạy thử",
+     "ex": "A quick run-through."
+    },
+    {
+     "en": "cue",
+     "pron": "/kjuː/",
+     "vi": "hiệu lệnh",
+     "ex": "Wait for my cue."
+    },
+    {
+     "en": "cue card",
+     "pron": "/kjuː kɑːrd/",
+     "vi": "thẻ nhắc",
+     "ex": "My cue cards are ready."
+    },
+    {
+     "en": "teleprompter",
+     "pron": "/ˈteləprɑːmptər/",
+     "vi": "máy nhắc chữ",
+     "ex": "The teleprompter is on."
+    },
+    {
+     "en": "prompt",
+     "pron": "/prɑːmpt/",
+     "vi": "nhắc lời",
+     "ex": "A prompt from backstage."
+    },
+    {
+     "en": "earpiece",
+     "pron": "/ˈɪrpiːs/",
+     "vi": "tai nghe",
+     "ex": "My earpiece is ready."
+    },
+    {
+     "en": "headset",
+     "pron": "/ˈhedset/",
+     "vi": "tai nghe có mic",
+     "ex": "A headset for our host."
+    },
+    {
+     "en": "wireless mic",
+     "pron": "/ˈwaɪərləs maɪk/",
+     "vi": "micro không dây",
+     "ex": "A wireless mic for our guest."
+    },
+    {
+     "en": "handheld mic",
+     "pron": "/ˈhændheld maɪk/",
+     "vi": "micro cầm tay",
+     "ex": "A handheld mic, please."
+    },
+    {
+     "en": "lapel mic",
+     "pron": "/ləˈpel maɪk/",
+     "vi": "micro cài áo",
+     "ex": "A lapel mic for the speaker."
+    },
+    {
+     "en": "stand",
+     "pron": "/stænd/",
+     "vi": "chân đế",
+     "ex": "A mic stand, please."
+    },
+    {
+     "en": "cable",
+     "pron": "/ˈkeɪbl/",
+     "vi": "dây cáp",
+     "ex": "Check the cable."
+    },
+    {
+     "en": "plug in",
+     "pron": "/plʌɡ ɪn/",
+     "vi": "cắm điện",
+     "ex": "Plug in the mic."
+    },
+    {
+     "en": "power",
+     "pron": "/ˈpaʊər/",
+     "vi": "nguồn điện",
+     "ex": "Power is on."
+    },
+    {
+     "en": "battery",
+     "pron": "/ˈbætəri/",
+     "vi": "pin",
+     "ex": "A fresh battery for the mic."
+    },
+    {
+     "en": "test",
+     "pron": "/test/",
+     "vi": "kiểm tra",
+     "ex": "Test, one, two."
+    },
+    {
+     "en": "testing",
+     "pron": "/ˈtestɪŋ/",
+     "vi": "đang kiểm tra",
+     "ex": "Testing, one, two, three."
+    },
+    {
+     "en": "one two three",
+     "pron": "/wʌn tuː θriː/",
+     "vi": "một hai ba",
+     "ex": "One, two, three — can you hear me?"
+    },
+    {
+     "en": "can you hear me",
+     "pron": "/kən juː hɪr miː/",
+     "vi": "quý vị có nghe tôi không",
+     "ex": "Can you hear me at the back?"
+    },
+    {
+     "en": "louder",
+     "pron": "/ˈlaʊdər/",
+     "vi": "to hơn",
+     "ex": "A little louder, please."
+    },
+    {
+     "en": "softer",
+     "pron": "/ˈsɔːftər/",
+     "vi": "nhỏ hơn",
+     "ex": "A little softer, please."
+    },
+    {
+     "en": "crystal clear",
+     "pron": "/ˈkrɪstl klɪr/",
+     "vi": "rõ ràng",
+     "ex": "Crystal clear sound."
+    },
+    {
+     "en": "dim the lights",
+     "pron": "/dɪm ðə laɪts/",
+     "vi": "giảm đèn",
+     "ex": "Dim the lights, please."
+    },
+    {
+     "en": "lights up",
+     "pron": "/laɪts ʌp/",
+     "vi": "bật đèn",
+     "ex": "Lights up!"
+    },
+    {
+     "en": "lights down",
+     "pron": "/laɪts daʊn/",
+     "vi": "tắt đèn",
+     "ex": "Lights down, please."
+    },
+    {
+     "en": "spotlight on",
+     "pron": "/ˈspɑːtlaɪt ɑːn/",
+     "vi": "rọi đèn vào",
+     "ex": "Spotlight on our guest!"
+    },
+    {
+     "en": "stage lights",
+     "pron": "/steɪdʒ laɪts/",
+     "vi": "đèn sân khấu",
+     "ex": "Stage lights are ready."
+    },
+    {
+     "en": "color",
+     "pron": "/ˈkʌlər/",
+     "vi": "màu sắc",
+     "ex": "Warm colors tonight."
+    },
+    {
+     "en": "golden",
+     "pron": "/ˈɡoʊldən/",
+     "vi": "vàng kim",
+     "ex": "Golden lights tonight."
+    },
+    {
+     "en": "bright",
+     "pron": "/braɪt/",
+     "vi": "sáng",
+     "ex": "Bright lights, big night."
+    },
+    {
+     "en": "dark",
+     "pron": "/dɑːrk/",
+     "vi": "tối",
+     "ex": "The hall goes dark."
+    },
+    {
+     "en": "smoke",
+     "pron": "/smoʊk/",
+     "vi": "khói",
+     "ex": "Smoke effects on stage."
+    },
+    {
+     "en": "streamer",
+     "pron": "/ˈstriːmər/",
+     "vi": "dải ruy băng giấy",
+     "ex": "Streamers fall from above."
+    },
+    {
+     "en": "spark",
+     "pron": "/spɑːrk/",
+     "vi": "tia lửa",
+     "ex": "A spark of magic."
+    },
+    {
+     "en": "effect",
+     "pron": "/ɪˈfekt/",
+     "vi": "hiệu ứng",
+     "ex": "A special effect."
+    },
+    {
+     "en": "special effect",
+     "pron": "/ˈspeʃl ɪˈfekt/",
+     "vi": "hiệu ứng đặc biệt",
+     "ex": "Special effects tonight."
+    },
+    {
+     "en": "entrance",
+     "pron": "/ˈentrəns/",
+     "vi": "lối vào",
+     "ex": "A grand entrance."
+    },
+    {
+     "en": "exit",
+     "pron": "/ˈeɡzɪt/",
+     "vi": "lối ra",
+     "ex": "The exit is on the left."
+    },
+    {
+     "en": "door",
+     "pron": "/dɔːr/",
+     "vi": "cửa",
+     "ex": "Doors open at six."
+    },
+    {
+     "en": "red carpet",
+     "pron": "/red ˈkɑːrpɪt/",
+     "vi": "thảm đỏ",
+     "ex": "Walk the red carpet."
+    },
+    {
+     "en": "VIP area",
+     "pron": "/ˌviː aɪ ˈpiː ˈeriə/",
+     "vi": "khu vực VIP",
+     "ex": "Our VIP area is ready."
+    },
+    {
+     "en": "green room",
+     "pron": "/ɡriːn ruːm/",
+     "vi": "phòng chờ nghệ sĩ",
+     "ex": "Wait in the green room."
+    },
+    {
+     "en": "dressing room",
+     "pron": "/ˈdresɪŋ ruːm/",
+     "vi": "phòng thay đồ",
+     "ex": "The dressing room is ready."
+    },
+    {
+     "en": "storage",
+     "pron": "/ˈstɔːrɪdʒ/",
+     "vi": "kho",
+     "ex": "Props are in storage."
+    },
+    {
+     "en": "setup",
+     "pron": "/ˈsetʌp/",
+     "vi": "chuẩn bị sân khấu",
+     "ex": "Setup starts at noon."
+    },
+    {
+     "en": "teardown",
+     "pron": "/ˈterdaʊn/",
+     "vi": "tháo dỡ",
+     "ex": "Teardown after the show."
+    }
+   ]
+  },
+  {
+   "id": "script",
+   "tag": "SCRIPT & AUDIENCE",
+   "title": "Kịch bản & tương tác khán giả",
+   "words": [
+    {
+     "en": "script",
+     "pron": "/skrɪpt/",
+     "vi": "kịch bản",
+     "ex": "Follow the script, but be natural."
+    },
+    {
+     "en": "run of show",
+     "pron": "/rʌn əv ʃoʊ/",
+     "vi": "kịch bản chạy chương trình",
+     "ex": "The run of show is ready."
+    },
+    {
+     "en": "rundown",
+     "pron": "/ˈrʌndaʊn/",
+     "vi": "bảng chạy chương trình",
+     "ex": "Check the rundown, please."
+    },
+    {
+     "en": "timeline",
+     "pron": "/ˈtaɪmlaɪn/",
+     "vi": "dòng thời gian",
+     "ex": "Our timeline is tight."
+    },
+    {
+     "en": "segment",
+     "pron": "/ˈseɡmənt/",
+     "vi": "phần",
+     "ex": "The next segment is music."
+    },
+    {
+     "en": "part",
+     "pron": "/pɑːrt/",
+     "vi": "phần",
+     "ex": "Part one is the welcome."
+    },
+    {
+     "en": "section",
+     "pron": "/ˈsekʃn/",
+     "vi": "phần",
+     "ex": "The next section is awards."
+    },
+    {
+     "en": "act",
+     "pron": "/ækt/",
+     "vi": "tiết mục",
+     "ex": "Act one begins now."
+    },
+    {
+     "en": "scene",
+     "pron": "/siːn/",
+     "vi": "cảnh",
+     "ex": "A beautiful scene."
+    },
+    {
+     "en": "transition",
+     "pron": "/trænˈzɪʃn/",
+     "vi": "chuyển ý",
+     "ex": "A smooth transition."
+    },
+    {
+     "en": "segue",
+     "pron": "/ˈseɡweɪ/",
+     "vi": "chuyển đoạn",
+     "ex": "A smooth segue to the next part."
+    },
+    {
+     "en": "bridge",
+     "pron": "/brɪdʒ/",
+     "vi": "cầu nối",
+     "ex": "A bridge between two parts."
+    },
+    {
+     "en": "link",
+     "pron": "/lɪŋk/",
+     "vi": "liên kết",
+     "ex": "Link the two parts together."
+    },
+    {
+     "en": "connection",
+     "pron": "/kəˈnekʃn/",
+     "vi": "sự kết nối",
+     "ex": "A connection with the crowd."
+    },
+    {
+     "en": "interaction",
+     "pron": "/ˌɪntərˈækʃn/",
+     "vi": "tương tác",
+     "ex": "Audience interaction is key."
+    },
+    {
+     "en": "interactive",
+     "pron": "/ˌɪntərˈæktɪv/",
+     "vi": "tương tác",
+     "ex": "An interactive game."
+    },
+    {
+     "en": "game",
+     "pron": "/ɡeɪm/",
+     "vi": "trò chơi",
+     "ex": "Let us play a game."
+    },
+    {
+     "en": "quiz",
+     "pron": "/kwɪz/",
+     "vi": "đố vui",
+     "ex": "A quick quiz for the audience."
+    },
+    {
+     "en": "trivia",
+     "pron": "/ˈtrɪviə/",
+     "vi": "câu đố",
+     "ex": "Trivia time, everyone!"
+    },
+    {
+     "en": "contest",
+     "pron": "/ˈkɑːntest/",
+     "vi": "cuộc thi",
+     "ex": "Join our contest."
+    },
+    {
+     "en": "competition",
+     "pron": "/ˌkɑːmpəˈtɪʃn/",
+     "vi": "cuộc thi",
+     "ex": "A friendly competition."
+    },
+    {
+     "en": "dare",
+     "pron": "/der/",
+     "vi": "thử thách",
+     "ex": "I dare you to sing!"
+    },
+    {
+     "en": "vote",
+     "pron": "/voʊt/",
+     "vi": "bình chọn",
+     "ex": "Vote for your favorite."
+    },
+    {
+     "en": "poll",
+     "pron": "/poʊl/",
+     "vi": "thăm dò",
+     "ex": "A quick poll for the audience."
+    },
+    {
+     "en": "shout out",
+     "pron": "/ʃaʊt aʊt/",
+     "vi": "gọi tên",
+     "ex": "A shout out to our team!"
+    },
+    {
+     "en": "call and response",
+     "pron": "/kɔːl ənd rɪˈspɑːns/",
+     "vi": "hô đáp",
+     "ex": "Call and response with the crowd."
+    },
+    {
+     "en": "repeat after me",
+     "pron": "/rɪˈpiːt ˈæftər miː/",
+     "vi": "nhắc lại theo tôi",
+     "ex": "Repeat after me: welcome!"
+    },
+    {
+     "en": "say it with me",
+     "pron": "/seɪ ɪt wɪð miː/",
+     "vi": "nói cùng tôi",
+     "ex": "Say it with me: happy birthday!"
+    },
+    {
+     "en": "clap along",
+     "pron": "/klæp əˈlɔːŋ/",
+     "vi": "vỗ tay theo",
+     "ex": "Clap along with the music."
+    },
+    {
+     "en": "clap your hands",
+     "pron": "/klæp jɔːr hændz/",
+     "vi": "vỗ tay",
+     "ex": "Clap your hands, everyone!"
+    },
+    {
+     "en": "sing along",
+     "pron": "/sɪŋ əˈlɔːŋ/",
+     "vi": "hát theo",
+     "ex": "Sing along with us."
+    },
+    {
+     "en": "stand up",
+     "pron": "/stænd ʌp/",
+     "vi": "đứng lên",
+     "ex": "Everybody, stand up!"
+    },
+    {
+     "en": "wave",
+     "pron": "/weɪv/",
+     "vi": "vẫy tay",
+     "ex": "Wave to the camera."
+    },
+    {
+     "en": "wave your hands",
+     "pron": "/weɪv jɔːr hændz/",
+     "vi": "vẫy tay",
+     "ex": "Wave your hands in the air."
+    },
+    {
+     "en": "hands in the air",
+     "pron": "/hændz ɪn ðiː er/",
+     "vi": "giơ tay lên",
+     "ex": "Hands in the air!"
+    },
+    {
+     "en": "everybody",
+     "pron": "/ˈevribɑːdi/",
+     "vi": "mọi người",
+     "ex": "Everybody, make some noise!"
+    },
+    {
+     "en": "everyone",
+     "pron": "/ˈevriwʌn/",
+     "vi": "mọi người",
+     "ex": "Everyone, welcome!"
+    },
+    {
+     "en": "all of you",
+     "pron": "/ɔːl əv juː/",
+     "vi": "tất cả quý vị",
+     "ex": "All of you are amazing."
+    },
+    {
+     "en": "you all",
+     "pron": "/juː ɔːl/",
+     "vi": "tất cả các bạn",
+     "ex": "You all look wonderful."
+    },
+    {
+     "en": "crowd",
+     "pron": "/kraʊd/",
+     "vi": "đám đông",
+     "ex": "What a wonderful crowd!"
+    },
+    {
+     "en": "fans",
+     "pron": "/fænz/",
+     "vi": "người hâm mộ",
+     "ex": "Our fans are the best."
+    },
+    {
+     "en": "supporter",
+     "pron": "/səˈpɔːrtər/",
+     "vi": "người ủng hộ",
+     "ex": "Thank you, supporters."
+    },
+    {
+     "en": "volunteer",
+     "pron": "/ˌvɑːlənˈtɪr/",
+     "vi": "tình nguyện viên",
+     "ex": "Our volunteers are amazing."
+    },
+    {
+     "en": "organizer",
+     "pron": "/ˈɔːrɡənaɪzər/",
+     "vi": "ban tổ chức",
+     "ex": "Thank you to the organizers."
+    },
+    {
+     "en": "committee",
+     "pron": "/kəˈmɪti/",
+     "vi": "ban tổ chức",
+     "ex": "Our committee worked hard."
+    },
+    {
+     "en": "crew",
+     "pron": "/kruː/",
+     "vi": "đội ngũ",
+     "ex": "Our crew is the best."
+    },
+    {
+     "en": "helper",
+     "pron": "/ˈhelpər/",
+     "vi": "người hỗ trợ",
+     "ex": "Thank you, helpers."
+    },
+    {
+     "en": "announcer",
+     "pron": "/əˈnaʊnsər/",
+     "vi": "người giới thiệu",
+     "ex": "Our announcer is ready."
+    },
+    {
+     "en": "narrator",
+     "pron": "/ˈnæreɪtər/",
+     "vi": "người dẫn chuyện",
+     "ex": "A narrator tells the story."
+    },
+    {
+     "en": "storyteller",
+     "pron": "/ˈstɔːritelər/",
+     "vi": "người kể chuyện",
+     "ex": "Our storyteller is ready."
+    },
+    {
+     "en": "story",
+     "pron": "/ˈstɔːri/",
+     "vi": "câu chuyện",
+     "ex": "Let me tell you a story."
+    },
+    {
+     "en": "anecdote",
+     "pron": "/ˈænɪkdoʊt/",
+     "vi": "giai thoại",
+     "ex": "A funny anecdote."
+    },
+    {
+     "en": "funny story",
+     "pron": "/ˈfʌni ˈstɔːri/",
+     "vi": "câu chuyện vui",
+     "ex": "A funny story for you."
+    },
+    {
+     "en": "icebreaker",
+     "pron": "/ˈaɪsbreɪkər/",
+     "vi": "trò phá băng",
+     "ex": "An icebreaker to start."
+    },
+    {
+     "en": "warm-up game",
+     "pron": "/wɔːrm ʌp ɡeɪm/",
+     "vi": "trò khởi động",
+     "ex": "A warm-up game for the crowd."
+    },
+    {
+     "en": "energizer",
+     "pron": "/ˈenərdʒaɪzər/",
+     "vi": "trò khuấy động",
+     "ex": "An energizer to wake the room."
+    },
+    {
+     "en": "cheer",
+     "pron": "/tʃɪr/",
+     "vi": "cổ vũ",
+     "ex": "A cheer for our team!"
+    },
+    {
+     "en": "chant",
+     "pron": "/tʃænt/",
+     "vi": "hô vang",
+     "ex": "A chant for our stars."
+    },
+    {
+     "en": "slogan",
+     "pron": "/ˈsloʊɡən/",
+     "vi": "khẩu hiệu",
+     "ex": "Our slogan tonight."
+    },
+    {
+     "en": "motto",
+     "pron": "/ˈmɑːtoʊ/",
+     "vi": "châm ngôn",
+     "ex": "Our motto is simple."
+    },
+    {
+     "en": "theme song",
+     "pron": "/θiːm sɔːŋ/",
+     "vi": "bài hát chủ đề",
+     "ex": "Our theme song plays now."
+    },
+    {
+     "en": "opening act",
+     "pron": "/ˈoʊpənɪŋ ækt/",
+     "vi": "tiết mục mở đầu",
+     "ex": "Our opening act is ready."
+    },
+    {
+     "en": "closing act",
+     "pron": "/ˈkloʊzɪŋ ækt/",
+     "vi": "tiết mục kết thúc",
+     "ex": "Our closing act is special."
+    },
+    {
+     "en": "headliner",
+     "pron": "/ˈhedlaɪnər/",
+     "vi": "nghệ sĩ chính",
+     "ex": "Our headliner is here."
+    },
+    {
+     "en": "surprise guest",
+     "pron": "/sərˈpraɪz ɡest/",
+     "vi": "khách mời bất ngờ",
+     "ex": "A surprise guest joins us."
+    },
+    {
+     "en": "surprise act",
+     "pron": "/sərˈpraɪz ækt/",
+     "vi": "tiết mục bất ngờ",
+     "ex": "A surprise act for you."
+    },
+    {
+     "en": "special performance",
+     "pron": "/ˈspeʃl pərˈfɔːrməns/",
+     "vi": "tiết mục đặc biệt",
+     "ex": "A special performance."
+    },
+    {
+     "en": "encore",
+     "pron": "/ˈɑːŋkɔːr/",
+     "vi": "diễn thêm",
+     "ex": "One more song — encore!"
+    },
+    {
+     "en": "one more song",
+     "pron": "/wʌn mɔːr sɔːŋ/",
+     "vi": "thêm một bài",
+     "ex": "One more song, please!"
+    },
+    {
+     "en": "curtain call",
+     "pron": "/ˈkɜːrtn kɔːl/",
+     "vi": "chào kết",
+     "ex": "A curtain call for our stars."
+    },
+    {
+     "en": "bow",
+     "pron": "/baʊ/",
+     "vi": "cúi chào",
+     "ex": "Take a bow, everyone."
+    },
+    {
+     "en": "take a bow",
+     "pron": "/teɪk ə baʊ/",
+     "vi": "cúi chào",
+     "ex": "Take a bow, our stars!"
+    },
+    {
+     "en": "standing ovation",
+     "pron": "/ˈstændɪŋ oʊˈveɪʃn/",
+     "vi": "vỗ tay đứng",
+     "ex": "A standing ovation!"
+    },
+    {
+     "en": "ovation",
+     "pron": "/oʊˈveɪʃn/",
+     "vi": "tràng vỗ tay",
+     "ex": "A big ovation."
+    },
+    {
+     "en": "cheering",
+     "pron": "/ˈtʃɪrɪŋ/",
+     "vi": "tiếng cổ vũ",
+     "ex": "Cheering fills the hall."
+    },
+    {
+     "en": "electric",
+     "pron": "/ɪˈlektrɪk/",
+     "vi": "sôi động",
+     "ex": "An electric atmosphere."
+    },
+    {
+     "en": "buzz",
+     "pron": "/bʌz/",
+     "vi": "không khí sôi động",
+     "ex": "A buzz in the room."
+    },
+    {
+     "en": "hype",
+     "pron": "/haɪp/",
+     "vi": "sự háo hức",
+     "ex": "Feel the hype tonight."
+    },
+    {
+     "en": "momentum",
+     "pron": "/moʊˈmentəm/",
+     "vi": "đà",
+     "ex": "Keep the momentum going."
+    },
+    {
+     "en": "flow",
+     "pron": "/floʊ/",
+     "vi": "dòng chảy",
+     "ex": "Keep the flow of the show."
+    },
+    {
+     "en": "timing",
+     "pron": "/ˈtaɪmɪŋ/",
+     "vi": "thời điểm",
+     "ex": "Perfect timing."
+    },
+    {
+     "en": "on time",
+     "pron": "/ɑːn taɪm/",
+     "vi": "đúng giờ",
+     "ex": "We start on time."
+    },
+    {
+     "en": "on schedule",
+     "pron": "/ɑːn ˈskedʒuːl/",
+     "vi": "đúng lịch",
+     "ex": "We are on schedule."
+    },
+    {
+     "en": "running late",
+     "pron": "/ˈrʌnɪŋ leɪt/",
+     "vi": "đang trễ",
+     "ex": "We are running late."
+    },
+    {
+     "en": "behind schedule",
+     "pron": "/bɪˈhaɪnd ˈskedʒuːl/",
+     "vi": "trễ lịch",
+     "ex": "A little behind schedule."
+    },
+    {
+     "en": "ahead of schedule",
+     "pron": "/əˈhed əv ˈskedʒuːl/",
+     "vi": "sớm hơn lịch",
+     "ex": "Ahead of schedule."
+    },
+    {
+     "en": "time check",
+     "pron": "/taɪm tʃek/",
+     "vi": "kiểm tra giờ",
+     "ex": "A quick time check."
+    },
+    {
+     "en": "five more minutes",
+     "pron": "/faɪv mɔːr ˈmɪnɪts/",
+     "vi": "thêm năm phút",
+     "ex": "Five more minutes, please."
+    },
+    {
+     "en": "last call",
+     "pron": "/læst kɔːl/",
+     "vi": "gọi cuối",
+     "ex": "Last call for the raffle."
+    },
+    {
+     "en": "final call",
+     "pron": "/ˈfaɪnl kɔːl/",
+     "vi": "gọi cuối cùng",
+     "ex": "Final call, everyone."
+    },
+    {
+     "en": "do not miss it",
+     "pron": "/duː nɑːt mɪs ɪt/",
+     "vi": "đừng bỏ lỡ",
+     "ex": "Do not miss it!"
+    },
+    {
+     "en": "stay tuned",
+     "pron": "/steɪ tuːnd/",
+     "vi": "đừng rời mắt",
+     "ex": "Stay tuned for more."
+    },
+    {
+     "en": "coming up",
+     "pron": "/ˈkʌmɪŋ ʌp/",
+     "vi": "sắp tới",
+     "ex": "Coming up next, our stars."
+    },
+    {
+     "en": "up next",
+     "pron": "/ʌp nekst/",
+     "vi": "tiếp theo",
+     "ex": "Up next, a special guest."
+    },
+    {
+     "en": "stay with us",
+     "pron": "/steɪ wɪð ʌs/",
+     "vi": "hãy ở lại với chúng tôi",
+     "ex": "Stay with us for more."
+    },
+    {
+     "en": "do not go anywhere",
+     "pron": "/duː nɑːt ɡoʊ ˈeniwer/",
+     "vi": "đừng đi đâu",
+     "ex": "Do not go anywhere!"
+    },
+    {
+     "en": "we will be right back",
+     "pron": "/wiː wɪl biː raɪt bæk/",
+     "vi": "chúng tôi quay lại ngay",
+     "ex": "We will be right back."
+    },
+    {
+     "en": "after the break",
+     "pron": "/ˈæftər ðə breɪk/",
+     "vi": "sau giờ nghỉ",
+     "ex": "After the break, the awards."
+    },
+    {
+     "en": "back in a moment",
+     "pron": "/bæk ɪn ə ˈmoʊmənt/",
+     "vi": "quay lại ngay",
+     "ex": "Back in a moment."
+    },
+    {
+     "en": "and now",
+     "pron": "/ənd naʊ/",
+     "vi": "và bây giờ",
+     "ex": "And now, our next guest!"
+    }
+   ]
+  }
+ ]
+}

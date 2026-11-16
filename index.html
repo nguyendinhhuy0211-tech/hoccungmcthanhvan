@@ -92,6 +92,8 @@ label{font-size:13px; font-weight:700; display:block; margin:12px 0 4px}
 .flash .hint{color:var(--muted); font-size:13px; margin-top:10px}
 .flash .vi{font-size:16px; margin-top:10px; color:#444}
 .flash .pron{color:var(--gold); font-style:italic}
+.flash .fhead{display:flex; justify-content:space-between; width:100%; font-size:12px; color:var(--muted); letter-spacing:.5px; font-weight:700; margin-bottom:14px}
+.flash .fex{font-size:14px; color:#555; margin-top:8px; font-style:italic; max-width:520px}
 .empty{color:var(--muted); text-align:center; padding:30px 10px}
 .note-item{display:flex; gap:10px; align-items:flex-start}
 .note-item .txt{flex:1}
@@ -225,9 +227,23 @@ footer{text-align:center; color:var(--muted); font-size:12px; padding:20px}
   <!-- 4. TỪ VỰNG -->
   <section id="view-vocab" class="view">
     <h1>Từ vựng</h1>
-    <p class="sub">Tất cả câu mẫu dưới dạng thẻ từ — bấm Nghe để luyện phát âm từng câu.</p>
-    <div class="search"><input id="vocabSearch" type="search" placeholder="🔍 Tìm câu mẫu… gõ từ khóa tiếng Anh hoặc tiếng Việt"></div>
-    <div id="vocabList"></div>
+    <p class="sub">1000 từ vựng chuyên ngành MC — học bằng flashcard từng từ, bấm Nghe để luyện phát âm.</p>
+    <div class="row" style="margin:0 0 12px">
+      <button class="btn" id="vocabTabFlash">🃏 Flashcard 1000 từ</button>
+      <button class="btn" id="vocabTabList">📋 Câu mẫu theo chủ đề</button>
+    </div>
+    <div id="vocabFlashWrap">
+      <div class="row" style="margin:0 0 12px">
+        <select id="vocabCat" style="flex:1; min-width:160px"></select>
+        <button class="btn" id="vocabShuffle">🔀 Xáo trộn</button>
+      </div>
+      <div id="vocabFlash"></div>
+      <p class="kbd" id="vocabKnownLine" style="text-align:center"></p>
+    </div>
+    <div id="vocabListWrap" style="display:none">
+      <div class="search"><input id="vocabSearch" type="search" placeholder="🔍 Tìm câu mẫu… gõ từ khóa tiếng Anh hoặc tiếng Việt"></div>
+      <div id="vocabList"></div>
+    </div>
   </section>
 
   <!-- 5. MẪU CÂU MC -->

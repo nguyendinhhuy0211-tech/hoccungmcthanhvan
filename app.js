@@ -1,5 +1,5 @@
 /* MC Academy — Học tiếng Anh cho MC cùng Thanh Vân. Static app, progress in localStorage, voice via Google TTS (device voice fallback) */
-const LS = { known: 'mc_known_v1', review: 'mc_review_v1', days: 'mc_days_v1', notes: 'mc_notes_v1', listened: 'mc_listened_v1', listen: 'mc_listen_v1', speak: 'mc_speak_v1', quiz: 'mc_quiz_v1', stage: 'mc_stage_v1', mistakes: 'mc_mistakes_v1' };
+const LS = { known: 'mc_known_v1', review: 'mc_review_v1', days: 'mc_days_v1', notes: 'mc_notes_v1', listened: 'mc_listened_v1', listen: 'mc_listen_v1', speak: 'mc_speak_v1', quiz: 'mc_quiz_v1', stage: 'mc_stage_v1', mistakes: 'mc_mistakes_v1', vocabKnown: 'mc_vocab_known_v1' };
 const load = (k, d) => { try { const v = JSON.parse(localStorage.getItem(k)); return v == null ? d : v; } catch (e) { return d; } };
 const save = (k, v) => { try { localStorage.setItem(k, JSON.stringify(v)); } catch (e) {} };
 let known = new Set(load(LS.known, []));
@@ -12,7 +12,10 @@ let speakStats = load(LS.speak, { ratings: {}, count: 0 });
 let quizStats = load(LS.quiz, { best: 0, last: 0, correct: 0, total: 0, rounds: 0 });
 let stageStats = load(LS.stage, { count: 0, seconds: 0 });
 let mistakesDone = new Set(load(LS.mistakes, []));
+let vocabKnown = new Set(load(LS.vocabKnown, []));
 let CUR = null;
+let VOCAB = null, vocabFailed = false;
+let vocabCat = 'all', vocabDeck = [], vocabIdx = 0, vocabFlipped = false, vocabTab = 'flash';
 let currentTopic = null, flashIdx = 0, flashFlipped = false, phraseMode = 'list';
 let currentView = 'overview';
 
@@ -310,7 +313,69 @@ function renderVocab(q) {
   $('#vocabList').innerHTML = list.length ? list.map(p => vocabCard(p)).join('') :
     '<div class="card empty">Không tìm thấy câu nào khớp “' + esc(q) + '”.</div>';
 }
-RENDERERS.vocab = function () { renderVocab($('#vocabSearch').value); };
+/* Flashcard 1000 từ vựng chuyên ngành MC (vocab.json) */
+function vocabAll() { return VOCAB.categories.flatMap(c => c.words.map(w => ({ ...w, cat: c.tag, catId: c.id, catTitle: c.title }))); }
+function vocabDeckBuild() {
+  let list = vocabAll();
+  if (vocabCat !== 'all') list = list.filter(w => w.catId === vocabCat);
+  vocabDeck = list;
+  vocabIdx = Math.min(vocabIdx, Math.max(0, vocabDeck.length - 1));
+}
+function renderVocabFlash() {
+  const box = $('#vocabFlash');
+  if (!VOCAB) {
+    box.innerHTML = vocabFailed
+      ? '<div class="card empty">Không tải được bộ 1000 từ (vocab.json). Bạn tải lại trang giúp mình nhé.</div>'
+      : '<div class="card empty">Đang tải bộ 1000 từ…</div>';
+    return;
+  }
+  if (!vocabDeck.length) vocabDeckBuild();
+  const w = vocabDeck[vocabIdx];
+  const known = vocabKnown.has(w.en);
+  box.innerHTML =
+    '<div class="card flash" id="vocabCard">' +
+    '<div class="fhead"><span>FLASHCARD · ' + esc(w.cat) + '</span><span>' + (vocabIdx + 1) + '/' + vocabDeck.length + '</span></div>' +
+    '<div class="en">' + esc(w.en) + '</div>' +
+    '<div class="pron">' + esc(w.pron) + '</div>' +
+    (vocabFlipped
+      ? '<div class="vi">' + esc(w.vi) + '</div><div class="fex">“' + esc(w.ex) + '”</div>'
+      : '<div class="hint">Nhấn vào thẻ để xem nghĩa</div>') +
+    '</div>' +
+    '<div class="row" style="justify-content:center">' +
+    '<button class="btn" id="vocabPrev">‹ Trước</button>' +
+    '<button class="btn" id="vocabFlip">⟳ Lật thẻ</button>' +
+    '<button class="btn" id="vocabNext">Tiếp ›</button></div>' +
+    '<div class="row" style="justify-content:center">' +
+    '<button class="btn play" data-say="' + esc(w.en) + '">▶ Nghe</button>' +
+    '<button class="btn known ' + (known ? 'on' : '') + '" id="vocabKnownBtn">' + (known ? '✓ Đã thuộc' : '✓ Đã thuộc') + '</button></div>';
+  const catTitle = vocabCat === 'all' ? 'Tất cả chủ đề' : (VOCAB.categories.find(c => c.id === vocabCat) || {}).title || '';
+  $('#vocabKnownLine').textContent = vocabKnown.size + '/1000 từ đã thuộc · ' + catTitle;
+  $('#vocabCard').onclick = () => { vocabFlipped = !vocabFlipped; renderVocabFlash(); };
+  $('#vocabPrev').onclick = e => { e.stopPropagation(); vocabFlipped = false; vocabIdx = (vocabIdx - 1 + vocabDeck.length) % vocabDeck.length; renderVocabFlash(); };
+  $('#vocabNext').onclick = e => { e.stopPropagation(); vocabFlipped = false; vocabIdx = (vocabIdx + 1) % vocabDeck.length; renderVocabFlash(); };
+  $('#vocabFlip').onclick = e => { e.stopPropagation(); vocabFlipped = !vocabFlipped; renderVocabFlash(); };
+  $('#vocabKnownBtn').onclick = e => {
+    e.stopPropagation();
+    if (vocabKnown.has(w.en)) vocabKnown.delete(w.en); else { vocabKnown.add(w.en); touchDay(); }
+    save(LS.vocabKnown, [...vocabKnown]);
+    renderVocabFlash();
+  };
+}
+function setVocabTab(t) {
+  vocabTab = t;
+  $('#vocabTabFlash').classList.toggle('play', t === 'flash');
+  $('#vocabTabList').classList.toggle('play', t === 'list');
+  $('#vocabFlashWrap').style.display = t === 'flash' ? '' : 'none';
+  $('#vocabListWrap').style.display = t === 'list' ? '' : 'none';
+  if (t === 'flash') renderVocabFlash(); else renderVocab($('#vocabSearch').value);
+}
+RENDERERS.vocab = function () {
+  const sel = $('#vocabCat');
+  if (VOCAB && !sel.options.length) {
+    sel.innerHTML = '<option value="all">Tất cả 10 chủ đề · 1000 từ</option>' + VOCAB.categories.map(c => '<option value="' + c.id + '">' + esc(c.title) + ' · ' + c.words.length + ' từ</option>').join('');
+  }
+  setVocabTab(vocabTab);
+};
 
 /* ---------- 5. Mẫu câu MC (danh sách + flashcard) ---------- */
 function renderPhraseList() {
@@ -850,6 +915,10 @@ $('#addNoteBtn').addEventListener('click', () => {
 });
 $('#buildBtn').addEventListener('click', buildLine);
 $('#vocabSearch').addEventListener('input', e => renderVocab(e.target.value));
+$('#vocabCat').addEventListener('change', e => { vocabCat = e.target.value; vocabIdx = 0; vocabFlipped = false; vocabDeckBuild(); renderVocabFlash(); });
+$('#vocabShuffle').addEventListener('click', () => { vocabDeck = shuffle(vocabDeck); vocabIdx = 0; vocabFlipped = false; renderVocabFlash(); });
+$('#vocabTabFlash').addEventListener('click', () => setVocabTab('flash'));
+$('#vocabTabList').addEventListener('click', () => setVocabTab('list'));
 $('#phraseSearch').addEventListener('input', () => { if (phraseMode === 'list') renderPhraseList(); });
 $('#phraseTopic').addEventListener('change', () => { if (phraseMode === 'list') renderPhraseList(); });
 $('#phraseModeList').addEventListener('click', () => setPhraseMode('list'));
@@ -867,6 +936,10 @@ $('#studioBtn').addEventListener('click', buildScript);
 $('#quizStartBtn').addEventListener('click', startQuiz);
 
 /* ---------- boot ---------- */
+fetch('vocab.json').then(r => r.json()).then(data => {
+  VOCAB = data;
+  if (currentView === 'vocab') RENDERERS.vocab();
+}).catch(() => { VOCAB = null; vocabFailed = true; if (currentView === 'vocab') RENDERERS.vocab(); });
 fetch('curriculum.json').then(r => r.json()).then(data => {
   CUR = data;
   touchDay();
