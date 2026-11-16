@@ -37,11 +37,13 @@ if ('speechSynthesis' in window) {
 let player = null;      // shared <audio> for Google TTS
 let playingKey = null;  // text currently playing (tap the same button again to stop)
 let playTimer = null;
+let seqToken = 0;       // bumped by stopAudio so a stopped sequence cannot resume itself
 function stopAudio() {
   if (player) { try { player.onended = null; player.onerror = null; player.onplaying = null; player.pause(); player.removeAttribute('src'); player.load(); } catch (e) {} player = null; }
   if (playTimer) { clearTimeout(playTimer); playTimer = null; }
   if ('speechSynthesis' in window) speechSynthesis.cancel();
   playingKey = null;
+  seqToken++;
 }
 function speakDevice(text, rate, onend) {
   if (!('speechSynthesis' in window)) { if (onend) onend(); return; }
@@ -52,6 +54,24 @@ function speakDevice(text, rate, onend) {
   u.onend = () => { if (onend) onend(); };
   u.onerror = () => { if (onend) onend(); };
   speechSynthesis.speak(u);
+}
+/* Pre-recorded Aria voice (avocado_v2:MAI_01): AUDIO_BY_TEXT / AUDIO_SCRIPTS come from audio-data.js, loaded before app.js. */
+function ariaUri(text) {
+  if (typeof AUDIO_BY_TEXT !== 'undefined' && AUDIO_BY_TEXT && AUDIO_BY_TEXT[text]) return AUDIO_BY_TEXT[text];
+  return null;
+}
+function playAriaUri(uri, onend, onerr) {
+  player = new Audio();
+  player.preload = 'auto';
+  player.src = uri;
+  player.onended = () => { player = null; if (onend) onend(); };
+  player.onerror = () => { player = null; if (onerr) onerr(); };
+  player.play().catch(() => { player = null; if (onerr) onerr(); });
+}
+function playAriaSeq(uris, i, done) {
+  const t = seqToken;
+  if (i >= uris.length) { playingKey = null; if (done) done(); return; }
+  playAriaUri(uris[i], () => { if (t !== seqToken) return; playTimer = setTimeout(() => playAriaSeq(uris, i + 1, done), 120); }, () => { if (t !== seqToken) return; playingKey = null; if (done) done(); });
 }
 /* Google Translate TTS takes ~200 chars per request: split long text at sentence ends. */
 function splitChunks(text) {
@@ -101,6 +121,8 @@ function speak(text, slow) {
   stopAudio();
   playingKey = text;
   if (slow) { speakDevice(text, 0.7, () => { playingKey = null; }); return; }
+  const uri = ariaUri(text);
+  if (uri) { playAriaUri(uri, () => { playingKey = null; }, () => { speakGoogleChunks(splitChunks(text), 0, null); }); return; }
   speakGoogleChunks(splitChunks(text), 0, null);
 }
 function speakLines(lines, i) {
@@ -110,7 +132,20 @@ function speakLines(lines, i) {
   if (playingKey === text) { stopAudio(); return; }
   stopAudio();
   playingKey = text;
-  speakGoogleChunks(splitChunks(text), 0, null);
+  /* "Đọc cả kịch bản": lines = [joined text] -> play that scenario's 3 recordings in order. */
+  if (lines.length === 1 && typeof AUDIO_SCRIPTS !== 'undefined' && AUDIO_SCRIPTS && AUDIO_SCRIPTS[lines[0]]) {
+    const lineTexts = AUDIO_SCRIPTS[lines[0]];
+    const uris = lineTexts.map(t => ariaUri(t)).filter(Boolean);
+    if (uris.length === lineTexts.length) { playAriaSeq(uris, 0, null); return; }
+  }
+  playLineSeq(lines, i);
+}
+function playLineSeq(lines, i) {
+  const t = seqToken;
+  if (i >= lines.length) { playingKey = null; return; }
+  const uri = ariaUri(lines[i]);
+  if (uri) { playAriaUri(uri, () => { if (t !== seqToken) return; playTimer = setTimeout(() => playLineSeq(lines, i + 1), 120); }, () => { if (t !== seqToken) return; speakGoogleChunks(splitChunks(lines[i]), 0, () => { if (t !== seqToken) return; playingKey = lines.join(' '); playLineSeq(lines, i + 1); }); }); return; }
+  speakGoogleChunks(splitChunks(lines[i]), 0, () => { if (t !== seqToken) return; playingKey = lines.join(' '); playLineSeq(lines, i + 1); });
 }
 
 /* ---------- streak ---------- */

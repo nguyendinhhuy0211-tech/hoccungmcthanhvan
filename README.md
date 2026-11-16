@@ -47,16 +47,21 @@ không cần backend, deploy thẳng lên Vercel.
   trên thiết bị của người học (mở lại vẫn còn). Khóa lưu trữ cũ được giữ
   nguyên: mc_known_v1, mc_review_v1, mc_days_v1, mc_notes_v1.
   Từ vựng flashcard dùng khóa mới riêng: mc_vocab_known_v1.
-- Giọng đọc chính là Google TTS (giọng tiếng Anh tự nhiên, phát qua thẻ
-  `<audio>`, câu dài tự chia nhỏ dưới 180 ký tự mỗi lượt). BẮT BUỘC đặt
-  `referrerPolicy = 'no-referrer'` cho thẻ audio: Google trả 404 khi
-  request mang Referer của chính trang web này (đã kiểm chứng bằng curl).
-  Nếu Google lỗi hoặc tải kẹt quá 6 giây (watchdog) thì tự chuyển sang
-  giọng nữ tiếng Anh của máy (`speechSynthesis`), và các lần bấm sau
-  trong phiên đó đi thẳng giọng máy. Nút “Nghe chậm” luôn dùng giọng trên
-  máy ở tốc độ 0.7; bấm lại nút đang phát để dừng.
-- Ảnh hero là ảnh sân khấu Unsplash (hotlink, đã kiểm chứng trả 200);
-  nếu ảnh không tải được thì nền gradient sân khấu vẫn hiển thị.
+- Giọng đọc chính là bản thu sẵn giọng nữ Aria (`avocado_v2:MAI_01`),
+  nhúng trong `audio-data.js` (98 câu: 56 câu mẫu + 42 câu kịch bản,
+  dạng data URI, ~4.1 MB). Bấm Nghe là phát thẳng bản thu, không phụ
+  thuộc Google hay giọng máy. Câu nào chưa có bản thu (từ vựng flashcard,
+  câu tự gõ trong Sổ tay / Ghép câu) thì dùng Google TTS (giọng tiếng Anh
+  tự nhiên, phát qua thẻ `<audio>`, câu dài tự chia nhỏ dưới 180 ký tự
+  mỗi lượt). BẮT BUỘC đặt `referrerPolicy = 'no-referrer'` cho thẻ audio:
+  Google trả 404 khi request mang Referer của chính trang web này (đã
+  kiểm chứng bằng curl). Nếu Google lỗi hoặc tải kẹt quá 6 giây (watchdog)
+  thì tự chuyển sang giọng nữ tiếng Anh của máy (`speechSynthesis`), và
+  các lần bấm sau trong phiên đó đi thẳng giọng máy. Nút “Nghe chậm” luôn
+  dùng giọng trên máy ở tốc độ 0.7; bấm lại nút đang phát để dừng.
+- Ảnh hero là ảnh chân dung của MC (do người dùng gửi, resize 1200px
+  JPEG q78, nhúng base64 trong `index.html`); nếu ảnh không tải được
+  thì nền gradient sân khấu vẫn hiển thị.
 - Không dùng file âm thanh hay ảnh nhị phân trong repo: GitHub
   snapshot-push không nhận file nhị phân.
 
