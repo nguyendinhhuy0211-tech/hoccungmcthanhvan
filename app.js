@@ -785,6 +785,7 @@ function buildLine() {
 /* ---------- 10. Sân khấu ảo ---------- */
 let stageScen = null, stageStartTs = 0, stageTick = null;
 let stageQueue = [], stageStepIdx = 0, stageTargetSecs = 300, stageLastEvent = '';
+let stageJustHandled = false; // true khi vừa bấm "Đã xử lý" qua một tình huống -> câu tiếp theo hiện nền vỗ tay
 const STAGE_DIFF = { de: { n: 1, label: 'Dễ' }, vua: { n: 2, label: 'Vừa' }, kho: { n: 3, label: 'Khó' } };
 function stageStatsText() {
   const m = Math.floor(stageStats.seconds / 60);
@@ -816,6 +817,11 @@ function showStageLine() {
   const step = stageQueue[stageStepIdx];
   const box = $('#stageLineEn'), vi = $('#stageLineVi'), badge = $('#stageScenTitle'), no = $('#stageLineNo');
   const last = stageStepIdx + 1 >= stageQueue.length;
+  const ov = $('#stageOverlay');
+  const cheer = stageJustHandled && step.kind === 'base'; // câu ngay sau khi xử lý xong tình huống: khán giả vỗ tay
+  ov.classList.toggle('mood-cheer', cheer);
+  ov.classList.toggle('mood-listen', !cheer);
+  stageJustHandled = false;
   if (step.kind === 'surprise') {
     const sc = step.scen;
     badge.textContent = '⚠️ Tình huống bất ngờ';
@@ -855,6 +861,7 @@ function startStage() {
   stageScen = base;
   stopAudio();
   stageStepIdx = 0;
+  stageJustHandled = false;
   stageStartTs = Date.now();
   const setup = $('#stageSetup');
   if (setup) setup.textContent = '👥 ' + audience + ' khán giả · 🎯 ' + durMin + ' phút · ' + diff.label;
@@ -1157,7 +1164,7 @@ on('#phraseModeList', 'click', () => setPhraseMode('list'));
 on('#phraseModeFlash', 'click', () => setPhraseMode('flash'));
 on('#scriptTopic', 'change', renderScriptList);
 on('#stageStartBtn', 'click', startStage);
-on('#stageNextBtn', 'click', () => { if (stageStepIdx + 1 >= stageQueue.length) finishStage(); else { stageStepIdx++; showStageLine(); } });
+on('#stageNextBtn', 'click', () => { if (stageStepIdx + 1 >= stageQueue.length) finishStage(); else { stageJustHandled = stageQueue[stageStepIdx].kind === 'surprise'; stageStepIdx++; showStageLine(); } });
 on('#stageEndBtn', 'click', finishStage);
 on('#teleSpeed', 'input', e => { $('#teleSpeedVal').textContent = parseFloat(e.target.value).toFixed(1) + '×'; });
 on('#teleFont', 'input', () => renderTeleText());
