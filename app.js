@@ -166,6 +166,7 @@ function streakCount() {
 
 /* ---------- helpers ---------- */
 const $ = s => document.querySelector(s);
+const on = (sel, ev, fn) => { const el = $(sel); if (el) el.addEventListener(ev, fn); };
 const esc = s => String(s).replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
 function allPhrases() { return CUR.topics.flatMap(t => t.phrases.map(p => ({ ...p, topic: t.title, topicId: t.id }))); }
 function allScenarios() { return CUR.topics.flatMap(t => t.scenarios.map(s => ({ ...s, topic: t.title, topicId: t.id, topicEmoji: t.emoji }))); }
@@ -798,6 +799,12 @@ function stageFillScenarios() {
 }
 RENDERERS.stage = function () {
   const ev = $('#stageEvent');
+  if (!ev) { // trang cũ trong bộ nhớ đệm (chưa có 4 ô chọn mới): giữ cách cũ — liệt kê đủ 70 kịch bản
+    const sel = $('#stageScenario');
+    if (sel && !sel.options.length) sel.innerHTML = allScenarios().map(s => '<option value="' + s.id + '">' + s.topicEmoji + ' ' + esc(s.topic) + ' — ' + esc(s.title) + '</option>').join('');
+    $('#stageStats').textContent = stageStatsText();
+    return;
+  }
   if (!ev.options.length) {
     ev.innerHTML = CUR.topics.map(t => '<option value="' + t.id + '">' + t.emoji + ' ' + esc(t.title) + '</option>').join('');
     ev.onchange = stageFillScenarios;
@@ -834,9 +841,10 @@ function showStageLine() {
 function startStage() {
   const base = allScenarios().find(s => s.id === $('#stageScenario').value);
   if (!base) return;
-  const diff = STAGE_DIFF[$('#stageDiff').value] || STAGE_DIFF.vua;
-  const audience = $('#stageAudience').value;
-  const durMin = parseInt($('#stageDuration').value, 10) || 5;
+  const diffEl = $('#stageDiff'), audEl = $('#stageAudience'), durEl = $('#stageDuration');
+  const diff = diffEl ? (STAGE_DIFF[diffEl.value] || STAGE_DIFF.vua) : { n: 0, label: '' };
+  const audience = audEl ? audEl.value : '';
+  const durMin = durEl ? (parseInt(durEl.value, 10) || 5) : 5;
   stageTargetSecs = durMin * 60;
   const surprises = shuffle(allScenarios().filter(s => s.id !== base.id)).slice(0, diff.n);
   stageQueue = [];
@@ -848,7 +856,8 @@ function startStage() {
   stopAudio();
   stageStepIdx = 0;
   stageStartTs = Date.now();
-  $('#stageSetup').textContent = '👥 ' + audience + ' khán giả · 🎯 ' + durMin + ' phút · ' + diff.label;
+  const setup = $('#stageSetup');
+  if (setup) setup.textContent = '👥 ' + audience + ' khán giả · 🎯 ' + durMin + ' phút · ' + diff.label;
   const timer = $('#stageTimer');
   timer.textContent = '⏱ 00:00 / ' + stageFmt(stageTargetSecs);
   timer.style.color = '';
@@ -1137,29 +1146,31 @@ $('#addNoteBtn').addEventListener('click', () => {
   renderStats(); renderNotes();
 });
 $('#buildBtn').addEventListener('click', buildLine);
-$('#vocabSearch').addEventListener('input', e => renderVocab(e.target.value));
-$('#vocabCat').addEventListener('change', e => { vocabCat = e.target.value; vocabIdx = 0; vocabFlipped = false; vocabDeckBuild(); renderVocabFlash(); });
-$('#vocabShuffle').addEventListener('click', () => { vocabDeck = shuffle(vocabDeck); vocabIdx = 0; vocabFlipped = false; renderVocabFlash(); });
-$('#vocabTabFlash').addEventListener('click', () => setVocabTab('flash'));
-$('#vocabTabList').addEventListener('click', () => setVocabTab('list'));
-$('#phraseSearch').addEventListener('input', () => { if (phraseMode === 'list') renderPhraseList(); });
-$('#phraseTopic').addEventListener('change', () => { if (phraseMode === 'list') renderPhraseList(); });
-$('#phraseModeList').addEventListener('click', () => setPhraseMode('list'));
-$('#phraseModeFlash').addEventListener('click', () => setPhraseMode('flash'));
-$('#scriptTopic').addEventListener('change', renderScriptList);
-$('#stageStartBtn').addEventListener('click', startStage);
-$('#stageNextBtn').addEventListener('click', () => { if (stageStepIdx + 1 >= stageQueue.length) finishStage(); else { stageStepIdx++; showStageLine(); } });
-$('#stageEndBtn').addEventListener('click', finishStage);
-$('#teleSpeed').addEventListener('input', e => { $('#teleSpeedVal').textContent = parseFloat(e.target.value).toFixed(1) + '×'; });
-$('#teleFont').addEventListener('input', () => renderTeleText());
-$('#teleScenario').addEventListener('change', () => { setTelePlaying(false); renderTeleText(); });
-$('#telePlayBtn').addEventListener('click', () => setTelePlaying(!telePlaying));
-$('#teleListenBtn').addEventListener('click', () => { const s = teleScriptLines(); speakLines(s.lines.map(l => l.en)); });
-$('#studioBtn').addEventListener('click', buildScript);
-$('#quizStartBtn').addEventListener('click', startQuiz);
+on('#vocabSearch', 'input', e => renderVocab(e.target.value));
+on('#vocabCat', 'change', e => { vocabCat = e.target.value; vocabIdx = 0; vocabFlipped = false; vocabDeckBuild(); renderVocabFlash(); });
+on('#vocabShuffle', 'click', () => { vocabDeck = shuffle(vocabDeck); vocabIdx = 0; vocabFlipped = false; renderVocabFlash(); });
+on('#vocabTabFlash', 'click', () => setVocabTab('flash'));
+on('#vocabTabList', 'click', () => setVocabTab('list'));
+on('#phraseSearch', 'input', () => { if (phraseMode === 'list') renderPhraseList(); });
+on('#phraseTopic', 'change', () => { if (phraseMode === 'list') renderPhraseList(); });
+on('#phraseModeList', 'click', () => setPhraseMode('list'));
+on('#phraseModeFlash', 'click', () => setPhraseMode('flash'));
+on('#scriptTopic', 'change', renderScriptList);
+on('#stageStartBtn', 'click', startStage);
+on('#stageNextBtn', 'click', () => { if (stageStepIdx + 1 >= stageQueue.length) finishStage(); else { stageStepIdx++; showStageLine(); } });
+on('#stageEndBtn', 'click', finishStage);
+on('#teleSpeed', 'input', e => { $('#teleSpeedVal').textContent = parseFloat(e.target.value).toFixed(1) + '×'; });
+on('#teleFont', 'input', () => renderTeleText());
+on('#teleScenario', 'change', () => { setTelePlaying(false); renderTeleText(); });
+on('#telePlayBtn', 'click', () => setTelePlaying(!telePlaying));
+on('#teleListenBtn', 'click', () => { const s = teleScriptLines(); speakLines(s.lines.map(l => l.en)); });
+on('#studioBtn', 'click', buildScript);
+on('#quizStartBtn', 'click', startQuiz);
 const toTopBtn = $('#toTopBtn');
-window.addEventListener('scroll', () => { toTopBtn.classList.toggle('show', window.scrollY > 400); }, { passive: true });
-toTopBtn.addEventListener('click', () => window.scrollTo({ top: 0, behavior: 'smooth' }));
+if (toTopBtn) {
+  window.addEventListener('scroll', () => { toTopBtn.classList.toggle('show', window.scrollY > 400); }, { passive: true });
+  toTopBtn.addEventListener('click', () => window.scrollTo({ top: 0, behavior: 'smooth' }));
+}
 
 /* ---------- boot ---------- */
 fetch('vocab.json').then(r => r.json()).then(data => {
