@@ -782,39 +782,84 @@ function buildLine() {
 }
 
 /* ---------- 10. Sân khấu ảo ---------- */
-let stageScen = null, stageLineIdx = 0, stageStartTs = 0, stageTick = null;
+let stageScen = null, stageStartTs = 0, stageTick = null;
+let stageQueue = [], stageStepIdx = 0, stageTargetSecs = 300, stageLastEvent = '';
+const STAGE_DIFF = { de: { n: 1, label: 'Dễ' }, vua: { n: 2, label: 'Vừa' }, kho: { n: 3, label: 'Khó' } };
 function stageStatsText() {
   const m = Math.floor(stageStats.seconds / 60);
   return 'Đã tập ' + stageStats.count + ' buổi · tổng ' + m + ' phút trên sân khấu ảo.';
 }
+function stageFmt(s) { return String(Math.floor(s / 60)).padStart(2, '0') + ':' + String(s % 60).padStart(2, '0'); }
+function stageFillScenarios() {
+  const tid = $('#stageEvent').value;
+  stageLastEvent = tid;
+  const list = allScenarios().filter(s => s.topicId === tid);
+  $('#stageScenario').innerHTML = list.map(s => '<option value="' + s.id + '">' + esc(s.title) + '</option>').join('');
+}
 RENDERERS.stage = function () {
-  const sel = $('#stageScenario');
-  if (!sel.options.length) {
-    sel.innerHTML = allScenarios().map(s => '<option value="' + s.id + '">' + s.topicEmoji + ' ' + esc(s.topic) + ' — ' + esc(s.title) + '</option>').join('');
+  const ev = $('#stageEvent');
+  if (!ev.options.length) {
+    ev.innerHTML = CUR.topics.map(t => '<option value="' + t.id + '">' + t.emoji + ' ' + esc(t.title) + '</option>').join('');
+    ev.onchange = stageFillScenarios;
   }
+  if (ev.value !== stageLastEvent) stageFillScenarios();
   $('#stageStats').textContent = stageStatsText();
 };
 function showStageLine() {
-  const ln = stageScen.lines[stageLineIdx];
-  $('#stageScenTitle').textContent = stageScen.topic + ' · ' + stageScen.title;
-  $('#stageLineEn').textContent = ln.en;
-  $('#stageLineVi').textContent = ln.vi;
-  $('#stageLineNo').textContent = 'Câu ' + (stageLineIdx + 1) + '/' + stageScen.lines.length;
-  $('#stageNextBtn').textContent = stageLineIdx + 1 >= stageScen.lines.length ? '✓ Đọc xong — kết thúc' : 'Câu tiếp theo →';
+  const step = stageQueue[stageStepIdx];
+  const box = $('#stageLineEn'), vi = $('#stageLineVi'), badge = $('#stageScenTitle'), no = $('#stageLineNo');
+  const last = stageStepIdx + 1 >= stageQueue.length;
+  if (step.kind === 'surprise') {
+    const sc = step.scen;
+    badge.textContent = '⚠️ Tình huống bất ngờ';
+    box.innerHTML = '<div style="font-size:20px; font-weight:700; margin-bottom:4px">' + esc(sc.title) + '</div>' +
+      sc.lines.map(ln => '<div style="margin:10px 0; font-size:18px; line-height:1.5"><div>' + esc(ln.en) + '</div><div style="color:#9aa5bd; font-size:14px; font-weight:400">' + esc(ln.vi) + '</div></div>').join('') +
+      '<button class="btn play" id="stageListenBtn" style="margin-top:6px">▶ Nghe tình huống</button>';
+    vi.textContent = sc.situation || '';
+    no.textContent = 'Tình huống ' + step.num + '/' + step.of;
+    const lb = $('#stageListenBtn');
+    if (lb) lb.onclick = () => speakLines(sc.lines.map(l => l.en));
+    $('#stageNextBtn').textContent = last ? '✓ Đọc xong — kết thúc' : '✓ Đã xử lý — tiếp tục →';
+  } else {
+    const ln = step.scen.lines[step.lineIdx];
+    badge.textContent = step.scen.topic + ' · ' + step.scen.title;
+    box.innerHTML = esc(ln.en) + '<div style="margin-top:14px"><button class="btn play" id="stageListenBtn">▶ Nghe câu này</button></div>';
+    vi.textContent = ln.vi;
+    no.textContent = 'Câu ' + (step.lineIdx + 1) + '/' + step.scen.lines.length;
+    const lb = $('#stageListenBtn');
+    if (lb) lb.onclick = () => speak(ln.en);
+    $('#stageNextBtn').textContent = last ? '✓ Đọc xong — kết thúc' : 'Câu tiếp theo →';
+  }
 }
 function startStage() {
-  const id = $('#stageScenario').value;
-  stageScen = allScenarios().find(s => s.id === id);
-  if (!stageScen) return;
+  const base = allScenarios().find(s => s.id === $('#stageScenario').value);
+  if (!base) return;
+  const diff = STAGE_DIFF[$('#stageDiff').value] || STAGE_DIFF.vua;
+  const audience = $('#stageAudience').value;
+  const durMin = parseInt($('#stageDuration').value, 10) || 5;
+  stageTargetSecs = durMin * 60;
+  const surprises = shuffle(allScenarios().filter(s => s.id !== base.id)).slice(0, diff.n);
+  stageQueue = [];
+  for (let i = 0; i < base.lines.length; i++) {
+    stageQueue.push({ kind: 'base', scen: base, lineIdx: i });
+    if (i < surprises.length) stageQueue.push({ kind: 'surprise', scen: surprises[i], num: i + 1, of: surprises.length });
+  }
+  stageScen = base;
   stopAudio();
-  stageLineIdx = 0;
+  stageStepIdx = 0;
   stageStartTs = Date.now();
+  $('#stageSetup').textContent = '👥 ' + audience + ' khán giả · 🎯 ' + durMin + ' phút · ' + diff.label;
+  const timer = $('#stageTimer');
+  timer.textContent = '⏱ 00:00 / ' + stageFmt(stageTargetSecs);
+  timer.style.color = '';
   $('#stageOverlay').classList.add('on');
   showStageLine();
   if (stageTick) clearInterval(stageTick);
   stageTick = setInterval(() => {
     const s = Math.floor((Date.now() - stageStartTs) / 1000);
-    $('#stageTimer').textContent = '⏱ ' + String(Math.floor(s / 60)).padStart(2, '0') + ':' + String(s % 60).padStart(2, '0');
+    const t = $('#stageTimer');
+    t.textContent = '⏱ ' + stageFmt(s) + ' / ' + stageFmt(stageTargetSecs) + (s > stageTargetSecs ? ' · đã quá giờ mục tiêu' : '');
+    t.style.color = s > stageTargetSecs ? '#ff9d9d' : '';
   }, 1000);
 }
 function finishStage() {
@@ -1103,7 +1148,7 @@ $('#phraseModeList').addEventListener('click', () => setPhraseMode('list'));
 $('#phraseModeFlash').addEventListener('click', () => setPhraseMode('flash'));
 $('#scriptTopic').addEventListener('change', renderScriptList);
 $('#stageStartBtn').addEventListener('click', startStage);
-$('#stageNextBtn').addEventListener('click', () => { if (stageLineIdx + 1 >= stageScen.lines.length) finishStage(); else { stageLineIdx++; showStageLine(); } });
+$('#stageNextBtn').addEventListener('click', () => { if (stageStepIdx + 1 >= stageQueue.length) finishStage(); else { stageStepIdx++; showStageLine(); } });
 $('#stageEndBtn').addEventListener('click', finishStage);
 $('#teleSpeed').addEventListener('input', e => { $('#teleSpeedVal').textContent = parseFloat(e.target.value).toFixed(1) + '×'; });
 $('#teleFont').addEventListener('input', () => renderTeleText());
