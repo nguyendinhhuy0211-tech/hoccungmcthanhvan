@@ -868,8 +868,38 @@ RENDERERS.tele = function () {
   renderTeleText();
 };
 
-/* ---------- 12. AI Script Studio ---------- */
-function buildScript() {
+/* ---------- 11b. Video dạy MC tiếng Anh ---------- */
+let VIDEOS = null, videosFailed = false;
+function ytId(url) {
+  const m = String(url || '').match(/(?:youtube\.com\/(?:watch\?v=|shorts\/|embed\/)|youtu\.be\/)([\w-]{11})/);
+  return m ? m[1] : null;
+}
+RENDERERS.video = function () {
+  const box = $('#videoList');
+  if (!VIDEOS) {
+    box.innerHTML = videosFailed
+      ? '<div class="card empty">Không tải được danh sách video (videos.json). Bạn tải lại trang giúp mình nhé.</div>'
+      : '<div class="card empty">Đang tải danh sách video…</div>';
+    return;
+  }
+  const cats = (VIDEOS.categories || []).filter(c => (c.videos || []).length);
+  if (!cats.length) {
+    box.innerHTML = '<div class="card empty">Chưa có video nào. Bạn gửi link video (YouTube) cho mình để gắn vào mục này nhé.</div>';
+    return;
+  }
+  box.innerHTML = cats.map(c =>
+    '<h3 style="margin:18px 0 10px">' + esc(c.title) + '</h3><div class="vid-grid">' +
+    c.videos.map(v => {
+      const id = ytId(v.url);
+      return '<div class="card" style="margin:0"><div class="vid-wrap">' +
+        (id ? '<iframe src="https://www.youtube.com/embed/' + id + '" loading="lazy" allowfullscreen></iframe>' : '<div class="card empty">Link video chưa xem được.</div>') +
+        '</div><div style="font-weight:700; margin-top:10px">' + esc(v.title) + '</div>' +
+        (v.desc ? '<div class="sub" style="margin:4px 0 0">' + esc(v.desc) + '</div>' : '') + '</div>';
+    }).join('') + '</div>'
+  ).join('');
+};
+
+/* ---------- 12. AI Script Studio ---------- */function buildScript() {
   const ev = $('#stEvent').value;
   const name = $('#stName').value.trim() || { 'khai-mac': 'this special occasion', 'khai-truong': 'the grand opening', 'gala': "tonight's gala dinner", 'hoi-thao': 'this seminar', 'dam-cuoi': 'this beautiful wedding' }[ev];
   const guest = $('#stGuest').value.trim();
@@ -1071,6 +1101,10 @@ fetch('vocab.json').then(r => r.json()).then(data => {
   VOCAB = data;
   if (currentView === 'vocab') RENDERERS.vocab();
 }).catch(() => { VOCAB = null; vocabFailed = true; if (currentView === 'vocab') RENDERERS.vocab(); });
+fetch('videos.json').then(r => r.json()).then(data => {
+  VIDEOS = data;
+  if (currentView === 'video') RENDERERS.video();
+}).catch(() => { VIDEOS = null; videosFailed = true; if (currentView === 'video') RENDERERS.video(); });
 fetch('curriculum.json').then(r => r.json()).then(data => {
   CUR = data;
   touchDay();

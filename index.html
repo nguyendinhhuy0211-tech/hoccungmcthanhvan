@@ -118,6 +118,9 @@ footer{text-align:center; color:var(--muted); font-size:12px; padding:20px}
 #stageOverlay .timer{font-size:15px; color:#ffd97a; text-align:center; margin-bottom:6px}
 .tele-box{height:340px; overflow-y:auto; border:1px solid var(--line); border-radius:12px; padding:18px; background:#0c1425; color:#f4f1e6; line-height:1.9}
 .tele-box p{margin:0 0 14px}
+.vid-grid{display:grid; grid-template-columns:repeat(auto-fill,minmax(280px,1fr)); gap:14px}
+.vid-wrap{position:relative; padding-top:56.25%; border-radius:12px; overflow:hidden; background:#000}
+.vid-wrap iframe{position:absolute; inset:0; width:100%; height:100%; border:0}
 .check{display:flex; gap:10px; align-items:flex-start; padding:9px 0; border-bottom:1px dashed var(--line); font-size:14.5px}
 .check input{width:auto; margin-top:3px; accent-color:var(--gold)}
 .grid2{display:grid; grid-template-columns:1fr 1fr; gap:12px}
@@ -152,6 +155,7 @@ footer{text-align:center; color:var(--muted); font-size:12px; padding:20px}
     <button data-view="coach"><span class="ic">✨</span> AI MC Coach</button>
     <button data-view="stage"><span class="ic">🎪</span> Sân khấu ảo</button>
     <button data-view="tele"><span class="ic">🖥️</span> Teleprompter</button>
+    <button data-view="video"><span class="ic">🎬</span> Video</button>
     <button data-view="studio"><span class="ic">📝</span> AI Script Studio</button>
     <button data-view="quiz"><span class="ic">📋</span> Kiểm tra</button>
     <button data-view="progress"><span class="ic">📈</span> Tiến độ học</button>
@@ -348,6 +352,13 @@ footer{text-align:center; color:var(--muted); font-size:12px; padding:20px}
       </div>
     </div>
     <div class="tele-box" id="teleBox"></div>
+  </section>
+
+  <!-- 11b. VIDEO -->
+  <section id="view-video" class="view">
+    <h1>Video</h1>
+    <p class="sub">Video dạy MC tiếng Anh: xem, nghe và học theo cách dẫn của người bản xứ.</p>
+    <div id="videoList"></div>
   </section>
 
   <!-- 12. AI SCRIPT STUDIO -->
