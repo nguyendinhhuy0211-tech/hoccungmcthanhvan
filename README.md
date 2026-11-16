@@ -9,15 +9,15 @@ không cần backend, deploy thẳng lên Vercel.
 
 - 7 chủ đề sân khấu: Khai mạc & chào đón, Giới thiệu đại biểu, Khai trương &
   khánh thành, Gala Dinner, Hội thảo, Chuyển ý / xử lý sự cố & kết thúc, Đám cưới
-- 56 câu mẫu (8/chủ đề): câu tiếng Anh, nghĩa tiếng Việt, gợi ý phát âm, mẹo dùng
-- 14 kịch bản tình huống (2/chủ đề, mỗi kịch bản 3 câu theo đúng thứ tự xử lý)
+- 140 câu mẫu (20/chủ đề): câu tiếng Anh, nghĩa tiếng Việt, gợi ý phát âm, mẹo dùng
+- 70 kịch bản tình huống (10/chủ đề, mỗi kịch bản 3 câu theo đúng thứ tự xử lý)
 - 1000 từ vựng chuyên ngành MC trong `vocab.json`: 10 chủ đề × 100 từ
   (từ đơn + cụm từ ngắn, kèm IPA, nghĩa tiếng Việt và câu ví dụ), học bằng
   flashcard có lật thẻ, nghe phát âm, xáo trộn và đánh dấu “Đã thuộc”
 
 ## 14 mục trong sidebar
 
-1. Tổng quan — hero sân khấu, vòng tiến độ thật (câu đã thuộc / 56),
+1. Tổng quan — hero sân khấu, vòng tiến độ thật (câu đã thuộc / 140),
    4 thanh kỹ năng tính từ dữ liệu thật (từ vựng, luyện nghe, phát âm,
    phản xạ), câu sân khấu hôm nay, câu cần ôn lại, Sổ tay.
 2. Lộ trình học — 4 giai đoạn (Nền tảng → Sân khấu cơ bản → Sự kiện
@@ -26,11 +26,11 @@ không cần backend, deploy thẳng lên Vercel.
 4. Từ vựng — flashcard 1000 từ vựng chuyên ngành MC (lọc theo 10 chủ đề,
    xáo trộn, lật thẻ xem nghĩa + câu ví dụ, nghe từng từ, đánh dấu “Đã thuộc”
    lưu riêng); tab “Câu mẫu theo chủ đề” giữ danh sách thẻ từ cũ có tìm kiếm.
-5. Mẫu câu MC — 56 câu mẫu, lọc theo chủ đề, chế độ danh sách / flashcard.
+5. Mẫu câu MC — 140 câu mẫu, lọc theo chủ đề, chế độ danh sách / flashcard.
 6. Luyện nghe — nghe câu tiếng Anh rồi chọn nghĩa tiếng Việt đúng (4 đáp án).
 7. Luyện nói — nghe mẫu, thu âm giọng của bạn (micro), nghe lại, tự chấm
    Đạt / Chưa đạt. Không cho phép micro vẫn nghe mẫu và tự chấm được.
-8. Kho kịch bản — 14 kịch bản, nghe từng câu và đọc cả kịch bản.
+8. Kho kịch bản — 70 kịch bản, nghe từng câu và đọc cả kịch bản.
 9. AI MC Coach — mẹo dẫn theo từng chủ đề, checklist lỗi thường gặp,
    và công cụ Ghép câu dẫn nhanh (chạy ngay trên máy, không dùng AI máy chủ).
 10. Sân khấu ảo — tập dẫn toàn màn hình với kịch bản, bấm giờ, ghi số buổi tập.
@@ -48,8 +48,9 @@ không cần backend, deploy thẳng lên Vercel.
   nguyên: mc_known_v1, mc_review_v1, mc_days_v1, mc_notes_v1.
   Từ vựng flashcard dùng khóa mới riêng: mc_vocab_known_v1.
 - Giọng đọc chính là bản thu sẵn giọng nữ Aria (`avocado_v2:MAI_01`),
-  nhúng trong `audio-data.js` (98 câu: 56 câu mẫu + 42 câu kịch bản,
-  dạng data URI, ~4.1 MB). Bấm Nghe là phát thẳng bản thu, không phụ
+  nhúng trong `audio-data.js` + `audio-data-2.js` + `audio-data-3.js` +
+  `audio-data-4.js` (350 câu: 140 câu mẫu + 210 câu kịch bản,
+  dạng data URI, ~15.5 MB tổng cộng, mỗi file dưới 4.2 MB). Bấm Nghe là phát thẳng bản thu, không phụ
   thuộc Google hay giọng máy. Câu nào chưa có bản thu (từ vựng flashcard,
   câu tự gõ trong Sổ tay / Ghép câu) thì dùng Google TTS (giọng tiếng Anh
   tự nhiên, phát qua thẻ `<audio>`, câu dài tự chia nhỏ dưới 180 ký tự
