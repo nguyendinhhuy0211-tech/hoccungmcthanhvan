@@ -374,7 +374,7 @@ function renderVocabFlash() {
     '<div class="en">' + esc(w.en) + '</div>' +
     '<div class="pron">' + esc(w.pron) + '</div>' +
     (vocabFlipped
-      ? '<div class="vi">' + esc(w.vi) + '</div><div class="fex">“' + esc(w.ex) + '”</div>'
+      ? '<div class="vi">' + esc(w.vi) + '</div><div class="fex">“' + esc(w.ex) + '”</div><div class="fexvi">' + esc(w.exVi || '') + '</div>'
       : '<div class="hint">Nhấn vào thẻ để xem nghĩa</div>') +
     '</div>' +
     '<div class="row" style="justify-content:center">' +
@@ -654,7 +654,18 @@ function startScoring() {
   };
   recog.onerror = e => {
     recState = 'idle'; recog = null;
-    if (e.error === 'not-allowed' || e.error === 'service-not-allowed') scoreError = 'Bạn chưa cho phép dùng micro. Hãy cho phép micro rồi bấm chấm lại.';
+    if (e.error === 'service-not-allowed') scoreError = 'Trình duyệt này không chạy được chấm điểm tự động (dù micro đã được cho phép). Bạn hãy mở link bằng Safari hoặc Chrome rồi bấm chấm lại.';
+    else if (e.error === 'not-allowed') {
+      scoreError = 'Bạn chưa cho phép dùng micro. Hãy cho phép micro rồi bấm chấm lại.';
+      if (navigator.permissions && navigator.permissions.query) {
+        navigator.permissions.query({ name: 'microphone' }).then(r => {
+          if (r.state === 'granted') {
+            scoreError = 'Trình duyệt này không chạy được chấm điểm tự động (dù micro đã được cho phép). Bạn hãy mở link bằng Safari hoặc Chrome rồi bấm chấm lại.';
+            renderSpeak();
+          }
+        }).catch(() => {});
+      }
+    }
     else if (e.error === 'no-speech') scoreError = 'Máy không nghe thấy bạn đọc. Thử lại, đọc to và rõ hơn nhé.';
     else if (e.error === 'network') scoreError = 'Chấm điểm cần mạng (nhận dạng giọng nói chạy trên máy chủ). Kiểm tra mạng rồi thử lại.';
     else if (e.error !== 'aborted') scoreError = 'Chưa chấm được (' + e.error + '). Thử lại nhé.';
