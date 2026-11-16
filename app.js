@@ -1,4 +1,4 @@
-/* Học cùng MC Thanh Vân — static app, progress in localStorage, voice via speechSynthesis */
+/* Học cùng MC Thanh Vân — static app, progress in localStorage, voice via Google TTS (device voice fallback) */
 const LS = { known: 'mc_known_v1', review: 'mc_review_v1', days: 'mc_days_v1', notes: 'mc_notes_v1' };
 const load = (k, d) => { try { const v = JSON.parse(localStorage.getItem(k)); return v == null ? d : v; } catch (e) { return d; } };
 const save = (k, v) => { try { localStorage.setItem(k, JSON.stringify(v)); } catch (e) {} };
@@ -9,7 +9,7 @@ let notes = load(LS.notes, []);
 let CUR = null;
 let currentTopic = null, flashIdx = 0, flashFlipped = false;
 
-/* ---------- voice: prefer a female English voice, warm MC-like delivery ---------- */
+/* ---------- voice: Google TTS (natural voice), device voice as fallback ---------- */
 let VOICES = [];
 function pickVoice() {
   VOICES = window.speechSynthesis ? speechSynthesis.getVoices() : [];
@@ -24,23 +24,68 @@ if ('speechSynthesis' in window) {
   VOICE = pickVoice();
   speechSynthesis.onvoiceschanged = () => { VOICE = pickVoice(); };
 }
-function speak(text, slow) {
-  if (!('speechSynthesis' in window)) { alert('Máy của bạn không hỗ trợ đọc giọng nói.'); return; }
-  speechSynthesis.cancel();
+let player = null;      // shared <audio> for Google TTS
+let playingKey = null;  // text currently playing (tap the same button again to stop)
+let playTimer = null;
+function stopAudio() {
+  if (player) { try { player.pause(); } catch (e) {} player.src = ''; player = null; }
+  if (playTimer) { clearTimeout(playTimer); playTimer = null; }
+  if ('speechSynthesis' in window) speechSynthesis.cancel();
+  playingKey = null;
+}
+function speakDevice(text, rate, onend) {
+  if (!('speechSynthesis' in window)) { if (onend) onend(); return; }
   const u = new SpeechSynthesisUtterance(text);
   u.lang = 'en-US';
   if (VOICE) u.voice = VOICE;
-  u.pitch = 1.1; u.rate = slow ? 0.7 : 0.92; u.volume = 1;
+  u.pitch = 1.1; u.rate = rate || 0.92; u.volume = 1;
+  u.onend = () => { if (onend) onend(); };
+  u.onerror = () => { if (onend) onend(); };
   speechSynthesis.speak(u);
+}
+/* Google Translate TTS takes ~200 chars per request: split long text at sentence ends. */
+function splitChunks(text) {
+  const parts = String(text).match(/[^.!?]+[.!?]+["')\]]*\s*|[^.!?]+$/g) || [text];
+  const out = [];
+  parts.forEach(p => {
+    p = p.trim();
+    if (!p) return;
+    if (p.length <= 180) { out.push(p); return; }
+    const sub = p.split(/,\s*/);
+    let buf = '';
+    sub.forEach(s => {
+      if ((buf ? buf.length + s.length + 2 : s.length) > 180) { if (buf) out.push(buf); buf = s; }
+      else buf = buf ? buf + ', ' + s : s;
+    });
+    if (buf) out.push(buf);
+  });
+  return out.length ? out : [text];
+}
+function googleUrl(chunk) {
+  return 'https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=' + encodeURIComponent(chunk);
+}
+function speakGoogleChunks(chunks, i, done) {
+  if (i >= chunks.length) { playingKey = null; if (done) done(); return; }
+  player = new Audio(googleUrl(chunks[i]));
+  player.onended = () => { playTimer = setTimeout(() => speakGoogleChunks(chunks, i + 1, done), 120); };
+  player.onerror = () => { speakDevice(chunks.slice(i).join(' '), 0.92, () => { playingKey = null; if (done) done(); }); };
+  player.play().catch(() => { speakDevice(chunks.slice(i).join(' '), 0.92, () => { playingKey = null; if (done) done(); }); });
+}
+function speak(text, slow) {
+  if (playingKey === text) { stopAudio(); return; }
+  stopAudio();
+  playingKey = text;
+  if (slow) { speakDevice(text, 0.7, () => { playingKey = null; }); return; }
+  speakGoogleChunks(splitChunks(text), 0, null);
 }
 function speakLines(lines, i) {
   i = i || 0;
-  if (i >= lines.length || !('speechSynthesis' in window)) return;
-  speechSynthesis.cancel();
-  const u = new SpeechSynthesisUtterance(lines[i]);
-  u.lang = 'en-US'; if (VOICE) u.voice = VOICE; u.pitch = 1.1; u.rate = 0.92;
-  u.onend = () => setTimeout(() => speakLines(lines, i + 1), 350);
-  speechSynthesis.speak(u);
+  if (i >= lines.length) return;
+  const text = lines.slice(i).join(' ');
+  if (playingKey === text) { stopAudio(); return; }
+  stopAudio();
+  playingKey = text;
+  speakGoogleChunks(splitChunks(text), 0, null);
 }
 
 /* ---------- streak ---------- */

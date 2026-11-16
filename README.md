@@ -18,10 +18,13 @@ không cần backend, deploy thẳng lên Vercel.
 
 - Tiến độ học, chuỗi ngày và sổ tay lưu trong `localStorage` trên thiết bị
   của người học (mở lại vẫn còn).
-- Giọng đọc dùng `speechSynthesis` của trình duyệt: ưu tiên giọng nữ tiếng Anh,
-  cao độ 1.1, tốc độ 0.92 cho giống ngữ điệu MC; có nút “Nghe chậm”.
+- Giọng đọc chính là Google TTS (giọng tiếng Anh tự nhiên, phát qua thẻ
+  `<audio>`, câu dài tự chia nhỏ dưới 180 ký tự mỗi lượt); nếu Google lỗi
+  thì tự chuyển sang giọng nữ tiếng Anh của máy (`speechSynthesis`).
+  Nút “Nghe chậm” luôn dùng giọng trên máy ở tốc độ 0.7; bấm lại nút đang
+  phát để dừng.
 - Không dùng file âm thanh MP3: GitHub snapshot-push không nhận file nhị phân,
-  nên toàn bộ giọng đọc chạy bằng giọng của máy để web luôn phát được trên điện thoại.
+  nên toàn bộ giọng đọc chạy qua mạng để web luôn phát được trên điện thoại.
 
 ## Chạy thử
 
