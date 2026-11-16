@@ -4,11 +4,14 @@
 <button id="b" style="font-size:24px;padding:16px">B: default</button>
 <pre id="log">ready</pre>
 <script>
+const au0 = new Audio();
+document.getElementById('log').textContent = 'ready\nreferrerPolicy supported: ' + ('referrerPolicy' in au0) + '\ndefault referrerPolicy value: ' + JSON.stringify(au0.referrerPolicy) + '\nuserAgent: ' + navigator.userAgent;
 const U='https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q='+encodeURIComponent('Please join the bride and groom for the first dance.');
 function log(m){document.getElementById('log').textContent+='\n'+m;}
 function test(policy){
   const au=new Audio();
   if(policy) au.referrerPolicy='no-referrer';
+  log((policy?'A':'B')+' referrerPolicy after set: '+JSON.stringify(au.referrerPolicy));
   au.preload='auto';
   au.src=U;
   au.onplaying=()=>log(policy?'A playing':'B playing');
