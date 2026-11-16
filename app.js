@@ -16,6 +16,7 @@ let mistakesDone = new Set(load(LS.mistakes, []));
 let vocabKnown = new Set(load(LS.vocabKnown, []));
 let CUR = null;
 let VOCAB = null, vocabFailed = false;
+let PROGRAMS = null, programsFailed = false;
 let vocabCat = 'all', vocabDeck = [], vocabIdx = 0, vocabFlipped = false, vocabTab = 'flash';
 let currentTopic = null, flashIdx = 0, flashFlipped = false, phraseMode = 'list';
 let currentView = 'overview';
@@ -831,20 +832,36 @@ function finishStage() {
 
 /* ---------- 11. Teleprompter ---------- */
 let teleTimer = null, telePlaying = false;
-function teleScriptLines() {
+function teleProgram() {
+  if (!PROGRAMS) return null;
   const id = $('#teleScenario').value;
-  const s = allScenarios().find(x => x.id === id);
-  return s || allScenarios()[0];
+  return PROGRAMS.programs.find(x => x.id === id) || PROGRAMS.programs[0];
+}
+function teleScriptLines() {
+  const p = teleProgram();
+  if (!p) return { lines: [] };
+  return { ...p, lines: p.sections.flatMap(s => s.lines) };
 }
 function renderTeleText() {
-  const s = teleScriptLines();
   const fs = $('#teleFont').value;
   $('#teleFontVal').textContent = fs + 'px';
   const box = $('#teleBox');
   box.style.fontSize = fs + 'px';
-  box.innerHTML = '<p style="color:#ffd97a; font-weight:700">' + esc(s.topic) + ' — ' + esc(s.title) + '</p>' +
-    '<p style="color:#8b96ad; font-size:14px">' + esc(s.situation) + '</p>' +
-    s.lines.map(ln => '<p>' + esc(ln.en) + '<br><span style="color:#9aa5bd; font-size:.78em">' + esc(ln.vi) + '</span></p>').join('');
+  const p = teleProgram();
+  if (!p) {
+    box.innerHTML = programsFailed
+      ? '<p style="color:#8b96ad; font-size:14px">Không tải được kịch bản chương trình (programs.json). Bạn tải lại trang giúp mình nhé.</p>'
+      : '<p style="color:#8b96ad; font-size:14px">Đang tải kịch bản chương trình…</p>';
+    box.scrollTop = 0;
+    return;
+  }
+  let h = '<p style="color:#ffd97a; font-weight:700">' + esc(p.title) + '</p>' +
+    '<p style="color:#8b96ad; font-size:14px">' + esc(p.situation) + '</p>';
+  p.sections.forEach(sec => {
+    h += '<p style="color:#fff; font-weight:700; margin-top:18px">' + esc(sec.title) + '</p>' +
+      sec.lines.map(ln => '<p>' + esc(ln.en) + '<br><span style="color:#9aa5bd; font-size:.78em">' + esc(ln.vi) + '</span></p>').join('');
+  });
+  box.innerHTML = h;
   box.scrollTop = 0;
 }
 function setTelePlaying(on) {
@@ -862,8 +879,8 @@ function setTelePlaying(on) {
 }
 RENDERERS.tele = function () {
   const sel = $('#teleScenario');
-  if (!sel.options.length) {
-    sel.innerHTML = allScenarios().map(s => '<option value="' + s.id + '">' + s.topicEmoji + ' ' + esc(s.topic) + ' — ' + esc(s.title) + '</option>').join('');
+  if (PROGRAMS && !sel.options.length) {
+    sel.innerHTML = PROGRAMS.programs.map(p => '<option value="' + p.id + '">' + esc(p.title) + '</option>').join('');
   }
   renderTeleText();
 };
@@ -1101,6 +1118,10 @@ fetch('vocab.json').then(r => r.json()).then(data => {
   VOCAB = data;
   if (currentView === 'vocab') RENDERERS.vocab();
 }).catch(() => { VOCAB = null; vocabFailed = true; if (currentView === 'vocab') RENDERERS.vocab(); });
+fetch('programs.json').then(r => r.json()).then(data => {
+  PROGRAMS = data;
+  if (currentView === 'tele') RENDERERS.tele();
+}).catch(() => { PROGRAMS = null; programsFailed = true; if (currentView === 'tele') RENDERERS.tele(); });
 fetch('videos.json').then(r => r.json()).then(data => {
   VIDEOS = data;
   if (currentView === 'video') RENDERERS.video();

@@ -11,6 +11,7 @@ không cần backend, deploy thẳng lên Vercel.
   khánh thành, Gala Dinner, Hội thảo, Chuyển ý / xử lý sự cố & kết thúc, Đám cưới
 - 140 câu mẫu (20/chủ đề): câu tiếng Anh, nghĩa tiếng Việt, gợi ý phát âm, mẹo dùng
 - 70 kịch bản tình huống (10/chủ đề, mỗi kịch bản 3 câu theo đúng thứ tự xử lý)
+- 12 kịch bản chương trình đầy đủ trong `programs.json` (5 đám cưới phong cách khác nhau + Year End Party, Khai trương, Khánh thành, Gala Dinner, Hội thảo, Lễ khai mạc, Lễ khởi công; mỗi chương trình 4 mục × 5 câu, 240 câu), dùng trong Teleprompter: chọn chương trình là xem toàn bộ kịch bản từ mở đầu đến kết tiệc, kèm giọng đọc mẫu.
 - 1000 từ vựng chuyên ngành MC trong `vocab.json`: 10 chủ đề × 100 từ
   (từ đơn + cụm từ ngắn, kèm IPA, nghĩa tiếng Việt và câu ví dụ), học bằng
   flashcard có lật thẻ, nghe phát âm, xáo trộn và đánh dấu “Đã thuộc”
@@ -34,7 +35,7 @@ không cần backend, deploy thẳng lên Vercel.
 9. AI MC Coach — mẹo dẫn theo từng chủ đề, checklist lỗi thường gặp,
    và công cụ Ghép câu dẫn nhanh (chạy ngay trên máy, không dùng AI máy chủ).
 10. Sân khấu ảo — tập dẫn toàn màn hình với kịch bản, bấm giờ, ghi số buổi tập.
-11. Teleprompter — máy nhắc chữ: chọn kịch bản, chỉnh tốc độ cuộn và cỡ chữ.
+11. Teleprompter — máy nhắc chữ: chọn 1 trong 12 kịch bản chương trình đầy đủ (5 đám cưới + 7 loại sự kiện khác), chỉnh tốc độ cuộn và cỡ chữ.
 12. AI Script Studio — soạn trọn kịch bản dẫn (mở đầu → giới thiệu khách →
     chuyển ý → kết thúc) từ mẫu có sẵn, nghe từng câu, sao chép toàn bộ.
 13. Kiểm tra — 10 câu/lượt, 3 dạng (Anh→Việt, Việt→Anh, điền từ), lưu điểm cao nhất.
@@ -50,7 +51,10 @@ không cần backend, deploy thẳng lên Vercel.
 - Giọng đọc chính là bản thu sẵn giọng nữ Aria (`avocado_v2:MAI_01`),
   nhúng trong `audio-data.js` + `audio-data-2.js` + `audio-data-3.js` +
   `audio-data-4.js` (350 câu: 140 câu mẫu + 210 câu kịch bản,
-  dạng data URI, ~15.5 MB tổng cộng, mỗi file dưới 4.2 MB). Bấm Nghe là phát thẳng bản thu, không phụ
+  dạng data URI, ~15.5 MB tổng cộng, mỗi file dưới 4.2 MB) và
+  `audio-data-5.js` + `audio-data-6.js` + `audio-data-7.js` +
+  `audio-data-8.js` (240 câu của 12 kịch bản chương trình đầy đủ,
+  ~13.2 MB tổng cộng, mỗi file dưới 3.6 MB). Bấm Nghe là phát thẳng bản thu, không phụ
   thuộc Google hay giọng máy. Câu nào chưa có bản thu (từ vựng flashcard,
   câu tự gõ trong Sổ tay / Ghép câu) thì dùng Google TTS (giọng tiếng Anh
   tự nhiên, phát qua thẻ `<audio>`, câu dài tự chia nhỏ dưới 180 ký tự

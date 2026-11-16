@@ -1,0 +1,1540 @@
+{
+ "programs": [
+  {
+   "eventType": "dam-cuoi",
+   "id": "prog-dam-cuoi-truyen-thong",
+   "sections": [
+    {
+     "lines": [
+      {
+       "en": "Good evening, everyone, and welcome to the wedding celebration of Minh Anh and Quoc Bao!",
+       "pron": "/ɡʊd ˈiːvnɪŋ, ˈɛvriwʌn, ənd ˈwɛlkəm tu ðə ˈwɛdɪŋ ˌsɛləˈbreɪʃən əv Minh Anh ənd Quoc Bao!/",
+       "vi": "Xin chào buổi tối, thưa quý vị, và chào mừng quý vị đến với lễ cưới của Minh Anh và Quốc Bảo!"
+      },
+      {
+       "en": "Tonight, here in Da Nang, two families become one family.",
+       "pron": "/təˈnaɪt, hɪr ɪn dɑː ˈnɑːŋ, tuː ˈfæməliz bɪˈkʌm wʌn ˈfæməli./",
+       "vi": "Tối nay, ngay tại Đà Nẵng, hai gia đình trở thành một gia đình."
+      },
+      {
+       "en": "Minh Anh and Quoc Bao met five years ago, on a sunny trip to Hoi An, and they have been inseparable ever since.",
+       "pron": "/Minh Anh ənd Quoc Bao mɛt faɪv jɪrz əˈɡoʊ, ɑːn ə ˈsʌni trɪp tu Hoi An, ənd ðeɪ hæv bɪn ɪnˈsɛprəbəl ˈɛvər sɪns./",
+       "vi": "Minh Anh và Quốc Bảo gặp nhau năm năm trước, trong một chuyến đi đầy nắng đến Hội An, và từ đó họ luôn gắn bó không rời."
+      },
+      {
+       "en": "My name is Thanh Vân, and I am delighted to be your host for this lovely evening.",
+       "pron": "/maɪ neɪm ɪz Thanh Vân, ənd aɪ əm dɪˈlaɪtɪd tu bi jɔr hoʊst fər ðɪs ˈlʌvli ˈiːvnɪŋ./",
+       "vi": "Tôi tên là Thanh Vân, và tôi rất vui được làm người dẫn chương trình cho buổi tối đáng yêu này."
+      },
+      {
+       "en": "On this special night, we honor the love of the couple and the blessings of their parents and elders.",
+       "pron": "/ɑːn ðɪs ˈspɛʃəl naɪt, wi ˈɑːnər ðə lʌv əv ðə ˈkʌpəl ənd ðə ˈblɛsɪŋz əv ðɛr ˈpɛrənts ənd ˈɛldərz./",
+       "vi": "Trong đêm đặc biệt này, chúng ta cùng tôn vinh tình yêu của đôi bạn trẻ và lời chúc phúc của cha mẹ cùng các bậc trưởng bối."
+      }
+     ],
+     "title": "🎤 Mở đầu"
+    },
+    {
+     "lines": [
+      {
+       "en": "Ladies and gentlemen, please stand and welcome the parents of our bride and groom!",
+       "pron": "/ˈleɪdiz ənd ˈdʒɛntəlmən, pliːz stænd ənd ˈwɛlkəm ðə ˈpɛrənts əv aʊər braɪd ənd ɡruːm!/",
+       "vi": "Thưa quý vị, xin mời quý vị đứng dậy và chào đón cha mẹ của cô dâu và chú rể!"
+      },
+      {
+       "en": "First, please welcome the family of the bride, Minh Anh, who have traveled from Quang Nam to be here tonight.",
+       "pron": "/fɜːrst, pliːz ˈwɛlkəm ðə ˈfæməli əv ðə braɪd, Minh Anh, hu hæv ˈtrævəld frəm Quang Nam tu bi hɪr təˈnaɪt./",
+       "vi": "Trước hết, xin mời quý vị chào đón gia đình cô dâu Minh Anh, đã từ Quảng Nam đến đây trong tối nay."
+      },
+      {
+       "en": "And now, please welcome the family of the groom, Quoc Bao, with a warm round of applause.",
+       "pron": "/ənd naʊ, pliːz ˈwɛlkəm ðə ˈfæməli əv ðə ɡruːm, Quoc Bao, wɪð ə wɔːrm raʊnd əv əˈplɔːz./",
+       "vi": "Và bây giờ, xin mời quý vị chào đón gia đình chú rể Quốc Bảo bằng một tràng pháo tay thật nồng nhiệt."
+      },
+      {
+       "en": "Both families have waited for this day for a long time, and tonight their joy fills this whole hall.",
+       "pron": "/boʊθ ˈfæməliz hæv ˈweɪtɪd fər ðɪs deɪ fər ə lɔːŋ taɪm, ənd təˈnaɪt ðɛr dʒɔɪ fɪlz ðɪs hoʊl hɔːl./",
+       "vi": "Hai gia đình đã chờ đợi ngày này từ rất lâu, và tối nay niềm vui của họ tràn ngập cả khán phòng này."
+      },
+      {
+       "en": "Please take your seats, enjoy a cup of tea, and let us celebrate together as one big family.",
+       "pron": "/pliːz teɪk jɔr siːts, ɛnˈdʒɔɪ ə kʌp əv tiː, ənd lɛt ʌs ˈsɛləbreɪt təˈɡɛðər əz wʌn bɪɡ ˈfæməli./",
+       "vi": "Xin mời quý vị an tọa, thưởng thức một chén trà, và cùng chúng ta chung vui như một đại gia đình."
+      }
+     ],
+     "title": "👨‍👩‍👧‍👦 Đón khách & giới thiệu hai họ"
+    },
+    {
+     "lines": [
+      {
+       "en": "Ladies and gentlemen, the ceremony begins now, so please turn your eyes to the stage.",
+       "pron": "/ˈleɪdiz ənd ˈdʒɛntəlmən, ðə ˈsɛrəmoʊni bɪˈɡɪnz naʊ, soʊ pliːz tɜːrn jɔr aɪz tu ðə steɪdʒ./",
+       "vi": "Thưa quý vị, buổi lễ bắt đầu ngay bây giờ, xin mời quý vị hướng mắt về sân khấu."
+      },
+      {
+       "en": "And now, the sweetest moment of the evening: the couple will cut their wedding cake together.",
+       "pron": "/ənd naʊ, ðə ˈswiːtəst ˈmoʊmənt əv ði ˈiːvnɪŋ: ðə ˈkʌpəl wɪl kʌt ðɛr ˈwɛdɪŋ keɪk təˈɡɛðər./",
+       "vi": "Và bây giờ, khoảnh khắc ngọt ngào nhất của buổi tối: hai bạn sẽ cùng nhau cắt bánh cưới."
+      },
+      {
+       "en": "Together, they will pour the wine, a symbol of a life shared in sweetness and in joy.",
+       "pron": "/təˈɡɛðər, ðeɪ wɪl pɔːr ðə waɪn, ə ˈsɪmbəl əv ə laɪf ʃɛrd ɪn ˈswiːtnəs ənd ɪn dʒɔɪ./",
+       "vi": "Cùng nhau, hai bạn sẽ rót rượu, biểu tượng cho một cuộc sống sẻ chia trong ngọt ngào và niềm vui."
+      },
+      {
+       "en": "Now, let us raise our glasses for the first toast to love, to family, and to forever.",
+       "pron": "/naʊ, lɛt ʌs reɪz aʊər ˈɡlæsɪz fər ðə fɜːrst toʊst tu lʌv, tu ˈfæməli, ənd tu fərˈɛvər./",
+       "vi": "Bây giờ, chúng ta hãy cùng nâng ly cho lời chúc đầu tiên dành cho tình yêu, gia đình và mãi mãi."
+      },
+      {
+       "en": "To Minh Anh and Quoc Bao: may your marriage be blessed with health, peace, and many happy years!",
+       "pron": "/tu Minh Anh ənd Quoc Bao: meɪ jɔr ˈmærɪdʒ bi blɛst wɪð hɛlθ, piːs, ənd ˈmɛni ˈhæpi jɪrz!/",
+       "vi": "Dành cho Minh Anh và Quốc Bảo: chúc hôn nhân của hai bạn được chúc phúc với sức khỏe, bình an và nhiều năm hạnh phúc!"
+      }
+     ],
+     "title": "💍 Nghi lễ"
+    },
+    {
+     "lines": [
+      {
+       "en": "What a beautiful evening it has been, full of love, laughter, and happy tears.",
+       "pron": "/wʌt ə ˈbjuːtəfəl ˈiːvnɪŋ ɪt həz bɪn, fʊl əv lʌv, ˈlæftər, ənd ˈhæpi tɪrz./",
+       "vi": "Thật là một buổi tối đẹp, đầy ắp tình yêu, tiếng cười và những giọt nước mắt hạnh phúc."
+      },
+      {
+       "en": "On behalf of both families, thank you for coming and for your lovely gifts and wishes.",
+       "pron": "/ɑːn bɪˈhæf əv boʊθ ˈfæməliz, θæŋk ju fər ˈkʌmɪŋ ənd fər jɔr ˈlʌvli ɡɪfts ənd ˈwɪʃɪz./",
+       "vi": "Thay mặt hai gia đình, cảm ơn quý vị đã đến dự và dành tặng những món quà cùng lời chúc tốt đẹp."
+      },
+      {
+       "en": "May Minh Anh and Quoc Bao walk through life hand in hand, in sunshine and in rain.",
+       "pron": "/meɪ Minh Anh ənd Quoc Bao wɔːk θruː laɪf hænd ɪn hænd, ɪn ˈsʌnʃaɪn ənd ɪn reɪn./",
+       "vi": "Chúc Minh Anh và Quốc Bảo cùng nhau bước đi trong cuộc đời, tay trong tay, dù nắng hay mưa."
+      },
+      {
+       "en": "We hope you enjoyed the dinner, the music, and the warm company of family and friends tonight.",
+       "pron": "/wi hoʊp ju ɛnˈdʒɔɪd ðə ˈdɪnər, ðə ˈmjuːzɪk, ənd ðə wɔːrm ˈkʌmpəni əv ˈfæməli ənd frɛndz təˈnaɪt./",
+       "vi": "Chúng tôi hy vọng quý vị đã thưởng thức bữa tối, âm nhạc và sự sum vầy ấm áp của gia đình và bạn bè trong tối nay."
+      },
+      {
+       "en": "Good night, everyone, and thank you for making this wedding truly unforgettable!",
+       "pron": "/ɡʊd naɪt, ˈɛvriwʌn, ənd θæŋk ju fər ˈmeɪkɪŋ ðɪs ˈwɛdɪŋ ˈtruːli ˌʌnfərˈɡɛtəbəl!/",
+       "vi": "Chúc quý vị ngủ ngon, và cảm ơn quý vị đã làm cho đám cưới này thật sự khó quên!"
+      }
+     ],
+     "title": "👋 Kết tiệc"
+    }
+   ],
+   "situation": "Tiệc cưới truyền thống của Minh Anh và Quốc Bảo tổ chức vào buổi tối tại một nhà hàng tiệc cưới ở Đà Nẵng, với sự tham dự của hai bên gia đình, họ hàng và bạn bè thân thiết.",
+   "title": "Đám cưới truyền thống — Minh Anh & Quốc Bảo"
+  },
+  {
+   "eventType": "dam-cuoi",
+   "id": "prog-dam-cuoi-hien-dai",
+   "sections": [
+    {
+     "lines": [
+      {
+       "en": "Good evening, everyone, and welcome to a night of love, light, and celebration in Da Nang!",
+       "pron": "/ɡʊd ˈiːvnɪŋ, ˈɛvriwʌn, ənd ˈwɛlkəm tu ə naɪt əv lʌv, laɪt, ənd ˌsɛləˈbreɪʃən ɪn dɑː ˈnɑːŋ!/",
+       "vi": "Xin chào buổi tối, thưa quý vị, và chào mừng quý vị đến với một đêm của tình yêu, ánh sáng và niềm vui tại Đà Nẵng!"
+      },
+      {
+       "en": "Tonight, three hundred friends gather in this beautiful ballroom to celebrate Ngoc Tram and Hoang Nam.",
+       "pron": "/təˈnaɪt, θriː ˈhʌndrəd frɛndz ˈɡæðər ɪn ðɪs ˈbjuːtəfəl ˈbɔːlruːm tu ˈsɛləbreɪt Ngoc Tram ənd Hoang Nam./",
+       "vi": "Tối nay, ba trăm người bạn cùng tề tựu trong sảnh tiệc xinh đẹp này để chúc mừng Ngọc Trâm và Hoàng Nam."
+      },
+      {
+       "en": "My name is Thanh Vân, and I am so happy to host this modern wedding for such a wonderful young couple.",
+       "pron": "/maɪ neɪm ɪz Thanh Vân, ənd aɪ əm soʊ ˈhæpi tu hoʊst ðɪs ˈmɑːdərn ˈwɛdɪŋ fər sʌtʃ ə ˈwʌndərfəl jʌŋ ˈkʌpəl./",
+       "vi": "Tôi tên là Thanh Vân, và tôi rất vui được dẫn dắt đám cưới hiện đại này cho một cặp đôi trẻ tuyệt vời như vậy."
+      },
+      {
+       "en": "Look around you: the lights are shining, the music is playing, and love is in the air tonight.",
+       "pron": "/lʊk əˈraʊnd ju: ðə laɪts ɑːr ˈʃaɪnɪŋ, ðə ˈmjuːzɪk ɪz ˈpleɪɪŋ, ənd lʌv ɪz ɪn ði ɛr təˈnaɪt./",
+       "vi": "Xin quý vị nhìn quanh: đèn đang tỏa sáng, nhạc đang vang lên, và tình yêu đang ngập tràn trong không khí tối nay."
+      },
+      {
+       "en": "So please put your phones down for a moment, smile, and enjoy every minute of this party with us.",
+       "pron": "/soʊ pliːz pʊt jɔr foʊnz daʊn fər ə ˈmoʊmənt, smaɪl, ənd ɛnˈdʒɔɪ ˈɛvri ˈmɪnət əv ðɪs ˈpɑːrti wɪð ʌs./",
+       "vi": "Vì vậy xin quý vị hãy đặt điện thoại xuống một lát, mỉm cười, và tận hưởng từng phút của bữa tiệc này cùng chúng tôi."
+      }
+     ],
+     "title": "🎤 Mở đầu"
+    },
+    {
+     "lines": [
+      {
+       "en": "Ladies and gentlemen, please stand up and get ready for the grand entrance of the night!",
+       "pron": "/ˈleɪdiz ənd ˈdʒɛntəlmən, pliːz stænd ʌp ənd ɡɛt ˈrɛdi fər ðə ɡrænd ˈɛntrəns əv ðə naɪt!/",
+       "vi": "Thưa quý vị, xin mời quý vị đứng dậy và sẵn sàng cho màn xuất hiện hoành tráng nhất của đêm nay!"
+      },
+      {
+       "en": "Here they are, Ngoc Tram and Hoang Nam, walking in together as husband and wife for the very first time!",
+       "pron": "/hɪr ðeɪ ɑːr, Ngoc Tram ənd Hoang Nam, ˈwɔːkɪŋ ɪn təˈɡɛðər əz ˈhʌzbənd ənd waɪf fər ðə ˈvɛri fɜːrst taɪm!/",
+       "vi": "Hai bạn đây rồi, Ngọc Trâm và Hoàng Nam, cùng bước vào với tư cách vợ chồng lần đầu tiên!"
+      },
+      {
+       "en": "Just look at them: Ngoc Tram looks stunning in her gown, and Hoang Nam could not look prouder tonight.",
+       "pron": "/dʒʌst lʊk ət ðɛm: Ngoc Tram lʊks ˈstʌnɪŋ ɪn hɜːr ɡaʊn, ənd Hoang Nam kʊd nɑːt lʊk ˈpraʊdər təˈnaɪt./",
+       "vi": "Xin quý vị hãy nhìn hai bạn: Ngọc Trâm lộng lẫy trong chiếc váy cưới, và Hoàng Nam tối nay không thể tự hào hơn được nữa."
+      },
+      {
+       "en": "Please give our bride and groom the loudest applause this ballroom has ever heard!",
+       "pron": "/pliːz ɡɪv aʊər braɪd ənd ɡruːm ðə ˈlaʊdəst əˈplɔːz ðɪs ˈbɔːlruːm həz ˈɛvər hɜːrd!/",
+       "vi": "Xin quý vị dành cho cô dâu và chú rể tràng pháo tay lớn nhất mà sảnh tiệc này từng được nghe!"
+      },
+      {
+       "en": "Welcome to your wedding, Ngoc Tram and Hoang Nam, this night belongs to the two of you!",
+       "pron": "/ˈwɛlkəm tu jɔr ˈwɛdɪŋ, Ngoc Tram ənd Hoang Nam, ðɪs naɪt bɪˈlɔːŋz tu ðə tuː əv ju!/",
+       "vi": "Chào mừng đến với đám cưới của hai bạn, Ngọc Trâm và Hoàng Nam, đêm nay thuộc về hai bạn!"
+      }
+     ],
+     "title": "💍 Giới thiệu cô dâu chú rể"
+    },
+    {
+     "lines": [
+      {
+       "en": "And now, the moment every guest has waited for: the first dance of Ngoc Tram and Hoang Nam!",
+       "pron": "/ənd naʊ, ðə ˈmoʊmənt ˈɛvri ɡɛst həz ˈweɪtɪd fər: ðə fɜːrst dæns əv Ngoc Tram ənd Hoang Nam!/",
+       "vi": "Và bây giờ, khoảnh khắc mà mọi vị khách đều chờ đợi: điệu nhảy đầu tiên của Ngọc Trâm và Hoàng Nam!"
+      },
+      {
+       "en": "Please watch them dance, take your photos, and cheer for this beautiful young couple.",
+       "pron": "/pliːz wɑːtʃ ðɛm dæns, teɪk jɔr ˈfoʊtoʊz, ənd tʃɪr fər ðɪs ˈbjuːtəfəl jʌŋ ˈkʌpəl./",
+       "vi": "Xin quý vị hãy xem hai bạn nhảy, chụp ảnh, và cổ vũ cho cặp đôi trẻ xinh đẹp này."
+      },
+      {
+       "en": "After the dance, the couple will cut their cake and share the first sweet slice together.",
+       "pron": "/ˈæftər ðə dæns, ðə ˈkʌpəl wɪl kʌt ðɛr keɪk ənd ʃɛr ðə fɜːrst swiːt slaɪs təˈɡɛðər./",
+       "vi": "Sau điệu nhảy, hai bạn sẽ cắt bánh và cùng nhau chia sẻ miếng bánh ngọt đầu tiên."
+      },
+      {
+       "en": "Now, let us all stand and raise our glasses to the future of Ngoc Tram and Hoang Nam!",
+       "pron": "/naʊ, lɛt ʌs ɔːl stænd ənd reɪz aʊər ˈɡlæsɪz tu ðə ˈfjuːtʃər əv Ngoc Tram ənd Hoang Nam!/",
+       "vi": "Bây giờ, xin mời tất cả quý vị đứng dậy và nâng ly chúc cho tương lai của Ngọc Trâm và Hoàng Nam!"
+      },
+      {
+       "en": "Dinner is served, so please enjoy the food, the music, and the company of your friends tonight.",
+       "pron": "/ˈdɪnər ɪz sɜːrvd, soʊ pliːz ɛnˈdʒɔɪ ðə fuːd, ðə ˈmjuːzɪk, ənd ðə ˈkʌmpəni əv jɔr frɛndz təˈnaɪt./",
+       "vi": "Bữa tối đã được dọn lên, xin mời quý vị thưởng thức món ăn, âm nhạc và bầu bạn cùng bạn bè trong tối nay."
+      }
+     ],
+     "title": "🎉 Nghi lễ & tiệc"
+    },
+    {
+     "lines": [
+      {
+       "en": "What a fantastic party this has been, full of dancing, laughter, and love from start to finish!",
+       "pron": "/wʌt ə fænˈtæstɪk ˈpɑːrti ðɪs həz bɪn, fʊl əv ˈdænsɪŋ, ˈlæftər, ənd lʌv frəm stɑːrt tu ˈfɪnɪʃ!/",
+       "vi": "Thật là một bữa tiệc tuyệt vời, đầy ắp điệu nhảy, tiếng cười và tình yêu từ đầu đến cuối!"
+      },
+      {
+       "en": "On behalf of Ngoc Tram and Hoang Nam, thank you for coming and for celebrating with us tonight.",
+       "pron": "/ɑːn bɪˈhæf əv Ngoc Tram ənd Hoang Nam, θæŋk ju fər ˈkʌmɪŋ ənd fər ˈsɛləbreɪtɪŋ wɪð ʌs təˈnaɪt./",
+       "vi": "Thay mặt Ngọc Trâm và Hoàng Nam, cảm ơn quý vị đã đến và cùng chung vui với chúng tôi tối nay."
+      },
+      {
+       "en": "May your life together be full of adventures, happy mornings, and dreams that come true.",
+       "pron": "/meɪ jɔr laɪf təˈɡɛðər bi fʊl əv ədˈvɛntʃərz, ˈhæpi ˈmɔːrnɪŋz, ənd driːmz ðæt kʌm truː./",
+       "vi": "Chúc cuộc sống chung của hai bạn đầy ắp những chuyến phiêu lưu, những buổi sáng hạnh phúc và những ước mơ thành hiện thực."
+      },
+      {
+       "en": "Please take many photos home with you, and keep the joy of this night in your hearts.",
+       "pron": "/pliːz teɪk ˈmɛni ˈfoʊtoʊz hoʊm wɪð ju, ənd kiːp ðə dʒɔɪ əv ðɪs naɪt ɪn jɔr hɑːrts./",
+       "vi": "Xin quý vị hãy mang thật nhiều ảnh về nhà, và giữ niềm vui của đêm nay trong trái tim mình."
+      },
+      {
+       "en": "Good night, everyone, and thank you for a modern wedding we will never forget!",
+       "pron": "/ɡʊd naɪt, ˈɛvriwʌn, ənd θæŋk ju fər ə ˈmɑːdərn ˈwɛdɪŋ wi wɪl ˈnɛvər fərˈɡɛt!/",
+       "vi": "Chúc quý vị ngủ ngon, và cảm ơn quý vị vì một đám cưới hiện đại mà chúng ta sẽ không bao giờ quên!"
+      }
+     ],
+     "title": "👋 Kết tiệc"
+    }
+   ],
+   "situation": "Đám cưới hiện đại của Ngọc Trâm và Hoàng Nam tổ chức vào buổi tối tại sảnh tiệc của một khách sạn 5 sao ở Đà Nẵng, với 300 khách mời là bạn bè công ty và bạn trẻ.",
+   "title": "Đám cưới hiện đại — Ngọc Trâm & Hoàng Nam"
+  },
+  {
+   "eventType": "dam-cuoi",
+   "id": "prog-dam-cuoi-ngoai-troi",
+   "sections": [
+    {
+     "lines": [
+      {
+       "en": "Good afternoon, everyone, and welcome to this beautiful outdoor wedding by the sea!",
+       "pron": "/ɡʊd ˌæftərˈnuːn, ˈɛvriwʌn, ənd ˈwɛlkəm tu ðɪs ˈbjuːtəfəl ˈaʊtdɔːr ˈwɛdɪŋ baɪ ðə siː!/",
+       "vi": "Xin chào buổi chiều, thưa quý vị, và chào mừng quý vị đến với đám cưới ngoài trời xinh đẹp bên bờ biển!"
+      },
+      {
+       "en": "Look at the sky, the sea, and the sunset: nature itself has come to celebrate with us today.",
+       "pron": "/lʊk ət ðə skaɪ, ðə siː, ənd ðə ˈsʌnsɛt: ˈneɪtʃər ɪtˈsɛlf həz kʌm tu ˈsɛləbreɪt wɪð ʌs təˈdeɪ./",
+       "vi": "Xin quý vị hãy nhìn bầu trời, biển cả và hoàng hôn: chính thiên nhiên cũng đến chung vui cùng chúng ta hôm nay."
+      },
+      {
+       "en": "My name is Thanh Vân, and I am honored to host this romantic wedding under the open sky.",
+       "pron": "/maɪ neɪm ɪz Thanh Vân, ənd aɪ əm ˈɑːnərd tu hoʊst ðɪs roʊˈmæntɪk ˈwɛdɪŋ ˈʌndər ði ˈoʊpən skaɪ./",
+       "vi": "Tôi tên là Thanh Vân, và tôi rất vinh dự được dẫn dắt đám cưới lãng mạn này dưới bầu trời rộng mở."
+      },
+      {
+       "en": "This afternoon, Phuong Linh and Tuan Anh will promise each other forever, here in front of the sea.",
+       "pron": "/ðɪs ˌæftərˈnuːn, Phuong Linh ənd Tuan Anh wɪl ˈprɑːməs iːtʃ ˈʌðər fərˈɛvər, hɪr ɪn frʌnt əv ðə siː./",
+       "vi": "Chiều nay, Phương Linh và Tuấn Anh sẽ hứa với nhau trọn đời, ngay tại đây, trước mặt biển."
+      },
+      {
+       "en": "Thank you for joining us outdoors, for your smiles, and for your love on this gentle afternoon.",
+       "pron": "/θæŋk ju fər ˈdʒɔɪnɪŋ ʌs ˈaʊtdɔːrz, fər jɔr smaɪlz, ənd fər jɔr lʌv ɑːn ðɪs ˈdʒɛntəl ˌæftərˈnuːn./",
+       "vi": "Cảm ơn quý vị đã đến dự ngoài trời cùng chúng tôi, vì những nụ cười và tình yêu của quý vị trong buổi chiều dịu dàng này."
+      }
+     ],
+     "title": "🎤 Mở đầu"
+    },
+    {
+     "lines": [
+      {
+       "en": "Before the ceremony, let me tell you a little story about how Phuong Linh and Tuan Anh first met.",
+       "pron": "/bɪˈfɔːr ðə ˈsɛrəmoʊni, lɛt mi tɛl ju ə ˈlɪtəl ˈstɔːri əˈbaʊt haʊ Phuong Linh ənd Tuan Anh fɜːrst mɛt./",
+       "vi": "Trước buổi lễ, xin phép kể cho quý vị nghe một câu chuyện nhỏ về lần đầu Phương Linh và Tuấn Anh gặp nhau."
+      },
+      {
+       "en": "They met on a trip, on a bright morning by the mountains, when a shared map brought them together.",
+       "pron": "/ðeɪ mɛt ɑːn ə trɪp, ɑːn ə braɪt ˈmɔːrnɪŋ baɪ ðə ˈmaʊntənz, wɛn ə ʃɛrd mæp brɔːt ðɛm təˈɡɛðər./",
+       "vi": "Hai bạn gặp nhau trong một chuyến đi, vào một buổi sáng tươi sáng bên núi, khi một tấm bản đồ chung đã đưa họ đến với nhau."
+      },
+      {
+       "en": "One journey became many journeys, and every road led them a little closer to this day.",
+       "pron": "/wʌn ˈdʒɜːrni bɪˈkeɪm ˈmɛni ˈdʒɜːrniz, ənd ˈɛvri roʊd lɛd ðɛm ə ˈlɪtəl ˈkloʊsər tu ðɪs deɪ./",
+       "vi": "Một chuyến đi trở thành nhiều chuyến đi, và mỗi con đường đều đưa họ đến gần hơn với ngày hôm nay."
+      },
+      {
+       "en": "Today, their families and friends are here, under the flowers and the open sky, to witness their love.",
+       "pron": "/təˈdeɪ, ðɛr ˈfæməliz ənd frɛndz ɑːr hɪr, ˈʌndər ðə ˈflaʊərz ənd ði ˈoʊpən skaɪ, tu ˈwɪtnəs ðɛr lʌv./",
+       "vi": "Hôm nay, gia đình và bạn bè của hai bạn đã có mặt, dưới hoa và bầu trời rộng mở, để chứng kiến tình yêu của họ."
+      },
+      {
+       "en": "Please give a warm welcome to the families of Phuong Linh and Tuan Anh, who traveled here for this sunset day.",
+       "pron": "/pliːz ɡɪv ə wɔːrm ˈwɛlkəm tu ðə ˈfæməliz əv Phuong Linh ənd Tuan Anh, hu ˈtrævəld hɪr fər ðɪs ˈsʌnsɛt deɪ./",
+       "vi": "Xin mời quý vị chào đón nồng nhiệt gia đình của Phương Linh và Tuấn Anh, đã đến đây vì ngày hoàng hôn này."
+      }
+     ],
+     "title": "🌸 Đón khách & giới thiệu"
+    },
+    {
+     "lines": [
+      {
+       "en": "And now, under this golden sunset, Phuong Linh and Tuan Anh will exchange their vows.",
+       "pron": "/ənd naʊ, ˈʌndər ðɪs ˈɡoʊldən ˈsʌnsɛt, Phuong Linh ənd Tuan Anh wɪl ɪksˈtʃeɪndʒ ðɛr vaʊz./",
+       "vi": "Và bây giờ, dưới ánh hoàng hôn vàng này, Phương Linh và Tuấn Anh sẽ trao nhau lời thề nguyện."
+      },
+      {
+       "en": "Please listen closely, because these are words they have written from their hearts.",
+       "pron": "/pliːz ˈlɪsən ˈkloʊsli, bɪˈkɔːz ðiːz ɑːr wɜːrdz ðeɪ hæv ˈrɪtən frəm ðɛr hɑːrts./",
+       "vi": "Xin quý vị hãy lắng nghe thật kỹ, vì đây là những lời hai bạn đã viết ra từ trái tim mình."
+      },
+      {
+       "en": "Now, they will exchange rings, a circle with no end, just like their love for each other.",
+       "pron": "/naʊ, ðeɪ wɪl ɪksˈtʃeɪndʒ rɪŋz, ə ˈsɜːrkəl wɪð noʊ ɛnd, dʒʌst laɪk ðɛr lʌv fər iːtʃ ˈʌðər./",
+       "vi": "Bây giờ, hai bạn sẽ trao nhẫn cho nhau, một vòng tròn không có điểm kết thúc, giống như tình yêu của họ dành cho nhau."
+      },
+      {
+       "en": "Look at those rings shining in the sunset, and please give the new couple your warmest applause!",
+       "pron": "/lʊk ət ðoʊz rɪŋz ˈʃaɪnɪŋ ɪn ðə ˈsʌnsɛt, ənd pliːz ɡɪv ðə nuː ˈkʌpəl jɔr ˈwɔːrməst əˈplɔːz!/",
+       "vi": "Xin quý vị hãy nhìn những chiếc nhẫn đang tỏa sáng dưới hoàng hôn, và dành cho cặp đôi mới tràng pháo tay nồng nhiệt nhất!"
+      },
+      {
+       "en": "And now for a joyful tradition: our bride will toss her flowers to the next lucky lady!",
+       "pron": "/ənd naʊ fər ə ˈdʒɔɪfəl trəˈdɪʃən: aʊər braɪd wɪl tɔːs hɜːr ˈflaʊərz tu ðə nɛkst ˈlʌki ˈleɪdi!/",
+       "vi": "Và bây giờ là một truyền thống vui nhộn: cô dâu của chúng ta sẽ tung hoa cho cô gái may mắn tiếp theo!"
+      }
+     ],
+     "title": "💍 Nghi lễ ngoài trời"
+    },
+    {
+     "lines": [
+      {
+       "en": "As the sun goes down over the sea, our outdoor celebration comes to a gentle end.",
+       "pron": "/əz ðə sʌn ɡoʊz daʊn ˈoʊvər ðə siː, aʊər ˈaʊtdɔːr ˌsɛləˈbreɪʃən kʌmz tu ə ˈdʒɛntəl ɛnd./",
+       "vi": "Khi mặt trời lặn xuống biển, buổi tiệc ngoài trời của chúng ta cũng khép lại một cách dịu dàng."
+      },
+      {
+       "en": "What a lovely sunset wedding it has been, full of soft light, sweet words, and happy hearts.",
+       "pron": "/wʌt ə ˈlʌvli ˈsʌnsɛt ˈwɛdɪŋ ɪt həz bɪn, fʊl əv sɔːft laɪt, swiːt wɜːrdz, ənd ˈhæpi hɑːrts./",
+       "vi": "Thật là một đám cưới hoàng hôn đáng yêu, đầy ắp ánh sáng dịu dàng, lời ngọt ngào và những trái tim hạnh phúc."
+      },
+      {
+       "en": "Thank you, dear guests, for sharing this sunset with Phuong Linh and Tuan Anh.",
+       "pron": "/θæŋk ju, dɪr ɡɛsts, fər ˈʃɛrɪŋ ðɪs ˈsʌnsɛt wɪð Phuong Linh ənd Tuan Anh./",
+       "vi": "Cảm ơn quý vị khách quý đã cùng chia sẻ khoảnh khắc hoàng hôn này với Phương Linh và Tuấn Anh."
+      },
+      {
+       "en": "May your love shine like this sunset, warm and bright, on every day of your life together.",
+       "pron": "/meɪ jɔr lʌv ʃaɪn laɪk ðɪs ˈsʌnsɛt, wɔːrm ənd braɪt, ɑːn ˈɛvri deɪ əv jɔr laɪf təˈɡɛðər./",
+       "vi": "Chúc tình yêu của hai bạn tỏa sáng như hoàng hôn này, ấm áp và rực rỡ, trong mỗi ngày của cuộc sống chung."
+      },
+      {
+       "en": "Good evening, everyone, and have a safe and happy journey home under the stars!",
+       "pron": "/ɡʊd ˈiːvnɪŋ, ˈɛvriwʌn, ənd hæv ə seɪf ənd ˈhæpi ˈdʒɜːrni hoʊm ˈʌndər ðə stɑːrz!/",
+       "vi": "Chúc quý vị một buổi tối tốt lành, và có một hành trình về nhà an toàn, hạnh phúc dưới bầu trời sao!"
+      }
+     ],
+     "title": "👋 Kết tiệc"
+    }
+   ],
+   "situation": "Đám cưới ngoài trời của Phương Linh và Tuấn Anh tổ chức vào buổi chiều muộn tại một khu nghỉ dưỡng ven biển ở Đà Nẵng, dưới bầu trời hoàng hôn, với không khí lãng mạn và nhẹ nhàng.",
+   "title": "Đám cưới ngoài trời — Phương Linh & Tuấn Anh"
+  },
+  {
+   "eventType": "dam-cuoi",
+   "id": "prog-dam-cuoi-than-mat",
+   "sections": [
+    {
+     "lines": [
+      {
+       "en": "Good evening, everyone, and welcome to this warm and intimate wedding celebration!",
+       "pron": "/ɡʊd ˈiːvnɪŋ, ˈɛvriwʌn, ənd ˈwɛlkəm tu ðɪs wɔːrm ənd ˈɪntəmət ˈwɛdɪŋ ˌsɛləˈbreɪʃən!/",
+       "vi": "Xin chào buổi tối, thưa quý vị, và chào mừng quý vị đến với lễ cưới ấm cúng và thân mật này!"
+      },
+      {
+       "en": "Tonight, in this lovely garden restaurant, only our closest family and friends are here.",
+       "pron": "/təˈnaɪt, ɪn ðɪs ˈlʌvli ˈɡɑːrdən ˈrɛstərɑːnt, ˈoʊnli aʊər ˈkloʊsəst ˈfæməli ənd frɛndz ɑːr hɪr./",
+       "vi": "Tối nay, trong nhà hàng sân vườn xinh xắn này, chỉ có những người thân yêu nhất của chúng ta ở đây."
+      },
+      {
+       "en": "Thank you for coming to share this small but truly special day with Thu Ha and Minh Quan.",
+       "pron": "/θæŋk ju fər ˈkʌmɪŋ tu ʃɛr ðɪs smɔːl bʌt ˈtruːli ˈspɛʃəl deɪ wɪð Thu Ha ənd Minh Quan./",
+       "vi": "Cảm ơn quý vị đã đến chia sẻ ngày nhỏ bé nhưng thật sự đặc biệt này cùng Thu Hà và Minh Quân."
+      },
+      {
+       "en": "My name is Thanh Vân, and I am so happy to host this cozy evening for our two families.",
+       "pron": "/maɪ neɪm ɪz Thanh Vân, ənd aɪ əm soʊ ˈhæpi tu hoʊst ðɪs ˈkoʊzi ˈiːvnɪŋ fər aʊər tuː ˈfæməliz./",
+       "vi": "Tôi tên là Thanh Vân, và tôi rất vui được dẫn dắt buổi tối ấm cúng này cho hai gia đình."
+      },
+      {
+       "en": "Please relax, enjoy the soft music, and feel at home with us tonight.",
+       "pron": "/pliːz rɪˈlæks, ɛnˈdʒɔɪ ðə sɔːft ˈmjuːzɪk, ənd fiːl ət hoʊm wɪð ʌs təˈnaɪt./",
+       "vi": "Xin quý vị hãy thư giãn, thưởng thức âm nhạc nhẹ nhàng, và cảm thấy như ở nhà cùng chúng tôi tối nay."
+      }
+     ],
+     "title": "🎤 Mở đầu"
+    },
+    {
+     "lines": [
+      {
+       "en": "Thu Ha and Minh Quan first met at a small coffee shop in Da Nang, on a rainy afternoon.",
+       "pron": "/Thu Ha ənd Minh Quan fɜːrst mɛt ət ə smɔːl ˈkɔːfi ʃɑːp ɪn dɑː ˈnɑːŋ, ɑːn ə ˈreɪni ˌæftərˈnuːn./",
+       "vi": "Thu Hà và Minh Quân gặp nhau lần đầu tại một quán cà phê nhỏ ở Đà Nẵng, vào một buổi chiều mưa."
+      },
+      {
+       "en": "From that simple meeting, their love grew slowly, gently, and beautifully.",
+       "pron": "/frəm ðæt ˈsɪmpəl ˈmiːtɪŋ, ðɛr lʌv ɡruː ˈsloʊli, ˈdʒɛntli, ənd ˈbjuːtəfəli./",
+       "vi": "Từ cuộc gặp gỡ giản dị ấy, tình yêu của hai bạn lớn lên chậm rãi, nhẹ nhàng và đẹp đẽ."
+      },
+      {
+       "en": "Tonight, the people in this room are the ones who watched that love grow.",
+       "pron": "/təˈnaɪt, ðə ˈpiːpəl ɪn ðɪs ruːm ɑːr ðə wʌnz hu wɑːtʃt ðæt lʌv ɡroʊ./",
+       "vi": "Tối nay, những người trong căn phòng này chính là những người đã chứng kiến tình yêu ấy lớn lên."
+      },
+      {
+       "en": "To our dear parents, thank you for your love, your patience, and your blessing today.",
+       "pron": "/tu aʊər dɪr ˈpɛrənts, θæŋk ju fər jɔr lʌv, jɔr ˈpeɪʃəns, ənd jɔr ˈblɛsɪŋ təˈdeɪ./",
+       "vi": "Kính thưa cha mẹ hai bên, cảm ơn cha mẹ vì tình yêu, sự kiên nhẫn và lời chúc phúc hôm nay."
+      },
+      {
+       "en": "And to our close friends, thank you for traveling here to stand beside them.",
+       "pron": "/ənd tu aʊər kloʊs frɛndz, θæŋk ju fər ˈtrævəlɪŋ hɪr tu stænd bɪˈsaɪd ðɛm./",
+       "vi": "Và gửi đến những người bạn thân thiết, cảm ơn các bạn đã đến đây để đứng bên cạnh hai bạn."
+      }
+     ],
+     "title": "💕 Chào mừng thân mật"
+    },
+    {
+     "lines": [
+      {
+       "en": "And now, please welcome Thu Ha and Minh Quan as they walk in together, hand in hand.",
+       "pron": "/ənd naʊ, pliːz ˈwɛlkəm Thu Ha ənd Minh Quan əz ðeɪ wɔːk ɪn təˈɡɛðər, hænd ɪn hænd./",
+       "vi": "Và bây giờ, xin mời quý vị chào đón Thu Hà và Minh Quân khi hai bạn cùng bước vào, tay trong tay."
+      },
+      {
+       "en": "Minh Quan, please take Thu Ha's hand and share your vows with her now.",
+       "pron": "/Minh Quan, pliːz teɪk Thu Ha'z hænd ənd ʃɛr jɔr ˈvaʊz wɪð hɜːr naʊ./",
+       "vi": "Minh Quân, xin bạn hãy nắm tay Thu Hà và chia sẻ lời thề nguyện của mình với cô ấy ngay bây giờ."
+      },
+      {
+       "en": "Those words were so sincere. Let us give this lovely couple a warm round of applause.",
+       "pron": "/ðoʊz wɜːrdz wər soʊ sɪnˈsɪr. lɛt ʌs ɡɪv ðɪs ˈlʌvli ˈkʌpəl ə wɔːrm raʊnd əv əˈplɔːz./",
+       "vi": "Những lời nói ấy thật chân thành. Chúng ta hãy dành cho cặp đôi đáng yêu này một tràng pháo tay nồng nhiệt."
+      },
+      {
+       "en": "Now, we would love to hear a few warm words from Thu Ha's mother.",
+       "pron": "/naʊ, wi wʊd lʌv tu hɪr ə fjuː wɔːrm wɜːrdz frəm Thu Ha'z ˈmʌðər./",
+       "vi": "Bây giờ, chúng tôi rất mong được lắng nghe vài lời ấm áp từ mẹ của Thu Hà."
+      },
+      {
+       "en": "And here comes the sweetest part: the couple will cut their small wedding cake together.",
+       "pron": "/ənd hɪr kʌmz ðə ˈswiːtəst pɑːrt: ðə ˈkʌpəl wɪl kʌt ðɛr smɔːl ˈwɛdɪŋ keɪk təˈɡɛðər./",
+       "vi": "Và đây là phần ngọt ngào nhất: hai bạn sẽ cùng nhau cắt chiếc bánh cưới nhỏ xinh."
+      }
+     ],
+     "title": "💍 Nghi lễ & chia sẻ"
+    },
+    {
+     "lines": [
+      {
+       "en": "What a warm and lovely evening it has been, full of smiles, hugs, and happy tears.",
+       "pron": "/wʌt ə wɔːrm ənd ˈlʌvli ˈiːvnɪŋ ɪt həz bɪn, fʊl əv smaɪlz, hʌɡz, ənd ˈhæpi tɪrz./",
+       "vi": "Thật là một buổi tối ấm áp và đáng yêu, đầy ắp nụ cười, cái ôm và những giọt nước mắt hạnh phúc."
+      },
+      {
+       "en": "On behalf of Thu Ha and Minh Quan, thank you for your love, your gifts, and your presence.",
+       "pron": "/ɑːn bɪˈhæf əv Thu Ha ənd Minh Quan, θæŋk ju fər jɔr lʌv, jɔr ɡɪfts, ənd jɔr ˈprɛzəns./",
+       "vi": "Thay mặt Thu Hà và Minh Quân, cảm ơn quý vị vì tình yêu, những món quà và sự hiện diện của quý vị."
+      },
+      {
+       "en": "May their life together be as warm and peaceful as this garden tonight.",
+       "pron": "/meɪ ðɛr laɪf təˈɡɛðər bi əz wɔːrm ənd ˈpiːsfəl əz ðɪs ˈɡɑːrdən təˈnaɪt./",
+       "vi": "Chúc cuộc sống chung của hai bạn ấm áp và bình yên như khu vườn này tối nay."
+      },
+      {
+       "en": "Please take care on your way home, and carry this sweet evening in your hearts.",
+       "pron": "/pliːz teɪk kɛr ɑːn jɔr weɪ hoʊm, ənd ˈkæri ðɪs swiːt ˈiːvnɪŋ ɪn jɔr hɑːrts./",
+       "vi": "Xin quý vị hãy cẩn thận trên đường về, và mang theo buổi tối ngọt ngào này trong tim mình."
+      },
+      {
+       "en": "Good night, everyone, and thank you for making this small wedding so unforgettable!",
+       "pron": "/ɡʊd naɪt, ˈɛvriwʌn, ənd θæŋk ju fər ˈmeɪkɪŋ ðɪs smɔːl ˈwɛdɪŋ soʊ ˌʌnfərˈɡɛtəbəl!/",
+       "vi": "Chúc quý vị ngủ ngon, và cảm ơn quý vị đã làm cho đám cưới nhỏ này trở nên thật khó quên!"
+      }
+     ],
+     "title": "👋 Kết tiệc"
+    }
+   ],
+   "situation": "Đám cưới thân mật của Thu Hà và Minh Quân, với khoảng 50 khách mời thân thiết, tổ chức vào buổi tối tại một nhà hàng sân vườn ấm cúng ở Đà Nẵng.",
+   "title": "Đám cưới thân mật — Thu Hà & Minh Quân"
+  },
+  {
+   "eventType": "dam-cuoi",
+   "id": "prog-dam-cuoi-cao-cap",
+   "sections": [
+    {
+     "lines": [
+      {
+       "en": "Good evening, ladies and gentlemen, and welcome to a truly spectacular wedding by the sea!",
+       "pron": "/ɡʊd ˈiːvnɪŋ, ˈleɪdiz ənd ˈdʒɛntəlmən, ənd ˈwɛlkəm tu ə ˈtruːli spɛkˈtækjələr ˈwɛdɪŋ baɪ ðə siː!/",
+       "vi": "Xin chào buổi tối, thưa quý vị, và chào mừng quý vị đến với một đám cưới thật sự lộng lẫy bên bờ biển!"
+      },
+      {
+       "en": "Tonight, under the lights of this beautiful beach resort in Da Nang, luxury meets love.",
+       "pron": "/təˈnaɪt, ˈʌndər ðə laɪts əv ðɪs ˈbjuːtəfəl biːtʃ rɪˈzɔːrt ɪn dɑː ˈnɑːŋ, ˈlʌkʃəri miːts lʌv./",
+       "vi": "Tối nay, dưới ánh đèn của khu nghỉ dưỡng ven biển xinh đẹp này tại Đà Nẵng, sự xa hoa gặp gỡ tình yêu."
+      },
+      {
+       "en": "My name is Thanh Vân, and it is my great honor to host this grand celebration.",
+       "pron": "/maɪ neɪm ɪz Thanh Vân, ənd ɪt ɪz maɪ ɡreɪt ˈɑːnər tu hoʊst ðɪs ɡrænd ˌsɛləˈbreɪʃən./",
+       "vi": "Tôi tên là Thanh Vân, và tôi rất vinh dự được dẫn dắt buổi lễ trọng đại này."
+      },
+      {
+       "en": "Please take your seats, enjoy the ocean breeze, and prepare for an unforgettable night.",
+       "pron": "/pliːz teɪk jɔr siːts, ɛnˈdʒɔɪ ði ˈoʊʃən briːz, ənd prɪˈpɛr fər ən ˌʌnfərˈɡɛtəbəl naɪt./",
+       "vi": "Xin quý vị hãy ổn định chỗ ngồi, tận hưởng làn gió biển, và chuẩn bị cho một đêm khó quên."
+      },
+      {
+       "en": "Ladies and gentlemen, the evening we have all been waiting for begins now!",
+       "pron": "/ˈleɪdiz ənd ˈdʒɛntəlmən, ði ˈiːvnɪŋ wi hæv ɔːl bɪn ˈweɪtɪŋ fər bɪˈɡɪnz naʊ!/",
+       "vi": "Thưa quý vị, buổi tối mà tất cả chúng ta đều mong chờ bắt đầu ngay bây giờ!"
+      }
+     ],
+     "title": "🎤 Mở đầu"
+    },
+    {
+     "lines": [
+      {
+       "en": "Please welcome our radiant bride, Khanh Vy, and our handsome groom, Gia Bao!",
+       "pron": "/pliːz ˈwɛlkəm aʊər ˈreɪdiənt braɪd, Khanh Vy, ənd aʊər ˈhænsəm ɡruːm, Gia Bao!/",
+       "vi": "Xin mời quý vị chào đón cô dâu rạng rỡ Khánh Vy và chú rể điển trai Gia Bảo!"
+      },
+      {
+       "en": "Khanh Vy and Gia Bao met while studying abroad, and their love crossed oceans to bring them home.",
+       "pron": "/Khanh Vy ənd Gia Bao mɛt waɪl ˈstʌdiɪŋ əˈbrɔːd, ənd ðɛr lʌv krɔːst ˈoʊʃənz tu brɪŋ ðɛm hoʊm./",
+       "vi": "Khánh Vy và Gia Bảo gặp nhau khi đang du học, và tình yêu của hai bạn đã vượt đại dương để đưa họ trở về nhà."
+      },
+      {
+       "en": "Tonight, we are honored to welcome their families and our distinguished VIP guests.",
+       "pron": "/təˈnaɪt, wi ɑːr ˈɑːnərd tu ˈwɛlkəm ðɛr ˈfæməliz ənd aʊər dɪˈstɪŋɡwɪʃt ˌviːaɪˈpiː ɡɛsts./",
+       "vi": "Tối nay, chúng tôi rất vinh dự được chào đón hai bên gia đình và các vị khách VIP đáng kính của chúng ta."
+      },
+      {
+       "en": "A special welcome to our honored guests from near and far, who traveled so far to be here.",
+       "pron": "/ə ˈspɛʃəl ˈwɛlkəm tu aʊər ˈɑːnərd ɡɛsts frəm nɪr ənd fɑːr, hu ˈtrævəld soʊ fɑːr tu bi hɪr./",
+       "vi": "Xin chào đón đặc biệt đến các vị khách quý từ gần và xa, những người đã vượt đường xa để có mặt tại đây."
+      },
+      {
+       "en": "Please give the couple and their families the warmest applause of the night!",
+       "pron": "/pliːz ɡɪv ðə ˈkʌpəl ənd ðɛr ˈfæməliz ðə ˈwɔːrməst əˈplɔːz əv ðə naɪt!/",
+       "vi": "Xin quý vị hãy dành cho hai bạn và gia đình tràng pháo tay nồng nhiệt nhất của đêm nay!"
+      }
+     ],
+     "title": "✨ Giới thiệu & đón khách VIP"
+    },
+    {
+     "lines": [
+      {
+       "en": "And now, the moment we have all awaited: the wedding ceremony begins beneath the flowers.",
+       "pron": "/ənd naʊ, ðə ˈmoʊmənt wi hæv ɔːl əˈweɪtɪd: ðə ˈwɛdɪŋ ˈsɛrəmoʊni bɪˈɡɪnz bɪˈniːθ ðə ˈflaʊərz./",
+       "vi": "Và bây giờ, khoảnh khắc mà tất cả chúng ta đều chờ đợi: lễ cưới bắt đầu dưới những đóa hoa."
+      },
+      {
+       "en": "Khanh Vy and Gia Bao, please exchange your rings as a symbol of your love forever.",
+       "pron": "/Khanh Vy ənd Gia Bao, pliːz ɪksˈtʃeɪndʒ jɔr rɪŋz əz ə ˈsɪmbəl əv jɔr lʌv fərˈɛvər./",
+       "vi": "Khánh Vy và Gia Bảo, xin hai bạn hãy trao nhẫn cho nhau như biểu tượng của tình yêu mãi mãi."
+      },
+      {
+       "en": "Congratulations! Now, please share your first kiss as husband and wife!",
+       "pron": "/kənˌɡrætʃəˈleɪʃənz! naʊ, pliːz ʃɛr jɔr fɜːrst kɪs əz ˈhʌzbənd ənd waɪf!/",
+       "vi": "Xin chúc mừng! Bây giờ, xin mời hai bạn trao nhau nụ hôn đầu tiên trong vai trò vợ chồng!"
+      },
+      {
+       "en": "Ladies and gentlemen, please enjoy the couple's first dance, with our live band playing softly.",
+       "pron": "/ˈleɪdiz ənd ˈdʒɛntəlmən, pliːz ɛnˈdʒɔɪ ðə ˈkʌpəlz fɜːrst dæns, wɪð aʊər laɪv bænd ˈpleɪɪŋ ˈsɔːftli./",
+       "vi": "Thưa quý vị, xin mời quý vị thưởng thức điệu nhảy đầu tiên của hai bạn, cùng ban nhạc sống đang chơi nhẹ nhàng."
+      },
+      {
+       "en": "And now, the champagne tower! Please raise your glasses as the golden bubbles flow.",
+       "pron": "/ənd naʊ, ðə ʃæmˈpeɪn ˈtaʊər! pliːz reɪz jɔr ˈɡlæsɪz əz ðə ˈɡoʊldən ˈbʌbəlz floʊ./",
+       "vi": "Và bây giờ, tháp rượu sâm panh! Xin quý vị hãy nâng ly khi những bọt vàng đang chảy xuống."
+      }
+     ],
+     "title": "💍 Nghi lễ xa hoa"
+    },
+    {
+     "lines": [
+      {
+       "en": "What a dazzling evening it has been, full of music, light, and love.",
+       "pron": "/wʌt ə ˈdæzlɪŋ ˈiːvnɪŋ ɪt həz bɪn, fʊl əv ˈmjuːzɪk, laɪt, ənd lʌv./",
+       "vi": "Thật là một buổi tối rực rỡ, đầy ắp âm nhạc, ánh sáng và tình yêu."
+      },
+      {
+       "en": "As fireworks light up the sky, let us celebrate Khanh Vy and Gia Bao once more!",
+       "pron": "/əz ˈfaɪərwɜːrks laɪt ʌp ðə skaɪ, lɛt ʌs ˈsɛləbreɪt Khanh Vy ənd Gia Bao wʌns mɔːr!/",
+       "vi": "Khi pháo hoa thắp sáng bầu trời, chúng ta hãy cùng chúc mừng Khánh Vy và Gia Bảo một lần nữa!"
+      },
+      {
+       "en": "On behalf of both families, thank you for joining this grand celebration tonight.",
+       "pron": "/ɑːn bɪˈhæf əv boʊθ ˈfæməliz, θæŋk ju fər ˈdʒɔɪnɪŋ ðɪs ɡrænd ˌsɛləˈbreɪʃən təˈnaɪt./",
+       "vi": "Thay mặt hai gia đình, cảm ơn quý vị đã tham dự buổi lễ trọng đại này tối nay."
+      },
+      {
+       "en": "May their journey together be as bright and beautiful as the fireworks above us.",
+       "pron": "/meɪ ðɛr ˈdʒɜːrni təˈɡɛðər bi əz braɪt ənd ˈbjuːtəfəl əz ðə ˈfaɪərwɜːrks əˈbʌv ʌs./",
+       "vi": "Chúc hành trình chung của hai bạn sáng ngời và đẹp đẽ như pháo hoa trên bầu trời."
+      },
+      {
+       "en": "Good night, everyone, and thank you for a truly luxurious and unforgettable wedding!",
+       "pron": "/ɡʊd naɪt, ˈɛvriwʌn, ənd θæŋk ju fər ə ˈtruːli lʌɡˈʒʊriəs ənd ˌʌnfərˈɡɛtəbəl ˈwɛdɪŋ!/",
+       "vi": "Chúc quý vị ngủ ngon, và cảm ơn quý vị vì một đám cưới thật sự xa hoa và khó quên!"
+      }
+     ],
+     "title": "👋 Kết tiệc"
+    }
+   ],
+   "situation": "Đám cưới cao cấp của Khánh Vy và Gia Bảo, tổ chức vào buổi tối tại một khu nghỉ dưỡng ven biển sang trọng ở Đà Nẵng, với khách VIP, ban nhạc sống và pháo hoa.",
+   "title": "Đám cưới cao cấp — Khánh Vy & Gia Bảo"
+  },
+  {
+   "eventType": "year-end-party",
+   "id": "prog-year-end",
+   "sections": [
+    {
+     "lines": [
+      {
+       "en": "Good evening, ladies and gentlemen, and welcome to the year-end celebration of Song Han Travel!",
+       "pron": "/ɡʊd ˈiːvnɪŋ, ˈleɪdiz ənd ˈdʒɛntəlmən, ənd ˈwɛlkəm tu ðə jɪr ɛnd ˌsɛləˈbreɪʃən əv Song Han ˈtrævəl!/",
+       "vi": "Xin chào buổi tối, thưa quý vị, và chào mừng quý vị đến với lễ tổng kết cuối năm của Công ty Du lịch Sông Hàn!"
+      },
+      {
+       "en": "Tonight we look back on a wonderful year of journeys, friendships, and unforgettable moments.",
+       "pron": "/təˈnaɪt wi lʊk bæk ɑːn ə ˈwʌndərfəl jɪr əv ˈdʒɜːrniz, ˈfrɛndʃɪps, ənd ˌʌnfərˈɡɛtəbəl ˈmoʊmənts./",
+       "vi": "Tối nay, chúng ta cùng nhìn lại một năm tuyệt vời với những hành trình, tình bạn và những khoảnh khắc khó quên."
+      },
+      {
+       "en": "Tonight, our staff and partners gather in this grand ballroom to celebrate together.",
+       "pron": "/təˈnaɪt, aʊər stæf ənd ˈpɑːrtnərz ˈɡæðər ɪn ðɪs ɡrænd ˈbɔːlruːm tu ˈsɛləbreɪt təˈɡɛðər./",
+       "vi": "Tối nay, nhân viên và đối tác của chúng ta cùng tụ họp tại sảnh tiệc lớn này để ăn mừng cùng nhau."
+      },
+      {
+       "en": "My name is Thanh Vân, and it is my joy to host this special evening with you.",
+       "pron": "/maɪ neɪm ɪz Thanh Vân, ənd ɪt ɪz maɪ dʒɔɪ tu hoʊst ðɪs ˈspɛʃəl ˈiːvnɪŋ wɪð ju./",
+       "vi": "Tôi tên là Thanh Vân, và thật vui khi được dẫn dắt buổi tối đặc biệt này cùng quý vị."
+      },
+      {
+       "en": "Please settle in, enjoy the music, and let us celebrate together all evening long.",
+       "pron": "/pliːz ˈsɛtəl ɪn, ɛnˈdʒɔɪ ðə ˈmjuːzɪk, ənd lɛt ʌs ˈsɛləbreɪt təˈɡɛðər ɔːl ˈiːvnɪŋ lɔːŋ./",
+       "vi": "Xin quý vị hãy ổn định chỗ ngồi, thưởng thức âm nhạc, và cùng chúng tôi ăn mừng suốt cả buổi tối."
+      }
+     ],
+     "title": "🎤 Mở đầu"
+    },
+    {
+     "lines": [
+      {
+       "en": "This year, Song Han Travel welcomed thousands of travelers to Da Nang and beyond.",
+       "pron": "/ðɪs jɪr, Song Han ˈtrævəl ˈwɛlkəmd ˈθaʊzəndz əv ˈtrævələrz tu dɑː ˈnɑːŋ ənd bɪˈjɑːnd./",
+       "vi": "Năm nay, Du lịch Sông Hàn đã đón hàng nghìn du khách đến Đà Nẵng và nhiều nơi khác."
+      },
+      {
+       "en": "From sunny beaches to mountain tours, our team worked hard in every season.",
+       "pron": "/frəm ˈsʌni ˈbiːtʃɪz tu ˈmaʊntən tʊrz, aʊər tiːm wɜːrkt hɑːrd ɪn ˈɛvri ˈsiːzən./",
+       "vi": "Từ những bãi biển đầy nắng đến các tour núi, đội ngũ của chúng tôi đã làm việc chăm chỉ trong mọi mùa."
+      },
+      {
+       "en": "None of this success would be possible without the dedication of every staff member.",
+       "pron": "/nʌn əv ðɪs səkˈsɛs wʊd bi ˈpɑːsəbəl wɪðˈaʊt ðə ˌdɛdɪˈkeɪʃən əv ˈɛvri stæf ˈmɛmbər./",
+       "vi": "Không có thành công nào trong số này có thể đạt được nếu thiếu sự tận tâm của từng nhân viên."
+      },
+      {
+       "en": "Please join me in thanking our guides, drivers, and office team for a wonderful year.",
+       "pron": "/pliːz dʒɔɪn mi ɪn ˈθæŋkɪŋ aʊər ɡaɪdz, ˈdraɪvərz, ənd ˈɔːfɪs tiːm fər ə ˈwʌndərfəl jɪr./",
+       "vi": "Xin quý vị cùng tôi cảm ơn các hướng dẫn viên, tài xế và đội ngũ văn phòng vì một năm tuyệt vời."
+      },
+      {
+       "en": "And now, let us look back at the best moments of the year on the screen.",
+       "pron": "/ənd naʊ, lɛt ʌs lʊk bæk ət ðə bɛst ˈmoʊmənts əv ðə jɪr ɑːn ðə skriːn./",
+       "vi": "Và bây giờ, chúng ta hãy cùng nhìn lại những khoảnh khắc đẹp nhất của năm trên màn hình."
+      }
+     ],
+     "title": "📅 Giới thiệu & nhìn lại năm qua"
+    },
+    {
+     "lines": [
+      {
+       "en": "And now, from our memories of the year, we move to the moment we have all been waiting for: the awards.",
+       "pron": "/ənd naʊ, frəm aʊər ˈmɛməriz əv ðə jɪr, wi muːv tu ðə ˈmoʊmənt wi hæv ɔːl bɪn ˈweɪtɪŋ fər: ði əˈwɔːrdz./",
+       "vi": "Và bây giờ, từ những kỷ niệm của năm qua, chúng ta chuyển sang khoảnh khắc mà tất cả đều mong chờ: phần trao giải."
+      },
+      {
+       "en": "Our first award goes to the partner who brought us the most travelers this year.",
+       "pron": "/aʊər fɜːrst əˈwɔːrd ɡoʊz tu ðə ˈpɑːrtnər hu brɔːt ʌs ðə moʊst ˈtrævələrz ðɪs jɪr./",
+       "vi": "Giải thưởng đầu tiên thuộc về đối tác đã mang đến cho chúng tôi nhiều du khách nhất trong năm nay."
+      },
+      {
+       "en": "Congratulations to our winner! Please come forward and receive your award.",
+       "pron": "/kənˌɡrætʃəˈleɪʃənz tu aʊər ˈwɪnər! pliːz kʌm ˈfɔːrwərd ənd rɪˈsiːv jɔr əˈwɔːrd./",
+       "vi": "Xin chúc mừng người chiến thắng của chúng ta! Xin mời bạn tiến lên phía trước và nhận giải thưởng của mình."
+      },
+      {
+       "en": "Before our next award, let us enjoy a short performance from our talented team.",
+       "pron": "/bɪˈfɔːr aʊər nɛkst əˈwɔːrd, lɛt ʌs ɛnˈdʒɔɪ ə ʃɔːrt pərˈfɔːrməns frəm aʊər ˈtæləntɪd tiːm./",
+       "vi": "Trước giải thưởng tiếp theo, xin mời quý vị thưởng thức một tiết mục ngắn của đội ngũ tài năng của chúng tôi."
+      },
+      {
+       "en": "Dinner is now served, so please raise your glasses for a toast to the new year!",
+       "pron": "/ˈdɪnər ɪz naʊ sɜːrvd, soʊ pliːz reɪz jɔr ˈɡlæsɪz fər ə toʊst tu ðə nuː jɪr!/",
+       "vi": "Bữa tối đã được dọn lên, xin mời quý vị hãy nâng ly chúc mừng năm mới!"
+      }
+     ],
+     "title": "🏆 Trao thưởng & vào tiệc"
+    },
+    {
+     "lines": [
+      {
+       "en": "What a joyful evening it has been, full of awards, music, and wonderful people.",
+       "pron": "/wʌt ə ˈdʒɔɪfəl ˈiːvnɪŋ ɪt həz bɪn, fʊl əv əˈwɔːrdz, ˈmjuːzɪk, ənd ˈwʌndərfəl ˈpiːpəl./",
+       "vi": "Thật là một buổi tối vui vẻ, đầy ắp giải thưởng, âm nhạc và những con người tuyệt vời."
+      },
+      {
+       "en": "Thank you to every guest, every partner, and every member of the Song Han Travel family.",
+       "pron": "/θæŋk ju tu ˈɛvri ɡɛst, ˈɛvri ˈpɑːrtnər, ənd ˈɛvri ˈmɛmbər əv ðə Song Han ˈtrævəl ˈfæməli./",
+       "vi": "Cảm ơn mỗi vị khách, mỗi đối tác, và mỗi thành viên trong gia đình Du lịch Sông Hàn."
+      },
+      {
+       "en": "May the new year bring you safe journeys, good health, and many happy adventures.",
+       "pron": "/meɪ ðə nuː jɪr brɪŋ ju seɪf ˈdʒɜːrniz, ɡʊd hɛlθ, ənd ˈmɛni ˈhæpi ədˈvɛntʃərz./",
+       "vi": "Chúc năm mới mang đến cho quý vị những hành trình an toàn, sức khỏe dồi dào và nhiều chuyến phiêu lưu hạnh phúc."
+      },
+      {
+       "en": "We wish you and your families health, happiness, and success in the year ahead.",
+       "pron": "/wi wɪʃ ju ənd jɔr ˈfæməliz hɛlθ, ˈhæpinəs, ənd səkˈsɛs ɪn ðə jɪr əˈhɛd./",
+       "vi": "Chúng tôi chúc quý vị và gia đình sức khỏe, hạnh phúc và thành công trong năm tới."
+      },
+      {
+       "en": "Good night, everyone, and see you on our next journey together!",
+       "pron": "/ɡʊd naɪt, ˈɛvriwʌn, ənd siː ju ɑːn aʊər nɛkst ˈdʒɜːrni təˈɡɛðər!/",
+       "vi": "Chúc quý vị ngủ ngon, và hẹn gặp lại quý vị trên hành trình tiếp theo của chúng ta!"
+      }
+     ],
+     "title": "👋 Kết tiệc"
+    }
+   ],
+   "situation": "Tiệc cuối năm của Công ty Du lịch Sông Hàn, tổ chức vào buổi tối tại sảnh tiệc của một khách sạn ở Đà Nẵng, với nhân viên và đối tác, cùng nhìn lại một năm đã qua, trao thưởng và dùng tiệc.",
+   "title": "Year End Party — Công ty Du lịch Sông Hàn"
+  },
+  {
+   "eventType": "khai-truong",
+   "id": "prog-khai-truong",
+   "sections": [
+    {
+     "lines": [
+      {
+       "en": "Good morning, ladies and gentlemen, and welcome to the grand opening of Riverside Palace Hotel Da Nang!",
+       "pron": "/ɡʊd ˈmɔːrnɪŋ, ˈleɪdiz ənd ˈdʒɛntəlmən, ənd ˈwɛlkəm tu ðə ɡrænd ˈoʊpənɪŋ əv ˈrɪvərsaɪd ˈpæləs hoʊˈtɛl Da Nang!/",
+       "vi": "Xin chào buổi sáng, thưa quý vị, và chào mừng quý vị đến với lễ khai trương Khách sạn Riverside Palace Đà Nẵng!"
+      },
+      {
+       "en": "It is my great pleasure to welcome you all to this beautiful riverside morning.",
+       "pron": "/ɪt ɪz maɪ ɡreɪt ˈplɛʒər tu ˈwɛlkəm ju ɔːl tu ðɪs ˈbjuːtɪfəl ˈrɪvərsaɪd ˈmɔːrnɪŋ./",
+       "vi": "Thật là niềm vinh hạnh lớn của tôi khi được chào đón quý vị trong buổi sáng tuyệt đẹp bên dòng sông này."
+      },
+      {
+       "en": "My name is Thanh Vân, and I am honored to be your host for this very special occasion.",
+       "pron": "/maɪ neɪm ɪz Thanh Vân, ənd aɪ əm ˈɑnərd tu bi jɔr hoʊst fər ðɪs ˈvɛri ˈspɛʃəl əˈkeɪʒən./",
+       "vi": "Tôi tên là Thanh Vân, và tôi rất vinh dự được làm người dẫn chương trình trong dịp đặc biệt này."
+      },
+      {
+       "en": "Today, a new landmark opens its doors on the banks of the Han River.",
+       "pron": "/təˈdeɪ, ə nuː ˈlændmɑːrk ˈoʊpənz ɪts dɔːrz ɑn ðə bæŋks əv ðə Han River./",
+       "vi": "Hôm nay, một công trình mới chính thức mở cửa bên bờ sông Hàn."
+      },
+      {
+       "en": "From today, the Han River has a new address for five-star hospitality and unforgettable stays.",
+       "pron": "/frəm təˈdeɪ, ðə Han River hæz ə nuː ˈædrɛs fər faɪv stɑr ˌhɑspɪˈtæləti ənd ˌʌnfərˈɡɛtəbəl steɪz./",
+       "vi": "Từ hôm nay, sông Hàn có thêm một địa chỉ mới cho dịch vụ năm sao và những kỳ nghỉ khó quên."
+      }
+     ],
+     "title": "🎤 Mở đầu"
+    },
+    {
+     "lines": [
+      {
+       "en": "Riverside Palace is a five-star hotel with two hundred and eighty elegant rooms and suites.",
+       "pron": "/ˈrɪvərsaɪd ˈpæləs ɪz ə faɪv stɑr hoʊˈtɛl wɪð tu ˈhʌndrəd ənd ˈɛti ˈɛləɡənt rumz ənd swiːts./",
+       "vi": "Riverside Palace là khách sạn năm sao với hai trăm tám mươi phòng và suite sang trọng."
+      },
+      {
+       "en": "Every room offers a stunning view of the Han River and the city lights of Da Nang.",
+       "pron": "/ˈɛvri rum ˈɔfərz ə ˈstʌnɪŋ vju əv ðə Han River ənd ðə ˈsɪti laɪts əv Da Nang./",
+       "vi": "Mỗi phòng đều có tầm nhìn tuyệt đẹp ra sông Hàn và ánh đèn thành phố Đà Nẵng."
+      },
+      {
+       "en": "Our guests can enjoy a rooftop infinity pool, a luxury spa, and five fine restaurants.",
+       "pron": "/aʊər ɡɛsts kən ɪnˈdʒɔɪ ə ˈruːftɑp ɪnˈfɪnəti puːl, ə ˈlʌkʃəri spɑː, ənd faɪv faɪn ˈrɛstərɑːnts./",
+       "vi": "Quý khách có thể tận hưởng hồ bơi vô cực trên tầng thượng, spa cao cấp và năm nhà hàng sang trọng."
+      },
+      {
+       "en": "The hotel was designed to blend modern comfort with the warm hospitality of Central Vietnam.",
+       "pron": "/ðə hoʊˈtɛl wəz dɪˈzaɪnd tu blɛnd ˈmɑdərn ˈkʌmfərt wɪð ðə wɔːrm ˌhɑspɪˈtæləti əv ˈsɛntrəl Vietnam./",
+       "vi": "Khách sạn được thiết kế để kết hợp sự tiện nghi hiện đại với lòng hiếu khách ấm áp của miền Trung Việt Nam."
+      },
+      {
+       "en": "And now, please welcome Mrs Le Thu Hang, General Manager of Riverside Palace Hotel!",
+       "pron": "/ənd naʊ, pliːz ˈwɛlkəm ˈmɪsɪz Le Thu Hang, ˈdʒɛnərəl ˈmænɪdʒər əv ˈrɪvərsaɪd ˈpæləs hoʊˈtɛl!/",
+       "vi": "Và ngay sau đây, xin trân trọng giới thiệu Bà Lê Thu Hằng, Tổng Giám đốc Khách sạn Riverside Palace!"
+      }
+     ],
+     "title": "🏨 Giới thiệu"
+    },
+    {
+     "lines": [
+      {
+       "en": "Ladies and gentlemen, the moment we have all been waiting for has finally arrived.",
+       "pron": "/ˈleɪdiz ənd ˈdʒɛntəlmən, ðə ˈmoʊmənt wi hæv ɔːl bɪn ˈweɪtɪŋ fər hæz ˈfaɪnəli əˈraɪvd./",
+       "vi": "Thưa quý vị, khoảnh khắc mà tất cả chúng ta chờ đợi cuối cùng cũng đã đến."
+      },
+      {
+       "en": "May I invite our honored guests to the stage for the ribbon-cutting ceremony?",
+       "pron": "/meɪ aɪ ɪnˈvaɪt aʊər ˈɑnərd ɡɛsts tu ðə steɪdʒ fər ðə ˈrɪbən ˈkʌtɪŋ ˈsɛrəmoʊni?/",
+       "vi": "Xin mời các vị khách quý lên sân khấu để thực hiện nghi thức cắt băng khánh thành."
+      },
+      {
+       "en": "Our partners and distinguished guests, please join Mrs Le Thu Hang at the ribbon and take up the golden scissors.",
+       "pron": "/aʊər ˈpɑːrtnərz ənd dɪˈstɪŋɡwɪʃt ɡɛsts, pliːz dʒɔɪn ˈmɪsɪz Le Thu Hang æt ðə ˈrɪbən ənd teɪk ʌp ðə ˈɡoʊldən ˈsɪzərz./",
+       "vi": "Xin mời các đối tác và quý vị khách quý cùng Bà Lê Thu Hằng tiến về dải băng và cầm kéo vàng lên."
+      },
+      {
+       "en": "Let us count down together: five, four, three, two, one — cut the ribbon!",
+       "pron": "/lɛt ʌs kaʊnt daʊn təˈɡɛðər: faɪv, fɔːr, θriː, tuː, wʌn — kʌt ðə ˈrɪbən!/",
+       "vi": "Xin quý vị cùng đếm ngược với chúng tôi: năm, bốn, ba, hai, một — cắt băng!"
+      },
+      {
+       "en": "Congratulations! Riverside Palace Hotel is officially open — please give them a big round of applause!",
+       "pron": "/kənˌɡrætʃəˈleɪʃənz! ˈrɪvərsaɪd ˈpæləs hoʊˈtɛl ɪz əˈfɪʃəli ˈoʊpən — pliːz ɡɪv ðɛm ə bɪɡ raʊnd əv əˈplɔːz!/",
+       "vi": "Xin chúc mừng! Khách sạn Riverside Palace chính thức khai trương — xin quý vị một tràng pháo tay thật lớn!"
+      }
+     ],
+     "title": "✂️ Cắt băng khánh thành"
+    },
+    {
+     "lines": [
+      {
+       "en": "Thank you all for sharing this joyful morning with us.",
+       "pron": "/θæŋk ju ɔːl fər ˈʃɛrɪŋ ðɪs ˈdʒɔɪfəl ˈmɔːrnɪŋ wɪð ʌs./",
+       "vi": "Cảm ơn quý vị đã cùng chúng tôi chia sẻ buổi sáng đầy niềm vui này."
+      },
+      {
+       "en": "We warmly invite you to tour the hotel and discover its beautiful spaces.",
+       "pron": "/wi ˈwɔːrmli ɪnˈvaɪt ju tu tʊr ðə hoʊˈtɛl ənd dɪˈskʌvər ɪts ˈbjuːtɪfəl ˈspeɪsɪz./",
+       "vi": "Chúng tôi trân trọng mời quý vị tham quan khách sạn và khám phá những không gian tuyệt đẹp nơi đây."
+      },
+      {
+       "en": "Please enjoy the reception, the refreshments, and the wonderful river view.",
+       "pron": "/pliːz ɪnˈdʒɔɪ ðə rɪˈsɛpʃən, ðə rɪˈfrɛʃmənts, ənd ðə ˈwʌndərfəl ˈrɪvər vju./",
+       "vi": "Xin mời quý vị thưởng thức buổi tiệc nhẹ, các món ăn và khung cảnh sông tuyệt đẹp."
+      },
+      {
+       "en": "May Riverside Palace bring comfort and happiness to every guest who walks through its doors.",
+       "pron": "/meɪ ˈrɪvərsaɪd ˈpæləs brɪŋ ˈkʌmfərt ənd ˈhæpinəs tu ˈɛvri ɡɛst hu wɔːks θru ɪts dɔːrz./",
+       "vi": "Chúc Riverside Palace sẽ mang đến sự thoải mái và niềm vui cho mọi vị khách bước qua cánh cửa này."
+      },
+      {
+       "en": "Goodbye for now, and we look forward to welcoming you back very soon!",
+       "pron": "/ɡʊdˈbaɪ fər naʊ, ənd wi lʊk ˈfɔːrwərd tu ˈwɛlkəmɪŋ ju bæk ˈvɛri suːn!/",
+       "vi": "Xin chào tạm biệt quý vị, và chúng tôi mong sớm được đón quý vị trở lại!"
+      }
+     ],
+     "title": "👋 Kết thúc"
+    }
+   ],
+   "situation": "Lễ khai trương khách sạn 5 sao Riverside Palace bên bờ sông Hàn, Đà Nẵng, vào buổi sáng, với nghi thức cắt băng cùng Tổng Giám đốc Bà Lê Thu Hằng và các đối tác.",
+   "title": "Khai trương — Khách sạn Riverside Palace Đà Nẵng"
+  },
+  {
+   "eventType": "khanh-thanh",
+   "id": "prog-khanh-thanh",
+   "sections": [
+    {
+     "lines": [
+      {
+       "en": "Good morning, ladies and gentlemen, and welcome to the inauguration of Sun Plaza Conference Center Da Nang!",
+       "pron": "/ɡʊd ˈmɔːrnɪŋ, ˈleɪdiz ənd ˈdʒɛntəlmən, ənd ˈwɛlkəm tu ði ɪˌnɔːɡjəˈreɪʃən əv Sun Plaza ˈkɑnfərəns ˈsɛntər Da Nang!/",
+       "vi": "Xin chào buổi sáng, thưa quý vị, và chào mừng quý vị đến với lễ khánh thành Trung tâm Hội nghị Sun Plaza Đà Nẵng!"
+      },
+      {
+       "en": "My name is Thanh Vân, and it is a great honor to host this historic morning for our city.",
+       "pron": "/maɪ neɪm ɪz Thanh Vân, ənd ɪt ɪz ə ɡreɪt ˈɑnər tu hoʊst ðɪs hɪˈstɔːrɪk ˈmɔːrnɪŋ fər aʊər ˈsɪti./",
+       "vi": "Tôi tên là Thanh Vân, và thật vinh dự khi được dẫn dắt buổi sáng lịch sử này của thành phố chúng ta."
+      },
+      {
+       "en": "Today, Da Nang opens a new home for conferences, exhibitions, and great ideas.",
+       "pron": "/təˈdeɪ, Da Nang ˈoʊpənz ə nuː hoʊm fər ˈkɑnfərənsɪz, ˌɛksəˈbɪʃənz, ənd ɡreɪt aɪˈdiːəz./",
+       "vi": "Hôm nay, Đà Nẵng mở ra một ngôi nhà mới cho các hội nghị, triển lãm và những ý tưởng lớn."
+      },
+      {
+       "en": "Behind us stands a building made for the future — bright, open, and ready to welcome the world.",
+       "pron": "/bɪˈhaɪnd ʌs stændz ə ˈbɪldɪŋ meɪd fər ðə ˈfjuːtʃər — braɪt, ˈoʊpən, ənd ˈrɛdi tu ˈwɛlkəm ðə wɜːrld./",
+       "vi": "Phía sau chúng ta là một công trình hướng tới tương lai — sáng sủa, rộng mở và sẵn sàng chào đón thế giới."
+      },
+      {
+       "en": "Please give a warm round of applause to the leaders, partners, and builders who made Sun Plaza possible!",
+       "pron": "/pliːz ɡɪv ə wɔːrm raʊnd əv əˈplɔːz tu ðə ˈliːdərz, ˈpɑːrtnərz, ənd ˈbɪldərz hu meɪd Sun Plaza ˈpɑsəbəl!/",
+       "vi": "Xin quý vị dành một tràng pháo tay nồng nhiệt cho các vị lãnh đạo, đối tác và những người xây dựng đã làm nên Sun Plaza!"
+      }
+     ],
+     "title": "🎤 Mở đầu"
+    },
+    {
+     "lines": [
+      {
+       "en": "Sun Plaza offers a grand hall for one thousand two hundred guests, twelve meeting rooms, and a spacious exhibition floor.",
+       "pron": "/Sun Plaza ˈɔfərz ə ɡrænd hɔːl fər wʌn ˈθaʊzənd tu ˈhʌndrəd ɡɛsts, twɛlv ˈmiːtɪŋ rumz, ənd ə ˈspeɪʃəs ˌɛksəˈbɪʃən flɔːr./",
+       "vi": "Sun Plaza có một hội trường lớn cho một nghìn hai trăm khách, mười hai phòng họp và một sàn triển lãm rộng rãi."
+      },
+      {
+       "en": "Every hall is filled with natural light, modern sound and lighting, and clear views of the Han River.",
+       "pron": "/ˈɛvri hɔːl ɪz fɪld wɪð ˈnætʃərəl laɪt, ˈmɑdərn saʊnd ənd ˈlaɪtɪŋ, ənd klɪr vjuz əv ðə Han River./",
+       "vi": "Mỗi hội trường đều tràn ngập ánh sáng tự nhiên, âm thanh và ánh sáng hiện đại, cùng tầm nhìn thoáng đãng ra sông Hàn."
+      },
+      {
+       "en": "The center also provides a business lounge, a media room, and restaurants serving the flavors of Central Vietnam.",
+       "pron": "/ðə ˈsɛntər ˈɔːlsoʊ prəˈvaɪdz ə ˈbɪznəs laʊndʒ, ə ˈmiːdiə rum, ənd ˈrɛstərɑːnts ˈsɜːrvɪŋ ðə ˈfleɪvərz əv ˈsɛntrəl Vietnam./",
+       "vi": "Trung tâm còn có phòng chờ doanh nhân, phòng truyền thông và các nhà hàng phục vụ hương vị miền Trung Việt Nam."
+      },
+      {
+       "en": "From international summits to weddings and cultural festivals, Sun Plaza is built to host them all.",
+       "pron": "/frəm ˌɪntərˈnæʃənəl ˈsʌmɪts tu ˈwɛdɪŋz ənd ˈkʌltʃərəl ˈfɛstəvəlz, Sun Plaza ɪz bɪlt tu hoʊst ðɛm ɔːl./",
+       "vi": "Từ các hội nghị quốc tế đến tiệc cưới và lễ hội văn hóa, Sun Plaza được xây dựng để đón tiếp tất cả."
+      },
+      {
+       "en": "And now, please welcome Mr Pham Minh Quan, Director of Sun Plaza, to share a few words with us!",
+       "pron": "/ənd naʊ, pliːz ˈwɛlkəm ˈmɪstər Pham Minh Quan, dɪˈrɛktər əv Sun Plaza, tu ʃɛr ə fju wɜːrdz wɪð ʌs!/",
+       "vi": "Và ngay sau đây, xin trân trọng giới thiệu Ông Phạm Minh Quân, Giám đốc Sun Plaza, lên chia sẻ đôi lời cùng quý vị!"
+      }
+     ],
+     "title": "🏛️ Giới thiệu dự án"
+    },
+    {
+     "lines": [
+      {
+       "en": "Ladies and gentlemen, the moment of inauguration has arrived — please look towards the ribbon.",
+       "pron": "/ˈleɪdiz ənd ˈdʒɛntəlmən, ðə ˈmoʊmənt əv ɪˌnɔːɡjəˈreɪʃən hæz əˈraɪvd — pliːz lʊk təˈwɔːrdz ðə ˈrɪbən./",
+       "vi": "Thưa quý vị, khoảnh khắc khánh thành đã đến — xin quý vị cùng hướng mắt về dải băng."
+      },
+      {
+       "en": "May I invite our city leaders and partners to the stage for the ribbon-cutting ceremony?",
+       "pron": "/meɪ aɪ ɪnˈvaɪt aʊər ˈsɪti ˈliːdərz ənd ˈpɑːrtnərz tu ðə steɪdʒ fər ðə ˈrɪbən ˈkʌtɪŋ ˈsɛrəmoʊni?/",
+       "vi": "Xin trân trọng kính mời các vị lãnh đạo thành phố và các đối tác lên sân khấu thực hiện nghi thức cắt băng khánh thành."
+      },
+      {
+       "en": "Please welcome Mr Pham Minh Quan, together with our leaders and guests of honor, to the ribbon!",
+       "pron": "/pliːz ˈwɛlkəm ˈmɪstər Pham Minh Quan, təˈɡɛðər wɪð aʊər ˈliːdərz ənd ɡɛsts əv ˈɑnər, tu ðə ˈrɪbən!/",
+       "vi": "Xin trân trọng kính mời Ông Phạm Minh Quân cùng các vị lãnh đạo và khách quý tiến về dải băng!"
+      },
+      {
+       "en": "Together now: five, four, three, two, one — Sun Plaza is open!",
+       "pron": "/təˈɡɛðər naʊ: faɪv, fɔːr, θriː, tuː, wʌn — Sun Plaza ɪz ˈoʊpən!/",
+       "vi": "Cùng đếm với chúng tôi: năm, bốn, ba, hai, một — Sun Plaza chính thức mở cửa!"
+      },
+      {
+       "en": "Congratulations! Sun Plaza Conference Center is officially inaugurated — please give a big round of applause!",
+       "pron": "/kənˌɡrætʃəˈleɪʃənz! Sun Plaza ˈkɑnfərəns ˈsɛntər ɪz əˈfɪʃəli ɪˈnɔːɡjəreɪtɪd — pliːz ɡɪv ə bɪɡ raʊnd əv əˈplɔːz!/",
+       "vi": "Xin chúc mừng! Trung tâm Hội nghị Sun Plaza chính thức được khánh thành — xin quý vị một tràng pháo tay thật lớn!"
+      }
+     ],
+     "title": "✂️ Cắt băng khánh thành"
+    },
+    {
+     "lines": [
+      {
+       "en": "Thank you all for joining us on this proud morning for Da Nang.",
+       "pron": "/θæŋk ju ɔːl fər ˈdʒɔɪnɪŋ ʌs ɑn ðɪs praʊd ˈmɔːrnɪŋ fər Da Nang./",
+       "vi": "Cảm ơn quý vị đã cùng chúng tôi trong buổi sáng đầy tự hào này của Đà Nẵng."
+      },
+      {
+       "en": "We warmly invite you to join the first guided tour of Sun Plaza and explore its halls and facilities.",
+       "pron": "/wi ˈwɔːrmli ɪnˈvaɪt ju tu dʒɔɪn ðə fɜːrst ˈɡaɪdɪd tʊr əv Sun Plaza ənd ɪkˈsplɔːr ɪts hɔːlz ənd fəˈsɪlətiz./",
+       "vi": "Chúng tôi trân trọng mời quý vị tham gia chuyến tham quan đầu tiên của Sun Plaza để khám phá các hội trường và tiện ích nơi đây."
+      },
+      {
+       "en": "Please enjoy the reception, meet our team, and share your ideas for the events you would love to hold here.",
+       "pron": "/pliːz ɪnˈdʒɔɪ ðə rɪˈsɛpʃən, miːt aʊər tiːm, ənd ʃɛr jɔr aɪˈdiːəz fər ði ɪˈvɛnts ju wʊd lʌv tu hoʊld hɪr./",
+       "vi": "Xin mời quý vị thưởng thức buổi tiệc nhẹ, gặp gỡ đội ngũ của chúng tôi và chia sẻ ý tưởng cho những sự kiện quý vị mong muốn tổ chức tại đây."
+      },
+      {
+       "en": "May Sun Plaza welcome many great gatherings, and may every event here end in success.",
+       "pron": "/meɪ Sun Plaza ˈwɛlkəm ˈmɛni ɡreɪt ˈɡæðərɪŋz, ənd meɪ ˈɛvri ɪˈvɛnt hɪr ɛnd ɪn səkˈsɛs./",
+       "vi": "Chúc Sun Plaza sẽ đón nhiều cuộc gặp gỡ lớn, và chúc mọi sự kiện tại đây đều kết thúc thành công."
+      },
+      {
+       "en": "Goodbye for now, and we look forward to welcoming you back to Sun Plaza very soon!",
+       "pron": "/ɡʊdˈbaɪ fər naʊ, ənd wi lʊk ˈfɔːrwərd tu ˈwɛlkəmɪŋ ju bæk tu Sun Plaza ˈvɛri suːn!/",
+       "vi": "Xin chào tạm biệt quý vị, và chúng tôi mong sớm được đón quý vị trở lại Sun Plaza!"
+      }
+     ],
+     "title": "👋 Kết thúc"
+    }
+   ],
+   "situation": "Lễ khánh thành Trung tâm Hội nghị Sun Plaza bên bờ sông Hàn, Đà Nẵng, vào buổi sáng, với lãnh đạo thành phố, các đối tác và nghi thức cắt băng cùng chuyến tham quan đầu tiên.",
+   "title": "Lễ khánh thành — Trung tâm Hội nghị Sun Plaza Đà Nẵng"
+  },
+  {
+   "eventType": "gala",
+   "id": "prog-gala",
+   "sections": [
+    {
+     "lines": [
+      {
+       "en": "Good evening, ladies and gentlemen, and welcome to the Da Nang Business Gala 2026!",
+       "pron": "/ɡʊd ˈiːvnɪŋ, ˈleɪdiz ənd ˈdʒɛntəlmən, ənd ˈwɛlkəm tu ðə Da Nang ˈbɪznəs ˈɡɑːlə tu ˈθaʊzənd ənd ˈtwɛnti sɪks!/",
+       "vi": "Xin chào buổi tối, thưa quý vị, và chào mừng quý vị đến với Đêm hội Doanh nhân Đà Nẵng 2026!"
+      },
+      {
+       "en": "It is my great honor to be your host on this sparkling night by the sea.",
+       "pron": "/ɪt ɪz maɪ ɡreɪt ˈɑnər tu bi jɔr hoʊst ɑn ðɪs ˈspɑːrklɪŋ naɪt baɪ ðə siː./",
+       "vi": "Thật là vinh dự lớn cho tôi khi được làm người dẫn chương trình trong đêm rực rỡ bên bờ biển này."
+      },
+      {
+       "en": "Tonight, three hundred entrepreneurs gather under one roof to celebrate a year of hard work and success.",
+       "pron": "/təˈnaɪt, θri ˈhʌndrəd ˌɑntrəprəˈnɜːrz ˈɡæðər ˈʌndər wʌn ruːf tu ˈsɛləbreɪt ə jɪr əv hɑːrd wɜːrk ənd səkˈsɛs./",
+       "vi": "Tối nay, ba trăm doanh nhân cùng hội tụ dưới một mái nhà để chào mừng một năm làm việc chăm chỉ và thành công."
+      },
+      {
+       "en": "Before we begin, please give yourselves a big round of applause for a remarkable year!",
+       "pron": "/bɪˈfɔːr wi bɪˈɡɪn, pliːz ɡɪv jɔːrˈsɛlvz ə bɪɡ raʊnd əv əˈplɔːz fər ə rɪˈmɑːrkəbəl jɪr!/",
+       "vi": "Trước khi bắt đầu, xin quý vị hãy dành một tràng pháo tay thật lớn cho một năm đáng nhớ!"
+      },
+      {
+       "en": "Let the music, the lights, and the celebration begin!",
+       "pron": "/lɛt ðə ˈmjuːzɪk, ðə laɪts, ənd ðə ˌsɛləˈbreɪʃən bɪˈɡɪn!/",
+       "vi": "Hãy để âm nhạc, ánh đèn và buổi tiệc bắt đầu!"
+      }
+     ],
+     "title": "🎤 Mở đầu"
+    },
+    {
+     "lines": [
+      {
+       "en": "Tonight's program brings together inspiring stories, live music, and our annual business awards.",
+       "pron": "/təˈnaɪts ˈproʊɡræm brɪŋz təˈɡɛðər ɪnˈspaɪərɪŋ ˈstɔːriz, laɪv ˈmjuːzɪk, ənd aʊər ˈænjuəl ˈbɪznəs əˈwɔːrdz./",
+       "vi": "Chương trình tối nay mang đến những câu chuyện truyền cảm hứng, âm nhạc trực tiếp và lễ trao giải doanh nghiệp thường niên."
+      },
+      {
+       "en": "This year, we honor businesses that created jobs, supported the community, and put Da Nang on the map.",
+       "pron": "/ðɪs jɪr, wi ˈɑnər ˈbɪznəsɪz ðæt kriˈeɪtɪd dʒɑːbz, səˈpɔːrtɪd ðə kəˈmjuːnəti, ənd pʊt Da Nang ɑn ðə mæp./",
+       "vi": "Năm nay, chúng ta vinh danh những doanh nghiệp đã tạo việc làm, đóng góp cho cộng đồng và đưa Đà Nẵng lên bản đồ."
+      },
+      {
+       "en": "Please welcome to the stage Mr Tran Quoc Bao, Chairman of the Da Nang Business Association!",
+       "pron": "/pliːz ˈwɛlkəm tu ðə steɪdʒ ˈmɪstər Tran Quoc Bao, ˈtʃɛrmən əv ðə Da Nang ˈbɪznəs əˌsoʊsiˈeɪʃən!/",
+       "vi": "Xin trân trọng kính mời Ông Trần Quốc Bảo, Chủ tịch Hiệp hội Doanh nghiệp Đà Nẵng, lên sân khấu!"
+      },
+      {
+       "en": "And now, the moment we have been waiting for — the award for Outstanding Business of the Year!",
+       "pron": "/ənd naʊ, ðə ˈmoʊmənt wi hæv bɪn ˈweɪtɪŋ fər — ði əˈwɔːrd fər aʊtˈstændɪŋ ˈbɪznəs əv ðə jɪr!/",
+       "vi": "Và ngay sau đây, khoảnh khắc chúng ta chờ đợi — giải thưởng Doanh nghiệp xuất sắc của năm!"
+      },
+      {
+       "en": "Congratulations to our winners! Your dedication inspires the whole business community.",
+       "pron": "/kənˌɡrætʃəˈleɪʃənz tu aʊər ˈwɪnərz! jɔr ˌdɛdɪˈkeɪʃən ɪnˈspaɪərz ðə hoʊl ˈbɪznəs kəˈmjuːnəti./",
+       "vi": "Xin chúc mừng các doanh nghiệp đoạt giải! Sự cống hiến của quý vị truyền cảm hứng cho cả cộng đồng doanh nghiệp."
+      }
+     ],
+     "title": "🏆 Giới thiệu & vinh danh"
+    },
+    {
+     "lines": [
+      {
+       "en": "Ladies and gentlemen, dinner is served — please enjoy the wonderful flavors of Central Vietnam.",
+       "pron": "/ˈleɪdiz ənd ˈdʒɛntəlmən, ˈdɪnər ɪz sɜːrvd — pliːz ɪnˈdʒɔɪ ðə ˈwʌndərfəl ˈfleɪvərz əv ˈsɛntrəl Vietnam./",
+       "vi": "Thưa quý vị, bữa tối đã được phục vụ — xin mời quý vị thưởng thức những hương vị tuyệt vời của miền Trung Việt Nam."
+      },
+      {
+       "en": "As you dine, please enjoy a special live music performance by our talented artists.",
+       "pron": "/æz ju daɪn, pliːz ɪnˈdʒɔɪ ə ˈspɛʃəl laɪv ˈmjuːzɪk pərˈfɔːrməns baɪ aʊər ˈtæləntɪd ˈɑːrtɪsts./",
+       "vi": "Trong lúc dùng bữa, xin mời quý vị thưởng thức tiết mục âm nhạc trực tiếp đặc biệt của các nghệ sĩ tài năng."
+      },
+      {
+       "en": "May I invite everyone to raise your glasses for a toast to health, friendship, and success?",
+       "pron": "/meɪ aɪ ɪnˈvaɪt ˈɛvrɪwʌn tu reɪz jɔr ˈɡlæsɪz fər ə toʊst tu hɛlθ, ˈfrɛndʃɪp, ənd səkˈsɛs?/",
+       "vi": "Xin mời tất cả quý vị cùng nâng ly chúc mừng cho sức khỏe, tình bạn và thành công!"
+      },
+      {
+       "en": "To Da Nang, to our businesses, and to a brighter year ahead — cheers!",
+       "pron": "/tu Da Nang, tu aʊər ˈbɪznəsɪz, ənd tu ə ˈbraɪtər jɪr əˈhɛd — tʃɪrz!/",
+       "vi": "Chúc mừng Đà Nẵng, chúc mừng các doanh nghiệp của chúng ta, và chúc mừng một năm mới tươi sáng hơn — cạn ly!"
+      },
+      {
+       "en": "Please keep the applause going for our wonderful performers tonight!",
+       "pron": "/pliːz kiːp ði əˈplɔːz ˈɡoʊɪŋ fər aʊər ˈwʌndərfəl pərˈfɔːrmərz təˈnaɪt!/",
+       "vi": "Xin quý vị tiếp tục dành những tràng pháo tay cho các nghệ sĩ tuyệt vời của chúng ta tối nay!"
+      }
+     ],
+     "title": "🍽️ Vào tiệc"
+    },
+    {
+     "lines": [
+      {
+       "en": "What a beautiful evening it has been — full of music, laughter, and new friendships.",
+       "pron": "/wʌt ə ˈbjuːtɪfəl ˈiːvnɪŋ ɪt hæz bɪn — fʊl əv ˈmjuːzɪk, ˈlæftər, ənd nuː ˈfrɛndʃɪps./",
+       "vi": "Thật là một buổi tối tuyệt đẹp — tràn ngập âm nhạc, tiếng cười và những tình bạn mới."
+      },
+      {
+       "en": "On behalf of the organizers, thank you all for making this gala truly unforgettable.",
+       "pron": "/ɑn bɪˈhæf əv ði ˈɔːrɡənaɪzərz, θæŋk ju ɔːl fər ˈmeɪkɪŋ ðɪs ˈɡɑːlə ˈtruːli ˌʌnfərˈɡɛtəbəl./",
+       "vi": "Thay mặt ban tổ chức, xin cảm ơn tất cả quý vị đã làm cho đêm gala này thật sự khó quên."
+      },
+      {
+       "en": "We wish you health, happiness, and great success in the year ahead.",
+       "pron": "/wi wɪʃ ju hɛlθ, ˈhæpinəs, ənd ɡreɪt səkˈsɛs ɪn ðə jɪr əˈhɛd./",
+       "vi": "Chúng tôi chúc quý vị sức khỏe, hạnh phúc và nhiều thành công lớn trong năm tới."
+      },
+      {
+       "en": "Before you leave, please join us for a group photo on the beachfront terrace — a memory of this night together.",
+       "pron": "/bɪˈfɔːr ju liːv, pliːz dʒɔɪn ʌs fər ə ɡruːp ˈfoʊtoʊ ɑn ðə ˈbiːtʃfrʌnt ˈtɛrəs — ə ˈmɛməri əv ðɪs naɪt təˈɡɛðər./",
+       "vi": "Trước khi ra về, xin mời quý vị cùng chụp ảnh tập thể tại sân thượng hướng biển — một kỷ niệm của đêm nay."
+      },
+      {
+       "en": "Good night, everyone — and we look forward to seeing you at the gala next year!",
+       "pron": "/ɡʊd naɪt, ˈɛvrɪwʌn — ənd wi lʊk ˈfɔːrwərd tu ˈsiːɪŋ ju æt ðə ˈɡɑːlə nɛkst jɪr!/",
+       "vi": "Chúc quý vị ngủ ngon — và hẹn gặp lại quý vị tại đêm gala năm sau!"
+      }
+     ],
+     "title": "👋 Kết tiệc"
+    }
+   ],
+   "situation": "Đêm gala thường niên của cộng đồng doanh nhân Đà Nẵng tại một khu nghỉ dưỡng ven biển, buổi tối, với 300 khách mời, lễ vinh danh doanh nghiệp xuất sắc và âm nhạc trực tiếp.",
+   "title": "Gala Dinner — Đêm hội Doanh nhân Đà Nẵng 2026"
+  },
+  {
+   "eventType": "hoi-thao",
+   "id": "prog-hoi-thao",
+   "sections": [
+    {
+     "lines": [
+      {
+       "en": "Good morning, everyone, and welcome to the Green Tourism Seminar here in beautiful Da Nang!",
+       "pron": "/ɡʊd ˈmɔːrnɪŋ, ˈɛvriwʌn, ənd ˈwɛlkəm tu ðə ɡriːn ˈtʊrɪzəm ˈsɛmənɑːr hɪr ɪn ˈbjuːtəfəl dɑː ˈnɑːŋ!/",
+       "vi": "Xin chào buổi sáng, thưa quý vị, và chào mừng quý vị đến với Hội thảo Du lịch Xanh tại thành phố Đà Nẵng xinh đẹp!"
+      },
+      {
+       "en": "It is wonderful to see two hundred delegates gathered here to talk about the future of travel.",
+       "pron": "/ɪt ɪz ˈwʌndərfəl tu siː tuː ˈhʌndrəd ˈdɛləɡəts ˈɡæðərd hɪr tu tɔːk əˈbaʊt ðə ˈfjuːtʃər əv ˈtrævəl./",
+       "vi": "Thật tuyệt vời khi thấy hai trăm đại biểu đã có mặt tại đây để cùng bàn về tương lai của ngành du lịch."
+      },
+      {
+       "en": "Today we will explore how tourism can grow while protecting the nature we all love.",
+       "pron": "/təˈdeɪ wi wɪl ɪkˈsplɔːr haʊ ˈtʊrɪzəm kən ɡroʊ waɪl prəˈtɛktɪŋ ðə ˈneɪtʃər wi ɔːl lʌv./",
+       "vi": "Hôm nay, chúng ta sẽ cùng tìm hiểu làm thế nào du lịch có thể phát triển mà vẫn bảo vệ thiên nhiên mà chúng ta yêu quý."
+      },
+      {
+       "en": "Da Nang is the perfect place for this conversation, with its green mountains and its blue sea.",
+       "pron": "/dɑː ˈnɑːŋ ɪz ðə ˈpɜːrfɪkt pleɪs fər ðɪs ˌkɑːnvərˈseɪʃən, wɪð ɪts ɡriːn ˈmaʊntənz ənd ɪts bluː siː./",
+       "vi": "Đà Nẵng là nơi lý tưởng cho cuộc trò chuyện này, với núi xanh và biển xanh của mình."
+      },
+      {
+       "en": "My name is Thanh Vân, and I am honored to guide you through this morning's program.",
+       "pron": "/maɪ neɪm ɪz Thanh Vân, ənd aɪ əm ˈɑnərd tu ɡaɪd ju θruː ðɪs ˈmɔːrnɪŋz ˈproʊɡræm./",
+       "vi": "Tôi tên là Thanh Vân, và tôi rất vinh dự được đồng hành cùng quý vị trong buổi sáng hôm nay."
+      }
+     ],
+     "title": "🎤 Mở đầu"
+    },
+    {
+     "lines": [
+      {
+       "en": "Our first speaker is Doctor Pham Quoc Huy, a leading expert in sustainable tourism.",
+       "pron": "/aʊər fɜːrst ˈspiːkər ɪz ˈdɑːktər Pham Quoc Huy, ə ˈliːdɪŋ ˈɛkspɜːrt ɪn səˈsteɪnəbəl ˈtʊrɪzəm./",
+       "vi": "Diễn giả đầu tiên của chúng ta là Tiến sĩ Phạm Quốc Huy, chuyên gia hàng đầu về du lịch bền vững."
+      },
+      {
+       "en": "Doctor Huy has spent twenty years helping coastal cities grow greener and smarter.",
+       "pron": "/ˈdɑːktər Huy həz spɛnt ˈtwɛnti jɪrz ˈhɛlpɪŋ ˈkoʊstəl ˈsɪtiz ɡroʊ ˈɡriːnər ənd ˈsmɑːrtər./",
+       "vi": "Tiến sĩ Huy đã dành hai mươi năm giúp các thành phố ven biển phát triển xanh hơn và thông minh hơn."
+      },
+      {
+       "en": "Please join me in welcoming Doctor Huy to the stage with a warm round of applause.",
+       "pron": "/pliːz dʒɔɪn mi ɪn ˈwɛlkəmɪŋ ˈdɑːktər Huy tu ðə steɪdʒ wɪð ə wɔːrm raʊnd əv əˈplɔːz./",
+       "vi": "Xin quý vị cùng tôi chào đón Tiến sĩ Huy lên sân khấu bằng một tràng pháo tay thật nồng nhiệt."
+      },
+      {
+       "en": "Later this morning, we will also hear from Ms Lan Anh, director of the Green Coast Project.",
+       "pron": "/ˈleɪtər ðɪs ˈmɔːrnɪŋ, wi wɪl ˈɔːlsoʊ hɪr frəm mɪz Lan Anh, dɪˈrɛktər əv ðə ɡriːn koʊst ˈprɑːdʒɛkt./",
+       "vi": "Cuối buổi sáng nay, chúng ta cũng sẽ được lắng nghe chị Lan Anh, giám đốc Dự án Bờ biển Xanh."
+      },
+      {
+       "en": "Each speaker brings real stories from the field, so please listen closely and take notes.",
+       "pron": "/iːtʃ ˈspiːkər brɪŋz riːl ˈstɔːriz frəm ðə fiːld, soʊ pliːz ˈlɪsən ˈkloʊsli ənd teɪk noʊts./",
+       "vi": "Mỗi diễn giả đều mang đến những câu chuyện thực tế từ thực địa, vì vậy xin quý vị hãy lắng nghe kỹ và ghi chép lại."
+      }
+     ],
+     "title": "🎙️ Giới thiệu diễn giả"
+    },
+    {
+     "lines": [
+      {
+       "en": "Now, let us begin with our first presentation: Green Routes for the Central Coast.",
+       "pron": "/naʊ, lɛt ʌs bɪˈɡɪn wɪð aʊər fɜːrst ˌprɛzənˈteɪʃən: ɡriːn ruːts fər ðə ˈsɛntrəl koʊst./",
+       "vi": "Bây giờ, chúng ta hãy bắt đầu với bài trình bày đầu tiên: Những tuyến đường xanh cho miền Trung."
+      },
+      {
+       "en": "Doctor Huy will show us how small changes can make a big difference for local communities.",
+       "pron": "/ˈdɑːktər Huy wɪl ʃoʊ ʌs haʊ smɔːl ˈtʃeɪndʒɪz kən meɪk ə bɪɡ ˈdɪfərəns fər ˈloʊkəl kəˈmjuːnətiz./",
+       "vi": "Tiến sĩ Huy sẽ cho chúng ta thấy những thay đổi nhỏ có thể tạo ra khác biệt lớn cho cộng đồng địa phương như thế nào."
+      },
+      {
+       "en": "After the talk, we will have fifteen minutes for your questions, so please prepare them.",
+       "pron": "/ˈæftər ðə tɔːk, wi wɪl hæv fɪfˈtiːn ˈmɪnəts fər jɔr ˈkwɛstʃənz, soʊ pliːz prɪˈpɛr ðɛm./",
+       "vi": "Sau bài nói, chúng ta sẽ có mười lăm phút dành cho câu hỏi của quý vị, vì vậy xin quý vị hãy chuẩn bị sẵn."
+      },
+      {
+       "en": "If you have a question, please raise your hand, and our team will bring you a microphone.",
+       "pron": "/ɪf ju hæv ə ˈkwɛstʃən, pliːz reɪz jɔr hænd, ənd aʊər tiːm wɪl brɪŋ ju ə ˈmaɪkrəfoʊn./",
+       "vi": "Nếu quý vị có câu hỏi, xin vui lòng giơ tay, và đội ngũ của chúng tôi sẽ mang micro đến cho quý vị."
+      },
+      {
+       "en": "Let us give Doctor Huy our full attention as we open this important discussion.",
+       "pron": "/lɛt ʌs ɡɪv ˈdɑːktər Huy aʊər fʊl əˈtɛnʃən əz wi ˈoʊpən ðɪs ɪmˈpɔːrtənt dɪˈskʌʃən./",
+       "vi": "Chúng ta hãy dành toàn bộ sự chú ý cho Tiến sĩ Huy khi chúng ta mở đầu cuộc thảo luận quan trọng này."
+      }
+     ],
+     "title": "📋 Vào nội dung"
+    },
+    {
+     "lines": [
+      {
+       "en": "We have learned so much today, from green routes to community projects that truly work.",
+       "pron": "/wi hæv lɜːrnd soʊ mʌtʃ təˈdeɪ, frəm ɡriːn ruːts tu kəˈmjuːnəti ˈprɑːdʒɛkts ðæt ˈtruːli wɜːrk./",
+       "vi": "Hôm nay chúng ta đã học được rất nhiều, từ những tuyến đường xanh đến các dự án cộng đồng thực sự hiệu quả."
+      },
+      {
+       "en": "Please join me in thanking Doctor Huy, Ms Lan Anh, and all our speakers once again.",
+       "pron": "/pliːz dʒɔɪn mi ɪn ˈθæŋkɪŋ ˈdɑːktər Huy, mɪz Lan Anh, ənd ɔːl aʊər ˈspiːkərz wʌns əˈɡɛn./",
+       "vi": "Xin quý vị cùng tôi cảm ơn Tiến sĩ Huy, chị Lan Anh và tất cả các diễn giả một lần nữa."
+      },
+      {
+       "en": "Thank you to every delegate who shared a question, an idea, or simply your time.",
+       "pron": "/θæŋk ju tu ˈɛvri ˈdɛləɡət hu ʃɛrd ə ˈkwɛstʃən, ən aɪˈdiːə, ɔːr ˈsɪmpli jɔr taɪm./",
+       "vi": "Cảm ơn mỗi đại biểu đã chia sẻ một câu hỏi, một ý tưởng, hay đơn giản là thời gian của mình."
+      },
+      {
+       "en": "Let us carry these ideas home and turn them into action for a greener Da Nang.",
+       "pron": "/lɛt ʌs ˈkæri ðiːz aɪˈdiːəz hoʊm ənd tɜːrn ðɛm ˈɪntu ˈækʃən fər ə ˈɡriːnər dɑː ˈnɑːŋ./",
+       "vi": "Chúng ta hãy mang những ý tưởng này về nhà và biến chúng thành hành động vì một Đà Nẵng xanh hơn."
+      },
+      {
+       "en": "I wish you all a safe journey home, and I hope to see you at our next seminar.",
+       "pron": "/aɪ wɪʃ ju ɔːl ə seɪf ˈdʒɜːrni hoʊm, ənd aɪ hoʊp tu siː ju ət aʊər nɛkst ˈsɛmənɑːr./",
+       "vi": "Chúc quý vị một hành trình về nhà an toàn, và hy vọng sẽ gặp lại quý vị tại hội thảo lần sau."
+      }
+     ],
+     "title": "👋 Kết thúc & cảm ơn"
+    }
+   ],
+   "situation": "Hội thảo 'Du lịch Xanh Đà Nẵng 2026' diễn ra vào buổi sáng tại Trung tâm Hội nghị Đà Nẵng, với 200 đại biểu và các chuyên gia về du lịch bền vững.",
+   "title": "Hội thảo — Du lịch Xanh Đà Nẵng 2026"
+  },
+  {
+   "eventType": "khai-mac",
+   "id": "prog-khai-mac",
+   "sections": [
+    {
+     "lines": [
+      {
+       "en": "Good morning, ladies and gentlemen, and welcome to the Da Nang Tourism Festival 2026!",
+       "pron": "/ɡʊd ˈmɔːrnɪŋ, ˈleɪdiz ənd ˈdʒɛntəlmən, ənd ˈwɛlkəm tu ðə dɑː ˈnɑːŋ ˈtʊrɪzəm ˈfɛstəvəl tuː ˈθaʊzənd ənd ˈtwɛnti sɪks!/",
+       "vi": "Xin chào buổi sáng, quý vị và các bạn, chào mừng đến với Ngày hội Du lịch Đà Nẵng 2026!"
+      },
+      {
+       "en": "It is such a joy to see so many smiling faces here at Asia Park this beautiful morning.",
+       "pron": "/ɪt ɪz sʌtʃ ə dʒɔɪ tu siː soʊ ˈmɛni ˈsmaɪlɪŋ ˈfeɪsəz hɪr ət ˈeɪʒə pɑːrk ðɪs ˈbjuːtəfəl ˈmɔːrnɪŋ./",
+       "vi": "Thật vui khi được thấy rất nhiều gương mặt rạng rỡ tại Asia Park trong buổi sáng đẹp trời này."
+      },
+      {
+       "en": "My name is Thanh Vân, and I am honored to be your host for today's opening ceremony.",
+       "pron": "/maɪ neɪm ɪz Thanh Vân, ənd aɪ əm ˈɑnərd tu bi jɔr hoʊst fər təˈdeɪz ˈoʊpənɪŋ ˈsɛrəmoʊni./",
+       "vi": "Tôi là Thanh Vân, rất vinh dự được đồng hành cùng quý vị trong lễ khai mạc hôm nay."
+      },
+      {
+       "en": "Da Nang is a city of sunshine, rivers, and warm hospitality, and today we celebrate it all.",
+       "pron": "/dɑː ˈnɑːŋ ɪz ə ˈsɪti əv ˈsʌnʃaɪn, ˈrɪvərz, ənd wɔːrm ˌhɑːspɪˈtæləti, ənd təˈdeɪ wi ˈsɛləbreɪt ɪt ɔːl./",
+       "vi": "Đà Nẵng là thành phố của nắng, của sông và của lòng hiếu khách, và hôm nay chúng ta cùng tôn vinh tất cả những điều đó."
+      },
+      {
+       "en": "Before we begin, please give a warm round of applause for this wonderful festival!",
+       "pron": "/bɪˈfɔːr wi bɪˈɡɪn, pliːz ɡɪv ə wɔːrm raʊnd əv əˈplɔːz fər ðɪs ˈwʌndərfəl ˈfɛstəvəl!/",
+       "vi": "Trước khi bắt đầu, xin quý vị hãy dành một tràng pháo tay thật nồng nhiệt cho ngày hội tuyệt vời này!"
+      }
+     ],
+     "title": "🎤 Mở đầu"
+    },
+    {
+     "lines": [
+      {
+       "en": "Today's program is full of color, music, and the very best of Da Nang's culture.",
+       "pron": "/təˈdeɪz ˈproʊɡræm ɪz fʊl əv ˈkʌlər, ˈmjuːzɪk, ənd ðə ˈvɛri bɛst əv dɑː ˈnɑːŋz ˈkʌltʃər./",
+       "vi": "Chương trình hôm nay tràn ngập sắc màu, âm nhạc và những nét đẹp nhất của văn hóa Đà Nẵng."
+      },
+      {
+       "en": "You will enjoy traditional dances, street food, and live performances from local artists.",
+       "pron": "/ju wɪl ɪnˈdʒɔɪ trəˈdɪʃənəl ˈdænsəz, striːt fuːd, ənd laɪv pərˈfɔːrmənsəz frəm ˈloʊkəl ˈɑːrtɪsts./",
+       "vi": "Quý vị sẽ được thưởng thức các điệu múa truyền thống, ẩm thực đường phố và những tiết mục biểu diễn trực tiếp của các nghệ sĩ địa phương."
+      },
+      {
+       "en": "Our tourism booths will show you the beaches, the mountains, and the hidden gems of our city.",
+       "pron": "/aʊər ˈtʊrɪzəm buːðz wɪl ʃoʊ ju ðə ˈbiːtʃəz, ðə ˈmaʊntənz, ənd ðə ˈhɪdən dʒɛmz əv aʊər ˈsɪti./",
+       "vi": "Các gian hàng du lịch sẽ giới thiệu đến quý vị những bãi biển, núi non và những điểm đến ẩn mình của thành phố chúng ta."
+      },
+      {
+       "en": "Families can join games, take photos, and discover travel offers made just for this festival.",
+       "pron": "/ˈfæməliz kən dʒɔɪn ɡeɪmz, teɪk ˈfoʊtoʊz, ənd dɪˈskʌvər ˈtrævəl ˈɔːfərz meɪd dʒʌst fər ðɪs ˈfɛstəvəl./",
+       "vi": "Các gia đình có thể tham gia trò chơi, chụp ảnh và khám phá những ưu đãi du lịch chỉ có trong ngày hội này."
+      },
+      {
+       "en": "So stay with us all morning, because every moment today has something special for you.",
+       "pron": "/soʊ steɪ wɪð ʌs ɔːl ˈmɔːrnɪŋ, bɪˈkɔːz ˈɛvri ˈmoʊmənt təˈdeɪ hæz ˈsʌmθɪŋ ˈspɛʃəl fər juː./",
+       "vi": "Vì vậy, xin quý vị hãy ở lại cùng chúng tôi suốt buổi sáng, bởi mỗi khoảnh khắc hôm nay đều có điều đặc biệt dành cho quý vị."
+      }
+     ],
+     "title": "📋 Giới thiệu chương trình"
+    },
+    {
+     "lines": [
+      {
+       "en": "And now, please welcome to the stage the Sun Dance Troupe with their opening performance!",
+       "pron": "/ənd naʊ, pliːz ˈwɛlkəm tu ðə steɪdʒ ðə sʌn dæns truːp wɪð ðɛr ˈoʊpənɪŋ pərˈfɔːrməns!/",
+       "vi": "Và ngay bây giờ, xin quý vị hãy chào đón Đoàn múa Mặt Trời với tiết mục mở màn!"
+      },
+      {
+       "en": "Their dance tells the story of fishermen greeting the sunrise over the Han River.",
+       "pron": "/ðɛr dæns tɛlz ðə ˈstɔːri əv ˈfɪʃərmən ˈɡriːtɪŋ ðə ˈsʌnraɪz ˈoʊvər ðə hɑːn ˈrɪvər./",
+       "vi": "Điệu múa của họ kể câu chuyện những ngư dân đón bình minh trên sông Hàn."
+      },
+      {
+       "en": "Let's give them a big hand as the music begins!",
+       "pron": "/lɛts ɡɪv ðɛm ə bɪɡ hænd əz ðə ˈmjuːzɪk bɪˈɡɪnz!/",
+       "vi": "Xin quý vị hãy dành một tràng pháo tay thật lớn khi âm nhạc bắt đầu!"
+      },
+      {
+       "en": "What a beautiful start! Thank you, Sun Dance Troupe, for that wonderful energy!",
+       "pron": "/wʌt ə ˈbjuːtəfəl stɑːrt! θæŋk ju, sʌn dæns truːp, fər ðæt ˈwʌndərfəl ˈɛnərdʒi!/",
+       "vi": "Thật là một khởi đầu tuyệt đẹp! Cảm ơn Đoàn múa Mặt Trời vì nguồn năng lượng tuyệt vời đó!"
+      },
+      {
+       "en": "And now, I would like to invite our leaders to the stage to officially open the festival.",
+       "pron": "/ənd naʊ, aɪ wʊd laɪk tu ɪnˈvaɪt aʊər ˈliːdərz tu ðə steɪdʒ tu əˈfɪʃəli ˈoʊpən ðə ˈfɛstəvəl./",
+       "vi": "Và ngay bây giờ, tôi xin trân trọng kính mời các vị lãnh đạo lên sân khấu để chính thức khai mạc ngày hội."
+      }
+     ],
+     "title": "🎉 Vào nội dung"
+    },
+    {
+     "lines": [
+      {
+       "en": "The festival is now officially open — let the celebration begin!",
+       "pron": "/ðə ˈfɛstəvəl ɪz naʊ əˈfɪʃəli ˈoʊpən, lɛt ðə ˌsɛləˈbreɪʃən bɪˈɡɪn!/",
+       "vi": "Ngày hội đã chính thức khai mạc — hãy cùng bắt đầu lễ hội nào!"
+      },
+      {
+       "en": "Thank you all for being here and for your love for Da Nang tourism.",
+       "pron": "/θæŋk ju ɔːl fər ˈbiːɪŋ hɪr ənd fər jɔr lʌv fər dɑː ˈnɑːŋ ˈtʊrɪzəm./",
+       "vi": "Cảm ơn tất cả quý vị đã có mặt tại đây và dành tình yêu cho du lịch Đà Nẵng."
+      },
+      {
+       "en": "Please enjoy the food, the music, and the friendly people of our city today.",
+       "pron": "/pliːz ɪnˈdʒɔɪ ðə fuːd, ðə ˈmjuːzɪk, ənd ðə ˈfrɛndli ˈpiːpəl əv aʊər ˈsɪti təˈdeɪ./",
+       "vi": "Xin quý vị hãy tận hưởng ẩm thực, âm nhạc và sự thân thiện của người dân thành phố chúng ta hôm nay."
+      },
+      {
+       "en": "Take many photos, share your joy, and make beautiful memories with your family.",
+       "pron": "/teɪk ˈmɛni ˈfoʊtoʊz, ʃɛr jɔr dʒɔɪ, ənd meɪk ˈbjuːtɪfəl ˈmɛməriz wɪð jɔr ˈfæməli./",
+       "vi": "Hãy chụp thật nhiều ảnh, chia sẻ niềm vui và tạo nên những kỷ niệm đẹp cùng gia đình."
+      },
+      {
+       "en": "Have a wonderful festival day, and see you again at our next event in Da Nang!",
+       "pron": "/hæv ə ˈwʌndərfəl ˈfɛstəvəl deɪ, ənd siː ju əˈɡɛn ət aʊər nɛkst ɪˈvɛnt ɪn dɑː ˈnɑːŋ!/",
+       "vi": "Chúc quý vị một ngày hội thật tuyệt vời, và hẹn gặp lại quý vị tại sự kiện tiếp theo ở Đà Nẵng!"
+      }
+     ],
+     "title": "👋 Kết thúc"
+    }
+   ],
+   "situation": "Lễ khai mạc ngoài trời của Ngày hội Du lịch Đà Nẵng 2026 tại Asia Park vào buổi sáng, với hàng trăm khách mời và đại diện ngành du lịch.",
+   "title": "Lễ khai mạc — Ngày hội Du lịch Đà Nẵng 2026"
+  },
+  {
+   "eventType": "khoi-cong",
+   "id": "prog-khoi-cong",
+   "sections": [
+    {
+     "lines": [
+      {
+       "en": "Good morning, ladies and gentlemen, and welcome to the groundbreaking ceremony of the Song Han Riverside Urban Area!",
+       "pron": "/ɡʊd ˈmɔːrnɪŋ, ˈleɪdiz ənd ˈdʒɛntəlmən, ənd ˈwɛlkəm tu ðə ˈɡraʊndˌbreɪkɪŋ ˈsɛrəmoʊni əv ðə Song Han ˈrɪvərsaɪd ˈɜːrbən ˈɛriə!/",
+       "vi": "Xin chào buổi sáng, thưa quý vị, và chào mừng quý vị đến với lễ khởi công Dự án Khu đô thị Sông Hàn Riverside!"
+      },
+      {
+       "en": "It is a great honor to stand here with you on this beautiful morning by the Han River.",
+       "pron": "/ɪt ɪz ə ɡreɪt ˈɑːnər tu stænd hɪr wɪð ju ɑːn ðɪs ˈbjuːtəfəl ˈmɔːrnɪŋ baɪ ðə hɑːn ˈrɪvər./",
+       "vi": "Thật vinh dự khi được đứng tại đây cùng quý vị trong buổi sáng đẹp trời bên bờ sông Hàn."
+      },
+      {
+       "en": "Today, we take the first step in building a new riverside community for the people of Da Nang.",
+       "pron": "/təˈdeɪ, wi teɪk ðə fɜːrst stɛp ɪn ˈbɪldɪŋ ə nuː ˈrɪvərsaɪd kəˈmjuːnəti fər ðə ˈpiːpəl əv dɑː ˈnɑːŋ./",
+       "vi": "Hôm nay, chúng ta thực hiện bước đầu tiên để xây dựng một cộng đồng mới bên sông cho người dân Đà Nẵng."
+      },
+      {
+       "en": "My name is Thanh Vân, and I am delighted to be your host for this special morning.",
+       "pron": "/maɪ neɪm ɪz Thanh Vân, ənd aɪ əm dɪˈlaɪtɪd tu bi jɔr hoʊst fər ðɪs ˈspɛʃəl ˈmɔːrnɪŋ./",
+       "vi": "Tôi tên là Thanh Vân, và tôi rất vui được dẫn dắt buổi sáng đặc biệt này cùng quý vị."
+      },
+      {
+       "en": "Please join me in a warm round of applause as we begin this meaningful ceremony.",
+       "pron": "/pliːz dʒɔɪn mi ɪn ə wɔːrm raʊnd əv əˈplɔːz əz wi bɪˈɡɪn ðɪs ˈmiːnɪŋfəl ˈsɛrəmoʊni./",
+       "vi": "Xin quý vị hãy dành một tràng pháo tay thật nồng nhiệt khi chúng ta bắt đầu buổi lễ đầy ý nghĩa này."
+      }
+     ],
+     "title": "🎤 Mở đầu"
+    },
+    {
+     "lines": [
+      {
+       "en": "The Song Han Riverside project covers more than thirty hectares along the east bank of the Han River.",
+       "pron": "/ðə Song Han ˈrɪvərsaɪd ˈprɑːdʒɛkt ˈkʌvərz mɔːr ðən ˈθɜːrti ˈhɛktɛrz əˈlɔːŋ ði iːst bæŋk əv ðə hɑːn ˈrɪvər./",
+       "vi": "Dự án Sông Hàn Riverside có diện tích hơn ba mươi héc-ta dọc theo bờ đông sông Hàn."
+      },
+      {
+       "en": "When it is complete, it will be home to thousands of families, with parks, schools, and shops.",
+       "pron": "/wɛn ɪt ɪz kəmˈpliːt, ɪt wɪl bi hoʊm tu ˈθaʊzəndz əv ˈfæməliz, wɪð pɑːrks, skuːlz, ənd ʃɑːps./",
+       "vi": "Khi hoàn thành, nơi đây sẽ là mái ấm của hàng nghìn gia đình, với công viên, trường học và cửa hàng."
+      },
+      {
+       "en": "The project will be built in three stages over the next five years, starting with the roads and the river park.",
+       "pron": "/ðə ˈprɑːdʒɛkt wɪl bi bɪlt ɪn θriː ˈsteɪdʒɪz ˈoʊvər ðə nɛkst faɪv jɪrz, ˈstɑːrtɪŋ wɪð ðə roʊdz ənd ðə ˈrɪvər pɑːrk./",
+       "vi": "Dự án sẽ được xây dựng trong ba giai đoạn trong năm năm tới, bắt đầu với đường sá và công viên ven sông."
+      },
+      {
+       "en": "It is designed as a green urban area, with trees, open spaces, and clean energy for every home.",
+       "pron": "/ɪt ɪz dɪˈzaɪnd əz ə ɡriːn ˈɜːrbən ˈɛriə, wɪð triːz, ˈoʊpən ˈspeɪsɪz, ənd kliːn ˈɛnərdʒi fər ˈɛvri hoʊm./",
+       "vi": "Dự án được thiết kế như một khu đô thị xanh, với cây xanh, không gian mở và năng lượng sạch cho mọi ngôi nhà."
+      },
+      {
+       "en": "This is more than a construction project — it is a promise of a better life by the river.",
+       "pron": "/ðɪs ɪz mɔːr ðən ə kənˈstrʌkʃən ˈprɑːdʒɛkt, ɪt ɪz ə ˈprɑːmɪs əv ə ˈbɛtər laɪf baɪ ðə ˈrɪvər./",
+       "vi": "Đây không chỉ là một dự án xây dựng — mà là lời hứa về một cuộc sống tốt đẹp hơn bên dòng sông."
+      }
+     ],
+     "title": "🏗️ Giới thiệu dự án"
+    },
+    {
+     "lines": [
+      {
+       "en": "And now, the moment we have all been waiting for — the groundbreaking!",
+       "pron": "/ənd naʊ, ðə ˈmoʊmənt wi hæv ɔːl bɪn ˈweɪtɪŋ fər, ðə ˈɡraʊndˌbreɪkɪŋ!/",
+       "vi": "Và bây giờ, khoảnh khắc mà tất cả chúng ta mong chờ — lễ động thổ!"
+      },
+      {
+       "en": "May I invite our city leaders, our investors, and our chief engineers to please come to the stage.",
+       "pron": "/meɪ aɪ ɪnˈvaɪt aʊər ˈsɪti ˈliːdərz, aʊər ɪnˈvɛstərz, ənd aʊər tʃiːf ˌɛndʒəˈnɪrz tu pliːz kʌm tu ðə steɪdʒ./",
+       "vi": "Tôi xin trân trọng kính mời các vị lãnh đạo thành phố, các nhà đầu tư và các kỹ sư trưởng lên sân khấu."
+      },
+      {
+       "en": "Ladies and gentlemen, please take your shovels and stand ready at the sand table.",
+       "pron": "/ˈleɪdiz ənd ˈdʒɛntəlmən, pliːz teɪk jɔr ˈʃʌvəlz ənd stænd ˈrɛdi ət ðə sænd ˈteɪbəl./",
+       "vi": "Thưa quý vị, xin mời quý vị cầm xẻng và đứng sẵn sàng bên bàn cát."
+      },
+      {
+       "en": "Let us count down together: five, four, three, two, one — break the ground!",
+       "pron": "/lɛt ʌs kaʊnt daʊn təˈɡɛðər, faɪv, fɔːr, θriː, tuː, wʌn, breɪk ðə ɡraʊnd!/",
+       "vi": "Chúng ta hãy cùng đếm ngược: năm, bốn, ba, hai, một — động thổ!"
+      },
+      {
+       "en": "What a wonderful moment! Please give our leaders a big round of applause for the first shovels of earth!",
+       "pron": "/wʌt ə ˈwʌndərfəl ˈmoʊmənt! pliːz ɡɪv aʊər ˈliːdərz ə bɪɡ raʊnd əv əˈplɔːz fər ðə fɜːrst ˈʃʌvəlz əv ɜːrθ!/",
+       "vi": "Thật là một khoảnh khắc tuyệt vời! Xin quý vị dành một tràng pháo tay thật lớn cho những xẻng đất đầu tiên của các vị lãnh đạo!"
+      }
+     ],
+     "title": "⛏️ Động thổ"
+    },
+    {
+     "lines": [
+      {
+       "en": "The first shovels are in the ground, and the future of Song Han Riverside has officially begun.",
+       "pron": "/ðə fɜːrst ˈʃʌvəlz ɑːr ɪn ðə ɡraʊnd, ənd ðə ˈfjuːtʃər əv Song Han ˈrɪvərsaɪd həz əˈfɪʃəli bɪˈɡʌn./",
+       "vi": "Những xẻng đất đầu tiên đã xuống đất, và tương lai của Sông Hàn Riverside đã chính thức bắt đầu."
+      },
+      {
+       "en": "Thank you to our city leaders, our investors, and our engineers for your trust and your vision.",
+       "pron": "/θæŋk ju tu aʊər ˈsɪti ˈliːdərz, aʊər ɪnˈvɛstərz, ənd aʊər ˌɛndʒəˈnɪrz fər jɔr trʌst ənd jɔr ˈvɪʒən./",
+       "vi": "Cảm ơn các vị lãnh đạo thành phố, các nhà đầu tư và các kỹ sư vì sự tin tưởng và tầm nhìn của quý vị."
+      },
+      {
+       "en": "Thank you to every guest who joined us this morning to share this historic moment.",
+       "pron": "/θæŋk ju tu ˈɛvri ɡɛst hu dʒɔɪnd ʌs ðɪs ˈmɔːrnɪŋ tu ʃɛr ðɪs hɪˈstɔːrɪk ˈmoʊmənt./",
+       "vi": "Cảm ơn mỗi vị khách đã đến chung vui sáng nay để cùng chia sẻ khoảnh khắc lịch sử này."
+      },
+      {
+       "en": "We wish the project smooth construction, great success, and a bright future for all who will live here.",
+       "pron": "/wi wɪʃ ðə ˈprɑːdʒɛkt smuːð kənˈstrʌkʃən, ɡreɪt səkˈsɛs, ənd ə braɪt ˈfjuːtʃər fər ɔːl hu wɪl lɪv hɪr./",
+       "vi": "Chúng tôi chúc dự án thi công thuận lợi, thành công lớn và một tương lai tươi sáng cho tất cả những ai sẽ sống tại đây."
+      },
+      {
+       "en": "Goodbye for now, and we look forward to welcoming you back when the first buildings rise by the river.",
+       "pron": "/ɡʊdˈbaɪ fər naʊ, ənd wi lʊk ˈfɔːrwərd tu ˈwɛlkəmɪŋ ju bæk wɛn ðə fɜːrst ˈbɪldɪŋz raɪz baɪ ðə ˈrɪvər./",
+       "vi": "Xin chào tạm biệt quý vị, và chúng tôi mong được đón quý vị trở lại khi những tòa nhà đầu tiên vươn lên bên bờ sông."
+      }
+     ],
+     "title": "👋 Kết thúc"
+    }
+   ],
+   "situation": "Lễ khởi công Dự án Khu đô thị Sông Hàn Riverside diễn ra vào buổi sáng tại khu đất dự án bên bờ sông Hàn, Đà Nẵng, với sự tham dự của lãnh đạo thành phố, nhà đầu tư và các kỹ sư.",
+   "title": "Lễ khởi công — Dự án Khu đô thị Sông Hàn Riverside"
+  }
+ ]
+}
