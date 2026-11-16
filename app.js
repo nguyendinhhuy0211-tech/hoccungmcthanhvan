@@ -1112,6 +1112,9 @@ $('#telePlayBtn').addEventListener('click', () => setTelePlaying(!telePlaying));
 $('#teleListenBtn').addEventListener('click', () => { const s = teleScriptLines(); speakLines(s.lines.map(l => l.en)); });
 $('#studioBtn').addEventListener('click', buildScript);
 $('#quizStartBtn').addEventListener('click', startQuiz);
+const toTopBtn = $('#toTopBtn');
+window.addEventListener('scroll', () => { toTopBtn.classList.toggle('show', window.scrollY > 400); }, { passive: true });
+toTopBtn.addEventListener('click', () => window.scrollTo({ top: 0, behavior: 'smooth' }));
 
 /* ---------- boot ---------- */
 fetch('vocab.json').then(r => r.json()).then(data => {
