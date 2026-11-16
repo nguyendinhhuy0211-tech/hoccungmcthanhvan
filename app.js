@@ -512,7 +512,7 @@ function renderListenQ() {
 RENDERERS.listening = function () { renderListenQ(); };
 
 /* ---------- 7. Luyện nói (shadowing + thu âm) ---------- */
-let speakPhrase = null, mediaRec = null, recChunks = [], recUrl = null, recStream = null, recState = 'idle', recSecs = 0, recTimer = null;
+let speakPhrase = null, mediaRec = null, recChunks = [], recUrl = null, recStream = null, recState = 'idle', recSecs = 0, recTimer = null, recError = null;
 function renderSpeak() {
   const box = $('#speakBox');
   let h = '<div class="card"><div class="row" style="margin-top:0">' +
@@ -531,7 +531,8 @@ function renderSpeak() {
         (hasSR() ? '<button class="btn primary" id="scoreBtn">✦ Chấm điểm tự động</button>' : '') + '</div>' +
         '<p class="kbd">Trình duyệt sẽ xin quyền dùng micro. Nếu bạn không cho phép, vẫn có thể nghe mẫu rồi đọc theo.</p>' +
         (hasSR() ? '' : '<p class="kbd">Trình duyệt này không hỗ trợ chấm điểm tự động (cần dùng Chrome). Bạn vẫn thu âm để nghe lại như thường.</p>') +
-        (scoreError ? '<p style="color:#dc2626; margin:8px 0 0">' + esc(scoreError) + '</p>' : '');
+        (scoreError ? '<p style="color:#dc2626; margin:8px 0 0">' + esc(scoreError) + '</p>' : '') +
+        (recError ? '<p style="color:#dc2626; margin:8px 0 0">' + esc(recError) + '</p>' : '');
     } else if (recState === 'listening') {
       h += '<div class="row"><button class="btn danger" id="scoreStopBtn">■ Dừng chấm điểm</button></div>' +
         '<p class="kbd">Đang nghe… đọc to câu trên, rõ ràng như đang đứng trên sân khấu.</p>';
@@ -558,30 +559,47 @@ function renderSpeak() {
   }
   h += '</div>';
   box.innerHTML = h;
-  const nb = $('#speakNewBtn'); if (nb) nb.onclick = () => { stopAudio(); const list = allPhrases(); speakPhrase = list[Math.floor(Math.random() * list.length)]; recState = 'idle'; recUrl = null; autoResult = null; scoreError = null; renderSpeak(); };
+  const nb = $('#speakNewBtn'); if (nb) nb.onclick = () => { stopAudio(); const list = allPhrases(); speakPhrase = list[Math.floor(Math.random() * list.length)]; recState = 'idle'; recUrl = null; autoResult = null; scoreError = null; recError = null; renderSpeak(); };
   const rs = $('#recStartBtn'); if (rs) rs.onclick = startRecording;
   const rp = $('#recStopBtn'); if (rp) rp.onclick = stopRecording;
   const ra = $('#recAgainBtn'); if (ra) ra.onclick = () => { recState = 'idle'; recUrl = null; renderSpeak(); };
   const sb = $('#scoreBtn'); if (sb) sb.onclick = startScoring;
   const ss = $('#scoreStopBtn'); if (ss) ss.onclick = stopScoring;
   const sa = $('#scoreAgainBtn'); if (sa) sa.onclick = startScoring;
+  const au = box.querySelector('audio');
+  if (au) au.onerror = () => {
+    const p = document.createElement('p');
+    p.style.color = '#dc2626';
+    p.textContent = 'Không phát được bản thu này trên trình duyệt của bạn. Bạn thử thu lại nhé.';
+    au.replaceWith(p);
+  };
 }
 async function startRecording() {
   if (!navigator.mediaDevices || !navigator.mediaDevices.getUserMedia) { alert('Trình duyệt này không hỗ trợ thu âm. Bạn vẫn có thể nghe mẫu rồi đọc theo.'); return; }
   try {
     recStream = await navigator.mediaDevices.getUserMedia({ audio: true });
-    recChunks = [];
+    recChunks = []; recError = null;
     mediaRec = new MediaRecorder(recStream);
     mediaRec.ondataavailable = e => { if (e.data.size) recChunks.push(e.data); };
+    mediaRec.onerror = e => {
+      if (recStream) { recStream.getTracks().forEach(t => t.stop()); recStream = null; }
+      recState = 'idle'; recError = 'Thu âm bị lỗi. Bạn thử thu lại nhé.';
+      renderSpeak();
+    };
     mediaRec.onstop = () => {
       if (recStream) { recStream.getTracks().forEach(t => t.stop()); recStream = null; }
+      const total = recChunks.reduce((s, c) => s + c.size, 0);
+      if (!total) {
+        recState = 'idle'; recError = 'Bản thu không có tiếng — có thể bạn bấm dừng quá nhanh hoặc micro chưa nhận tiếng. Thử thu lại, đọc to hơn nhé.';
+        renderSpeak(); return;
+      }
       const blob = new Blob(recChunks, { type: (mediaRec && mediaRec.mimeType) || 'audio/webm' });
       if (recUrl) URL.revokeObjectURL(recUrl);
       recUrl = URL.createObjectURL(blob);
       recState = 'done';
       renderSpeak();
     };
-    mediaRec.start();
+    mediaRec.start(250);
     recState = 'recording'; recSecs = 0;
     recTimer = setInterval(() => { recSecs++; const b = $('#recStopBtn'); if (b) b.textContent = '■ Dừng thu âm (' + recSecs + 's)'; }, 1000);
     renderSpeak();
