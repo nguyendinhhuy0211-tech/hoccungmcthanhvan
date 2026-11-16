@@ -1,1 +1,732 @@
-{"topics":[{"desc":"Những câu chào mở đầu, giới thiệu bản thân và khuấy động không khí đầu chương trình.","emoji":"🎤","id":"khai-mac","phrases":[{"en":"Good morning, ladies and gentlemen, and welcome to this very special day!","id":"km1","pron":"gu-đ mo-ning, lê-đis ơnd gen-tồ-mơn, ơnd quen-cơm tu đis ve-ri spe-sồ đei","tip":"Nói chậm, cười tươi, nhìn khắp khán phòng. Dùng khi mở đầu buổi sáng.","vi":"Xin chào buổi sáng, thưa quý vị, và chào mừng quý vị đến với ngày đặc biệt hôm nay!"},{"en":"It is my great honour to be your host today. My name is Thanh Vân.","id":"km2","pron":"ịt is mai greit o-nờ tu bi do houst tơ-đei. mai nêm is Thanh Vân","tip":"Giới thiệu tên ngay sau câu chào, giọng tự tin, tay đặt nhẹ lên ngực.","vi":"Thật là vinh dự lớn cho tôi khi được làm người dẫn chương trình hôm nay. Tôi tên là Thanh Vân."},{"en":"Please give yourselves a big round of applause for being here today!","id":"km3","pron":"pliis giv doa-seovs ơ big rao-đờ ơ-vơ-plos fo bi-ing hia tơ-đei","tip":"Vỗ tay làm mẫu trước để khán giả vỗ theo. Dùng để phá băng đầu giờ.","vi":"Xin quý vị hãy dành một tràng pháo tay thật lớn cho chính mình vì đã có mặt hôm nay!"},{"en":"We are delighted to have you all with us, from near and far.","id":"km4","pron":"uy a đi-lai-tịt tu hev du o quịt ớs, from nia ơnd fa","tip":"Giọng ấm áp, nhấn vào từ delighted. Phù hợp khi có khách từ xa, khách quốc tế.","vi":"Chúng tôi rất vui mừng khi có quý vị cùng đồng hành, dù ở gần hay ở xa."},{"en":"Before we begin, may I invite you to take your seats and make yourselves comfortable?","id":"km5","pron":"bi-fo uy bi-gin, mei ai in-vai du tu teik doa siits ơnd meik doa-seovs kom-fờ-tơ-bồ","tip":"Nói nhẹ nhàng, lịch sự khi khán phòng còn ồn. Tay mở ra mời về phía ghế ngồi.","vi":"Trước khi bắt đầu, xin mời quý vị ổn định chỗ ngồi và cảm thấy thật thoải mái."},{"en":"Today promises to be a wonderful celebration, and we are so glad you could join us.","id":"km6","pron":"tơ-đei pro-mi-sis tu bi ơ quờn-đờ-phồ se-lơ-brei-sờn, ơnd uy a sô gờ-léd du ku-đ join ớs","tip":"Dùng để tạo kỳ vọng tích cực ngay sau lời chào. Nhấn giọng ở wonderful.","vi":"Hôm nay hứa hẹn sẽ là một buổi lễ thật tuyệt vời, và chúng tôi rất vui vì quý vị đã đến."},{"en":"Let us begin this beautiful morning with a warm round of applause!","id":"km7","pron":"lét ớs bi-gin đis biu-ti-phồ mo-ning quịt ơ quom rao-đờ ơ-vơ-plos","tip":"Nâng cao giọng ở cuối câu để kéo năng lượng khán phòng lên.","vi":"Hãy bắt đầu buổi sáng tươi đẹp này bằng một tràng pháo tay thật nồng nhiệt!"},{"en":"Thank you all for coming. Let the program begin!","id":"km8","pron":"théng du o fo ko-ming. lét đơ pro-grém bi-gin","tip":"Câu chốt để chuyển sang phần chính. Nói dứt khoát, mỉm cười, gật đầu nhẹ.","vi":"Cảm ơn tất cả quý vị đã đến. Chương trình xin được bắt đầu!"}],"scenarios":[{"id":"km-s1","lines":[{"en":"Thank you all for your patience. Our speaker is on the way and will be with us very shortly.","vi":"Cảm ơn quý vị đã kiên nhẫn chờ đợi. Diễn giả của chúng ta đang trên đường tới và sẽ đến ngay thôi."},{"en":"While we wait, let us enjoy a short video about today's event.","vi":"Trong lúc chờ đợi, xin mời quý vị cùng xem một đoạn video ngắn về sự kiện hôm nay."},{"en":"And now, please join me in welcoming our speaker to the stage!","vi":"Và ngay bây giờ, xin mời quý vị cùng chào đón diễn giả của chúng ta lên sân khấu!"}],"situation":"Diễn giả chính bị kẹt xe và đến trễ 15 phút so với giờ khai mạc.","title":"Diễn giả đến trễ"},{"id":"km-s2","lines":[{"en":"Please don't worry. We have prepared a covered area, and everyone will stay dry and comfortable.","vi":"Xin quý vị đừng lo lắng. Chúng tôi đã chuẩn bị khu vực có mái che, mọi người sẽ vẫn khô ráo và thoải mái."},{"en":"Our team will guide you to your seats under the cover. Please move slowly and carefully.","vi":"Đội ngũ của chúng tôi sẽ hướng dẫn quý vị vào chỗ ngồi dưới mái che. Xin quý vị di chuyển chậm rãi và cẩn thận."},{"en":"Once everyone is settled, we will continue our opening ceremony together.","vi":"Khi mọi người đã ổn định chỗ ngồi, chúng ta sẽ cùng tiếp tục lễ khai mạc."}],"situation":"Đang khai mạc ngoài trời thì trời bất ngờ đổ mưa lớn.","title":"Trời mưa khi khai mạc ngoài trời"}],"title":"Khai mạc & chào đón"},{"desc":"Cách giới thiệu khách mời, đại biểu và diễn giả một cách trang trọng, lịch sự.","emoji":"👥","id":"dai-bieu","phrases":[{"en":"It is my great pleasure to introduce our distinguished guests today.","id":"db1","pron":"ịt is mai greit ple-giơ tu in-trơ-điu-sơ aoa đis-ting-quịt ghét tơ-đei","tip":"Đọc chậm, trang trọng. Dùng trước khi nêu tên từng đại biểu.","vi":"Thật là vinh dự cho tôi khi được giới thiệu các vị khách quý của chúng ta hôm nay."},{"en":"Please join me in welcoming Mr. Nguyen, our guest of honour, to the stage.","id":"db2","pron":"pliis join mi in quen-cơ-ming Mr. Nguyen, aoa ghét ơ-vơ o-nờ, tu đơ s-teich","tip":"Thay tên khách vào vị trí Mr. Nguyen. Tay hướng về phía khách đang tiến lên.","vi":"Xin quý vị cùng tôi chào đón ông Nguyễn, vị khách danh dự của chúng ta, lên sân khấu."},{"en":"We are honoured to have with us today leaders from many organisations.","id":"db3","pron":"uy a o-nờ tu hev quịt ớs tơ-đei li-đờs from me-ni o-gơ-nai-zê-sờns","tip":"Dùng khi có nhiều đại biểu, không nêu tên từng người. Giọng trịnh trọng.","vi":"Chúng tôi rất vinh dự khi hôm nay có sự hiện diện của các lãnh đạo đến từ nhiều tổ chức."},{"en":"Let us give a warm welcome to our guest of honour with a big round of applause!","id":"db4","pron":"lét ớs giv ơ quom quen-cơm tu aoa ghét ơ-vơ o-nờ quịt ơ big rao-đờ ơ-vơ-plos","tip":"Vỗ tay làm mẫu ngay khi nói xong để khán giả vỗ theo.","vi":"Hãy dành một tràng pháo tay thật nồng nhiệt để chào đón vị khách danh dự của chúng ta!"},{"en":"Please stand and be recognised for your wonderful support.","id":"db5","pron":"pliis stend ơnd bi re-cợc-nai-zờ fo doa quờn-đờ-phồ sờ-po","tip":"Dùng khi vinh danh nhà tài trợ hoặc khách mời đặc biệt. Tay mở ra mời đứng lên.","vi":"Xin mời quý vị đứng lên để chúng tôi được tri ân sự ủng hộ tuyệt vời của quý vị."},{"en":"Our next speaker is a person who needs no introduction.","id":"db6","pron":"aoa nék spik-ờ is ơ pơ-sờn hu niis nô in-trơ-đớc-sờn","tip":"Dùng cho người nổi tiếng, ai cũng biết. Tạo tò mò trước khi nêu tên.","vi":"Diễn giả tiếp theo của chúng ta là một người không cần giới thiệu thêm."},{"en":"I would like to invite Ms. Lan to the stage to share a few words with us.","id":"db7","pron":"ai qud laik tu in-vai Ms. Lan tu đơ s-teich tu sea ơ fiu quơds quịt ớs","tip":"Thay tên khách vào. Nói rõ ràng, nhìn về phía người được mời.","vi":"Tôi xin mời bà Lan lên sân khấu để chia sẻ vài lời với chúng ta."},{"en":"Thank you for gracing us with your presence today.","id":"db8","pron":"théng du fo grei-sing ớs quịt doa pre-sờns tơ-đei","tip":"Câu cảm ơn trang trọng sau phần giới thiệu đại biểu. Nhìn về phía khách mời.","vi":"Cảm ơn quý vị đã dành thời gian quý báu đến tham dự hôm nay."}],"scenarios":[{"id":"db-s1","lines":[{"en":"A very warm welcome to our international guests. We are so happy to have you here with us today!","vi":"Xin chào đón nồng nhiệt các vị khách quốc tế. Chúng tôi rất vui khi có quý vị ở đây hôm nay!"},{"en":"Today's program will be in both Vietnamese and English, so please feel comfortable and enjoy the event.","vi":"Chương trình hôm nay sẽ có cả tiếng Việt và tiếng Anh, vì vậy xin quý vị cứ thoải mái và tận hưởng sự kiện."},{"en":"And now, let us continue with our next speaker. Please give him a warm round of applause!","vi":"Và bây giờ, chúng ta hãy tiếp tục với diễn giả tiếp theo. Xin dành cho anh ấy một tràng pháo tay nồng nhiệt!"}],"situation":"Một đoàn khách nước ngoài vừa đến, cần chào đón nhanh bằng tiếng Anh trước khi chương trình tiếp tục.","title":"Khách nước ngoài cần chào nhanh bằng tiếng Anh"},{"id":"db-s2","lines":[{"en":"Please bear with us for just a moment. We are fixing the microphone right now.","vi":"Xin quý vị chờ chúng tôi một chút. Chúng tôi đang khắc phục micro ngay bây giờ."},{"en":"Our speaker will continue in just a few seconds. Thank you for your understanding.","vi":"Diễn giả của chúng ta sẽ tiếp tục chỉ trong vài giây nữa. Cảm ơn sự thông cảm của quý vị."},{"en":"The microphone is ready now. Please welcome our speaker once again!","vi":"Micro đã sẵn sàng. Xin mời quý vị chào đón diễn giả của chúng ta một lần nữa!"}],"situation":"Diễn giả vừa lên sân khấu thì micro cầm tay đột nhiên mất tiếng.","title":"Micro của diễn giả bị hỏng"}],"title":"Giới thiệu đại biểu"},{"desc":"Những câu chúc mừng, cắt băng khánh thành và mở đầu cho một khởi đầu mới.","emoji":"🎉","id":"khai-truong","phrases":[{"en":"Welcome to the grand opening of our new store!","id":"kt1","pron":"quen-cơm tu đơ grénd ô-pơ-ning ơ-vơ aoa niu sto","tip":"Giọng vui tươi, hào hứng. Dùng ngay đầu lễ khai trương.","vi":"Chào mừng quý vị đến với lễ khai trương cửa hàng mới của chúng tôi!"},{"en":"Today marks a new beginning, full of hope and great opportunities.","id":"kt2","pron":"tơ-đei macs ơ niu bi-gin-ning, phul ơ-vơ hốp ơnd greit o-pờ-chu-ni-tis","tip":"Nhấn giọng ở new beginning. Phù hợp cho bài phát biểu khai mạc.","vi":"Hôm nay đánh dấu một khởi đầu mới, tràn đầy hy vọng và nhiều cơ hội lớn."},{"en":"Please join us for the ribbon-cutting ceremony in just a few moments.","id":"kt3","pron":"pliis join ớs fo đơ ri-bờn kót-ting se-rơ-mô-ni in giást ơ fiu mô-mờnts","tip":"Thông báo trước để khách chuẩn bị di chuyển ra khu vực cắt băng.","vi":"Xin mời quý vị cùng tham dự lễ cắt băng khánh thành chỉ trong ít phút nữa."},{"en":"Let us count down together: three, two, one!","id":"kt4","pron":"lét ớs kao-đao tu-ghe-đờ: thri, tu, quơn","tip":"Giơ tay đếm theo nhịp, kéo cả khán phòng đếm cùng. Tạo cao trào trước khi cắt băng.","vi":"Hãy cùng nhau đếm ngược: ba, hai, một!"},{"en":"Congratulations on this exciting new chapter!","id":"kt5","pron":"cờn-grét-du-lê-sờns on đis íc-sai-ting niu chép-tờ","tip":"Nói với chủ đầu tư hoặc chủ cửa hàng, kèm nụ cười và cái bắt tay.","vi":"Xin chúc mừng cho chương mới đầy hứng khởi này!"},{"en":"May this new place bring success and prosperity to everyone here.","id":"kt6","pron":"mei đis niu pleis bring sớc-ses ơnd pros-pe-ri-ti tu e-vri-quơn hia","tip":"Câu chúc trang trọng, dùng sau nghi thức cắt băng hoặc cuối bài phát biểu.","vi":"Chúc cho nơi mới này mang đến thành công và thịnh vượng cho tất cả mọi người."},{"en":"I now invite our honourable guests to cut the ribbon.","id":"kt7","pron":"ai nao in-vai aoa o-nơ-rơ-bồ ghét tu kót đơ ri-bờn","tip":"Nói rõ ràng từng tên khách trước khi mời. Tay hướng về phía bục cắt băng.","vi":"Tôi xin mời các vị khách quý lên cắt băng khánh thành."},{"en":"Let us celebrate this milestone with a big round of applause!","id":"kt8","pron":"lét ớs se-lơ-breit đis mai-stôn quịt ơ big rao-đờ ơ-vơ-plos","tip":"Dùng ngay sau khi cắt băng xong. Vỗ tay mạnh để dẫn dắt khán giả.","vi":"Hãy cùng ăn mừng cột mốc này bằng một tràng pháo tay thật lớn!"}],"scenarios":[{"id":"kt-s1","lines":[{"en":"Please stay with us for just a moment. We are bringing the ceremonial scissors right now.","vi":"Xin quý vị chờ chúng tôi một chút. Chúng tôi đang mang kéo cắt băng lên ngay bây giờ."},{"en":"Meanwhile, let us take a wonderful group photo with our honourable guests.","vi":"Trong lúc chờ đợi, xin mời chúng ta cùng chụp một tấm ảnh chung thật đẹp với các vị khách quý."},{"en":"The scissors are here now. Let us count down together: three, two, one!","vi":"Kéo đã có rồi đây. Hãy cùng nhau đếm ngược: ba, hai, một!"}],"situation":"Đến giờ cắt băng khánh thành thì phát hiện kéo cắt băng đã bị thất lạc.","title":"Kéo cắt băng bị thất lạc"},{"id":"kt-s2","lines":[{"en":"Thank you for your patience. Our music team is adjusting the sound right now.","vi":"Cảm ơn quý vị đã kiên nhẫn. Đội âm thanh của chúng tôi đang điều chỉnh ngay bây giờ."},{"en":"This beautiful music is actually a little preview of our celebration later today.","vi":"Bản nhạc tuyệt vời này thực ra là một chút hé lộ cho phần ăn mừng sau đó của chúng ta hôm nay."},{"en":"And now, let us continue with our opening speech. Please welcome our speaker back!","vi":"Và bây giờ, chúng ta hãy tiếp tục với bài phát biểu khai mạc. Xin chào đón diễn giả quay lại sân khấu!"}],"situation":"Nhạc nền bất ngờ nổi lên quá lớn ngay giữa bài phát biểu khai trương.","title":"Nhạc nổi lên sai lúc"}],"title":"Khai trương & khánh thành"},{"desc":"Câu chào buổi tối, chúc mừng, nâng ly và dẫn dắt tiệc gala trang trọng mà ấm cúng.","emoji":"🥂","id":"gala","phrases":[{"en":"Good evening, ladies and gentlemen, and welcome to our gala dinner!","id":"gl1","pron":"gu-đ i-vờ-ning, lê-đis ơnd gen-tồ-mơn, ơnd quen-cơm tu aoa ga-la đi-nờ","tip":"Giọng trầm ấm, sang trọng. Mở đầu buổi tối gala.","vi":"Xin chào buổi tối, thưa quý vị, và chào mừng quý vị đến với tiệc gala tối nay!"},{"en":"Please enjoy this wonderful evening of fine food, music and friendship.","id":"gl2","pron":"pliis en-joi đis quờn-đờ-phồ i-vờ-ning ơ-vơ phai phud, miu-zíc ơnd frend-sip","tip":"Nói chậm, thư giãn. Dùng sau lời chào để mời khách vào tiệc.","vi":"Xin mời quý vị tận hưởng buổi tối tuyệt vời này với ẩm thực, âm nhạc và tình bạn."},{"en":"Let us raise our glasses to a successful year ahead!","id":"gl3","pron":"lét ớs reiz aoa gờ-la-sis tu ơ sớc-ses-phồ dia ơ-héd","tip":"Giơ ly cao khi nói, nhìn quanh bàn tiệc. Dùng khi chúc mừng chung.","vi":"Hãy cùng nâng ly chúc cho một năm thành công phía trước!"},{"en":"Cheers to good health, happiness and great partnership!","id":"gl4","pron":"chias tu gu-đ heo, hép-pi-nét ơnd greit pat-nờ-sip","tip":"Câu chúc ngắn, vui vẻ. Nâng ly và chạm ly với khách gần nhất.","vi":"Cạn ly vì sức khỏe, hạnh phúc và tình đối tác tuyệt vời!"},{"en":"Please welcome our performers to the stage with a warm round of applause!","id":"gl5","pron":"pliis quen-cơm aoa pờ-fo-mờs tu đơ s-teich quịt ơ quom rao-đờ ơ-vơ-plos","tip":"Giới thiệu tiết mục văn nghệ. Giọng hào hứng, tay hướng về sân khấu.","vi":"Xin mời quý vị chào đón các nghệ sĩ lên sân khấu bằng một tràng pháo tay nồng nhiệt!"},{"en":"Now, let us enjoy a delicious dinner together.","id":"gl6","pron":"nao, lét ớs en-joi ơ đi-li-sờs đi-nờ tu-ghe-đờ","tip":"Câu chuyển sang phần dùng tiệc. Nói nhẹ nhàng, mỉm cười.","vi":"Và bây giờ, xin mời quý vị cùng thưởng thức bữa tối ngon miệng."},{"en":"It is time to announce tonight's lucky draw winners!","id":"gl7","pron":"ịt is taim tu ơ-nao-sờ tơ-nais lóc-ki dro quin-nờs","tip":"Nâng cao giọng, tạo hồi hộp. Dừng một nhịp trước khi đọc tên người trúng.","vi":"Đã đến lúc công bố những người trúng thưởng bốc thăm may mắn tối nay!"},{"en":"Thank you for a memorable evening. Let us celebrate together!","id":"gl8","pron":"théng du fo ơ me-mơ-rơ-bồ i-vờ-ning. lét ớs se-lơ-breit tu-ghe-đờ","tip":"Dùng cuối tiệc gala. Giọng ấm áp, giơ tay mời mọi người cùng nâng ly.","vi":"Cảm ơn quý vị vì một buổi tối đáng nhớ. Hãy cùng nhau ăn mừng!"}],"scenarios":[{"id":"gl-s1","lines":[{"en":"Thank you for your patience. Our kitchen is preparing a wonderful dinner for you, and it will be served very soon.","vi":"Cảm ơn quý vị đã kiên nhẫn chờ đợi. Nhà bếp đang chuẩn bị một bữa tối tuyệt vời cho quý vị và sẽ phục vụ ngay thôi."},{"en":"While we wait, please enjoy this beautiful musical performance.","vi":"Trong lúc chờ đợi, xin mời quý vị cùng thưởng thức tiết mục âm nhạc tuyệt vời này."},{"en":"Dinner is ready now. Please enjoy your meal, and have a wonderful evening!","vi":"Bữa tối đã sẵn sàng. Xin mời quý vị dùng bữa ngon miệng và có một buổi tối thật tuyệt vời!"}],"situation":"Bếp gặp sự cố nên bữa tối gala bị chậm 20 phút, khách đã ngồi vào bàn.","title":"Bữa tối bị chậm"},{"id":"gl-s2","lines":[{"en":"Our award winner is not with us right now, but we will celebrate their wonderful achievement together.","vi":"Người nhận giải của chúng ta hiện không có mặt, nhưng chúng ta vẫn sẽ cùng chúc mừng thành tích tuyệt vời của họ."},{"en":"Please join me in a big round of applause for their hard work and dedication.","vi":"Xin quý vị hãy dành một tràng pháo tay thật lớn cho sự nỗ lực và cống hiến của họ."},{"en":"We will present the award a little later. Now, let us continue with our next performance!","vi":"Chúng tôi sẽ trao giải sau ít phút nữa. Còn bây giờ, xin mời quý vị tiếp tục với tiết mục tiếp theo!"}],"situation":"Đến lúc trao giải thì người nhận giải không có mặt trong khán phòng.","title":"Người nhận giải vắng mặt"}],"title":"Gala Dinner"},{"desc":"Câu dẫn hội thảo, giới thiệu diễn giả, điều phối hỏi đáp và tóm tắt nội dung.","emoji":"💡","id":"hoi-thao","phrases":[{"en":"Welcome to today's seminar. We are glad you could join us for this important discussion.","id":"ht1","pron":"quen-cơm tu tơ-đeis se-mi-na. uy a gờ-léd du ku-đ join ớs fo đis im-po-tờnt đis-cớ-sờn","tip":"Giọng rõ ràng, chuyên nghiệp. Mở đầu hội thảo buổi sáng hoặc chiều.","vi":"Chào mừng quý vị đến với hội thảo hôm nay. Chúng tôi rất vui vì quý vị đã tham gia buổi thảo luận quan trọng này."},{"en":"Our speakers today will share valuable insights and practical experience with us.","id":"ht2","pron":"aoa spik-ờs tơ-đei quill sea vé-liu-ơ-bồ in-sais ơnd préc-ti-cồ íc-pi-ri-ờns quịt ớs","tip":"Dùng để giới thiệu chung trước khi mời diễn giả đầu tiên.","vi":"Các diễn giả hôm nay sẽ chia sẻ với chúng ta những kiến thức quý giá và kinh nghiệm thực tế."},{"en":"Please give a warm welcome to our first speaker of the day.","id":"ht3","pron":"pliis giv ơ quom quen-cơm tu aoa phớt spik-ờ ơ-vơ đơ đei","tip":"Vỗ tay làm mẫu. Nhìn về phía diễn giả đang tiến lên sân khấu.","vi":"Xin quý vị dành một tràng pháo tay nồng nhiệt chào đón diễn giả đầu tiên trong ngày."},{"en":"We will now move on to the question and answer session.","id":"ht4","pron":"uy quill nao muv on tu đơ ques-sờn ơnd an-sờ sê-sờn","tip":"Câu chuyển ý rõ ràng sau bài thuyết trình. Giọng dứt khoát.","vi":"Chúng ta sẽ chuyển sang phần hỏi và đáp ngay bây giờ."},{"en":"If you have any questions, please raise your hand and our team will bring you a microphone.","id":"ht5","pron":"íp du hev e-ni ques-sờns, pliis reiz doa hend ơnd aoa tiim quill bring du ơ mai-cro-phôn","tip":"Hướng dẫn rõ ràng trước phần hỏi đáp. Tay giơ lên làm mẫu.","vi":"Nếu quý vị có câu hỏi, xin giơ tay lên và đội ngũ của chúng tôi sẽ mang micro đến cho quý vị."},{"en":"Thank you for your excellent presentation and for sharing your knowledge with us.","id":"ht6","pron":"théng du fo doa éc-sơ-lờnt pre-zen-tê-sờn ơnd fo se-ring doa no-lịch quịt ớs","tip":"Cảm ơn diễn giả sau mỗi bài nói. Vỗ tay cùng khán giả.","vi":"Cảm ơn diễn giả vì bài thuyết trình xuất sắc và đã chia sẻ kiến thức với chúng tôi."},{"en":"Let us take a short break and return in ten minutes.","id":"ht7","pron":"lét ớs teik ơ sot breik ơnd ri-tơn in ten mi-nits","tip":"Thông báo giờ nghỉ rõ ràng. Nhắc lại giờ quay lại để mọi người nhớ.","vi":"Xin mời quý vị nghỉ giải lao ngắn và quay lại sau mười phút nữa."},{"en":"In summary, today we have learned many valuable lessons for our work.","id":"ht8","pron":"in sớ-mơ-ri, tơ-đei uy hev lớnd me-ni vé-liu-ơ-bồ le-sờns fo aoa quớc","tip":"Dùng khi tổng kết cuối hội thảo. Giọng chậm, nhấn vào những ý chính.","vi":"Tóm lại, hôm nay chúng ta đã học được nhiều bài học quý giá cho công việc của mình."}],"scenarios":[{"id":"ht-s1","lines":[{"en":"Please don't worry. We are fixing the projector, and it will be back in just a moment.","vi":"Xin quý vị đừng lo lắng. Chúng tôi đang sửa máy chiếu và nó sẽ hoạt động lại ngay thôi."},{"en":"Meanwhile, our speaker will continue sharing the key points with us.","vi":"Trong lúc đó, diễn giả của chúng ta sẽ tiếp tục chia sẻ những ý chính với quý vị."},{"en":"The projector is working again. Let us continue with the presentation!","vi":"Máy chiếu đã hoạt động trở lại. Chúng ta hãy tiếp tục với bài thuyết trình!"}],"situation":"Đang thuyết trình thì máy chiếu đột ngột tắt, slide không hiển thị được.","title":"Máy chiếu hỏng giữa bài thuyết trình"},{"id":"ht-s2","lines":[{"en":"Thank you for listening so carefully. Perhaps I can start with a question many of you may have.","vi":"Cảm ơn quý vị đã lắng nghe rất chăm chú. Có lẽ tôi xin bắt đầu bằng một câu hỏi mà nhiều quý vị có thể đang thắc mắc."},{"en":"Our speaker, could you please share one practical tip for beginners in this field?","vi":"Thưa diễn giả, anh/chị có thể chia sẻ một lời khuyên thực tế cho người mới bắt đầu trong lĩnh vực này không?"},{"en":"Wonderful answer! Now, does anyone else have a question for our speaker?","vi":"Câu trả lời thật tuyệt vời! Bây giờ, có quý vị nào khác muốn đặt câu hỏi cho diễn giả không?"}],"situation":"Mở phần hỏi đáp nhưng khán phòng im lặng, không ai giơ tay đặt câu hỏi.","title":"Phần hỏi đáp không ai hỏi"}],"title":"Hội thảo"},{"desc":"Câu chuyển phần mượt mà, xử lý sự cố khéo léo và kết thúc chương trình đẹp.","emoji":"🔄","id":"chuyen-y","phrases":[{"en":"Thank you very much. Now, let us move on to the next part of our program.","id":"cy1","pron":"théng du ve-ri mót. nao, lét ớs muv on tu đơ nék pat ơ-vơ aoa pro-grém","tip":"Câu chuyển ý cơ bản nhất, dùng được ở mọi chương trình. Giọng dứt khoát.","vi":"Cảm ơn quý vị rất nhiều. Và bây giờ, chúng ta hãy chuyển sang phần tiếp theo của chương trình."},{"en":"Please bear with us for just a moment while we prepare the stage.","id":"cy2","pron":"pliis be quịt ớs fo giást ơ mô-mờnt quai uy pri-pe đơ s-teich","tip":"Dùng khi cần thời gian chuẩn bị giữa hai tiết mục. Mỉm cười, giọng bình tĩnh.","vi":"Xin quý vị chờ chúng tôi một chút trong lúc chúng tôi chuẩn bị sân khấu."},{"en":"We apologise for the small delay. Thank you for your patience.","id":"cy3","pron":"uy ơ-po-lơ-giais fo đơ smol đi-lei. théng du fo doa pê-sờns","tip":"Xin lỗi ngắn gọn, không giải thích dài dòng. Cúi đầu nhẹ khi nói.","vi":"Chúng tôi xin lỗi vì sự chậm trễ nhỏ này. Cảm ơn sự kiên nhẫn của quý vị."},{"en":"While we wait, let us enjoy a short musical performance.","id":"cy4","pron":"quai uy queit, lét ớs en-joi ơ sot miu-zi-cồ pờ-fo-mờns","tip":"Câu lấp khoảng trống rất hữu ích khi chương trình bị gián đoạn.","vi":"Trong lúc chờ đợi, xin mời quý vị cùng thưởng thức một tiết mục âm nhạc ngắn."},{"en":"And now, for a change of atmosphere, please welcome our next performers!","id":"cy5","pron":"ơnd nao, fo ơ chên-giơ ơ-vơ ét-mơ-sphia, pliis quen-cơm aoa nék pờ-fo-mờs","tip":"Dùng khi chuyển từ phần trang trọng sang tiết mục giải trí. Giọng hào hứng.","vi":"Và bây giờ, để thay đổi không khí, xin mời quý vị chào đón các nghệ sĩ tiếp theo!"},{"en":"That brings us to the end of this part. Thank you all.","id":"cy6","pron":"đét brings ớs tu đi end ơ-vơ đis pat. théng du o","tip":"Câu chốt một phần chương trình trước khi chuyển sang phần khác.","vi":"Và đó là phần kết của phần này. Cảm ơn tất cả quý vị."},{"en":"Before we say goodbye, let us take a group photo together.","id":"cy7","pron":"bi-fo uy sei gu-đ-bai, lét ớs teik ơ grup phô-tô tu-ghe-đờ","tip":"Mời mọi người đứng dậy, sắp xếp vị trí. Dùng gần cuối chương trình.","vi":"Trước khi chia tay, chúng ta hãy cùng chụp một tấm ảnh chung."},{"en":"Thank you, everyone, for a wonderful day. Goodbye, and see you again!","id":"cy8","pron":"théng du, e-vri-quơn, fo ơ quờn-đờ-phồ đei. gu-đ-bai, ơnd si du ơ-ghen","tip":"Câu chào kết chương trình. Vẫy tay chào, mỉm cười thật tươi.","vi":"Cảm ơn tất cả quý vị vì một ngày tuyệt vời. Tạm biệt và hẹn gặp lại!"}],"scenarios":[{"id":"cy-s1","lines":[{"en":"Thank you all for staying with us. We will make the rest of the program short, sweet and full of fun!","vi":"Cảm ơn quý vị đã ở lại cùng chúng tôi. Phần còn lại của chương trình sẽ ngắn gọn, súc tích và đầy niềm vui!"},{"en":"We will now move directly to the most exciting part of the day.","vi":"Chúng ta sẽ chuyển thẳng sang phần thú vị nhất trong ngày ngay bây giờ."},{"en":"Please give a big round of applause as we welcome our next performers to the stage!","vi":"Xin quý vị dành một tràng pháo tay thật lớn để chào đón các nghệ sĩ tiếp theo lên sân khấu!"}],"situation":"Chương trình đã trễ 20 phút so với lịch, cần rút ngắn mà vẫn giữ không khí vui vẻ.","title":"Chương trình trễ 20 phút"},{"id":"cy-s2","lines":[{"en":"What a pleasant surprise! Please join me in welcoming our special guest who has just arrived.","vi":"Thật là một bất ngờ thú vị! Xin quý vị cùng tôi chào đón vị khách đặc biệt vừa đến."},{"en":"We are honoured by your presence. Would you like to share a few words with us?","vi":"Chúng tôi rất vinh dự vì sự hiện diện của quý vị. Quý vị có muốn chia sẻ vài lời với chúng tôi không?"},{"en":"Thank you so much. And now, let us continue with our program!","vi":"Cảm ơn quý vị rất nhiều. Và bây giờ, chúng ta hãy tiếp tục chương trình!"}],"situation":"Một vị khách VIP đến bất ngờ giữa chương trình, chưa có trong kịch bản.","title":"Khách VIP đến bất ngờ"}],"title":"Chuyển ý / xử lý sự cố & kết thúc"},{"desc":"Lời chúc phúc, giới thiệu cô dâu chú rể và dẫn dắt tiệc cưới đầy cảm xúc.","emoji":"💍","id":"dam-cuoi","phrases":[{"en":"Good evening, ladies and gentlemen, and welcome to this beautiful wedding celebration!","id":"dc1","pron":"gu-đ i-vờ-ning, lê-đis ơnd gen-tồ-mơn, ơnd quen-cơm tu đis biu-ti-phồ que-đing se-lơ-brei-sờn","tip":"Giọng ấm áp, lãng mạn. Mở đầu tiệc cưới buổi tối.","vi":"Xin chào buổi tối, thưa quý vị, và chào mừng quý vị đến với lễ cưới tuyệt đẹp hôm nay!"},{"en":"Please welcome the bride and groom with a big round of applause!","id":"dc2","pron":"pliis quen-cơm đơ brai ơnd grum quịt ơ big rao-đờ ơ-vơ-plos","tip":"Nói to, hào hứng khi cô dâu chú rể tiến vào. Tay hướng về phía lối đi.","vi":"Xin mời quý vị chào đón cô dâu và chú rể bằng một tràng pháo tay thật lớn!"},{"en":"Today, two hearts become one. Let us celebrate love!","id":"dc3","pron":"tơ-đei, tu hats bi-cơm quơn. lét ớs se-lơ-breit lov","tip":"Câu lãng mạn, nói chậm và truyền cảm. Dùng sau khi cô dâu chú rể lên sân khấu.","vi":"Hôm nay, hai trái tim hòa làm một. Hãy cùng nhau ăn mừng tình yêu!"},{"en":"Let us raise our glasses to the happy couple!","id":"dc4","pron":"lét ớs reiz aoa gờ-la-sis tu đơ hép-pi có-pồ","tip":"Giơ ly cao, nhìn về phía cô dâu chú rể. Dùng khi chúc mừng chung.","vi":"Hãy cùng nâng ly chúc mừng cô dâu và chú rể!"},{"en":"May your love grow stronger with each passing day.","id":"dc5","pron":"mei doa lov grâu strong-gờ quịt iich pa-sing đei","tip":"Câu chúc chân thành, giọng nhẹ nhàng. Dùng trong phần chúc phúc.","vi":"Chúc tình yêu của hai bạn ngày càng bền chặt theo thời gian."},{"en":"Please join the bride and groom for the first dance.","id":"dc6","pron":"pliis join đơ brai ơnd grum fo đơ phớt đén-sờ","tip":"Mời khách vây quanh sàn nhảy. Giọng vui tươi, lãng mạn.","vi":"Xin mời quý vị cùng cô dâu và chú rể trong điệu nhảy đầu tiên."},{"en":"Thank you for sharing this joyful moment with us.","id":"dc7","pron":"théng du fo se-ring đis joi-phồ mô-mờnt quịt ớs","tip":"Cảm ơn khách mời cuối tiệc. Giọng ấm áp, nhìn khắp khán phòng.","vi":"Cảm ơn quý vị đã cùng chia sẻ khoảnh khắc hạnh phúc này với chúng tôi."},{"en":"Let us wish the newlyweds a lifetime of happiness together!","id":"dc8","pron":"lét ớs quish đơ niu-li-queds ơ lai-taim ơ-vơ hép-pi-nét tu-ghe-đờ","tip":"Câu chúc kết tiệc cưới. Nói to, rõ ràng, giơ tay mời mọi người cùng vỗ tay.","vi":"Hãy cùng chúc cho đôi uyên ương một đời hạnh phúc bên nhau!"}],"scenarios":[{"id":"dc-s1","lines":[{"en":"Thank you all for your patience. Our bride and groom are on their way and will arrive very soon.","vi":"Cảm ơn quý vị đã kiên nhẫn chờ đợi. Cô dâu và chú rể đang trên đường tới và sẽ đến ngay thôi."},{"en":"While we wait, please enjoy some beautiful music and a wonderful dinner with your family and friends.","vi":"Trong lúc chờ đợi, xin mời quý vị cùng thưởng thức âm nhạc và bữa tối tuyệt vời bên gia đình và bạn bè."},{"en":"They are here! Please stand and welcome our beautiful bride and handsome groom!","vi":"Họ đã đến rồi! Xin mời quý vị đứng lên và chào đón cô dâu xinh đẹp và chú rể điển trai của chúng ta!"}],"situation":"Cô dâu chú rể bị kẹt xe và đến trễ 30 phút, khách đã ngồi đầy bàn tiệc.","title":"Cô dâu chú rể đến trễ"},{"id":"dc-s2","lines":[{"en":"Please give our lovely couple a big round of applause while our music team prepares their special song.","vi":"Xin quý vị dành một tràng pháo tay thật lớn cho cặp đôi đáng yêu của chúng ta trong lúc đội âm nhạc chuẩn bị bài hát đặc biệt của họ."},{"en":"This first dance is a moment they have been dreaming about for a long time.","vi":"Điệu nhảy đầu tiên này là khoảnh khắc mà họ đã mơ ước từ rất lâu."},{"en":"The music is ready now. Please enjoy the first dance of the bride and groom!","vi":"Nhạc đã sẵn sàng. Xin mời quý vị cùng thưởng thức điệu nhảy đầu tiên của cô dâu và chú rể!"}],"situation":"Đến giờ nhảy đầu tiên nhưng nhạc chưa sẵn sàng, cô dâu chú rể đang đứng chờ trên sân khấu.","title":"Điệu nhảy đầu tiên bị chậm"}],"title":"Đám cưới"}]}
+{
+  "topics": [
+    {
+      "desc": "Những câu chào mở đầu, giới thiệu bản thân và khuấy động không khí đầu chương trình.",
+      "emoji": "🎤",
+      "id": "khai-mac",
+      "phrases": [
+        {
+          "en": "Good morning, ladies and gentlemen, and welcome to this very special day!",
+          "id": "km1",
+          "pron": "/ɡʊd ˈmɔːrnɪŋ, ˈleɪdiz ənd ˈdʒɛntəlmən, ənd ˈwɛlkəm tu ðɪs ˈvɛri ˈspɛʃəl deɪ!/",
+          "tip": "Nói chậm, cười tươi, nhìn khắp khán phòng. Dùng khi mở đầu buổi sáng.",
+          "vi": "Xin chào buổi sáng, thưa quý vị, và chào mừng quý vị đến với ngày đặc biệt hôm nay!"
+        },
+        {
+          "en": "It is my great honour to be your host today. My name is Thanh Vân.",
+          "id": "km2",
+          "pron": "/ɪt ɪz maɪ ɡreɪt ˈɑnər tu bi jɔr hoʊst təˈdeɪ. maɪ neɪm ɪz Thanh Vân./",
+          "tip": "Giới thiệu tên ngay sau câu chào, giọng tự tin, tay đặt nhẹ lên ngực.",
+          "vi": "Thật là vinh dự lớn cho tôi khi được làm người dẫn chương trình hôm nay. Tôi tên là Thanh Vân."
+        },
+        {
+          "en": "Please give yourselves a big round of applause for being here today!",
+          "id": "km3",
+          "pron": "/pliːz ɡɪv jɔːrˈsɛlvz ə bɪɡ raʊnd əv əˈplɔːz fər ˈbiːɪŋ hɪr təˈdeɪ!/",
+          "tip": "Vỗ tay làm mẫu trước để khán giả vỗ theo. Dùng để phá băng đầu giờ.",
+          "vi": "Xin quý vị hãy dành một tràng pháo tay thật lớn cho chính mình vì đã có mặt hôm nay!"
+        },
+        {
+          "en": "We are delighted to have you all with us, from near and far.",
+          "id": "km4",
+          "pron": "/wi ɑr dɪˈlaɪtɪd tu hæv ju ɔːl wɪð ʌs, frəm nɪr ənd fɑːr./",
+          "tip": "Giọng ấm áp, nhấn vào từ delighted. Phù hợp khi có khách từ xa, khách quốc tế.",
+          "vi": "Chúng tôi rất vui mừng khi có quý vị cùng đồng hành, dù ở gần hay ở xa."
+        },
+        {
+          "en": "Before we begin, may I invite you to take your seats and make yourselves comfortable?",
+          "id": "km5",
+          "pron": "/bɪˈfɔːr wi bɪˈɡɪn, meɪ aɪ ɪnˈvaɪt ju tu teɪk jɔr siːts ənd meɪk jɔːrˈsɛlvz ˈkʌmftəbəl?/",
+          "tip": "Nói nhẹ nhàng, lịch sự khi khán phòng còn ồn. Tay mở ra mời về phía ghế ngồi.",
+          "vi": "Trước khi bắt đầu, xin mời quý vị ổn định chỗ ngồi và cảm thấy thật thoải mái."
+        },
+        {
+          "en": "Today promises to be a wonderful celebration, and we are so glad you could join us.",
+          "id": "km6",
+          "pron": "/təˈdeɪ ˈprɑməsɪz tu bi ə ˈwʌndərfəl ˌsɛləˈbreɪʃən, ənd wi ɑr soʊ ɡlæd ju kʊd dʒɔɪn ʌs./",
+          "tip": "Dùng để tạo kỳ vọng tích cực ngay sau lời chào. Nhấn giọng ở wonderful.",
+          "vi": "Hôm nay hứa hẹn sẽ là một buổi lễ thật tuyệt vời, và chúng tôi rất vui vì quý vị đã đến."
+        },
+        {
+          "en": "Let us begin this beautiful morning with a warm round of applause!",
+          "id": "km7",
+          "pron": "/lɛt ʌs bɪˈɡɪn ðɪs ˈbjuːtɪfəl ˈmɔːrnɪŋ wɪð ə wɔːrm raʊnd əv əˈplɔːz!/",
+          "tip": "Nâng cao giọng ở cuối câu để kéo năng lượng khán phòng lên.",
+          "vi": "Hãy bắt đầu buổi sáng tươi đẹp này bằng một tràng pháo tay thật nồng nhiệt!"
+        },
+        {
+          "en": "Thank you all for coming. Let the program begin!",
+          "id": "km8",
+          "pron": "/θæŋk ju ɔːl fər ˈkʌmɪŋ. lɛt ðə ˈproʊɡræm bɪˈɡɪn!/",
+          "tip": "Câu chốt để chuyển sang phần chính. Nói dứt khoát, mỉm cười, gật đầu nhẹ.",
+          "vi": "Cảm ơn tất cả quý vị đã đến. Chương trình xin được bắt đầu!"
+        }
+      ],
+      "scenarios": [
+        {
+          "id": "km-s1",
+          "lines": [
+            {
+              "en": "Thank you all for your patience. Our speaker is on the way and will be with us very shortly.",
+              "vi": "Cảm ơn quý vị đã kiên nhẫn chờ đợi. Diễn giả của chúng ta đang trên đường tới và sẽ đến ngay thôi."
+            },
+            {
+              "en": "While we wait, let us enjoy a short video about today's event.",
+              "vi": "Trong lúc chờ đợi, xin mời quý vị cùng xem một đoạn video ngắn về sự kiện hôm nay."
+            },
+            {
+              "en": "And now, please join me in welcoming our speaker to the stage!",
+              "vi": "Và ngay bây giờ, xin mời quý vị cùng chào đón diễn giả của chúng ta lên sân khấu!"
+            }
+          ],
+          "situation": "Diễn giả chính bị kẹt xe và đến trễ 15 phút so với giờ khai mạc.",
+          "title": "Diễn giả đến trễ"
+        },
+        {
+          "id": "km-s2",
+          "lines": [
+            {
+              "en": "Please don't worry. We have prepared a covered area, and everyone will stay dry and comfortable.",
+              "vi": "Xin quý vị đừng lo lắng. Chúng tôi đã chuẩn bị khu vực có mái che, mọi người sẽ vẫn khô ráo và thoải mái."
+            },
+            {
+              "en": "Our team will guide you to your seats under the cover. Please move slowly and carefully.",
+              "vi": "Đội ngũ của chúng tôi sẽ hướng dẫn quý vị vào chỗ ngồi dưới mái che. Xin quý vị di chuyển chậm rãi và cẩn thận."
+            },
+            {
+              "en": "Once everyone is settled, we will continue our opening ceremony together.",
+              "vi": "Khi mọi người đã ổn định chỗ ngồi, chúng ta sẽ cùng tiếp tục lễ khai mạc."
+            }
+          ],
+          "situation": "Đang khai mạc ngoài trời thì trời bất ngờ đổ mưa lớn.",
+          "title": "Trời mưa khi khai mạc ngoài trời"
+        }
+      ],
+      "title": "Khai mạc & chào đón"
+    },
+    {
+      "desc": "Cách giới thiệu khách mời, đại biểu và diễn giả một cách trang trọng, lịch sự.",
+      "emoji": "👥",
+      "id": "dai-bieu",
+      "phrases": [
+        {
+          "en": "It is my great pleasure to introduce our distinguished guests today.",
+          "id": "db1",
+          "pron": "/ɪt ɪz maɪ ɡreɪt ˈplɛʒər tu ˌɪntrəˈduːs aʊər dɪˈstɪŋɡwɪʃt ɡɛsts təˈdeɪ./",
+          "tip": "Đọc chậm, trang trọng. Dùng trước khi nêu tên từng đại biểu.",
+          "vi": "Thật là vinh dự cho tôi khi được giới thiệu các vị khách quý của chúng ta hôm nay."
+        },
+        {
+          "en": "Please join me in welcoming Mr. Nguyen, our guest of honour, to the stage.",
+          "id": "db2",
+          "pron": "/pliːz dʒɔɪn mi ɪn ˈwɛlkəmɪŋ ˈmɪstər Nguyen, aʊər ɡɛst əv ˈɑnər, tu ðə steɪdʒ./",
+          "tip": "Thay tên khách vào vị trí Mr. Nguyen. Tay hướng về phía khách đang tiến lên.",
+          "vi": "Xin quý vị cùng tôi chào đón ông Nguyễn, vị khách danh dự của chúng ta, lên sân khấu."
+        },
+        {
+          "en": "We are honoured to have with us today leaders from many organisations.",
+          "id": "db3",
+          "pron": "/wi ɑr ˈɑnərd tu hæv wɪð ʌs təˈdeɪ ˈliːdərz frəm ˈmɛni ˌɔrɡənəˈzeɪʃənz./",
+          "tip": "Dùng khi có nhiều đại biểu, không nêu tên từng người. Giọng trịnh trọng.",
+          "vi": "Chúng tôi rất vinh dự khi hôm nay có sự hiện diện của các lãnh đạo đến từ nhiều tổ chức."
+        },
+        {
+          "en": "Let us give a warm welcome to our guest of honour with a big round of applause!",
+          "id": "db4",
+          "pron": "/lɛt ʌs ɡɪv ə wɔːrm ˈwɛlkəm tu aʊər ɡɛst əv ˈɑnər wɪð ə bɪɡ raʊnd əv əˈplɔːz!/",
+          "tip": "Vỗ tay làm mẫu ngay khi nói xong để khán giả vỗ theo.",
+          "vi": "Hãy dành một tràng pháo tay thật nồng nhiệt để chào đón vị khách danh dự của chúng ta!"
+        },
+        {
+          "en": "Please stand and be recognised for your wonderful support.",
+          "id": "db5",
+          "pron": "/pliːz stænd ənd bi ˈrɛkəɡnaɪzd fər jɔr ˈwʌndərfəl səˈpɔːrt./",
+          "tip": "Dùng khi vinh danh nhà tài trợ hoặc khách mời đặc biệt. Tay mở ra mời đứng lên.",
+          "vi": "Xin mời quý vị đứng lên để chúng tôi được tri ân sự ủng hộ tuyệt vời của quý vị."
+        },
+        {
+          "en": "Our next speaker is a person who needs no introduction.",
+          "id": "db6",
+          "pron": "/aʊər nɛkst ˈspiːkər ɪz ə ˈpɜːrsən hu niːdz noʊ ˌɪntrəˈdʌkʃən./",
+          "tip": "Dùng cho người nổi tiếng, ai cũng biết. Tạo tò mò trước khi nêu tên.",
+          "vi": "Diễn giả tiếp theo của chúng ta là một người không cần giới thiệu thêm."
+        },
+        {
+          "en": "I would like to invite Ms. Lan to the stage to share a few words with us.",
+          "id": "db7",
+          "pron": "/aɪ wʊd laɪk tu ɪnˈvaɪt ˈmɪz Lan tu ðə steɪdʒ tu ʃɛr ə fju wɜːrdz wɪð ʌs./",
+          "tip": "Thay tên khách vào. Nói rõ ràng, nhìn về phía người được mời.",
+          "vi": "Tôi xin mời bà Lan lên sân khấu để chia sẻ vài lời với chúng ta."
+        },
+        {
+          "en": "Thank you for gracing us with your presence today.",
+          "id": "db8",
+          "pron": "/θæŋk ju fər ˈɡreɪsɪŋ ʌs wɪð jɔr ˈprɛzəns təˈdeɪ./",
+          "tip": "Câu cảm ơn trang trọng sau phần giới thiệu đại biểu. Nhìn về phía khách mời.",
+          "vi": "Cảm ơn quý vị đã dành thời gian quý báu đến tham dự hôm nay."
+        }
+      ],
+      "scenarios": [
+        {
+          "id": "db-s1",
+          "lines": [
+            {
+              "en": "A very warm welcome to our international guests. We are so happy to have you here with us today!",
+              "vi": "Xin chào đón nồng nhiệt các vị khách quốc tế. Chúng tôi rất vui khi có quý vị ở đây hôm nay!"
+            },
+            {
+              "en": "Today's program will be in both Vietnamese and English, so please feel comfortable and enjoy the event.",
+              "vi": "Chương trình hôm nay sẽ có cả tiếng Việt và tiếng Anh, vì vậy xin quý vị cứ thoải mái và tận hưởng sự kiện."
+            },
+            {
+              "en": "And now, let us continue with our next speaker. Please give him a warm round of applause!",
+              "vi": "Và bây giờ, chúng ta hãy tiếp tục với diễn giả tiếp theo. Xin dành cho anh ấy một tràng pháo tay nồng nhiệt!"
+            }
+          ],
+          "situation": "Một đoàn khách nước ngoài vừa đến, cần chào đón nhanh bằng tiếng Anh trước khi chương trình tiếp tục.",
+          "title": "Khách nước ngoài cần chào nhanh bằng tiếng Anh"
+        },
+        {
+          "id": "db-s2",
+          "lines": [
+            {
+              "en": "Please bear with us for just a moment. We are fixing the microphone right now.",
+              "vi": "Xin quý vị chờ chúng tôi một chút. Chúng tôi đang khắc phục micro ngay bây giờ."
+            },
+            {
+              "en": "Our speaker will continue in just a few seconds. Thank you for your understanding.",
+              "vi": "Diễn giả của chúng ta sẽ tiếp tục chỉ trong vài giây nữa. Cảm ơn sự thông cảm của quý vị."
+            },
+            {
+              "en": "The microphone is ready now. Please welcome our speaker once again!",
+              "vi": "Micro đã sẵn sàng. Xin mời quý vị chào đón diễn giả của chúng ta một lần nữa!"
+            }
+          ],
+          "situation": "Diễn giả vừa lên sân khấu thì micro cầm tay đột nhiên mất tiếng.",
+          "title": "Micro của diễn giả bị hỏng"
+        }
+      ],
+      "title": "Giới thiệu đại biểu"
+    },
+    {
+      "desc": "Những câu chúc mừng, cắt băng khánh thành và mở đầu cho một khởi đầu mới.",
+      "emoji": "🎉",
+      "id": "khai-truong",
+      "phrases": [
+        {
+          "en": "Welcome to the grand opening of our new store!",
+          "id": "kt1",
+          "pron": "/ˈwɛlkəm tu ðə ɡrænd ˈoʊpənɪŋ əv aʊər nuː stɔːr!/",
+          "tip": "Giọng vui tươi, hào hứng. Dùng ngay đầu lễ khai trương.",
+          "vi": "Chào mừng quý vị đến với lễ khai trương cửa hàng mới của chúng tôi!"
+        },
+        {
+          "en": "Today marks a new beginning, full of hope and great opportunities.",
+          "id": "kt2",
+          "pron": "/təˈdeɪ mɑːrks ə nuː bɪˈɡɪnɪŋ, fʊl əv hoʊp ənd ɡreɪt ˌɑpərˈtuːnətiz./",
+          "tip": "Nhấn giọng ở new beginning. Phù hợp cho bài phát biểu khai mạc.",
+          "vi": "Hôm nay đánh dấu một khởi đầu mới, tràn đầy hy vọng và nhiều cơ hội lớn."
+        },
+        {
+          "en": "Please join us for the ribbon-cutting ceremony in just a few moments.",
+          "id": "kt3",
+          "pron": "/pliːz dʒɔɪn ʌs fər ðə ˈrɪbən ˈkʌtɪŋ ˈsɛrəmoʊni ɪn dʒʌst ə fju ˈmoʊmənts./",
+          "tip": "Thông báo trước để khách chuẩn bị di chuyển ra khu vực cắt băng.",
+          "vi": "Xin mời quý vị cùng tham dự lễ cắt băng khánh thành chỉ trong ít phút nữa."
+        },
+        {
+          "en": "Let us count down together: three, two, one!",
+          "id": "kt4",
+          "pron": "/lɛt ʌs kaʊnt daʊn təˈɡɛðər: θriː, tuː, wʌn!/",
+          "tip": "Giơ tay đếm theo nhịp, kéo cả khán phòng đếm cùng. Tạo cao trào trước khi cắt băng.",
+          "vi": "Hãy cùng nhau đếm ngược: ba, hai, một!"
+        },
+        {
+          "en": "Congratulations on this exciting new chapter!",
+          "id": "kt5",
+          "pron": "/kənˌɡrætʃəˈleɪʃənz ɑn ðɪs ɪkˈsaɪtɪŋ nuː ˈtʃæptər!/",
+          "tip": "Nói với chủ đầu tư hoặc chủ cửa hàng, kèm nụ cười và cái bắt tay.",
+          "vi": "Xin chúc mừng cho chương mới đầy hứng khởi này!"
+        },
+        {
+          "en": "May this new place bring success and prosperity to everyone here.",
+          "id": "kt6",
+          "pron": "/meɪ ðɪs nuː pleɪs brɪŋ səkˈsɛs ənd prɑˈspɛrəti tu ˈɛvriwʌn hɪr./",
+          "tip": "Câu chúc trang trọng, dùng sau nghi thức cắt băng hoặc cuối bài phát biểu.",
+          "vi": "Chúc cho nơi mới này mang đến thành công và thịnh vượng cho tất cả mọi người."
+        },
+        {
+          "en": "I now invite our honourable guests to cut the ribbon.",
+          "id": "kt7",
+          "pron": "/aɪ naʊ ɪnˈvaɪt aʊər ˈɑnərəbəl ɡɛsts tu kʌt ðə ˈrɪbən./",
+          "tip": "Nói rõ ràng từng tên khách trước khi mời. Tay hướng về phía bục cắt băng.",
+          "vi": "Tôi xin mời các vị khách quý lên cắt băng khánh thành."
+        },
+        {
+          "en": "Let us celebrate this milestone with a big round of applause!",
+          "id": "kt8",
+          "pron": "/lɛt ʌs ˈsɛləbreɪt ðɪs ˈmaɪlstoʊn wɪð ə bɪɡ raʊnd əv əˈplɔːz!/",
+          "tip": "Dùng ngay sau khi cắt băng xong. Vỗ tay mạnh để dẫn dắt khán giả.",
+          "vi": "Hãy cùng ăn mừng cột mốc này bằng một tràng pháo tay thật lớn!"
+        }
+      ],
+      "scenarios": [
+        {
+          "id": "kt-s1",
+          "lines": [
+            {
+              "en": "Please stay with us for just a moment. We are bringing the ceremonial scissors right now.",
+              "vi": "Xin quý vị chờ chúng tôi một chút. Chúng tôi đang mang kéo cắt băng lên ngay bây giờ."
+            },
+            {
+              "en": "Meanwhile, let us take a wonderful group photo with our honourable guests.",
+              "vi": "Trong lúc chờ đợi, xin mời chúng ta cùng chụp một tấm ảnh chung thật đẹp với các vị khách quý."
+            },
+            {
+              "en": "The scissors are here now. Let us count down together: three, two, one!",
+              "vi": "Kéo đã có rồi đây. Hãy cùng nhau đếm ngược: ba, hai, một!"
+            }
+          ],
+          "situation": "Đến giờ cắt băng khánh thành thì phát hiện kéo cắt băng đã bị thất lạc.",
+          "title": "Kéo cắt băng bị thất lạc"
+        },
+        {
+          "id": "kt-s2",
+          "lines": [
+            {
+              "en": "Thank you for your patience. Our music team is adjusting the sound right now.",
+              "vi": "Cảm ơn quý vị đã kiên nhẫn. Đội âm thanh của chúng tôi đang điều chỉnh ngay bây giờ."
+            },
+            {
+              "en": "This beautiful music is actually a little preview of our celebration later today.",
+              "vi": "Bản nhạc tuyệt vời này thực ra là một chút hé lộ cho phần ăn mừng sau đó của chúng ta hôm nay."
+            },
+            {
+              "en": "And now, let us continue with our opening speech. Please welcome our speaker back!",
+              "vi": "Và bây giờ, chúng ta hãy tiếp tục với bài phát biểu khai mạc. Xin chào đón diễn giả quay lại sân khấu!"
+            }
+          ],
+          "situation": "Nhạc nền bất ngờ nổi lên quá lớn ngay giữa bài phát biểu khai trương.",
+          "title": "Nhạc nổi lên sai lúc"
+        }
+      ],
+      "title": "Khai trương & khánh thành"
+    },
+    {
+      "desc": "Câu chào buổi tối, chúc mừng, nâng ly và dẫn dắt tiệc gala trang trọng mà ấm cúng.",
+      "emoji": "🥂",
+      "id": "gala",
+      "phrases": [
+        {
+          "en": "Good evening, ladies and gentlemen, and welcome to our gala dinner!",
+          "id": "gl1",
+          "pron": "/ɡʊd ˈiːvnɪŋ, ˈleɪdiz ənd ˈdʒɛntəlmən, ənd ˈwɛlkəm tu aʊər ˈɡɑːlə ˈdɪnər!/",
+          "tip": "Giọng trầm ấm, sang trọng. Mở đầu buổi tối gala.",
+          "vi": "Xin chào buổi tối, thưa quý vị, và chào mừng quý vị đến với tiệc gala tối nay!"
+        },
+        {
+          "en": "Please enjoy this wonderful evening of fine food, music and friendship.",
+          "id": "gl2",
+          "pron": "/pliːz ɛnˈdʒɔɪ ðɪs ˈwʌndərfəl ˈiːvnɪŋ əv faɪn fuːd, ˈmjuːzɪk ənd ˈfrɛndʃɪp./",
+          "tip": "Nói chậm, thư giãn. Dùng sau lời chào để mời khách vào tiệc.",
+          "vi": "Xin mời quý vị tận hưởng buổi tối tuyệt vời này với ẩm thực, âm nhạc và tình bạn."
+        },
+        {
+          "en": "Let us raise our glasses to a successful year ahead!",
+          "id": "gl3",
+          "pron": "/lɛt ʌs reɪz aʊər ˈɡlæsɪz tu ə səkˈsɛsfəl jɪr əˈhɛd!/",
+          "tip": "Giơ ly cao khi nói, nhìn quanh bàn tiệc. Dùng khi chúc mừng chung.",
+          "vi": "Hãy cùng nâng ly chúc cho một năm thành công phía trước!"
+        },
+        {
+          "en": "Cheers to good health, happiness and great partnership!",
+          "id": "gl4",
+          "pron": "/tʃɪrz tu ɡʊd hɛlθ, ˈhæpinəs ənd ɡreɪt ˈpɑːrtnərʃɪp!/",
+          "tip": "Câu chúc ngắn, vui vẻ. Nâng ly và chạm ly với khách gần nhất.",
+          "vi": "Cạn ly vì sức khỏe, hạnh phúc và tình đối tác tuyệt vời!"
+        },
+        {
+          "en": "Please welcome our performers to the stage with a warm round of applause!",
+          "id": "gl5",
+          "pron": "/pliːz ˈwɛlkəm aʊər pərˈfɔːrmərz tu ðə steɪdʒ wɪð ə wɔːrm raʊnd əv əˈplɔːz!/",
+          "tip": "Giới thiệu tiết mục văn nghệ. Giọng hào hứng, tay hướng về sân khấu.",
+          "vi": "Xin mời quý vị chào đón các nghệ sĩ lên sân khấu bằng một tràng pháo tay nồng nhiệt!"
+        },
+        {
+          "en": "Now, let us enjoy a delicious dinner together.",
+          "id": "gl6",
+          "pron": "/naʊ, lɛt ʌs ɛnˈdʒɔɪ ə dɪˈlɪʃəs ˈdɪnər təˈɡɛðər./",
+          "tip": "Câu chuyển sang phần dùng tiệc. Nói nhẹ nhàng, mỉm cười.",
+          "vi": "Và bây giờ, xin mời quý vị cùng thưởng thức bữa tối ngon miệng."
+        },
+        {
+          "en": "It is time to announce tonight's lucky draw winners!",
+          "id": "gl7",
+          "pron": "/ɪt ɪz taɪm tu əˈnaʊns təˈnaɪts ˈlʌki drɔː ˈwɪnərz!/",
+          "tip": "Nâng cao giọng, tạo hồi hộp. Dừng một nhịp trước khi đọc tên người trúng.",
+          "vi": "Đã đến lúc công bố những người trúng thưởng bốc thăm may mắn tối nay!"
+        },
+        {
+          "en": "Thank you for a memorable evening. Let us celebrate together!",
+          "id": "gl8",
+          "pron": "/θæŋk ju fər ə ˈmɛmərəbəl ˈiːvnɪŋ. lɛt ʌs ˈsɛləbreɪt təˈɡɛðər!/",
+          "tip": "Dùng cuối tiệc gala. Giọng ấm áp, giơ tay mời mọi người cùng nâng ly.",
+          "vi": "Cảm ơn quý vị vì một buổi tối đáng nhớ. Hãy cùng nhau ăn mừng!"
+        }
+      ],
+      "scenarios": [
+        {
+          "id": "gl-s1",
+          "lines": [
+            {
+              "en": "Thank you for your patience. Our kitchen is preparing a wonderful dinner for you, and it will be served very soon.",
+              "vi": "Cảm ơn quý vị đã kiên nhẫn chờ đợi. Nhà bếp đang chuẩn bị một bữa tối tuyệt vời cho quý vị và sẽ phục vụ ngay thôi."
+            },
+            {
+              "en": "While we wait, please enjoy this beautiful musical performance.",
+              "vi": "Trong lúc chờ đợi, xin mời quý vị cùng thưởng thức tiết mục âm nhạc tuyệt vời này."
+            },
+            {
+              "en": "Dinner is ready now. Please enjoy your meal, and have a wonderful evening!",
+              "vi": "Bữa tối đã sẵn sàng. Xin mời quý vị dùng bữa ngon miệng và có một buổi tối thật tuyệt vời!"
+            }
+          ],
+          "situation": "Bếp gặp sự cố nên bữa tối gala bị chậm 20 phút, khách đã ngồi vào bàn.",
+          "title": "Bữa tối bị chậm"
+        },
+        {
+          "id": "gl-s2",
+          "lines": [
+            {
+              "en": "Our award winner is not with us right now, but we will celebrate their wonderful achievement together.",
+              "vi": "Người nhận giải của chúng ta hiện không có mặt, nhưng chúng ta vẫn sẽ cùng chúc mừng thành tích tuyệt vời của họ."
+            },
+            {
+              "en": "Please join me in a big round of applause for their hard work and dedication.",
+              "vi": "Xin quý vị hãy dành một tràng pháo tay thật lớn cho sự nỗ lực và cống hiến của họ."
+            },
+            {
+              "en": "We will present the award a little later. Now, let us continue with our next performance!",
+              "vi": "Chúng tôi sẽ trao giải sau ít phút nữa. Còn bây giờ, xin mời quý vị tiếp tục với tiết mục tiếp theo!"
+            }
+          ],
+          "situation": "Đến lúc trao giải thì người nhận giải không có mặt trong khán phòng.",
+          "title": "Người nhận giải vắng mặt"
+        }
+      ],
+      "title": "Gala Dinner"
+    },
+    {
+      "desc": "Câu dẫn hội thảo, giới thiệu diễn giả, điều phối hỏi đáp và tóm tắt nội dung.",
+      "emoji": "💡",
+      "id": "hoi-thao",
+      "phrases": [
+        {
+          "en": "Welcome to today's seminar. We are glad you could join us for this important discussion.",
+          "id": "ht1",
+          "pron": "/ˈwɛlkəm tu təˈdeɪz ˈsɛmənɑːr. wi ɑr ɡlæd ju kʊd dʒɔɪn ʌs fər ðɪs ɪmˈpɔːrtənt dɪˈskʌʃən./",
+          "tip": "Giọng rõ ràng, chuyên nghiệp. Mở đầu hội thảo buổi sáng hoặc chiều.",
+          "vi": "Chào mừng quý vị đến với hội thảo hôm nay. Chúng tôi rất vui vì quý vị đã tham gia buổi thảo luận quan trọng này."
+        },
+        {
+          "en": "Our speakers today will share valuable insights and practical experience with us.",
+          "id": "ht2",
+          "pron": "/aʊər ˈspiːkərz təˈdeɪ wɪl ʃɛr ˈvæljuəbəl ˈɪnsaɪts ənd ˈpræktɪkəl ɪkˈspɪriəns wɪð ʌs./",
+          "tip": "Dùng để giới thiệu chung trước khi mời diễn giả đầu tiên.",
+          "vi": "Các diễn giả hôm nay sẽ chia sẻ với chúng ta những kiến thức quý giá và kinh nghiệm thực tế."
+        },
+        {
+          "en": "Please give a warm welcome to our first speaker of the day.",
+          "id": "ht3",
+          "pron": "/pliːz ɡɪv ə wɔːrm ˈwɛlkəm tu aʊər fɜːrst ˈspiːkər əv ðə deɪ./",
+          "tip": "Vỗ tay làm mẫu. Nhìn về phía diễn giả đang tiến lên sân khấu.",
+          "vi": "Xin quý vị dành một tràng pháo tay nồng nhiệt chào đón diễn giả đầu tiên trong ngày."
+        },
+        {
+          "en": "We will now move on to the question and answer session.",
+          "id": "ht4",
+          "pron": "/wi wɪl naʊ muːv ɑːn tu ðə ˈkwɛstʃən ənd ˈænsər ˈsɛʃən./",
+          "tip": "Câu chuyển ý rõ ràng sau bài thuyết trình. Giọng dứt khoát.",
+          "vi": "Chúng ta sẽ chuyển sang phần hỏi và đáp ngay bây giờ."
+        },
+        {
+          "en": "If you have any questions, please raise your hand and our team will bring you a microphone.",
+          "id": "ht5",
+          "pron": "/ɪf ju hæv ˈɛni ˈkwɛstʃənz, pliːz reɪz jɔr hænd ənd aʊər tiːm wɪl brɪŋ ju ə ˈmaɪkrəfoʊn./",
+          "tip": "Hướng dẫn rõ ràng trước phần hỏi đáp. Tay giơ lên làm mẫu.",
+          "vi": "Nếu quý vị có câu hỏi, xin giơ tay lên và đội ngũ của chúng tôi sẽ mang micro đến cho quý vị."
+        },
+        {
+          "en": "Thank you for your excellent presentation and for sharing your knowledge with us.",
+          "id": "ht6",
+          "pron": "/θæŋk ju fər jɔr ˈɛksələnt ˌprɛzənˈteɪʃən ənd fər ˈʃɛrɪŋ jɔr ˈnɑːlɪdʒ wɪð ʌs./",
+          "tip": "Cảm ơn diễn giả sau mỗi bài nói. Vỗ tay cùng khán giả.",
+          "vi": "Cảm ơn diễn giả vì bài thuyết trình xuất sắc và đã chia sẻ kiến thức với chúng tôi."
+        },
+        {
+          "en": "Let us take a short break and return in ten minutes.",
+          "id": "ht7",
+          "pron": "/lɛt ʌs teɪk ə ʃɔːrt breɪk ənd rɪˈtɜːrn ɪn tɛn ˈmɪnəts./",
+          "tip": "Thông báo giờ nghỉ rõ ràng. Nhắc lại giờ quay lại để mọi người nhớ.",
+          "vi": "Xin mời quý vị nghỉ giải lao ngắn và quay lại sau mười phút nữa."
+        },
+        {
+          "en": "In summary, today we have learned many valuable lessons for our work.",
+          "id": "ht8",
+          "pron": "/ɪn ˈsʌməri, təˈdeɪ wi hæv lɜːrnd ˈmɛni ˈvæljuəbəl ˈlɛsənz fər aʊər wɜːrk./",
+          "tip": "Dùng khi tổng kết cuối hội thảo. Giọng chậm, nhấn vào những ý chính.",
+          "vi": "Tóm lại, hôm nay chúng ta đã học được nhiều bài học quý giá cho công việc của mình."
+        }
+      ],
+      "scenarios": [
+        {
+          "id": "ht-s1",
+          "lines": [
+            {
+              "en": "Please don't worry. We are fixing the projector, and it will be back in just a moment.",
+              "vi": "Xin quý vị đừng lo lắng. Chúng tôi đang sửa máy chiếu và nó sẽ hoạt động lại ngay thôi."
+            },
+            {
+              "en": "Meanwhile, our speaker will continue sharing the key points with us.",
+              "vi": "Trong lúc đó, diễn giả của chúng ta sẽ tiếp tục chia sẻ những ý chính với quý vị."
+            },
+            {
+              "en": "The projector is working again. Let us continue with the presentation!",
+              "vi": "Máy chiếu đã hoạt động trở lại. Chúng ta hãy tiếp tục với bài thuyết trình!"
+            }
+          ],
+          "situation": "Đang thuyết trình thì máy chiếu đột ngột tắt, slide không hiển thị được.",
+          "title": "Máy chiếu hỏng giữa bài thuyết trình"
+        },
+        {
+          "id": "ht-s2",
+          "lines": [
+            {
+              "en": "Thank you for listening so carefully. Perhaps I can start with a question many of you may have.",
+              "vi": "Cảm ơn quý vị đã lắng nghe rất chăm chú. Có lẽ tôi xin bắt đầu bằng một câu hỏi mà nhiều quý vị có thể đang thắc mắc."
+            },
+            {
+              "en": "Our speaker, could you please share one practical tip for beginners in this field?",
+              "vi": "Thưa diễn giả, anh/chị có thể chia sẻ một lời khuyên thực tế cho người mới bắt đầu trong lĩnh vực này không?"
+            },
+            {
+              "en": "Wonderful answer! Now, does anyone else have a question for our speaker?",
+              "vi": "Câu trả lời thật tuyệt vời! Bây giờ, có quý vị nào khác muốn đặt câu hỏi cho diễn giả không?"
+            }
+          ],
+          "situation": "Mở phần hỏi đáp nhưng khán phòng im lặng, không ai giơ tay đặt câu hỏi.",
+          "title": "Phần hỏi đáp không ai hỏi"
+        }
+      ],
+      "title": "Hội thảo"
+    },
+    {
+      "desc": "Câu chuyển phần mượt mà, xử lý sự cố khéo léo và kết thúc chương trình đẹp.",
+      "emoji": "🔄",
+      "id": "chuyen-y",
+      "phrases": [
+        {
+          "en": "Thank you very much. Now, let us move on to the next part of our program.",
+          "id": "cy1",
+          "pron": "/θæŋk ju ˈvɛri mʌtʃ. naʊ, lɛt ʌs muːv ɑːn tu ðə nɛkst pɑːrt əv aʊər ˈproʊɡræm./",
+          "tip": "Câu chuyển ý cơ bản nhất, dùng được ở mọi chương trình. Giọng dứt khoát.",
+          "vi": "Cảm ơn quý vị rất nhiều. Và bây giờ, chúng ta hãy chuyển sang phần tiếp theo của chương trình."
+        },
+        {
+          "en": "Please bear with us for just a moment while we prepare the stage.",
+          "id": "cy2",
+          "pron": "/pliːz bɛr wɪð ʌs fər dʒʌst ə ˈmoʊmənt waɪl wi prɪˈpɛr ðə steɪdʒ./",
+          "tip": "Dùng khi cần thời gian chuẩn bị giữa hai tiết mục. Mỉm cười, giọng bình tĩnh.",
+          "vi": "Xin quý vị chờ chúng tôi một chút trong lúc chúng tôi chuẩn bị sân khấu."
+        },
+        {
+          "en": "We apologise for the small delay. Thank you for your patience.",
+          "id": "cy3",
+          "pron": "/wi əˈpɑlədʒaɪz fər ðə smɔːl dɪˈleɪ. θæŋk ju fər jɔr ˈpeɪʃəns./",
+          "tip": "Xin lỗi ngắn gọn, không giải thích dài dòng. Cúi đầu nhẹ khi nói.",
+          "vi": "Chúng tôi xin lỗi vì sự chậm trễ nhỏ này. Cảm ơn sự kiên nhẫn của quý vị."
+        },
+        {
+          "en": "While we wait, let us enjoy a short musical performance.",
+          "id": "cy4",
+          "pron": "/waɪl wi weɪt, lɛt ʌs ɛnˈdʒɔɪ ə ʃɔːrt ˈmjuːzɪkəl pərˈfɔːrməns./",
+          "tip": "Câu lấp khoảng trống rất hữu ích khi chương trình bị gián đoạn.",
+          "vi": "Trong lúc chờ đợi, xin mời quý vị cùng thưởng thức một tiết mục âm nhạc ngắn."
+        },
+        {
+          "en": "And now, for a change of atmosphere, please welcome our next performers!",
+          "id": "cy5",
+          "pron": "/ənd naʊ, fər ə tʃeɪndʒ əv ˈætməsfɪr, pliːz ˈwɛlkəm aʊər nɛkst pərˈfɔːrmərz!/",
+          "tip": "Dùng khi chuyển từ phần trang trọng sang tiết mục giải trí. Giọng hào hứng.",
+          "vi": "Và bây giờ, để thay đổi không khí, xin mời quý vị chào đón các nghệ sĩ tiếp theo!"
+        },
+        {
+          "en": "That brings us to the end of this part. Thank you all.",
+          "id": "cy6",
+          "pron": "/ðæt brɪŋz ʌs tu ði ɛnd əv ðɪs pɑːrt. θæŋk ju ɔːl./",
+          "tip": "Câu chốt một phần chương trình trước khi chuyển sang phần khác.",
+          "vi": "Và đó là phần kết của phần này. Cảm ơn tất cả quý vị."
+        },
+        {
+          "en": "Before we say goodbye, let us take a group photo together.",
+          "id": "cy7",
+          "pron": "/bɪˈfɔːr wi seɪ ˌɡʊdˈbaɪ, lɛt ʌs teɪk ə ɡruːp ˈfoʊtoʊ təˈɡɛðər./",
+          "tip": "Mời mọi người đứng dậy, sắp xếp vị trí. Dùng gần cuối chương trình.",
+          "vi": "Trước khi chia tay, chúng ta hãy cùng chụp một tấm ảnh chung."
+        },
+        {
+          "en": "Thank you, everyone, for a wonderful day. Goodbye, and see you again!",
+          "id": "cy8",
+          "pron": "/θæŋk ju, ˈɛvriwʌn, fər ə ˈwʌndərfəl deɪ. ˌɡʊdˈbaɪ, ənd siː ju əˈɡɛn!/",
+          "tip": "Câu chào kết chương trình. Vẫy tay chào, mỉm cười thật tươi.",
+          "vi": "Cảm ơn tất cả quý vị vì một ngày tuyệt vời. Tạm biệt và hẹn gặp lại!"
+        }
+      ],
+      "scenarios": [
+        {
+          "id": "cy-s1",
+          "lines": [
+            {
+              "en": "Thank you all for staying with us. We will make the rest of the program short, sweet and full of fun!",
+              "vi": "Cảm ơn quý vị đã ở lại cùng chúng tôi. Phần còn lại của chương trình sẽ ngắn gọn, súc tích và đầy niềm vui!"
+            },
+            {
+              "en": "We will now move directly to the most exciting part of the day.",
+              "vi": "Chúng ta sẽ chuyển thẳng sang phần thú vị nhất trong ngày ngay bây giờ."
+            },
+            {
+              "en": "Please give a big round of applause as we welcome our next performers to the stage!",
+              "vi": "Xin quý vị dành một tràng pháo tay thật lớn để chào đón các nghệ sĩ tiếp theo lên sân khấu!"
+            }
+          ],
+          "situation": "Chương trình đã trễ 20 phút so với lịch, cần rút ngắn mà vẫn giữ không khí vui vẻ.",
+          "title": "Chương trình trễ 20 phút"
+        },
+        {
+          "id": "cy-s2",
+          "lines": [
+            {
+              "en": "What a pleasant surprise! Please join me in welcoming our special guest who has just arrived.",
+              "vi": "Thật là một bất ngờ thú vị! Xin quý vị cùng tôi chào đón vị khách đặc biệt vừa đến."
+            },
+            {
+              "en": "We are honoured by your presence. Would you like to share a few words with us?",
+              "vi": "Chúng tôi rất vinh dự vì sự hiện diện của quý vị. Quý vị có muốn chia sẻ vài lời với chúng tôi không?"
+            },
+            {
+              "en": "Thank you so much. And now, let us continue with our program!",
+              "vi": "Cảm ơn quý vị rất nhiều. Và bây giờ, chúng ta hãy tiếp tục chương trình!"
+            }
+          ],
+          "situation": "Một vị khách VIP đến bất ngờ giữa chương trình, chưa có trong kịch bản.",
+          "title": "Khách VIP đến bất ngờ"
+        }
+      ],
+      "title": "Chuyển ý / xử lý sự cố & kết thúc"
+    },
+    {
+      "desc": "Lời chúc phúc, giới thiệu cô dâu chú rể và dẫn dắt tiệc cưới đầy cảm xúc.",
+      "emoji": "💍",
+      "id": "dam-cuoi",
+      "phrases": [
+        {
+          "en": "Good evening, ladies and gentlemen, and welcome to this beautiful wedding celebration!",
+          "id": "dc1",
+          "pron": "/ɡʊd ˈiːvnɪŋ, ˈleɪdiz ənd ˈdʒɛntəlmən, ənd ˈwɛlkəm tu ðɪs ˈbjuːtɪfəl ˈwɛdɪŋ ˌsɛləˈbreɪʃən!/",
+          "tip": "Giọng ấm áp, lãng mạn. Mở đầu tiệc cưới buổi tối.",
+          "vi": "Xin chào buổi tối, thưa quý vị, và chào mừng quý vị đến với lễ cưới tuyệt đẹp hôm nay!"
+        },
+        {
+          "en": "Please welcome the bride and groom with a big round of applause!",
+          "id": "dc2",
+          "pron": "/pliːz ˈwɛlkəm ðə braɪd ənd ɡruːm wɪð ə bɪɡ raʊnd əv əˈplɔːz!/",
+          "tip": "Nói to, hào hứng khi cô dâu chú rể tiến vào. Tay hướng về phía lối đi.",
+          "vi": "Xin mời quý vị chào đón cô dâu và chú rể bằng một tràng pháo tay thật lớn!"
+        },
+        {
+          "en": "Today, two hearts become one. Let us celebrate love!",
+          "id": "dc3",
+          "pron": "/təˈdeɪ, tuː hɑːrts bɪˈkʌm wʌn. lɛt ʌs ˈsɛləbreɪt lʌv!/",
+          "tip": "Câu lãng mạn, nói chậm và truyền cảm. Dùng sau khi cô dâu chú rể lên sân khấu.",
+          "vi": "Hôm nay, hai trái tim hòa làm một. Hãy cùng nhau ăn mừng tình yêu!"
+        },
+        {
+          "en": "Let us raise our glasses to the happy couple!",
+          "id": "dc4",
+          "pron": "/lɛt ʌs reɪz aʊər ˈɡlæsɪz tu ðə ˈhæpi ˈkʌpəl!/",
+          "tip": "Giơ ly cao, nhìn về phía cô dâu chú rể. Dùng khi chúc mừng chung.",
+          "vi": "Hãy cùng nâng ly chúc mừng cô dâu và chú rể!"
+        },
+        {
+          "en": "May your love grow stronger with each passing day.",
+          "id": "dc5",
+          "pron": "/meɪ jɔr lʌv ɡroʊ ˈstrɔːŋɡər wɪð iːtʃ ˈpæsɪŋ deɪ./",
+          "tip": "Câu chúc chân thành, giọng nhẹ nhàng. Dùng trong phần chúc phúc.",
+          "vi": "Chúc tình yêu của hai bạn ngày càng bền chặt theo thời gian."
+        },
+        {
+          "en": "Please join the bride and groom for the first dance.",
+          "id": "dc6",
+          "pron": "/pliːz dʒɔɪn ðə braɪd ənd ɡruːm fər ðə fɜːrst dæns./",
+          "tip": "Mời khách vây quanh sàn nhảy. Giọng vui tươi, lãng mạn.",
+          "vi": "Xin mời quý vị cùng cô dâu và chú rể trong điệu nhảy đầu tiên."
+        },
+        {
+          "en": "Thank you for sharing this joyful moment with us.",
+          "id": "dc7",
+          "pron": "/θæŋk ju fər ˈʃɛrɪŋ ðɪs ˈdʒɔɪfəl ˈmoʊmənt wɪð ʌs./",
+          "tip": "Cảm ơn khách mời cuối tiệc. Giọng ấm áp, nhìn khắp khán phòng.",
+          "vi": "Cảm ơn quý vị đã cùng chia sẻ khoảnh khắc hạnh phúc này với chúng tôi."
+        },
+        {
+          "en": "Let us wish the newlyweds a lifetime of happiness together!",
+          "id": "dc8",
+          "pron": "/lɛt ʌs wɪʃ ðə ˈnuːliwɛdz ə ˈlaɪftaɪm əv ˈhæpinəs təˈɡɛðər!/",
+          "tip": "Câu chúc kết tiệc cưới. Nói to, rõ ràng, giơ tay mời mọi người cùng vỗ tay.",
+          "vi": "Hãy cùng chúc cho đôi uyên ương một đời hạnh phúc bên nhau!"
+        }
+      ],
+      "scenarios": [
+        {
+          "id": "dc-s1",
+          "lines": [
+            {
+              "en": "Thank you all for your patience. Our bride and groom are on their way and will arrive very soon.",
+              "vi": "Cảm ơn quý vị đã kiên nhẫn chờ đợi. Cô dâu và chú rể đang trên đường tới và sẽ đến ngay thôi."
+            },
+            {
+              "en": "While we wait, please enjoy some beautiful music and a wonderful dinner with your family and friends.",
+              "vi": "Trong lúc chờ đợi, xin mời quý vị cùng thưởng thức âm nhạc và bữa tối tuyệt vời bên gia đình và bạn bè."
+            },
+            {
+              "en": "They are here! Please stand and welcome our beautiful bride and handsome groom!",
+              "vi": "Họ đã đến rồi! Xin mời quý vị đứng lên và chào đón cô dâu xinh đẹp và chú rể điển trai của chúng ta!"
+            }
+          ],
+          "situation": "Cô dâu chú rể bị kẹt xe và đến trễ 30 phút, khách đã ngồi đầy bàn tiệc.",
+          "title": "Cô dâu chú rể đến trễ"
+        },
+        {
+          "id": "dc-s2",
+          "lines": [
+            {
+              "en": "Please give our lovely couple a big round of applause while our music team prepares their special song.",
+              "vi": "Xin quý vị dành một tràng pháo tay thật lớn cho cặp đôi đáng yêu của chúng ta trong lúc đội âm nhạc chuẩn bị bài hát đặc biệt của họ."
+            },
+            {
+              "en": "This first dance is a moment they have been dreaming about for a long time.",
+              "vi": "Điệu nhảy đầu tiên này là khoảnh khắc mà họ đã mơ ước từ rất lâu."
+            },
+            {
+              "en": "The music is ready now. Please enjoy the first dance of the bride and groom!",
+              "vi": "Nhạc đã sẵn sàng. Xin mời quý vị cùng thưởng thức điệu nhảy đầu tiên của cô dâu và chú rể!"
+            }
+          ],
+          "situation": "Đến giờ nhảy đầu tiên nhưng nhạc chưa sẵn sàng, cô dâu chú rể đang đứng chờ trên sân khấu.",
+          "title": "Điệu nhảy đầu tiên bị chậm"
+        }
+      ],
+      "title": "Đám cưới"
+    }
+  ]
+}
