@@ -531,7 +531,8 @@ function renderSpeak() {
       h += '<div class="row"><button class="btn primary" id="recStartBtn">● Thu âm giọng của bạn</button>' +
         (hasSR() ? '<button class="btn primary" id="scoreBtn">✦ Chấm điểm tự động</button>' : '') + '</div>' +
         '<p class="kbd">Trình duyệt sẽ xin quyền dùng micro. Nếu bạn không cho phép, vẫn có thể nghe mẫu rồi tự chấm bên dưới.</p>' +
-        (hasSR() ? '' : '<p class="kbd">Trình duyệt này không hỗ trợ chấm điểm tự động (cần dùng Chrome). Bạn vẫn thu âm và tự chấm như thường.</p>');
+        (hasSR() ? '' : '<p class="kbd">Trình duyệt này không hỗ trợ chấm điểm tự động (cần dùng Chrome). Bạn vẫn thu âm và tự chấm như thường.</p>') +
+        (scoreError ? '<p style="color:#dc2626; margin:8px 0 0">' + esc(scoreError) + '</p>' : '');
     } else if (recState === 'listening') {
       h += '<div class="row"><button class="btn danger" id="scoreStopBtn">■ Dừng chấm điểm</button></div>' +
         '<p class="kbd">Đang nghe… đọc to câu trên, rõ ràng như đang đứng trên sân khấu.</p>';
@@ -559,7 +560,7 @@ function renderSpeak() {
   }
   h += '</div>';
   box.innerHTML = h;
-  const nb = $('#speakNewBtn'); if (nb) nb.onclick = () => { stopAudio(); const list = allPhrases(); speakPhrase = list[Math.floor(Math.random() * list.length)]; recState = 'idle'; recUrl = null; autoResult = null; renderSpeak(); };
+  const nb = $('#speakNewBtn'); if (nb) nb.onclick = () => { stopAudio(); const list = allPhrases(); speakPhrase = list[Math.floor(Math.random() * list.length)]; recState = 'idle'; recUrl = null; autoResult = null; scoreError = null; renderSpeak(); };
   const rs = $('#recStartBtn'); if (rs) rs.onclick = startRecording;
   const rp = $('#recStopBtn'); if (rp) rp.onclick = stopRecording;
   const ra = $('#recAgainBtn'); if (ra) ra.onclick = () => { recState = 'idle'; recUrl = null; renderSpeak(); };
@@ -604,7 +605,7 @@ function stopRecording() {
   if (mediaRec && mediaRec.state !== 'inactive') mediaRec.stop();
 }
 /* ---------- 7b. Chấm điểm tự động (SpeechRecognition, tô đỏ từ sai) ---------- */
-let recog = null, autoResult = null;
+let recog = null, autoResult = null, scoreError = null, scoreGotResult = false;
 function hasSR() { return !!(window.SpeechRecognition || window.webkitSpeechRecognition); }
 function normWords(t) { return t.toLowerCase().replace(/[^a-z0-9'\s]/g, '').split(/\s+/).filter(Boolean); }
 function scoreWords(target, heard) {
@@ -624,12 +625,14 @@ function scoreWords(target, heard) {
 }
 function startScoring() {
   if (!speakPhrase) return;
-  if (!hasSR()) { alert('Trình duyệt này không hỗ trợ chấm điểm tự động. Bạn hãy dùng Chrome, hoặc thu âm rồi tự chấm.'); return; }
-  stopAudio();
+  if (!hasSR()) { scoreError = 'Trình duyệt này không hỗ trợ chấm điểm tự động. Bạn hãy dùng Chrome, hoặc thu âm rồi tự chấm.'; renderSpeak(); return; }
+  try { stopAudio(); } catch (e) {}
+  scoreError = null; autoResult = null; scoreGotResult = false;
   const SR = window.SpeechRecognition || window.webkitSpeechRecognition;
   recog = new SR();
   recog.lang = 'en-US'; recog.continuous = false; recog.interimResults = false; recog.maxAlternatives = 1;
   recog.onresult = e => {
+    scoreGotResult = true;
     const heard = (e.results[0][0].transcript || '');
     const r = scoreWords(speakPhrase.en, heard);
     const pct = r.total ? Math.round(r.matched / r.total * 100) : 0;
@@ -643,15 +646,21 @@ function startScoring() {
     renderStats(); renderSpeak();
   };
   recog.onerror = e => {
-    recState = 'idle'; recog = null; renderSpeak();
-    if (e.error === 'not-allowed' || e.error === 'service-not-allowed') alert('Bạn chưa cho phép dùng micro. Hãy cho phép micro rồi bấm chấm lại.');
-    else if (e.error === 'no-speech') alert('Máy không nghe thấy bạn đọc. Thử lại, đọc to và rõ hơn nhé.');
-    else if (e.error === 'network') alert('Chấm điểm cần mạng (nhận dạng giọng nói chạy trên máy chủ). Kiểm tra mạng rồi thử lại.');
-    else if (e.error !== 'aborted') alert('Chưa chấm được (' + e.error + '). Thử lại nhé.');
+    recState = 'idle'; recog = null;
+    if (e.error === 'not-allowed' || e.error === 'service-not-allowed') scoreError = 'Bạn chưa cho phép dùng micro. Hãy cho phép micro rồi bấm chấm lại.';
+    else if (e.error === 'no-speech') scoreError = 'Máy không nghe thấy bạn đọc. Thử lại, đọc to và rõ hơn nhé.';
+    else if (e.error === 'network') scoreError = 'Chấm điểm cần mạng (nhận dạng giọng nói chạy trên máy chủ). Kiểm tra mạng rồi thử lại.';
+    else if (e.error !== 'aborted') scoreError = 'Chưa chấm được (' + e.error + '). Thử lại nhé.';
+    renderSpeak();
   };
-  recog.onend = () => { if (recState === 'listening') { recState = 'idle'; recog = null; renderSpeak(); } };
+  recog.onend = () => {
+    if (recState !== 'listening') return;
+    recog = null; recState = 'idle';
+    if (!scoreGotResult && !scoreError) scoreError = 'Máy không nghe thấy bạn đọc. Thử lại, đọc to và rõ hơn nhé.';
+    renderSpeak();
+  };
   try { recog.start(); recState = 'listening'; renderSpeak(); }
-  catch (err) { alert('Chưa mở được micro để chấm điểm. Thử lại nhé.'); }
+  catch (err) { recog = null; scoreError = 'Chưa mở được micro để chấm điểm. Thử lại nhé.'; renderSpeak(); }
 }
 function stopScoring() { if (recog) { try { recog.stop(); } catch (e) {} } recState = 'idle'; recog = null; renderSpeak(); }
 RENDERERS.speaking = function () { renderSpeak(); };
