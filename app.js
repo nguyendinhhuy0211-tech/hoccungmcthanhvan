@@ -28,7 +28,7 @@ let player = null;      // shared <audio> for Google TTS
 let playingKey = null;  // text currently playing (tap the same button again to stop)
 let playTimer = null;
 function stopAudio() {
-  if (player) { try { player.pause(); } catch (e) {} player.src = ''; player = null; }
+  if (player) { try { player.onended = null; player.onerror = null; player.onplaying = null; player.pause(); player.removeAttribute('src'); player.load(); } catch (e) {} player = null; }
   if (playTimer) { clearTimeout(playTimer); playTimer = null; }
   if ('speechSynthesis' in window) speechSynthesis.cancel();
   playingKey = null;
@@ -64,12 +64,27 @@ function splitChunks(text) {
 function googleUrl(chunk) {
   return 'https://translate.google.com/translate_tts?ie=UTF-8&tl=en&client=tw-ob&q=' + encodeURIComponent(chunk);
 }
+let googleBlocked = false;  // if Google TTS fails once, later taps go straight to the device voice
 function speakGoogleChunks(chunks, i, done) {
   if (i >= chunks.length) { playingKey = null; if (done) done(); return; }
-  player = new Audio(googleUrl(chunks[i]));
-  player.onended = () => { playTimer = setTimeout(() => speakGoogleChunks(chunks, i + 1, done), 120); };
-  player.onerror = () => { speakDevice(chunks.slice(i).join(' '), 0.92, () => { playingKey = null; if (done) done(); }); };
-  player.play().catch(() => { speakDevice(chunks.slice(i).join(' '), 0.92, () => { playingKey = null; if (done) done(); }); });
+  if (googleBlocked) { speakDevice(chunks.slice(i).join(' '), 0.92, () => { playingKey = null; if (done) done(); }); return; }
+  let failed = false;
+  let watchdog = null;
+  const failOnce = () => {
+    if (failed) return; failed = true;
+    if (watchdog) { clearTimeout(watchdog); watchdog = null; }
+    googleBlocked = true;
+    speakDevice(chunks.slice(i).join(' '), 0.92, () => { playingKey = null; if (done) done(); });
+  };
+  player = new Audio();
+  player.referrerPolicy = 'no-referrer';  // Google answers 404 when the request carries our site as Referer
+  player.preload = 'auto';
+  player.src = googleUrl(chunks[i]);
+  watchdog = setTimeout(() => failOnce(), 6000);  // stalled load (no error event) still falls back
+  player.onplaying = () => { if (watchdog) { clearTimeout(watchdog); watchdog = null; } };
+  player.onended = () => { if (watchdog) { clearTimeout(watchdog); watchdog = null; } playTimer = setTimeout(() => speakGoogleChunks(chunks, i + 1, done), 120); };
+  player.onerror = () => failOnce();
+  player.play().catch(() => failOnce());
 }
 function speak(text, slow) {
   if (playingKey === text) { stopAudio(); return; }

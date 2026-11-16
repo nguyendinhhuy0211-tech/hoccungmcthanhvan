@@ -19,10 +19,13 @@ không cần backend, deploy thẳng lên Vercel.
 - Tiến độ học, chuỗi ngày và sổ tay lưu trong `localStorage` trên thiết bị
   của người học (mở lại vẫn còn).
 - Giọng đọc chính là Google TTS (giọng tiếng Anh tự nhiên, phát qua thẻ
-  `<audio>`, câu dài tự chia nhỏ dưới 180 ký tự mỗi lượt); nếu Google lỗi
-  thì tự chuyển sang giọng nữ tiếng Anh của máy (`speechSynthesis`).
-  Nút “Nghe chậm” luôn dùng giọng trên máy ở tốc độ 0.7; bấm lại nút đang
-  phát để dừng.
+  `<audio>`, câu dài tự chia nhỏ dưới 180 ký tự mỗi lượt). BẮT BUỘC đặt
+  `referrerPolicy = 'no-referrer'` cho thẻ audio: Google trả 404 khi
+  request mang Referer của chính trang web này (đã kiểm chứng bằng curl).
+  Nếu Google lỗi hoặc tải kẹt quá 6 giây (watchdog) thì tự chuyển sang
+  giọng nữ tiếng Anh của máy (`speechSynthesis`), và các lần bấm sau
+  trong phiên đó đi thẳng giọng máy. Nút “Nghe chậm” luôn dùng giọng trên
+  máy ở tốc độ 0.7; bấm lại nút đang phát để dừng.
 - Không dùng file âm thanh MP3: GitHub snapshot-push không nhận file nhị phân,
   nên toàn bộ giọng đọc chạy qua mạng để web luôn phát được trên điện thoại.
 
